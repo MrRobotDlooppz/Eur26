@@ -15,7 +15,11 @@ Muchos de estos palacios fueron construidos reutilizando materiales del [Colosse
 
 ## Palazzo Barberini (Galleria Nazionale d'Arte Antica)
 
-[DATO PENDIENTE — generar mapa con pin]
+### Mapa
+![Mapa con pin de Palazzo Barberini](../fotos/mapa_palazzo_barberini.png)
+
+### Mapa en detalle
+![Mapa detallado de Palazzo Barberini](../fotos/mapa_palazzo_barberini_detalle.png)
 
 ### Historia
 
@@ -63,7 +67,11 @@ El fresco del gran salón, el *Trionfo della Divina Provvidenza* de Pietro da Co
 
 ## Palazzo Colonna e Giardini Colonna
 
-[DATO PENDIENTE — generar mapa con pin]
+### Mapa
+![Mapa con pin de Palazzo Colonna](../fotos/mapa_palazzo_colonna.png)
+
+### Mapa en detalle
+![Mapa detallado de Palazzo Colonna](../fotos/mapa_palazzo_colonna_detalle.png)
 
 ### Historia
 

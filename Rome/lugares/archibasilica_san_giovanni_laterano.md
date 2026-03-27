@@ -8,7 +8,11 @@ lugar:
   fecha_visita: "2026-03-23/2026-03-30"
 ```
 
-[DATO PENDIENTE — generar mapa con pin]
+## Mapa
+![Mapa con pin de Archibasilica di San Giovanni in Laterano](../fotos/mapa_san_giovanni_laterano.png)
+
+## Mapa en detalle
+![Mapa detallado de Archibasilica di San Giovanni in Laterano](../fotos/mapa_san_giovanni_laterano_detalle.png)
 
 ## Qué había antes
 

@@ -21,12 +21,21 @@ Así nacieron las grandes fontanas:
 ## Fontanas notables vistas en el recorrido
 
 ### Fontana di Trevi
+
+![Mapa con pin de Fontana di Trevi](../fotos/mapa_fontana_trevi.png)
+
 La más célebre de todas. Ocupa toda la fachada del Palazzo Poli y marca el punto terminal del Acqua Vergine, activo desde el 19 a.C. Detalle completo en [Fontana di Trevi](fontana_di_trevi.md).
 
 ### Fontana della Barcaccia
+
+![Mapa con pin de Fontana della Barcaccia](../fotos/mapa_fontana_barcaccia.png)
+
 En la base de la escalinata de [Piazza di Spagna](piazza_di_spagna.md), esta fuente con forma de barca semihundida fue obra de Pietro Bernini (padre de Gian Lorenzo). Su diseño bajo resolvía un problema práctico: la presión del agua en ese punto era insuficiente para un chorro alto.
 
 ### Fontana dei Quattro Fiumi
+
+![Mapa con pin de Fontana dei Quattro Fiumi](../fotos/mapa_fontana_quattro_fiumi.png)
+
 En Piazza Navona, obra maestra de Gian Lorenzo Bernini (1651). Las cuatro figuras representan los principales ríos de los continentes conocidos: el Nilo, el Ganges, el Danubio y el Río de la Plata. Según la leyenda popular, la figura del Nilo se cubre los ojos para no ver la fachada de Sant'Agnese in Agone (obra de Borromini, rival de Bernini), aunque en realidad la fuente se terminó antes que la fachada de la iglesia.
 
 ### Nasoni

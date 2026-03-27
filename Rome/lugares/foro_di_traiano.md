@@ -7,7 +7,11 @@ lugar:
   fecha_visita: "2026-03-23/2026-03-30"
 ```
 
-[DATO PENDIENTE — generar mapa con pin]
+## Mapa
+![Mapa con pin de Foro di Traiano](../fotos/mapa_foro_traiano.png)
+
+## Mapa en detalle
+![Mapa detallado de Foro di Traiano](../fotos/mapa_foro_traiano_detalle.png)
 
 ## Qué había antes
 

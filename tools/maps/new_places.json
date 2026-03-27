@@ -1,0 +1,90 @@
+[
+  {
+    "nombre": "Terme di Caracalla",
+    "archivo": "mapa_terme_caracalla.png",
+    "lat": 41.8791,
+    "lon": 12.4924,
+    "referencias": [
+      { "nombre": "Colosseo", "lat": 41.8902, "lon": 12.4922 },
+      { "nombre": "Circo Massimo", "lat": 41.8860, "lon": 12.4853 },
+      { "nombre": "San Giovanni in Laterano", "lat": 41.8859, "lon": 12.5057 }
+    ]
+  },
+  {
+    "nombre": "Terme di Traiano",
+    "archivo": "mapa_terme_traiano.png",
+    "lat": 41.8935,
+    "lon": 12.4975,
+    "referencias": [
+      { "nombre": "Colosseo", "lat": 41.8902, "lon": 12.4922 },
+      { "nombre": "Domus Aurea", "lat": 41.8919, "lon": 12.4952 },
+      { "nombre": "Santa Maria Maggiore", "lat": 41.8976, "lon": 12.4984 }
+    ]
+  },
+  {
+    "nombre": "Piazza Navona",
+    "archivo": "mapa_piazza_navona.png",
+    "lat": 41.8992,
+    "lon": 12.4731,
+    "referencias": [
+      { "nombre": "Pantheon", "lat": 41.8986, "lon": 12.4769 },
+      { "nombre": "Largo Argentina", "lat": 41.8955, "lon": 12.4764 },
+      { "nombre": "Fontana di Trevi", "lat": 41.9009, "lon": 12.4833 }
+    ]
+  },
+  {
+    "nombre": "Archibasilica di San Giovanni in Laterano",
+    "archivo": "mapa_san_giovanni_laterano.png",
+    "lat": 41.8859,
+    "lon": 12.5057,
+    "referencias": [
+      { "nombre": "Colosseo", "lat": 41.8902, "lon": 12.4922 },
+      { "nombre": "Santa Maria Maggiore", "lat": 41.8976, "lon": 12.4984 },
+      { "nombre": "Terme di Caracalla", "lat": 41.8791, "lon": 12.4924 }
+    ]
+  },
+  {
+    "nombre": "Palazzo Barberini",
+    "archivo": "mapa_palazzo_barberini.png",
+    "lat": 41.9034,
+    "lon": 12.4900,
+    "referencias": [
+      { "nombre": "Fontana di Trevi", "lat": 41.9009, "lon": 12.4833 },
+      { "nombre": "Piazza di Spagna", "lat": 41.9058, "lon": 12.4823 },
+      { "nombre": "Termini", "lat": 41.9010, "lon": 12.5018 }
+    ]
+  },
+  {
+    "nombre": "Palazzo Colonna",
+    "archivo": "mapa_palazzo_colonna.png",
+    "lat": 41.8965,
+    "lon": 12.4848,
+    "referencias": [
+      { "nombre": "Fontana di Trevi", "lat": 41.9009, "lon": 12.4833 },
+      { "nombre": "Vittoriano", "lat": 41.8946, "lon": 12.4833 },
+      { "nombre": "Pantheon", "lat": 41.8986, "lon": 12.4769 }
+    ]
+  },
+  {
+    "nombre": "Largo di Torre Argentina",
+    "archivo": "mapa_largo_argentina.png",
+    "lat": 41.8955,
+    "lon": 12.4764,
+    "referencias": [
+      { "nombre": "Pantheon", "lat": 41.8986, "lon": 12.4769 },
+      { "nombre": "Piazza Navona", "lat": 41.8992, "lon": 12.4731 },
+      { "nombre": "Vittoriano", "lat": 41.8946, "lon": 12.4833 }
+    ]
+  },
+  {
+    "nombre": "Quartiere Coppedè",
+    "archivo": "mapa_quartiere_coppede.png",
+    "lat": 41.9166,
+    "lon": 12.5073,
+    "referencias": [
+      { "nombre": "Villa Borghese", "lat": 41.9122, "lon": 12.4854 },
+      { "nombre": "Piazza di Spagna", "lat": 41.9058, "lon": 12.4823 },
+      { "nombre": "Termini", "lat": 41.9010, "lon": 12.5018 }
+    ]
+  }
+]

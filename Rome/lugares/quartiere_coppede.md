@@ -8,7 +8,11 @@ lugar:
   region_admin: "Quartiere Trieste, Municipio II"
 ```
 
-[DATO PENDIENTE — generar mapa con pin]
+## Mapa
+![Mapa con pin de Quartiere Coppedè](../fotos/mapa_quartiere_coppede.png)
+
+## Mapa en detalle
+![Mapa detallado de Quartiere Coppedè](../fotos/mapa_quartiere_coppede_detalle.png)
 
 ## Qué había antes
 

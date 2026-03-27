@@ -15,7 +15,11 @@ La ingeniería detrás de las termas era sofisticada: el sistema de *hypocaustum
 
 ## Terme di Caracalla
 
-[DATO PENDIENTE — generar mapa con pin]
+### Mapa
+![Mapa con pin de Terme di Caracalla](../fotos/mapa_terme_caracalla.png)
+
+### Mapa en detalle
+![Mapa detallado de Terme di Caracalla](../fotos/mapa_terme_caracalla_detalle.png)
 
 ### Historia
 
@@ -65,7 +69,11 @@ Bajo las Terme di Caracalla se descubrió en el siglo XIX un *mitreo* — santua
 
 ## Terme di Traiano
 
-[DATO PENDIENTE — generar mapa con pin]
+### Mapa
+![Mapa con pin de Terme di Traiano](../fotos/mapa_terme_traiano.png)
+
+### Mapa en detalle
+![Mapa detallado de Terme di Traiano](../fotos/mapa_terme_traiano_detalle.png)
 
 ### Historia
 

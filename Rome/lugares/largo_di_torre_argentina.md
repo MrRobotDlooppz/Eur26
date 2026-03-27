@@ -8,7 +8,11 @@ lugar:
   fecha_visita: "2026-03-23/2026-03-30"
 ```
 
-[DATO PENDIENTE — generar mapa con pin]
+## Mapa
+![Mapa con pin de Largo di Torre Argentina](../fotos/mapa_largo_argentina.png)
+
+## Mapa en detalle
+![Mapa detallado de Largo di Torre Argentina](../fotos/mapa_largo_argentina_detalle.png)
 
 ## Qué había antes
 

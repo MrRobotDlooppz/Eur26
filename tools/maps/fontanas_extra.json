@@ -1,0 +1,24 @@
+[
+  {
+    "nombre": "Fontana della Barcaccia",
+    "archivo": "mapa_fontana_barcaccia.png",
+    "lat": 41.9058,
+    "lon": 12.4823,
+    "referencias": [
+      { "nombre": "Piazza di Spagna", "lat": 41.9060, "lon": 12.4826 },
+      { "nombre": "Fontana di Trevi", "lat": 41.9009, "lon": 12.4833 },
+      { "nombre": "Villa Borghese", "lat": 41.9122, "lon": 12.4854 }
+    ]
+  },
+  {
+    "nombre": "Fontana dei Quattro Fiumi",
+    "archivo": "mapa_fontana_quattro_fiumi.png",
+    "lat": 41.8990,
+    "lon": 12.4731,
+    "referencias": [
+      { "nombre": "Piazza Navona", "lat": 41.8992, "lon": 12.4731 },
+      { "nombre": "Pantheon", "lat": 41.8986, "lon": 12.4769 },
+      { "nombre": "Largo Argentina", "lat": 41.8955, "lon": 12.4764 }
+    ]
+  }
+]

@@ -7,7 +7,11 @@ lugar:
   fecha_visita: "2026-03-23/2026-03-30"
 ```
 
-[DATO PENDIENTE — generar mapa con pin]
+## Mapa
+![Mapa con pin de Piazza Navona](../fotos/mapa_piazza_navona.png)
+
+## Mapa en detalle
+![Mapa detallado de Piazza Navona](../fotos/mapa_piazza_navona_detalle.png)
 
 ## Qué había antes
 

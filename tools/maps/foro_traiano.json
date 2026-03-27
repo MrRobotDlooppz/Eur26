@@ -1,0 +1,13 @@
+[
+  {
+    "nombre": "Foro di Traiano",
+    "archivo": "mapa_foro_traiano.png",
+    "lat": 41.8956,
+    "lon": 12.4843,
+    "referencias": [
+      { "nombre": "Colosseo", "lat": 41.8902, "lon": 12.4922 },
+      { "nombre": "Vittoriano", "lat": 41.8946, "lon": 12.4833 },
+      { "nombre": "Foro Romano", "lat": 41.8925, "lon": 12.4853 }
+    ]
+  }
+]

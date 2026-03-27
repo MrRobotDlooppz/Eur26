@@ -80,4 +80,9 @@ La plaza es también el arranque del "tridente" — las tres calles (Via del Cor
 - Cristina de Suecia, cuya entrada triunfal Bernini escenificó en la Porta del Popolo, fue una de las figuras más excéntricas del siglo XVII: reina que abdicó, se convirtió al catolicismo, se instaló en Roma y escandalizó a la corte papal.
 - Desde la terraza del Pincio, al atardecer, la luz cae sobre la cúpula de San Pietro enmarcada exactamente entre las dos "iglesias gemelas" — alineación probablemente intencional.
 
+## Fotos
+
+![Piazza del Popolo](../fotos/piazza_del_popolo/IMG_0553.jpeg)
+*Vista de Piazza del Popolo con el obelisco Flaminio en el centro — este obelisco de Ramsés II, originario de Heliópolis en Egipto, fue traído a Roma por Augusto y tiene unos 3.200 años de antigüedad. Al fondo se aprecian las "iglesias gemelas" que marcan el arranque del tridente de calles (Via del Corso, Via di Ripetta, Via del Babuino).*
+
 fuente: Turismo Roma (turismoroma.it); Soprintendenza Speciale di Roma; Treccani (treccani.it); Touring Club Italiano, *Roma e dintorni*

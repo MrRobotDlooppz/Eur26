@@ -51,6 +51,15 @@ El momento que transformó el monumento de homenaje real a santuario de la naci�
 - **El Sacrario delle Bandiere**: colección de banderas de guerra del ejército italiano.
 - **Los propileos**: las dos estructuras laterales con las cuadrigas de bronce de la Unidad y la Libertad en la cúspide.
 
+## Galerías y espacios expositivos
+
+El Vittoriano funciona hoy como un complejo cultural con múltiples espacios visitables, agrupados bajo el nombre **VIVE — Vittoriano e Palazzo Venezia**:
+
+- **Ala Brasini**: espacio de exposiciones temporales de gran formato en el ala occidental del monumento. Alberga regularmente muestras de arte, fotografía e historia de nivel internacional.
+- **Museo Centrale del Risorgimento**: el museo permanente, gestionado por el Istituto per la storia del Risorgimento italiano. Recorre el proceso de unificación desde las revoluciones de 1848 hasta la Primera Guerra Mundial con documentos originales, banderas, armas, uniformes y objetos personales de los protagonistas (Garibaldi, Mazzini, Cavour, Vittorio Emanuele II). La sección dedicada a la expedición de los Mil y a las guerras de independencia es particularmente rica.
+- **El Sacrario delle Bandiere**: en las criptas inferiores, conserva las banderas de guerra de todas las unidades del ejército italiano disueltas desde la unificación — un archivo textil único.
+- **Los ascensores panorámicos y la Terrazza delle Quadrighe**: instalados en 2007, permiten subir desde el nivel posterior del monumento hasta la cúspide. La terraza ofrece la vista más completa de Roma: el [Foro Romano](foro_romano_palatino.md) y el [Colosseo](colosseo.md) al sureste, la cúpula de San Pietro al oeste, y el tejido de cúpulas y terrazas del centro histórico en todas direcciones.
+
 ## Cultura y memoria cívica
 
 Desde 1921, el Vittoriano funciona como el centro de la religión civil italiana. La Tumba del Milite Ignoto es el equivalente italiano del Tomb of the Unknown Soldier en Arlington o del soldado desconocido bajo el Arco de Triunfo de París.
@@ -71,5 +80,10 @@ El edificio divide opiniones: los romanos lo llaman con ironía *"la macchina da
 - El mármol botticino de Brescia fue elegido por su blancura; con el tiempo amarillea menos que el travertino, lo que acentúa el contraste visual.
 - Desde la Terrazza delle Quadrighe se obtiene la única vista de Roma donde se ven simultáneamente el Colosseo, el Foro, las cúpulas barrocas del centro y San Pietro.
 - La elección del Milite Ignoto en 1921 fue retransmitida en todo el país; Maria Bergamas se convirtió en símbolo del duelo nacional.
+
+## Fotos
+
+![Monumento a Vittorio Emanuele II](../fotos/vittorio_emanuele_ii/IMG_0661.jpeg)
+*El Vittoriano visto desde Piazza Venezia — la escalinata monumental, el Altare della Patria con la Tumba del Milite Ignoto en el centro y las cuadrigas de bronce dorado coronando el edificio. El mármol botticino blanco contrasta marcadamente con el travertino y el ladrillo del tejido histórico circundante.*
 
 fuente: VIVE - Vittoriano e Palazzo Venezia (vive.cultura.gov.it); Istituto per la storia del Risorgimento italiano; Ministero della Cultura; Bruno Tobia, *L'Altare della Patria*, Il Mulino

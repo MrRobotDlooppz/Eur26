@@ -83,4 +83,12 @@ El nombre "Colosseo" se asocia tradicionalmente al Coloso de Nerón, una estatua
 - El sistema de vomitoria y escaleras permitía evacuar a decenas de miles de personas con una rapidez que los estadios modernos apenas igualan.
 - Debajo de la arena, los montacargas podían elevar animales y decorados completos al nivel del suelo en segundos.
 
+## Fotos
+
+![Vista exterior del Colosseo](../fotos/colosseo/IMG_0466.jpeg)
+*Fachada exterior del Colosseo — los tres órdenes superpuestos de arcos (dórico, jónico, corintio) con el ático ciego superior son claramente visibles. Los contrafuertes de ladrillo de Stern y Valadier (principios del siglo XIX) refuerzan el extremo que sobrevivió al terremoto de 1349.*
+
+![Interior del Colosseo](../fotos/colosseo/IMG_0477.jpeg)
+*Vista del interior del Colosseo con los hipogeos expuestos — la red de túneles, celdas y montacargas bajo la arena donde se preparaban gladiadores, animales y escenografías antes de ser elevados al nivel del espectáculo.*
+
 fuente: Parco archeologico del Colosseo (parcocolosseo.it); UNESCO World Heritage Centre, ref. 91 (whc.unesco.org/en/list/91); Enciclopedia Treccani (treccani.it); Keith Hopkins & Mary Beard, *The Colosseum*, Profile Books; Dión Casio, *Historia Romana*, Libro LXVI

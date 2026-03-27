@@ -83,4 +83,9 @@ El edificio mantiene una fuerte vida litúrgica actual. Es la iglesia mariana m�
 - Bajo la basílica se encontraron restos de un calendario romano pintado del siglo I d.C. [⚠ VERIFICAR]
 - El icono de la *Salus Populi Romani* fue llevado en procesión por Gregorio Magno durante la peste del 590 d.C., según la tradición.
 
+## Fotos
+
+![Basilica di Santa Maria Maggiore](../fotos/santa_maria_maggiore/IMG_0520.jpeg)
+*La Basilica di Santa Maria Maggiore — una de las cuatro basílicas papales mayores de Roma. El campanile romanico del siglo XIV (el más alto de Roma, con 75 metros) domina la fachada dieciochesca de Ferdinando Fuga, que esconde un interior paleocristiano del siglo V con los mosaicos más antiguos conservados en una iglesia romana.*
+
 fuente: Basilica Papale di Santa Maria Maggiore (vatican.va); UNESCO World Heritage Centre, ref. 91; Turismo Roma; Hugo Brandenburg, *Ancient Churches of Rome*, Brepols Publishers

@@ -83,4 +83,9 @@ El episodio de Napoleón es revelador: en 1797, llevarse las obras del Vaticano 
 - Rafael murió a los 37 años, el Viernes Santo de 1520. Su Transfiguración, inacabada, fue colocada junto a su lecho de muerte y luego su féretro.
 - El Torso del Belvedere, un fragmento de escultura sin cabeza, brazos ni piernas, fue tan admirado por Michelangelo que se negó a restaurarlo alegando que era perfecto así.
 
+## Fotos
+
+![Musei Vaticani](../fotos/musei_vaticani/IMG_0765.jpeg)
+*Interior de los Musei Vaticani — el complejo museístico más grande del mundo, con 7 km de galerías que albergan más de 70.000 obras acumuladas por los papas a lo largo de cinco siglos. Desde esculturas clásicas en el Museo Pio-Clementino hasta los frescos de la Cappella Sistina y las Stanze di Raffaello.*
+
 fuente: Musei Vaticani (museivaticani.va); Vatican Museums official resources; Treccani (treccani.it); Giorgio Vasari, *Le Vite*; Ross King, *Michelangelo and the Pope's Ceiling*

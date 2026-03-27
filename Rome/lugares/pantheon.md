@@ -83,4 +83,12 @@ La frase sobre los Barberini (*"quod non fecerunt barbari, fecerunt Barberini"*)
 - El 21 de abril al mediodía, la luz del óculo ilumina la entrada — coincide con el Natale di Roma (aniversario fundacional).
 - Brunelleschi estudió el Pantheon obsesivamente antes de construir la cúpula del Duomo de Firenze.
 
+## Fotos
+
+![Exterior del Pantheon](../fotos/pantheon/IMG_0618.jpeg)
+*El pórtico del Pantheon con sus 16 columnas monolíticas de granito egipcio — la inscripción original de Agripa ("M·AGRIPPA·L·F·COS·TERTIVM·FECIT") se mantiene intacta en el frontón, aunque el edificio actual fue reconstruido por Adriano hacia 125 d.C.*
+
+![Interior del Pantheon](../fotos/pantheon/IMG_0657.jpeg)
+*El interior del Pantheon con la cúpula de hormigón no armado de 43,3 metros de diámetro y el óculo de 8,9 metros — la única fuente de luz del edificio. El efecto del haz de luz desplazándose por el interior a medida que avanza el día es uno de los espectáculos más sobrecogedores de la arquitectura antigua.*
+
 fuente: Ministero della Cultura (cultura.gov.it); Basilica del Pantheon (pantheonroma.com); UNESCO World Heritage Centre, ref. 91; William L. MacDonald, *The Pantheon: Design, Meaning, and Progeny*, Harvard University Press; Dión Casio, *Historia Romana*, Libro LIII

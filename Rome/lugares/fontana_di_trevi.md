@@ -78,4 +78,9 @@ La fuente es también un hito del cine: la escena de Anita Ekberg bañándose en
 - La fuente tardó 30 años en completarse (1732-1762).
 - El nombre "Trevi" viene probablemente de *tre vie* (tres calles), por las tres vías que confluyen en la plaza.
 
+## Fotos
+
+![Fontana di Trevi](../fotos/fontana_di_trevi/IMG_0511.jpeg)
+*La Fontana di Trevi en toda su escala monumental — la fachada del Palazzo Poli sirve como telón de fondo a la composición barroca con Oceanus en el nicho central, flanqueado por las alegorías de la Abundancia y la Salubridad. El agua del Acqua Vergine, activo desde el 19 a.C., sigue alimentando la fuente.*
+
 fuente: Turismo Roma (turismoroma.it); Soprintendenza Speciale di Roma (soprintendenzaspecialeroma.it); Treccani (treccani.it); Frontino, *De Aquaeductu Urbis Romae*; Pinto, *The Trevi Fountain*, Yale University Press

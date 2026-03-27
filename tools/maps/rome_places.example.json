@@ -1,0 +1,112 @@
+[
+  {
+    "nombre": "Colosseo (Anfiteatro Flavio)",
+    "archivo": "mapa_colosseo.png",
+    "lat": 41.8902,
+    "lon": 12.4922,
+    "referencias": [
+      { "nombre": "Foro Romano", "lat": 41.8925, "lon": 12.4853 },
+      { "nombre": "Pantheon", "lat": 41.8986, "lon": 12.4769 },
+      { "nombre": "Vittoriano", "lat": 41.8946, "lon": 12.4833 }
+    ]
+  },
+  {
+    "nombre": "Foro Romano e Palatino",
+    "archivo": "mapa_foro_romano.png",
+    "lat": 41.8925,
+    "lon": 12.4853,
+    "referencias": [
+      { "nombre": "Colosseo", "lat": 41.8902, "lon": 12.4922 },
+      { "nombre": "Vittoriano", "lat": 41.8946, "lon": 12.4833 },
+      { "nombre": "Pantheon", "lat": 41.8986, "lon": 12.4769 }
+    ]
+  },
+  {
+    "nombre": "Fontana di Trevi",
+    "archivo": "mapa_fontana_trevi.png",
+    "lat": 41.9009,
+    "lon": 12.4833,
+    "referencias": [
+      { "nombre": "Pantheon", "lat": 41.8986, "lon": 12.4769 },
+      { "nombre": "Piazza di Spagna", "lat": 41.9058, "lon": 12.4823 },
+      { "nombre": "Piazza del Popolo", "lat": 41.9106, "lon": 12.4764 }
+    ]
+  },
+  {
+    "nombre": "Pantheon",
+    "archivo": "mapa_pantheon.png",
+    "lat": 41.8986,
+    "lon": 12.4769,
+    "referencias": [
+      { "nombre": "Fontana di Trevi", "lat": 41.9009, "lon": 12.4833 },
+      { "nombre": "Piazza Navona", "lat": 41.8992, "lon": 12.4731 },
+      { "nombre": "Vittoriano", "lat": 41.8946, "lon": 12.4833 }
+    ]
+  },
+  {
+    "nombre": "Piazza di Spagna",
+    "archivo": "mapa_piazza_spagna.png",
+    "lat": 41.9058,
+    "lon": 12.4823,
+    "referencias": [
+      { "nombre": "Fontana di Trevi", "lat": 41.9009, "lon": 12.4833 },
+      { "nombre": "Piazza del Popolo", "lat": 41.9106, "lon": 12.4764 },
+      { "nombre": "Villa Borghese", "lat": 41.9122, "lon": 12.4854 }
+    ]
+  },
+  {
+    "nombre": "Piazza del Popolo",
+    "archivo": "mapa_piazza_popolo.png",
+    "lat": 41.9106,
+    "lon": 12.4764,
+    "referencias": [
+      { "nombre": "Piazza di Spagna", "lat": 41.9058, "lon": 12.4823 },
+      { "nombre": "Villa Borghese", "lat": 41.9122, "lon": 12.4854 },
+      { "nombre": "Pantheon", "lat": 41.8986, "lon": 12.4769 }
+    ]
+  },
+  {
+    "nombre": "Musei Vaticani",
+    "archivo": "mapa_musei_vaticani.png",
+    "lat": 41.9065,
+    "lon": 12.4536,
+    "referencias": [
+      { "nombre": "Basilica di San Pietro", "lat": 41.9022, "lon": 12.4539 },
+      { "nombre": "Castel Sant'Angelo", "lat": 41.9031, "lon": 12.4663 },
+      { "nombre": "Piazza del Popolo", "lat": 41.9106, "lon": 12.4764 }
+    ]
+  },
+  {
+    "nombre": "Basilica di Santa Maria Maggiore",
+    "archivo": "mapa_santa_maria_maggiore.png",
+    "lat": 41.8976,
+    "lon": 12.4984,
+    "referencias": [
+      { "nombre": "Termini", "lat": 41.9010, "lon": 12.5018 },
+      { "nombre": "Colosseo", "lat": 41.8902, "lon": 12.4922 },
+      { "nombre": "Vittoriano", "lat": 41.8946, "lon": 12.4833 }
+    ]
+  },
+  {
+    "nombre": "Villa Borghese",
+    "archivo": "mapa_villa_borghese.png",
+    "lat": 41.9122,
+    "lon": 12.4854,
+    "referencias": [
+      { "nombre": "Piazza del Popolo", "lat": 41.9106, "lon": 12.4764 },
+      { "nombre": "Piazza di Spagna", "lat": 41.9058, "lon": 12.4823 },
+      { "nombre": "Musei Vaticani", "lat": 41.9065, "lon": 12.4536 }
+    ]
+  },
+  {
+    "nombre": "Monumento a Vittorio Emanuele II",
+    "archivo": "mapa_vittoriano.png",
+    "lat": 41.8946,
+    "lon": 12.4833,
+    "referencias": [
+      { "nombre": "Foro Romano", "lat": 41.8925, "lon": 12.4853 },
+      { "nombre": "Colosseo", "lat": 41.8902, "lon": 12.4922 },
+      { "nombre": "Pantheon", "lat": 41.8986, "lon": 12.4769 }
+    ]
+  }
+]

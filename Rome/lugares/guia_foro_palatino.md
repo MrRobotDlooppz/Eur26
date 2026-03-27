@@ -1,0 +1,534 @@
+# Guía de paseo: Foro Romano y Palatino
+
+```yaml
+lugar:
+  nombre_original: "Foro Romano e Palatino"
+  pais: "Italia"
+  fecha_visita: "2026-03-23/2026-03-30"
+  region_admin: "Roma, Lazio"
+```
+
+## Mapa general del conjunto
+![Mapa con pin de Foro Romano e Palatino](../fotos/mapa_foro_romano.png)
+
+## Mapa general en detalle
+![Mapa detallado de Foro Romano e Palatino](../fotos/mapa_foro_romano_detalle.png)
+
+## Mapa de recorrido (con orden de paradas)
+![Mapa del recorrido sugerido por Foro Romano y Palatino](../fotos/mapa_recorrido_foro_palatino.png)
+
+## Cómo usar esta guía caminando
+- Entrá por la zona del Arco di Tito, bajá al Foro siguiendo la Via Sacra y después subí al Palatino.
+- Cada parada arranca con historia: qué pasó acá, quién mandó construirlo, qué significaba.
+- "Qué imaginar" es el ejercicio mental clave: cerrar los ojos un segundo y reconstruir el espacio como era.
+- Si un dato puntual requiere confirmación, aparece marcado: [DATO PENDIENTE — verificar fuente].
+
+## Ruta sugerida (3 a 4.5 horas)
+
+**Foro Romano**
+1. Arco di Tito
+2. Tempio di Venere e Roma
+3. Basilica di Massenzio
+4. Tempio di Romolo
+5. Tempio di Antonino e Faustina
+6. Tempio del Divo Giulio
+7. Regia
+8. Tempio di Vesta
+9. Casa delle Vestali
+10. Basilica Aemilia
+11. Curia Iulia
+12. Lapis Niger / Comitium
+13. Arco di Settimio Severo
+14. Rostra
+15. Colonna di Foca
+16. Tempio di Saturno
+17. Tempio della Concordia
+18. Tempio di Vespasiano e Tito
+19. Basilica Iulia
+20. Tempio dei Dioscuri
+21. Lacus Curtius
+
+**Palatino**
+22. Casa di Augusto
+23. Casa di Livia
+24. Tempio di Apollo Palatino
+25. Tempio di Cibele (Magna Mater)
+26. Capanne romulee
+27. Domus Flavia
+28. Domus Augustana
+29. Stadio Palatino
+30. Orti Farnesiani
+31. Domus Tiberiana
+32. Museo Palatino
+
+## Antes de empezar: qué era este lugar
+
+Imaginá un valle pantanoso entre siete colinas, a orillas de un río con vados accesibles. Eso era Roma antes de ser Roma: una zona de contacto entre comunidades latinas y sabinas asentadas en las colinas, donde el terreno bajo se inundaba cada temporada. La decisión de drenar ese valle con la Cloaca Maxima —un canal subterráneo construido en época monárquica cuya boca todavía se puede ver sobre el Tíber— transformó esa ciénaga en el centro del mundo antiguo. Tres mil años de historia comprimidos en unas pocas hectáreas.
+
+El Foro Romano fue durante siglos la plaza pública de Roma: donde se juzgaba, se deliberaba en el Senado, se adoraba a los dioses del Estado, se proclamaban victorias militares y se enterraba a los grandes. No era un espacio estático: cada generación lo sobrescribió. La Roma monárquica dejó templos arcaicos; la República, la Curia y las basílicas de justicia; el Imperio, arcos triunfales, templos dinásticos y mármol sobre mármol. Lo que ves hoy es en buena parte el esqueleto de esa última operación de monumentalización.
+
+El Palatino, la colina que domina el Foro desde el sur, fue habitada desde la Edad del Hierro (siglo IX a.C. aproximadamente). La tradición la asociaba directamente con Rómulo y la fundación. Pero su gran transformación llega con Augustus: el primer emperador eligió vivir aquí, construyó su casa junto al templo de Apolo, y convirtió la colina en el corazón simbólico del poder. El Palatino es literalmente el origen de la palabra palazzo —y de todas sus derivadas en las lenguas europeas.
+
+## Historia
+
+El Foro Romano no nació planificado. El drenaje arcaico creó un espacio utilizable que fue acumulando funciones: mercado primero, luego foro político y religioso. A lo largo de la República (siglos VI–I a.C.) el espacio se formalizó: aparecieron la Curia donde deliberaba el Senado, el Comitium donde se congregaba el pueblo, los templos de Saturn y de los Dioscuri, las basílicas donde se administraba justicia. Cuando la República entró en crisis, el Foro se convirtió también en escenario de violencia política: aquí arrastraron el cadáver de Tiberio Graco, aquí leyó Marcus Antonius el testamento de Caesar ante una multitud que incendió la ciudad.
+
+Con el Imperio la lógica cambió: los emperadores ya no buscaban legitimarse en la asamblea del pueblo sino en la piedra. Augustus, Domitianus, Septimius Severus, Maxentius, Constantinus —cada uno dejó su firma monumental. El Foro dejó de ser un espacio de deliberación para convertirse en un escenario de glorificación del poder.
+
+El Palatino siguió el mismo arco. Augustus llegó cuando era colina de aristocratas; con él se volvió imperial. Tiberius construyó el primer palacio propiamente dicho (Domus Tiberiana). La gran explosión arquitectónica llega con Domitianus (81–96 d.C.): su arquitecto Rabirius diseñó un complejo que cubría prácticamente toda la colina y que permaneció como sede del poder romano durante siglos. El nombre de ese complejo —Palatium— pasó a significar 'residencia del soberano' en todas las lenguas de Europa.
+
+## Mitología y leyendas
+
+Según la tradición romana, el Palatino fue donde Rómulo trazó el primer surco fundacional de Roma con un arado, fijando el pomerium —el límite sagrado de la ciudad— que nadie podía cruzar armado bajo pena de muerte. Su hermano Remo saltó ese límite en señal de burla, y Rómulo lo mató. La tradición lo cuenta como relato de fundación política: los límites del Estado son sagrados y quien los viola muere.
+
+En la vertiente suroeste del Palatino estaba el Lupercal, la cueva sagrada donde, según la leyenda, la loba amamantó a Rómulo y Remo después de que un pastor los encontrara flotando en una cesta sobre el Tíber. Los romanos realizaban allí cada 15 de febrero la fiesta de los Lupercalia, donde sacerdotes corrían desnudos por la ciudad golpeando a las mujeres con tiras de piel de cabra para asegurar su fertilidad. Esta fiesta sobrevivió hasta el siglo V d.C., cuando el papa Gelasio I la prohibió (algunos historiadores la vinculan al origen del 14 de febrero como día especial, aunque la conexión directa con San Valentín es posterior y discutida).
+
+En el Foro, el Lacus Curtius —hoy una discreta marca en el pavimento— conservó durante siglos tres leyendas superpuestas: una fosa abierta en el terreno que solo se cerraría cuando Roma arrojara en ella su mayor tesoro, y que el joven patricio Marcus Curtius interpretó como que él mismo era ese tesoro, saltando armado y a caballo al abismo. La tradición lo presenta como un acto de piedad y patriotismo supremos.
+
+## Conexiones
+- El Arco di Tito marca la entrada desde el Colosseo: estás llegando desde el extremo oriental del eje monumental de Roma.
+- El Capitolio y el Tabularium (sede de archivos de Estado) cierran el Foro por el extremo occidental: desde allí gobernaba el Senado; desde aquí se miraba.
+- El Palatino domina el Foro desde el sur y lo domina visualmente: quien vivía arriba miraba hacia abajo el espacio donde se negociaba su legitimidad.
+- Al sur del Palatino, el Circo Massimo: un cuarto de millón de personas cabían en las carreras de cuadrigas. El emperador los observaba desde su palacio en la colina, directamente sobre la recta final.
+
+## Datos interesantes
+- El nivel del suelo del Foro Romano en la Antigüedad estaba varios metros más abajo que el actual: los sedimentos de siglos de abandono (especialmente entre los siglos VI y XVIII) enterraron el conjunto hasta el punto de que la Edad Media lo llamaba Campo Vaccino —campo de vacas— porque allí pastaba el ganado.
+- Augustus vivió en una casa deliberadamente modesta para su condición. Sus sucesores fueron abandonando esa austeridad hasta que Domitianus construyó algo que más se parecía a un laberinto de mármol que a una residencia.
+- Todos los mármoles de colores que ves en los museos romanos eran revestimientos: las estructuras de los edificios eran de ladrillo y hormigón, pero por fuera y por dentro estaban completamente cubiertas de placas de mármol pulido. Lo que ves en el Foro son los esqueletos desnudos de edificios que en su momento eran cromáticamente abrumadores.
+- El hormigón romano (opus caementicium) no se ha reproducido exactamente en la modernidad. Su durabilidad después de 2.000 años todavía es objeto de investigación activa: parte del secreto está en la ceniza volcánica del Lacio (pozzolana) que reacciona con el agua de mar y se vuelve más resistente con el tiempo, al contrario que el hormigón moderno.
+- La Via Sacra —el eje que recorre el Foro de este a oeste— no era una calle de tráfico ordinario. Era exclusivamente ceremonial: procesiones triunfales, cortejos fúnebres de Estado, desfiles religiosos. El nombre lo dice todo: calle sagrada, no calle pública.
+
+## Guía de paradas: Foro Romano
+
+### 1) Arco di Tito
+![Mapa Arco di Tito](../fotos/foro_romano_palatino/mapa_arco_di_tito.png)
+
+El arco más antiguo que se conserva en el Foro. Fue dedicado en torno al año 81 d.C. por Domitianus en honor a su hermano Titus, muerto antes de poder ver concluida su obra maestra: el Colosseo, que inauguraron juntos. El arco conmemora la guerra judía, concluida en el año 70 d.C. con la destrucción del Templo de Jerusalén.
+
+**Qué imaginar:** En el año 71 d.C., Titus desfiló por esta misma Via Sacra con los tesoros saqueados del Templo —la menorá de siete brazos, la mesa de los panes sagrados, las trompetas de plata— seguido de prisioneros judíos encadenados. Decenas de miles de espectadores alineados desde el Colosseo hasta el Capitolio. El ruido, el olor, la gloria militar hecha carne.
+
+**Qué mirar:** En los relieves del paso interior: a la izquierda, el carro triunfal de Titus con dioses portándolo al cielo; a la derecha, los soldados romanos cargando la menorá. Ese relieve es la representación más antigua y precisa de la menorá del Templo de Salomón. La comunidad judía de Roma históricamente evitó pasar por debajo de este arco.
+
+**Conexión:** Desde aquí la Via Sacra baja hacia el corazón del Foro. Tenés el Colosseo a tu espalda: exactamente aquí terminaba el eje de triunfo.
+
+---
+
+### 2) Tempio di Venere e Roma
+![Mapa Tempio di Venere e Roma](../fotos/foro_romano_palatino/mapa_tempio_venere_roma.png)
+
+El templo más grande de Roma. Diseñado por el propio Adriano —mecenas obsesivo de arquitectura griega— y dedicado en torno al año 135 d.C. a dos divinidades abstractas: Venus Felix (la Roma que genera vida) y Roma Aeterna (la ciudad como entidad eterna e indestructible). Era un templo doble con dos cellas colocadas espalda con espalda, una mirando al Foro y otra al Colosseo.
+
+**Qué imaginar:** Las dos estatuas colosales dentro —Venus y Roma— sentadas de espaldas, cada una mirando su dominio. Adriano había demolido el atrio de la Domus Aurea de Nerón para construirlo aquí, y trasladó la gigantesca estatua de Nerón (30 metros de altura) que daba nombre al Colosseo —Colossus Neronis— usando 24 elefantes.
+
+**Qué mirar:** La escala de la plataforma y las columnas supervivientes. El detalle del doble ábside de las cellas. La posición estratégica: controlaba visualmente tanto el Foro como el anfiteatro.
+
+**Conexión:** Puente monumental entre el mundo ceremonial del Foro y el espectáculo del Colosseo. Adriano reconfiguró toda esta zona como escenografía imperial.
+
+---
+
+### 3) Basilica di Massenzio (Basilica Nova)
+![Mapa Basilica di Massenzio](../fotos/foro_romano_palatino/mapa_basilica_massenzio.png)
+
+La obra de ingeniería más monumental del Foro tardío. Iniciada por Maxentius alrededor del año 308 d.C. y completada por Constantinus tras derrotarlo en la batalla de Pont Milvio (312 d.C.). No era una iglesia: era un enorme espacio civil cubierto para la administración de justicia y los negocios. Sus bóvedas de cañón tenían una altura de unos 35 metros —comparable a un edificio moderno de 10 pisos.
+
+**Qué imaginar:** El espacio interior en su momento de mayor esplendor: mármoles policromos en el suelo, estucos pintados en las bóvedas, una estatua colosal de Constantinus de 12 metros sentado en el ábside occidental —de la que sobreviven fragmentos (cabeza, mano, pie) en los Musei Capitolini. El tamaño de esos fragmentos te da la idea de la escala del interior.
+
+**Qué mirar:** Las tres enormes bóvedas del lado norte que todavía se mantienen en pie. Esas nervaduras de ladrillo y hormigón romano eran la tecnología de punta del siglo IV. Miguel Ángel las estudió antes de diseñar la cúpula de San Pietro. Bramante también.
+
+**Conexión:** Esta basílica demostró lo que el hormigón romano podía hacer. Su influencia directa: las grandes estaciones ferroviarias del siglo XIX (Pennsylvania Station en Nueva York, Termini en Roma) copiaron explícitamente este esquema estructural.
+
+---
+
+### 4) Tempio di Romolo
+![Mapa Tempio di Romolo](../fotos/foro_romano_palatino/mapa_tempio_romolo.png)
+
+Nombre engañoso: este templo circular del año 309 d.C. probablemente no fue dedicado al mítico Rómulo sino a Valerius Romulus, hijo de Maxentius que murió siendo niño y fue divinizado por su padre. La puerta de bronce original —con marco de pórfido rojo— es una de las pocas puertas metálicas de la Antigüedad que permanecen en su posición original, todavía con sus bisagras y mecanismo de cierre original.
+
+**Qué imaginar:** Maxentius construyendo un templo para honrar al hijo que no llegó a gobernar Roma. La política dinástica romana mezclaba el duelo privado con la religión de Estado: divinizar a los muertos era consolidar el linaje.
+
+**Qué mirar:** La puerta de bronce. La curva de la fachada. El contraste entre el edificio pagano y la iglesia de Santi Cosma e Damiano que lo absorbió en el siglo VI, usando el templo como vestíbulo.
+
+**Conexión:** Ejemplo perfecto de la continuidad física entre Roma antigua y Roma cristiana. El mismo espacio, otra función, la misma puerta.
+
+---
+
+### 5) Tempio di Antonino e Faustina
+![Mapa Tempio di Antonino e Faustina](../fotos/foro_romano_palatino/mapa_tempio_antonino_faustina.png)
+
+Construido en 141 d.C. por el emperador Antonino Pío en honor a su esposa Faustina, cuya muerte repentina lo afectó profundamente. Cuando Antonino murió en 161 d.C., el Senado añadió su nombre al templo. En algún momento de la Edad Media se transformó en la iglesia de San Lorenzo in Miranda. Los ranuraciones profundas visibles en las columnas son el registro de un intento fallido medieval de derribarlas para reutilizar el mármol: las columnas resistieron.
+
+**Qué imaginar:** El nivel del suelo original está varios metros más abajo de donde estás parado. La diferencia entre el nivel antiguo (visible en la base de las columnas) y el actual es el sedimento acumulado durante siglos de abandono: tierra, escombros, basura. Roma medieval caminaba sobre la Roma antigua sin saberlo.
+
+**Qué mirar:** La diferencia de cota entre el umbral de la puerta de la iglesia (nivel medieval) y la base de las columnas (nivel romano). Las marcas de corte en las columnas de granito, donde las cuerdas dejaron surcos profundos sin lograr moverlas.
+
+**Conexión:** El templo y la iglesia muestran la misma superposición que vas a ver repetida en toda Roma: el mundo antiguo como cantera y como fundamento a la vez.
+
+---
+
+### 6) Tempio del Divo Giulio
+![Mapa Tempio del Divo Giulio](../fotos/foro_romano_palatino/mapa_tempio_divo_giulio.png)
+
+En el año 44 a.C., el cuerpo de Julius Caesar fue cremado en el Foro, en el lugar exacto donde la muchedumbre lo había arrastrado para darle un funeral improvisado después del asesinato. Años después, Augustus construyó este templo sobre ese punto exacto, consagrando a su padre adoptivo como dios del Estado romano. Era un acto político de enorme poder: si Caesar era dios, Augustus era hijo de dios.
+
+**Qué imaginar:** El funeral de Caesar. Marcus Antonius leyendo el testamento en público, mostrando a la multitud la toga ensangrentada. La gente llorando o furiosa. Alguien arrojó su antorcha al cadáver; otros empezaron a traer maderos y muebles. En pocas horas ardió casi todo el barrio.
+
+**Qué mirar:** El podio del templo, que incorpora el punto de la cremación. Hoy la gente a veces deja flores o monedas. No es oficial ni histórico pero dice algo sobre cómo ciertos lugares retienen carga simbólica durante milenios.
+
+**Conexión:** Augustus diseñó el programa político completo: Caesar divinizado + templo de Apolo en el Palatino + su propia imagen de restaurador de la República. Todo encajaba como una narrativa cuidadosamente construida.
+
+---
+
+### 7) Regia
+![Mapa Regia](../fotos/foro_romano_palatino/mapa_regia.png)
+
+Una de las estructuras más antiguas del Foro. La tradición la vincula a los reyes de Roma —supuestamente la residencia o la sede administrativa del rey— y durante la República fue la sede del Pontifex Maximus, el sumo sacerdote del Estado romano. En ella se guardaban documentos sagrados (incluidos los Fasti, los calendarios anuales públicos), se custodiaban los escudos sagrados de Marte y se realizaban rituales de inicio y cierre del año religioso.
+
+**Qué imaginar:** La Regia no era imponente visualmente —era pequeña y austera. Pero era el nodo donde política y religión se encontraban: el Pontifex Maximus que administraba los calendarios controlaba qué días eran festivos, qué días podían celebrarse contratos o juicios, qué días era de mal augurio actuar. Controlar el calendario era controlar el tiempo.
+
+**Qué mirar:** La posición: entre el Tempio del Divo Giulio, el Tempio di Vesta y la Casa delle Vestali. Todo el eje ritual del Foro pasa por aquí.
+
+**Conexión:** Julius Caesar fue Pontifex Maximus. Augustus también. El cargo derivó eventualmente al Papa —que todavía hoy usa ese título.
+
+---
+
+### 8) Tempio di Vesta
+![Mapa Tempio di Vesta](../fotos/foro_romano_palatino/mapa_tempio_vesta.png)
+
+El fuego sagrado de Roma. Este templo circular custodiaba la llama que, según la creencia romana, no podía extinguirse sin provocar la ruina de la ciudad. No era metáfora: era doctrina de Estado. Las Vestales eran responsables de mantenerlo encendido durante sus 30 años de servicio. Si se apagaba, era señal de la ira divina —y la Vestal responsable recibía castigo físico.
+
+**Qué imaginar:** El fuego ardiendo sin interrupción durante más de mil años, desde la era monárquica hasta el año 391 d.C., cuando el emperador Theodosio I prohibió todos los cultos paganos y el fuego fue apagado por última vez. Imaginar ese momento: el fin de algo que había durado más de un milenio.
+
+**Qué mirar:** La planta circular —única en el Foro. Las columnas reconstruidas (las originales se dispersaron). La relación directa con la Casa delle Vestali: era literalmente el hogar de las sacerdotisas y el templo de la ciudad como una sola entidad.
+
+**Conexión:** Vesta era la diosa del hogar. El templo del hogar del Estado. La misma estructura conceptual que el fuego en cada altar doméstico romano, pero escalada a nivel de civilización.
+
+---
+
+### 9) Casa delle Vestali (Atrium Vestae)
+![Mapa Casa delle Vestali](../fotos/foro_romano_palatino/mapa_casa_vestali.png)
+
+Las Vestales eran seis sacerdotisas elegidas entre los 6 y los 10 años, de familias patricias, que servían 30 años: 10 aprendiendo, 10 ejerciendo, 10 enseñando. Durante ese tiempo debían mantener castidad absoluta. A cambio recibían privilegios extraordinarios para una mujer romana: podían ser propietarias, hacer testamento, viajar en litera por la ciudad, asistir a los Juegos en tribunas reservadas. Si una condenado a muerte se cruzaba con una Vestal en su camino al suplicio, quedaba libre automáticamente.
+
+**Qué imaginar:** Niñas de 6 o 7 años arrancadas de sus familias —aunque la selección era considerada un enorme honor— para vivir aquí décadas. El patio alargado con jardines y estanques. Las estatuas de Vestales que vas a ver: bustos sobre pedestales con nombres grabados, algunas con los nombres borrados —posiblemente Vestales que cometieron alguna falta y fueron damnadas memoriae.
+
+**Qué mirar:** Los pedestales de las estatuas con inscripciones. El patio con el pozo central. La escala de la residencia: era grande, cómoda, un privilegio dentro del Foro.
+
+**Conexión:** Una Vestal que rompía su voto de castidad era enterrada viva en una cámara subterránea —la "tumba de la Vestal culpable"— fuera del pomerium. Su amante era flagelado hasta morir en público. Esto ocurrió al menos 22 veces registradas en la historia romana.
+
+---
+
+### 10) Basilica Aemilia
+![Mapa Basilica Aemilia](../fotos/foro_romano_palatino/mapa_basilica_aemilia.png)
+
+Una de las más antiguas basílicas del Foro, construida en 179 a.C. por los censores Marcus Aemilius Lepidus y Lucius Aemilius Paullus. No era una iglesia: "basílica" en Roma significaba un gran edificio cubierto de múltiples naves, usado como espacio comercial, financiero y judicial. Aquí se cambiaba moneda, se firmaban contratos, se resolvían disputas. Era la Bolsa y el juzgado en un mismo espacio.
+
+**Qué imaginar:** En el año 410 d.C., los visigodos de Alarico saquearon Roma durante tres días. La Basilica Aemilia ardió. En el suelo, los arqueólogos encontraron monedas de bronce fundidas con el mármol del pavimento por el calor del incendio —todavía visibles. Ese piso quemado es el registro directo de uno de los eventos más traumáticos del mundo antiguo tardío.
+
+**Qué mirar:** Los restos del pavimento. La huella en planta del edificio. La relación con la Curia Iulia justo al lado: negocios y política, separados por una pared.
+
+**Conexión:** El saqueo de Alarico en 410 d.C. fue el detonante que llevó a San Agustín a escribir La Ciudad de Dios —una reinterpretación completa de la historia humana ante la caída de Roma.
+
+---
+
+### 11) Curia Iulia
+![Mapa Curia Iulia](../fotos/foro_romano_palatino/mapa_curia_iulia.png)
+
+El Senado de Roma. Julius Caesar inició su construcción sobre una sede anterior (la Curia Hostilia, destruida en el tumulto del funeral de Publius Clodius en 52 a.C.) y Augustus la completó en 29 a.C. El edificio que ves es en parte una reconstrucción de época de Diocleciano (283–305 d.C.) tras un incendio, pero preserva fielmente las proporciones originales. Se mantuvo casi intacto porque se convirtió en la iglesia de Sant'Adriano en el siglo VII.
+
+**Qué imaginar:** Trescientos senadores en bancos escalonados a ambos lados de una nave alargada. Las sesiones no eran secretas: las puertas se dejaban abiertas para que los ciudadanos oyeran los debates desde afuera. Fíjate en el lecho de mármol del suelo original (visible) y en la tribuna al fondo donde hablaba el magistrado que presidía.
+
+**Qué mirar:** El piso de mármol original en óptimo estado de conservación. La austera proporcionalidad del espacio: sin ornamentación excesiva, diseñado para la deliberación. Las dos grandes losas de mármol en el interior (Plutei di Traiano) que muestran escenas de políticas de Trajano —originalmente del Foro, trasladadas aquí para protegerlas.
+
+**Conexión:** Las grandes decisiones que construyeron el Imperio romano —declaraciones de guerra, leyes, listas de proscripción— se tomaron en salas como esta. La misma institución que en 44 a.C. decidió no castigar a los asesinos de Caesar y desencadenó 17 años de guerra civil.
+
+---
+
+### 12) Lapis Niger / Comitium
+![Mapa Lapis Niger](../fotos/foro_romano_palatino/mapa_lapis_niger.png)
+
+Bajo las losas de mármol negro (lapis niger, "piedra negra") que señalaban un recinto sagrado en pleno corazón del Foro, los arqueólogos descubrieron en 1899 uno de los textos latinos más antiguos conocidos: una inscripción en piedra volcánica local que data del siglo VI a.C. aproximadamente. El texto ordena algo en relación a un espacio sagrado —el significado exacto es parcialmente disputado por los filólogos. La tradición romana decía que ese punto marcaba la tumba de Rómulo, o el lugar donde cayó fulminado por un rayo.
+
+**Qué imaginar:** Este punto era el Comitium: el espacio cívico más antiguo del Foro, donde se celebraban las asambleas del pueblo para votar, bien antes de que el espacio forense bajara en el valle. Imaginar esa Roma arcaica —siglo VII o VI a.C.— con construcciones de madera, lodo y piedra volcánica, y sin embargo ya con una vida política formalizada: asambleas, leyes, inscripciones.
+
+**Qué mirar:** Las losas negras (reconstruidas/protegidas). La señalización arqueológica del pozo subterráneo donde se encontró la inscripción. La posición justo delante de la Curia: el Comitium se alineaba con ella por diseño.
+
+**Conexión:** El Lapis Niger y la Curia forman el núcleo político más antiguo del Foro. Todo lo demás se fue añadiendo alrededor de este eje.
+
+---
+
+### 13) Arco di Settimio Severo
+![Mapa Arco di Settimio Severo](../fotos/foro_romano_palatino/mapa_arco_settimio_severo.png)
+
+Erigido en 203 d.C. para conmemorar las victorias del emperador Septimius Severus y sus hijos Caracalla y Geta contra los partos y los árabes. Es uno de los arcos mejor preservados de Roma: triple vano, cubierto de relieves que narran las campañas militares en detalle. Cuando Caracalla asesinó a su hermano Geta en 211 d.C. y decretó su damnatio memoriae, el nombre de Geta fue borrado de la inscripción —los agujeros de los clavos que sostuvieron las letras de bronce todavía son visibles.
+
+**Qué imaginar:** Caracalla mandó matar a Geta en brazos de su madre, Julia Domna, que no pudo hacer nada para evitarlo. Luego mandó borrar el nombre de Geta de todos los monumentos del Imperio: inscripciones, monedas, estatuas. Pero borrarlo de la piedra deja huella. Esa huella es visible hoy.
+
+**Qué mirar:** La inscripción superior con el espacio del nombre eliminado. Los relieves de las campañas partas en los laterales del arco. La posición dominando el extremo noroccidental del Foro, con la Curia a la derecha y los Rostra al frente.
+
+**Conexión:** La damnatio memoriae era la pena máxima en Roma: no la muerte sino el borrado. No quedar para la posteridad. Este arco es el monumento y el crimen al mismo tiempo.
+
+---
+
+### 14) Rostra
+![Mapa Rostra](../fotos/foro_romano_palatino/mapa_rostra.png)
+
+La tribuna de los oradores del Foro Romano. El nombre viene del año 338 a.C., cuando el cónsul Gaius Maenius venció a la flota de Anzio y decoró esta tribuna con los espolones de proa (rostra) de los barcos capturados. Desde aquí hablaron los grandes oradores de la República: Cicerón, Marcus Antonius. Aquí mismo, en el año 43 a.C., fueron expuestas las manos y la cabeza de Cicerón —decapitado por orden de Antonius después de las Filípicas.
+
+**Qué imaginar:** Marcus Antonius leyendo el testamento de Caesar desde aquí en 44 a.C., ante una multitud que se extiende por todo el Foro. El espacio estaba diseñado para esto: la tribuna elevada, el eje de visión hacia las basílicas y los templos, la gente apretada en el valle. Era el escenario de la política en vivo.
+
+**Qué mirar:** La plataforma elevada. La orientación hacia la plaza: quien hablaba desde aquí controlaba el espacio visual del Foro entero. Imaginar los espolones de bronce originales sobresaliendo del frente de la tribuna.
+
+**Conexión:** La palabra "foro" como espacio de debate público viene directamente de aquí. Forum, forense, retórica política, democracia performativa: todo tiene raíz en esta tribuna.
+
+---
+
+### 15) Colonna di Foca
+![Mapa Colonna di Foca](../fotos/foro_romano_palatino/mapa_colonna_foca.png)
+
+Una columna corintia erigida en el año 608 d.C. en honor al emperador bizantino Focas —quien donó el Panteón al papa Bonifacio IV para que se convirtiera en iglesia. Es el último monumento erigido en el Foro Romano en la Antigüedad. Irónicamente, la columna no fue hecha nueva: es una columna reutilizada de un edificio anterior, simplemente re-dedicada. Focas, además, era un usurpador que había mandado asesinar a su predecesor.
+
+**Qué imaginar:** El año 608 d.C. El Foro ya no es el centro de nada. La población de Roma ha caído de más de un millón a quizás 50.000 personas. Los edificios se usan para extraer material de construcción. Los acueductos se han cortado. Y sin embargo alguien todavía erige una columna honorífica aquí, como si el Foro todavía importara. El gesto de un mundo que no quiere olvidar que hubo algo grandioso.
+
+**Qué mirar:** Su aislamiento visual entre estructuras mucho más antiguas. El pedestal con la inscripción. La elegancia pura de la columna, descontextualizada de todo lo que la rodeaba en 608 d.C.
+
+**Conexión:** Cierra la secuencia monumental del Foro antiguo. De Rómulo al siglo VII: mil años de acumulación en este valle.
+
+---
+
+### 16) Tempio di Saturno
+![Mapa Tempio di Saturno](../fotos/foro_romano_palatino/mapa_tempio_saturno.png)
+
+Uno de los templos más antiguos del Foro, con dedicación tradicional en torno a los años 498–497 a.C. Lo que sobrevive es en gran parte una reconstrucción tardía (siglo IV d.C.) pero sobre fundaciones muy anteriores. Saturno era el dios de la siembra y el tiempo —y, en la mitología romana, el rey de la Edad de Oro, anterior a Júpiter, cuando no existía la propiedad ni la esclavitud. Sus fiestas, las Saturnalia (diciembre), eran las más populares del calendario romano: los esclavos se sentaban a la mesa con sus amos, se invertían las jerarquías, se hacían regalos.
+
+El templo servía además como aerarium: el tesoro del Estado romano estaba guardado literalmente dentro del pódium del templo, bajo custodia sacra. Los cónsules y pretores tenían que entrar al templo —no a una oficina burocrática— para acceder a los fondos públicos.
+
+**Qué imaginar:** Las Saturnalia duraban entre 7 y 10 días en diciembre. La ciudad se paralizaba: negocios cerrados, juicios suspendidos, esclavos sirviendo en la mesa y sus amos sirviéndoles el vino. Era el tiempo suspendido, el caos festivo ritualizado. Muchas tradiciones de las fiestas de diciembre en el mundo occidental descienden directamente de las Saturnalia.
+
+**Qué mirar:** Las ocho columnas del pórtico supervivientes, de granito gris y rosa de distinto origen —señal de reconstrucciones sucesivas con material variado. La inscripción "SENATUS POPULUSQUE ROMANUS" en el friso: el Senado y el Pueblo de Roma reconstruyeron esto incluso cuando Roma ya era una sombra de sí misma.
+
+**Conexión:** Al pie del Capitolio, junto al Tabularium. Este extremo del Foro era el extremo institucional: tesoro, archivos, Senado, todo agrupado.
+
+---
+
+### 17) Tempio della Concordia
+![Mapa Tempio della Concordia](../fotos/foro_romano_palatino/mapa_tempio_concordia.png)
+
+Templo con historia política muy densa. Su origen se sitúa en el año 367 a.C., después de los acuerdos entre patricios y plebeyos que terminaron con un siglo de conflictos internos (las Guerras de las Leges Liciniae Sextiae). Fue reconstruido múltiples veces. Augustus lo terminó de reconstruir en el año 10 d.C. y lo dedicó en nombre de Tiberius tras sus victorias en Germania —una manera de ligar la paz interna con la victoria exterior bajo el programa de restauración augustea.
+
+**Qué imaginar:** La concordia como programa político activo, no como abstracción. Roma llevaba décadas de guerras civiles (Sila, Pompeyo, Caesar, Antonius, Augustus). La ciudad había visto proscripciones, facciones, colinas enemigas entre sí. Templo a la Concordia era decir: eso terminó, ya no nos matamos. Construirlo al lado del Senado era una amenaza velada y una promesa al mismo tiempo.
+
+**Qué mirar:** Los restos del pódium y el encaje topográfico en la pendiente hacia el Capitolio. La posición entre Saturno y el Tabularium.
+
+**Conexión:** La palabra "concordia" es la raíz de todos los acuerdos: concord, concordato. Aquí Roma intentó fijar en piedra el final de sus guerras intestinas.
+
+---
+
+### 18) Tempio di Vespasiano e Tito
+![Mapa Tempio di Vespasiano e Tito](../fotos/foro_romano_palatino/mapa_tempio_vespasiano.png)
+
+Templo dinástico flavio iniciado por Titus en honor a su padre Vespasianus (muerto en 79 d.C.) y completado por Domitianus, quien añadió el nombre de Titus después de su muerte en 81 d.C. Las tres columnas supervivientes con su entablamento son uno de los fragmentos más fotogénicos del Foro —y uno de los más fotografiados desde el siglo XIX.
+
+**Qué imaginar:** La dinastía Flavia llegó al poder con Vespasianus en 69 d.C., después del "año de los cuatro emperadores" —un año de guerra civil que casi destruyó el sistema imperial. Vespasianus reconstruyó Roma (literalmente: financió el Colosseo con el botín de Judea) y sus hijos lo convirtieron en dios. El templo es la certificación religiosa de esa legitimidad dinástica construida sobre una guerra.
+
+**Qué mirar:** Las tres columnas con su friso decorado, encajadas en la pendiente hacia el Tabularium. La finura del trabajo en mármol en el friso: bucrania, instrumentos rituales, guirnaldas.
+
+**Conexión:** Junto a Saturno y Concordia forman el borde occidental del Foro, la cara que miraba hacia el Capitolio y la Roma institucional clásica.
+
+---
+
+### 19) Basilica Iulia
+![Mapa Basilica Iulia](../fotos/foro_romano_palatino/mapa_basilica_iulia.png)
+
+Julius Caesar inició su construcción en torno al año 54 a.C., utilizando el botín de las Guerras de las Galias. Augustus la reconstruyó después de un incendio. Era la basílica más grande del Foro: cuatro naves, con gradas para el público en el piso superior desde donde se podían seguir los juicios. Albergaba los centumviri, los tribunales civiles que resolvían disputas de herencias y propiedades —los casos más abundantes y más económicamente relevantes del derecho romano.
+
+**Qué imaginar:** El bullicio comercial y judicial de un espacio donde cuatro juicios podían ocurrir simultáneamente, en las cuatro zonas de la nave central dividida por cortinas o biombos. El público en los pisos superiores apostando sobre los veredictos. Las tablillas de barro con los tablones de anuncios de los casos. En las losas del pavimento todavía son visibles los tableros de juego que los romanos grababan mientras esperaban —los espectadores se aburrían y jugaban.
+
+**Qué mirar:** La huella en planta. Los tableros de juego grabados en las losas del pavimento (buscarlos cerca de los escalones). La relación con los Templi dei Dioscuri justo al lado.
+
+**Conexión:** Contrapartida de la Basilica Aemilia al norte: las dos basílicas flanqueaban el eje central del Foro. Entre las dos, el valle estaba completamente enmarcado por actividad cívica.
+
+---
+
+### 20) Tempio dei Dioscuri (Castore e Polluce)
+![Mapa Tempio dei Dioscuri](../fotos/foro_romano_palatino/mapa_tempio_dioscuri.png)
+
+Dedicado en torno al año 484 a.C. según la tradición. El origen: en la batalla del lago Regillio (cerca del año 496 a.C.) contra los Latinos, dos jinetes desconocidos de extraordinaria belleza combatieron en el lado romano, y luego aparecieron en Roma bebiendo en la fuente de Giuturna (visible junto al templo) para anunciar la victoria. Eran Castor y Pollux —los Dioscuri, los gemelos divinos. El templo fue erigido como pago de ese favor.
+
+**Qué imaginar:** Los tres columnas supervivientes con su entablamento son probablemente la imagen más icónica del Foro Romano desde el Renacimiento. Las reinterpretó Piranesi; las copió el mundo entero. Ese fragmento de columnata suspendida en el aire sintetiza visualmente la idea de "ruina clásica" que el siglo XVIII convirtió en objeto de deseo estético.
+
+**Qué mirar:** Las tres columnas corintias y su entablamento perfecto. La fuente de Giuturna al lado —una de las pocas fuentes del Foro todavía identificables en su ubicación original.
+
+**Conexión:** Los Dioscuri eran los protectores de los jinetes romanos. El templo y la caballería constituyen un vínculo entre guerra, nobleza ecuestre y religión cívica.
+
+---
+
+### 21) Lacus Curtius
+![Mapa Lacus Curtius](../fotos/foro_romano_palatino/mapa_lacus_curtius.png)
+
+Un punto discreto en el pavimento del Foro, marcado por una losa y una pequeña señalización. Pero cargado de relatos. La tradición romana conservó tres leyendas sobre su origen, todas igualmente improbables e igualmente reveladoras: una fosa sagrada que se abrió en el terreno; un soldado sabino llamado Mettius Curtius que en los tiempos de Rómulo se hundió aquí con su caballo; y Marcus Curtius, el joven patricio que en el siglo IV a.C. saltó armado y a caballo al abismo para cerrar una grieta sobrenatural que amenazaba a Roma —ofreciéndose como el mayor tesoro de la ciudad.
+
+**Qué imaginar:** Roma mantenía activamente estos puntos de memoria mítica en el corazón del Foro. No porque todo el mundo creyera literalmente en las leyendas, sino porque esos puntos anclaban la identidad colectiva al espacio físico. La ciudad no era solo infraestructura: era un texto que había que saber leer. Saber qué había pasado aquí era saber quiénes eran los romanos.
+
+**Qué mirar:** La modestia material del punto frente a su peso narrativo. El suelo del Foro en general: hay que imaginar que en la Antigüedad estaba a metros por debajo, pavimentado de travertino brillante, flanqueado de estatuas doradas.
+
+**Conexión:** Este punto cierra el circuito del Foro central. De aquí a los Rostra, al Tempio di Saturno, a la Curia: todo el núcleo político y mítico de Roma en trescientos metros.
+
+---
+
+## Subida al Palatino
+
+Desde el Foro se sube al Palatino por la rampa que sale cerca del Arco di Tito, o por la escalinata junto al Tempio di Antonino e Faustina. Ambas llevan a la entrada arqueológica del Palatino, que es la misma entrada del ticket combinado. La subida lleva unos 5-10 minutos a paso tranquilo. En cuanto llegás arriba, el primer gran contraste es inmediato: del bullicio urbano del Foro a la quietud arbolada de la colina, con vistas sobre el conjunto que acabás de recorrer.
+
+---
+
+## Guía de paradas: Palatino
+
+### 22) Casa di Augusto
+![Mapa Casa di Augusto](../fotos/foro_romano_palatino/mapa_casa_augusto.png)
+
+La residencia de Augustus en el Palatino era deliberadamente modesta para el hombre más poderoso del mundo mediterráneo. No vivía en un palacio: vivía en una casa de dimensiones aristocráticas pero sin la escala colosal de sus sucesores. Esa austeridad era parte del programa político: Augustus se presentaba como el restaurador de la República, no como un rey oriental. Sus cuartos privados eran pequeños, los frescos —extraordinariamente bien conservados para quien pueda verlos— representan escenas arquitectónicas y de teatro en colores vibrantes.
+
+**Qué imaginar:** Augustus vivía aquí sin guardias en la puerta, según algunas fuentes. Recibía en audiencia, leía, dictaba cartas, gobernaba el Imperio desde estas habitaciones. La Casa y el templo de Apolo adyacente formaban un solo complejo: la residencia del príncipe y la ofrenda al dios que lo había ayudado a ganar en Actium, físicamente unidos. Dios y poder, en el mismo bloque.
+
+**Qué mirar:** Si el interior está abierto, los frescos del llamado "Cuarto de las máscaras" y el "Cuarto del pino" son de los mejores de Roma. La escala contenida de los ambientes comparada con la Domus Flavia de Domitianus, que visitás más adelante.
+
+**Conexión:** Augustus eligió el Palatino por razones simbólicas y mitológicas: la colina de Rómulo, la colina de los orígenes. Instalarse aquí era reclamar esa herencia.
+
+---
+
+### 23) Casa di Livia
+![Mapa Casa di Livia](../fotos/foro_romano_palatino/mapa_casa_livia.png)
+
+Tradicionalmente atribuida a Livia, esposa de Augustus —aunque algunos investigadores sugieren que podría haber sido la propia casa de Augustus antes de la construcción del complejo principal. Una de las decoraciones murales mejor preservadas de toda Roma: frescos del siglo I a.C. con jardines ilusorios, guirnaldas, pájaros y referencias mitológicas que transforman las paredes en ventanas a un espacio imaginario al exterior.
+
+**Qué imaginar:** Los romanos de élite decoraban sus casas para contrarrestar el hacinamiento visual del espacio urbano. Un cuarto pequeño con paredes pintadas con jardines exuberantes era una manera de expandir visualmente el espacio, de llevar la naturaleza adentro. Los frescos de la Casa di Livia son el ejemplo más refinado de esa estética. Livia misma era una figura política decisiva: sobrevivió a Augustus, a Tiberius y a la mayoría de los hombres de su época.
+
+**Qué mirar:** Los frescos si el interior está accesible. La organización doméstica del atrio y los cubicula. La relación de proximidad con la Casa di Augusto.
+
+**Conexión:** Livia fue la primera gran mujer política de Roma imperial: sin cargo formal, con poder real. Su imagen en monedas y estatuas redefinió lo que podía significar ser mujer en Roma.
+
+---
+
+### 24) Tempio di Apollo Palatino
+![Mapa Tempio di Apollo Palatino](../fotos/foro_romano_palatino/mapa_tempio_apollo_palatino.png)
+
+Augustus prometió este templo en 36 a.C., durante la guerra contra Sextus Pompeius, y lo dedicó en 28 a.C. —poco después de su victoria decisiva sobre Marcus Antonius y Cleopatra en Actium (31 a.C.). Apolo era el dios personal de Augustus: la tradición decía que fue concebido por su madre durante una visita de Apolo en forma de serpiente, y que un rayo cayó sobre el solar del futuro templo señalándolo como dominio del dios. Junto al templo, Augustus construyó una biblioteca pública, de las primeras de Roma.
+
+**Qué imaginar:** Augustus eligiendo a Apolo —dios de la razón, la luz, las artes y la profecía— como su divinidad tutelar frente a Marcus Antonius, que se identificaba con Dioniso (dios del vino, el exceso, la fiesta). Era una guerra de imágenes además de una guerra militar. Apolo era la civilización griega racionalizada, el orden que Rome restauraba.
+
+**Qué mirar:** Los restos del podio. La posición dominante en la ladera occidental del Palatino. La proximidad a las casas augusteas: templo y residencia formaban un solo mensaje.
+
+**Conexión:** El templo de Apolo Palatino fue el corazón cultural del programa augusteo. Virgilio leyó partes de la Eneida ante Augustus en su biblioteca. Horacio escribió el Carmen Saeculare pensando en este espacio.
+
+---
+
+### 25) Tempio di Cibele (Magna Mater)
+![Mapa Tempio di Cibele](../fotos/foro_romano_palatino/mapa_tempio_cibele.png)
+
+Roma importó el culto de Cibele —la Gran Madre, una diosa frigia de origen anatolio— en el año 204 a.C., durante la Segunda Guerra Púnica. El oráculo de Sibila dijo que para derrotar a Hanníbal, Roma necesitaba traer a la diosa: transportaron una piedra meteórica negra sagrada desde Pessinonte (en la actual Turquía) que representaba a Cibele, y la instalaron en este templo del Palatino, inaugurado en 191 a.C. La operación fue un éxito: al año siguiente, Escipión venció a Hanníbal en Zama.
+
+**Qué imaginar:** Los sacerdotes del culto de Cibele —los Galli— se castraban ritualmente en un éxtasis religioso durante su iniciación. Era una práctica que los romanos toleraban con una mezcla de fascinación y horror, considerándola manifestación de la exótica religiosidad oriental. Los rituales incluían danzas extáticas, música fuerte y automutilaciones. El culto coexistió con los ritos tradicionales romanos durante siglos.
+
+**Qué mirar:** Los restos del podio. La posición elevada en el extremo suroeste del Palatino, dominando la zona de las capanne romulee y con vistas hacia el Circo Massimo.
+
+**Conexión:** Roma fue extraordinariamente capaz de incorporar dioses extranjeros a su sistema religioso. Cibele, Isis, Mithras, Baal: el politeísmo romano era un sistema expansivo que absorbía en vez de excluir.
+
+---
+
+### 26) Capanne romulee
+![Mapa Capanne romulee](../fotos/foro_romano_palatino/mapa_capanne_romulee.png)
+
+En la década de 1940, los arqueólogos encontraron en esta zona del Palatino pozos de poste de la Edad del Hierro —agujeros en la roca donde se fijaban los maderos verticales de chozas de estructura simple, fechables en torno al siglo IX–VIII a.C. Son los restos arqueológicos más antiguos de Roma propiamente dicha, y corresponden casi exactamente con la cronología mítica de la fundación (tradición romana: 753 a.C.).
+
+**Qué imaginar:** Pastores y agricultores viviendo en chozas de madera y barro en esta colina volcánica, viendo desde arriba el valle que se inundaba cada primavera. La Roma que fundó un Imperio empezó aquí: sin mármol, sin columnas, sin nada más que terreno elevado y buenos vados del río. Los romanos de época imperial mantenían activamente al menos una choza en este lugar —la "Casa de Rómulo"— reconstruyéndola periódicamente como santuario histórico.
+
+**Qué mirar:** La señalización arqueológica de los pozos de poste. La posición relativa a los grandes palacios imperiales adyacentes: en pocos metros, de la Edad del Hierro al siglo I d.C.
+
+**Conexión:** Los romanos no olvidaban sus orígenes voluntariamente. Mantener la choza de Rómulo intacta entre lujos imperiales era un acto de identidad política deliberado.
+
+---
+
+### 27) Domus Flavia
+![Mapa Domus Flavia](../fotos/foro_romano_palatino/mapa_domus_flavia.png)
+
+Diseñada por el arquitecto Rabirius para el emperador Domitianus y completada alrededor del año 92 d.C. Era el ala de representación pública del complejo palaciego flavio: salas de audiencia colosales, un comedor de aparato con fontanas y ninfeos, un salón del trono con columnas de giallo antico y pavimentos de mármoles policromos. Domitianus era paranoico ante los intentos de asesinato y mandó cubrir las paredes con piedra de luna pulida para ver los reflejos de quién se acercaba por su espalda.
+
+**Qué imaginar:** El triclinium —el comedor ceremonial— era tan grande que Domitianus organizaba banquetes de Estado que la gente recordaba como eventos de magnificencia sobrehumana. El poeta Stazio lo describió con la hipérbole habitual de los escritores de corte: el techo tan alto que apenas si se veía; las columnas de mármol como bosques. Después de esto, ningún otro emperador volvió a vivir en el Foro o en casas de escala contenida.
+
+**Qué mirar:** Los patios octogonales del sector de representación. La escala de los muros supervivientes. La diferencia de tamaño con la Casa di Augusto, visible desde aquí: es la diferencia entre la República fingida y el poder desnudo.
+
+**Conexión:** La Domus Flavia fue el modelo que todas las cortes medievales y renacentistas de Europa intentaron (inconscientemente) replicar: un ala para los actos públicos, otra para la vida privada. El palazzo como tipología arquitectónica del poder viene de aquí.
+
+---
+
+### 28) Domus Augustana
+![Mapa Domus Augustana](../fotos/foro_romano_palatino/mapa_domus_augustana.png)
+
+El ala residencial privada del mismo complejo de Domitianus —nombre confuso, porque "Augustana" en este contexto no se refiere a Augustus sino a la titulatura imperial en general (*augustus* era el título del emperador). El edificio tiene dos niveles: el superior, al nivel de la colina, con patios abiertos y jardines; el inferior, excavado en la ladera sur con vistas al Circo Massimo. Esa orientación no era casual: el emperador podía observar las carreras de cuadrigas desde su residencia privada, directamente sobre la recta final del Circo.
+
+**Qué imaginar:** Un cuarto de millón de personas cabían en el Circo Massimo. El ruido, los colores de las facciones (Verdes, Azules, Rojos, Blancos), el polvo, los caballos. Y el emperador sentado en su balcón privado sobre la multitud, simultáneamente presente y separado. El poder absoluto exhibiéndose ante el espectáculo masivo.
+
+**Qué mirar:** La organización en terrazas descendentes. La relación visual con el Circo Massimo abajo a la derecha. Los patios hundidos con fuentes centrales.
+
+**Conexión:** La planta de la Domus Augustana influyó directamente en la arquitectura de los palacios medievales islámicos de al-Ándalus, que llegaron a Europa a través de puentes de transmisión cultural complejos.
+
+---
+
+### 29) Stadio Palatino
+![Mapa Stadio Palatino](../fotos/foro_romano_palatino/mapa_stadio_palatino.png)
+
+Un espacio longitudinal de unos 160 metros de largo con extremo redondeado en un lado —la forma de un estadio o hipódromo, dentro del complejo palaciego de Domitianus. La función exacta es debatida: probablemente fue un jardín de aparato con ninfeos y estatuas, o quizás un hipódromo privado para ejercicio ecuestre o carreras menores. No era un estadio público.
+
+**Qué imaginar:** Los jardines imperiales del Palatino eran el único espacio verde en una ciudad enormemente densa. El espacio cerrado, las fuentes, los árboles, los mármoles: un mundo privado de silencio y belleza en el corazón de la ciudad más ruidosa del mundo antiguo.
+
+**Qué mirar:** La forma alargada desde las vistas elevadas. La caja ovalada en el extremo sur donde algunos investigadores ubican una tribuna del emperador. Los muros perimetrales y la diferencia de escala con el entorno urbano exterior.
+
+**Conexión:** Completa el circuito de la Domus de Domitianus: recepción pública (Domus Flavia), vida privada (Domus Augustana), ocio y jardín (Stadio). Una ciudad dentro de la ciudad.
+
+---
+
+### 30) Orti Farnesiani
+![Mapa Orti Farnesiani](../fotos/foro_romano_palatino/mapa_orti_farnesiani.png)
+
+En el siglo XVI, el cardenal Alessandro Farnese (nieto del papa Pablo III) adquirió la cima noroeste del Palatino y encargó allí uno de los primeros jardines botánicos de Europa: los Horti Farnesiani, con perspectivas axiales, escalinatas de doble rampa, ninfeos y plantaciones sistemáticas. Lo diseñó probablemente Giacomo Vignola hacia 1550. Estaba literalmente construido sobre las ruinas de la Domus Tiberiana, que en ese momento nadie sabía exactamente qué era.
+
+**Qué imaginar:** Los humanistas renacentistas comprando colinas enteras de Roma para hacer jardines sobre ruinas que no comprendían del todo. Una arqueología estética avant la lettre: el pasado clásico como decoración y como legitimación del presente. Farnese coleccionando estatuas antiguas del suelo para sus villas mientras encima plantaba naranjos.
+
+**Qué mirar:** La terraza de doble rampa (casino superiore) y las vistas sobre el Foro Romano. Desde aquí se ve claramente la arquitectura del Foro como paisaje: templos, arcos, basílicas como elementos de un panorama.
+
+**Conexión:** Los Orti Farnesiani añaden la capa del Renacimiento sobre la del Imperio. El Palatino es literalmente un palimpsesto: Edad del Hierro, monarquía mítica, República, Imperio, Edad Media, Renacimiento, arqueología moderna. Todo en un kilómetro cuadrado.
+
+---
+
+### 31) Domus Tiberiana
+![Mapa Domus Tiberiana](../fotos/foro_romano_palatino/mapa_domus_tiberiana.png)
+
+El primer palacio imperial propiamente dicho. Construido bajo Tiberius (14–37 d.C.) en el borde noroeste del Palatino, la Domus Tiberiana estableció el patrón que todos sus sucesores seguirían: ocupar progresivamente la cima de la colina con estructuras que se extendían sobre plataformas artificiales. Tiberius pasó los últimos años de su vida no en Roma sino en Capri, en su villa de montaña. Cuando murió, la multitud romana pidió que su cuerpo fuera arrojado al Tíber —signo de cuánto lo odiaban.
+
+**Qué imaginar:** Tiberius era el sucesor que Augustus había elegido pero no amado. Un hombre amargo, militar brillante, gobernante eficiente y desastroso en términos de imagen pública. Se fue a Capri y desde allí gobernó el Imperio por carta durante más de una década, mientras en Roma circulaban rumores —probablemente exagerados por Suetonio— de orgías y crueldades en su villa.
+
+**Qué mirar:** Las plataformas y substructuras que sostienen el nivel superior. El borde hacia el Foro: desde aquí el palacio imperial miraba directamente al espacio político que supuestamente ya no necesitaba.
+
+**Conexión:** Sobre la Domus Tiberiana se construyeron los Orti Farnesiani en el siglo XVI. Capas sobre capas: el primer palacio imperial enterrado bajo el primer jardín botánico de Europa.
+
+---
+
+### 32) Museo Palatino
+![Mapa Museo Palatino](../fotos/foro_romano_palatino/mapa_museo_palatino.png)
+
+El museo de sitio del Palatino reúne los hallazgos de las excavaciones de la colina: fragmentos decorativos de los palacios imperiales (revestimientos de mármol, elementos de estucos pintados, fragmentos escultóricos), material de la fase arcaica y de la Edad del Hierro, objetos del culto de Magna Mater, y documentación estratigráfica de los distintos períodos de ocupación de la colina.
+
+**Qué imaginar:** Los colores. Los mármoles de los palacios imperiales —cipollino verde, giallo antico amarillo, pórfido rojo imperial, africano negro y rojo— estaban pulidos a espejo. Las paredes interiores eran superficies cromáticas intensas que hoy están desnudas de piedra gris. El Palatino imperial no era el paisaje austero de ruinas que ves: era un espacio de color, brillo, agua en movimiento y olores de jardín.
+
+**Qué mirar:** Los revestimientos de opus sectile (mármoles cortados en formas geométricas) que muestran cómo eran los pisos. Los fragmentos de fresco de las estancias privadas. Cualquier pieza que ayude a reconstruir mentalmente la paleta de colores del conjunto.
+
+**Conexión:** Este museo es el cierre ideal del recorrido. Antes de bajar, tenés la materia prima para reconstruir mentalmente lo que viste: no ruinas grises sino un mundo en technicolor.
+
+## Consejos prácticos para el día de la visita
+- Entrá temprano: el sol lateral de la mañana hace más legibles relieves y volúmenes.
+- En cada parada, usá esta secuencia rápida: mirar volumen, ubicar eje visual, leer contexto histórico, seguir a la siguiente parada.
+- Llevá agua y gorra: hay sectores con poca sombra.
+- Si hacés fotos de detalle arquitectónico, tomá una de contexto amplio primero y luego close-up del elemento.
+
+## Fuentes recomendadas para consulta rápida en el sitio
+fuente: Parco archeologico del Colosseo (parcocolosseo.it); Sovrintendenza Capitolina ai Beni Culturali (sovraintendenzaroma.it); Museo Palatino y siti del Parco archeologico del Colosseo; Enciclopedia Treccani (treccani.it); Amanda Claridge, Rome: An Oxford Archaeological Guide; Filippo Coarelli, Il Foro Romano.

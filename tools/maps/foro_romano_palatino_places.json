@@ -1,0 +1,354 @@
+[
+  {
+    "nombre": "Arco di Tito",
+    "archivo": "mapa_arco_di_tito.png",
+    "lat": 41.8907,
+    "lon": 12.4885,
+    "referencias": [
+      { "nombre": "Colosseo", "lat": 41.8902, "lon": 12.4922 },
+      { "nombre": "Tempio di Venere e Roma", "lat": 41.8915, "lon": 12.4889 },
+      { "nombre": "Basilica di Massenzio", "lat": 41.8918, "lon": 12.4876 }
+    ]
+  },
+  {
+    "nombre": "Tempio di Venere e Roma",
+    "archivo": "mapa_tempio_venere_roma.png",
+    "lat": 41.8915,
+    "lon": 12.4889,
+    "referencias": [
+      { "nombre": "Arco di Tito", "lat": 41.8907, "lon": 12.4885 },
+      { "nombre": "Colosseo", "lat": 41.8902, "lon": 12.4922 },
+      { "nombre": "Basilica di Massenzio", "lat": 41.8918, "lon": 12.4876 }
+    ]
+  },
+  {
+    "nombre": "Basilica di Massenzio",
+    "archivo": "mapa_basilica_massenzio.png",
+    "lat": 41.8918,
+    "lon": 12.4876,
+    "referencias": [
+      { "nombre": "Tempio di Romolo", "lat": 41.8919, "lon": 12.4867 },
+      { "nombre": "Arco di Tito", "lat": 41.8907, "lon": 12.4885 },
+      { "nombre": "Tempio di Venere e Roma", "lat": 41.8915, "lon": 12.4889 }
+    ]
+  },
+  {
+    "nombre": "Tempio di Romolo",
+    "archivo": "mapa_tempio_romolo.png",
+    "lat": 41.8919,
+    "lon": 12.4867,
+    "referencias": [
+      { "nombre": "Basilica di Massenzio", "lat": 41.8918, "lon": 12.4876 },
+      { "nombre": "Tempio di Antonino e Faustina", "lat": 41.8924, "lon": 12.4865 },
+      { "nombre": "Via Sacra", "lat": 41.8920, "lon": 12.4860 }
+    ]
+  },
+  {
+    "nombre": "Tempio di Antonino e Faustina",
+    "archivo": "mapa_tempio_antonino_faustina.png",
+    "lat": 41.8924,
+    "lon": 12.4865,
+    "referencias": [
+      { "nombre": "Tempio di Romolo", "lat": 41.8919, "lon": 12.4867 },
+      { "nombre": "Basilica Aemilia", "lat": 41.8930, "lon": 12.4860 },
+      { "nombre": "Tempio del Divo Giulio", "lat": 41.8921, "lon": 12.4853 }
+    ]
+  },
+  {
+    "nombre": "Tempio del Divo Giulio",
+    "archivo": "mapa_tempio_divo_giulio.png",
+    "lat": 41.8921,
+    "lon": 12.4853,
+    "referencias": [
+      { "nombre": "Tempio di Antonino e Faustina", "lat": 41.8924, "lon": 12.4865 },
+      { "nombre": "Arco di Augusto", "lat": 41.8920, "lon": 12.4848 },
+      { "nombre": "Tempio dei Dioscuri", "lat": 41.8916, "lon": 12.4847 }
+    ]
+  },
+  {
+    "nombre": "Regia",
+    "archivo": "mapa_regia.png",
+    "lat": 41.8919,
+    "lon": 12.4856,
+    "referencias": [
+      { "nombre": "Tempio del Divo Giulio", "lat": 41.8921, "lon": 12.4853 },
+      { "nombre": "Tempio di Vesta", "lat": 41.8914, "lon": 12.4856 },
+      { "nombre": "Tempio di Antonino e Faustina", "lat": 41.8924, "lon": 12.4865 }
+    ]
+  },
+  {
+    "nombre": "Tempio di Vesta",
+    "archivo": "mapa_tempio_vesta.png",
+    "lat": 41.8914,
+    "lon": 12.4856,
+    "referencias": [
+      { "nombre": "Casa delle Vestali", "lat": 41.8912, "lon": 12.4860 },
+      { "nombre": "Regia", "lat": 41.8919, "lon": 12.4856 },
+      { "nombre": "Tempio dei Dioscuri", "lat": 41.8916, "lon": 12.4847 }
+    ]
+  },
+  {
+    "nombre": "Casa delle Vestali (Atrium Vestae)",
+    "archivo": "mapa_casa_vestali.png",
+    "lat": 41.8912,
+    "lon": 12.4860,
+    "referencias": [
+      { "nombre": "Tempio di Vesta", "lat": 41.8914, "lon": 12.4856 },
+      { "nombre": "Tempio di Romolo", "lat": 41.8919, "lon": 12.4867 },
+      { "nombre": "Palatino", "lat": 41.8894, "lon": 12.4874 }
+    ]
+  },
+  {
+    "nombre": "Basilica Aemilia",
+    "archivo": "mapa_basilica_aemilia.png",
+    "lat": 41.8930,
+    "lon": 12.4860,
+    "referencias": [
+      { "nombre": "Curia Iulia", "lat": 41.8934, "lon": 12.4850 },
+      { "nombre": "Tempio di Antonino e Faustina", "lat": 41.8924, "lon": 12.4865 },
+      { "nombre": "Via Sacra", "lat": 41.8920, "lon": 12.4860 }
+    ]
+  },
+  {
+    "nombre": "Curia Iulia",
+    "archivo": "mapa_curia_iulia.png",
+    "lat": 41.8934,
+    "lon": 12.4850,
+    "referencias": [
+      { "nombre": "Arco di Settimio Severo", "lat": 41.8933, "lon": 12.4843 },
+      { "nombre": "Basilica Aemilia", "lat": 41.8930, "lon": 12.4860 },
+      { "nombre": "Lapis Niger", "lat": 41.8935, "lon": 12.4847 }
+    ]
+  },
+  {
+    "nombre": "Lapis Niger / Comitium",
+    "archivo": "mapa_lapis_niger.png",
+    "lat": 41.8935,
+    "lon": 12.4847,
+    "referencias": [
+      { "nombre": "Curia Iulia", "lat": 41.8934, "lon": 12.4850 },
+      { "nombre": "Arco di Settimio Severo", "lat": 41.8933, "lon": 12.4843 },
+      { "nombre": "Rostra", "lat": 41.8930, "lon": 12.4840 }
+    ]
+  },
+  {
+    "nombre": "Arco di Settimio Severo",
+    "archivo": "mapa_arco_settimio_severo.png",
+    "lat": 41.8933,
+    "lon": 12.4843,
+    "referencias": [
+      { "nombre": "Curia Iulia", "lat": 41.8934, "lon": 12.4850 },
+      { "nombre": "Rostra", "lat": 41.8930, "lon": 12.4840 },
+      { "nombre": "Tempio della Concordia", "lat": 41.8931, "lon": 12.4835 }
+    ]
+  },
+  {
+    "nombre": "Rostra",
+    "archivo": "mapa_rostra.png",
+    "lat": 41.8930,
+    "lon": 12.4840,
+    "referencias": [
+      { "nombre": "Arco di Settimio Severo", "lat": 41.8933, "lon": 12.4843 },
+      { "nombre": "Colonna di Foca", "lat": 41.8927, "lon": 12.4843 },
+      { "nombre": "Tempio di Saturno", "lat": 41.8926, "lon": 12.4836 }
+    ]
+  },
+  {
+    "nombre": "Colonna di Foca",
+    "archivo": "mapa_colonna_foca.png",
+    "lat": 41.8927,
+    "lon": 12.4843,
+    "referencias": [
+      { "nombre": "Rostra", "lat": 41.8930, "lon": 12.4840 },
+      { "nombre": "Tempio di Saturno", "lat": 41.8926, "lon": 12.4836 },
+      { "nombre": "Basilica Iulia", "lat": 41.8920, "lon": 12.4840 }
+    ]
+  },
+  {
+    "nombre": "Tempio di Saturno",
+    "archivo": "mapa_tempio_saturno.png",
+    "lat": 41.8926,
+    "lon": 12.4836,
+    "referencias": [
+      { "nombre": "Rostra", "lat": 41.8930, "lon": 12.4840 },
+      { "nombre": "Tempio della Concordia", "lat": 41.8931, "lon": 12.4835 },
+      { "nombre": "Basilica Iulia", "lat": 41.8920, "lon": 12.4840 }
+    ]
+  },
+  {
+    "nombre": "Tempio della Concordia",
+    "archivo": "mapa_tempio_concordia.png",
+    "lat": 41.8931,
+    "lon": 12.4835,
+    "referencias": [
+      { "nombre": "Tempio di Saturno", "lat": 41.8926, "lon": 12.4836 },
+      { "nombre": "Tempio di Vespasiano e Tito", "lat": 41.8930, "lon": 12.4834 },
+      { "nombre": "Arco di Settimio Severo", "lat": 41.8933, "lon": 12.4843 }
+    ]
+  },
+  {
+    "nombre": "Tempio di Vespasiano e Tito",
+    "archivo": "mapa_tempio_vespasiano.png",
+    "lat": 41.8930,
+    "lon": 12.4834,
+    "referencias": [
+      { "nombre": "Tempio della Concordia", "lat": 41.8931, "lon": 12.4835 },
+      { "nombre": "Tempio di Saturno", "lat": 41.8926, "lon": 12.4836 },
+      { "nombre": "Tabularium", "lat": 41.8935, "lon": 12.4832 }
+    ]
+  },
+  {
+    "nombre": "Basilica Iulia",
+    "archivo": "mapa_basilica_iulia.png",
+    "lat": 41.8920,
+    "lon": 12.4840,
+    "referencias": [
+      { "nombre": "Tempio di Saturno", "lat": 41.8926, "lon": 12.4836 },
+      { "nombre": "Tempio dei Dioscuri", "lat": 41.8916, "lon": 12.4847 },
+      { "nombre": "Colonna di Foca", "lat": 41.8927, "lon": 12.4843 }
+    ]
+  },
+  {
+    "nombre": "Tempio dei Dioscuri",
+    "archivo": "mapa_tempio_dioscuri.png",
+    "lat": 41.8916,
+    "lon": 12.4847,
+    "referencias": [
+      { "nombre": "Basilica Iulia", "lat": 41.8920, "lon": 12.4840 },
+      { "nombre": "Tempio di Vesta", "lat": 41.8914, "lon": 12.4856 },
+      { "nombre": "Lacus Curtius", "lat": 41.8923, "lon": 12.4845 }
+    ]
+  },
+  {
+    "nombre": "Lacus Curtius",
+    "archivo": "mapa_lacus_curtius.png",
+    "lat": 41.8923,
+    "lon": 12.4845,
+    "referencias": [
+      { "nombre": "Colonna di Foca", "lat": 41.8927, "lon": 12.4843 },
+      { "nombre": "Basilica Iulia", "lat": 41.8920, "lon": 12.4840 },
+      { "nombre": "Tempio dei Dioscuri", "lat": 41.8916, "lon": 12.4847 }
+    ]
+  },
+  {
+    "nombre": "Casa di Augusto",
+    "archivo": "mapa_casa_augusto.png",
+    "lat": 41.8885,
+    "lon": 12.4859,
+    "referencias": [
+      { "nombre": "Casa di Livia", "lat": 41.8888, "lon": 12.4855 },
+      { "nombre": "Tempio di Apollo Palatino", "lat": 41.8883, "lon": 12.4856 },
+      { "nombre": "Tempio di Cibele", "lat": 41.8891, "lon": 12.4849 }
+    ]
+  },
+  {
+    "nombre": "Casa di Livia",
+    "archivo": "mapa_casa_livia.png",
+    "lat": 41.8888,
+    "lon": 12.4855,
+    "referencias": [
+      { "nombre": "Casa di Augusto", "lat": 41.8885, "lon": 12.4859 },
+      { "nombre": "Tempio di Cibele", "lat": 41.8891, "lon": 12.4849 },
+      { "nombre": "Capanne romulee", "lat": 41.8889, "lon": 12.4852 }
+    ]
+  },
+  {
+    "nombre": "Tempio di Apollo Palatino",
+    "archivo": "mapa_tempio_apollo_palatino.png",
+    "lat": 41.8883,
+    "lon": 12.4856,
+    "referencias": [
+      { "nombre": "Casa di Augusto", "lat": 41.8885, "lon": 12.4859 },
+      { "nombre": "Domus Augustana", "lat": 41.8880, "lon": 12.4870 },
+      { "nombre": "Stadio Palatino", "lat": 41.8878, "lon": 12.4886 }
+    ]
+  },
+  {
+    "nombre": "Tempio di Cibele (Magna Mater)",
+    "archivo": "mapa_tempio_cibele.png",
+    "lat": 41.8891,
+    "lon": 12.4849,
+    "referencias": [
+      { "nombre": "Casa di Livia", "lat": 41.8888, "lon": 12.4855 },
+      { "nombre": "Capanne romulee", "lat": 41.8889, "lon": 12.4852 },
+      { "nombre": "Orti Farnesiani", "lat": 41.8900, "lon": 12.4855 }
+    ]
+  },
+  {
+    "nombre": "Capanne romulee",
+    "archivo": "mapa_capanne_romulee.png",
+    "lat": 41.8889,
+    "lon": 12.4852,
+    "referencias": [
+      { "nombre": "Casa di Livia", "lat": 41.8888, "lon": 12.4855 },
+      { "nombre": "Tempio di Cibele", "lat": 41.8891, "lon": 12.4849 },
+      { "nombre": "Casa di Augusto", "lat": 41.8885, "lon": 12.4859 }
+    ]
+  },
+  {
+    "nombre": "Domus Flavia",
+    "archivo": "mapa_domus_flavia.png",
+    "lat": 41.8886,
+    "lon": 12.4868,
+    "referencias": [
+      { "nombre": "Domus Augustana", "lat": 41.8880, "lon": 12.4870 },
+      { "nombre": "Stadio Palatino", "lat": 41.8878, "lon": 12.4886 },
+      { "nombre": "Casa di Augusto", "lat": 41.8885, "lon": 12.4859 }
+    ]
+  },
+  {
+    "nombre": "Domus Augustana",
+    "archivo": "mapa_domus_augustana.png",
+    "lat": 41.8880,
+    "lon": 12.4870,
+    "referencias": [
+      { "nombre": "Domus Flavia", "lat": 41.8886, "lon": 12.4868 },
+      { "nombre": "Stadio Palatino", "lat": 41.8878, "lon": 12.4886 },
+      { "nombre": "Circo Massimo", "lat": 41.8860, "lon": 12.4853 }
+    ]
+  },
+  {
+    "nombre": "Stadio Palatino",
+    "archivo": "mapa_stadio_palatino.png",
+    "lat": 41.8878,
+    "lon": 12.4886,
+    "referencias": [
+      { "nombre": "Domus Augustana", "lat": 41.8880, "lon": 12.4870 },
+      { "nombre": "Domus Flavia", "lat": 41.8886, "lon": 12.4868 },
+      { "nombre": "Arco di Tito", "lat": 41.8907, "lon": 12.4885 }
+    ]
+  },
+  {
+    "nombre": "Orti Farnesiani",
+    "archivo": "mapa_orti_farnesiani.png",
+    "lat": 41.8900,
+    "lon": 12.4855,
+    "referencias": [
+      { "nombre": "Tempio di Cibele", "lat": 41.8891, "lon": 12.4849 },
+      { "nombre": "Domus Tiberiana", "lat": 41.8898, "lon": 12.4840 },
+      { "nombre": "Foro Romano (centro)", "lat": 41.8925, "lon": 12.4853 }
+    ]
+  },
+  {
+    "nombre": "Domus Tiberiana",
+    "archivo": "mapa_domus_tiberiana.png",
+    "lat": 41.8898,
+    "lon": 12.4840,
+    "referencias": [
+      { "nombre": "Orti Farnesiani", "lat": 41.8900, "lon": 12.4855 },
+      { "nombre": "Tempio di Cibele", "lat": 41.8891, "lon": 12.4849 },
+      { "nombre": "Tempio della Concordia", "lat": 41.8931, "lon": 12.4835 }
+    ]
+  },
+  {
+    "nombre": "Museo Palatino",
+    "archivo": "mapa_museo_palatino.png",
+    "lat": 41.8886,
+    "lon": 12.4862,
+    "referencias": [
+      { "nombre": "Domus Flavia", "lat": 41.8886, "lon": 12.4868 },
+      { "nombre": "Casa di Augusto", "lat": 41.8885, "lon": 12.4859 },
+      { "nombre": "Tempio di Apollo Palatino", "lat": 41.8883, "lon": 12.4856 }
+    ]
+  }
+]

@@ -7,6 +7,20 @@ Genera dos imagenes PNG por lugar sobre mapa real de OpenStreetMap:
 
 Tambien permite agregar pines de referencia cercanos y puntos principales de ciudad para dar contexto espacial.
 
+## Generador de mapa de recorrido
+
+Tambien hay un script para generar un mapa de recorrido completo con:
+
+- linea de ruta
+- paradas numeradas en orden
+- mapa general y mapa detalle del mismo recorrido
+
+Script: `tools/maps/generate_route_map.py`
+
+Input esperado: lista ordenada de objetos con `nombre`, `lat`, `lon` y opcional `orden`.
+
+Ejemplo: `tools/maps/foro_palatino_route.json`
+
 ## Requisitos
 
 - Python 3
@@ -65,4 +79,14 @@ Despues de generar una imagen, agregar en `Rome/Lugares.md` dentro del lugar:
 
 **Mapa en detalle**
 ![Mapa detallado de <NOMBRE>](fotos/<archivo>_detalle.png)
+```
+
+Para recorridos:
+
+```md
+**Mapa de recorrido**
+![Mapa del recorrido](fotos/mapa_recorrido_<lugar>.png)
+
+**Mapa de recorrido en detalle**
+![Mapa detallado del recorrido](fotos/mapa_recorrido_<lugar>_detalle.png)
 ```

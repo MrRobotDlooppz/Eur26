@@ -1,0 +1,58 @@
+[
+  {
+    "nombre": "Duomo di Firenze (Cattedrale di Santa Maria del Fiore)",
+    "archivo": "mapa_duomo.png",
+    "lat": 43.7731,
+    "lon": 11.2560,
+    "referencias": [
+      { "nombre": "Battistero di San Giovanni", "lat": 43.7733, "lon": 11.2549 },
+      { "nombre": "Palazzo Vecchio", "lat": 43.7695, "lon": 11.2559 },
+      { "nombre": "Galleria degli Uffizi", "lat": 43.7678, "lon": 11.2553 },
+      { "nombre": "Ponte Vecchio", "lat": 43.7681, "lon": 11.2531 }
+    ]
+  },
+  {
+    "nombre": "Battistero di San Giovanni",
+    "archivo": "mapa_battistero_san_giovanni.png",
+    "lat": 43.7733,
+    "lon": 11.2549,
+    "referencias": [
+      { "nombre": "Duomo di Firenze", "lat": 43.7731, "lon": 11.2560 },
+      { "nombre": "Palazzo Vecchio", "lat": 43.7695, "lon": 11.2559 },
+      { "nombre": "Galleria degli Uffizi", "lat": 43.7678, "lon": 11.2553 }
+    ]
+  },
+  {
+    "nombre": "Galleria degli Uffizi",
+    "archivo": "mapa_galleria_degli_uffizi.png",
+    "lat": 43.7678,
+    "lon": 11.2553,
+    "referencias": [
+      { "nombre": "Palazzo Vecchio", "lat": 43.7695, "lon": 11.2559 },
+      { "nombre": "Ponte Vecchio", "lat": 43.7681, "lon": 11.2531 },
+      { "nombre": "Duomo di Firenze", "lat": 43.7731, "lon": 11.2560 }
+    ]
+  },
+  {
+    "nombre": "Palazzo Vecchio",
+    "archivo": "mapa_palazzo_vecchio.png",
+    "lat": 43.7695,
+    "lon": 11.2559,
+    "referencias": [
+      { "nombre": "Galleria degli Uffizi", "lat": 43.7678, "lon": 11.2553 },
+      { "nombre": "Ponte Vecchio", "lat": 43.7681, "lon": 11.2531 },
+      { "nombre": "Duomo di Firenze", "lat": 43.7731, "lon": 11.2560 }
+    ]
+  },
+  {
+    "nombre": "Ponte Vecchio",
+    "archivo": "mapa_ponte_vecchio.png",
+    "lat": 43.7681,
+    "lon": 11.2531,
+    "referencias": [
+      { "nombre": "Galleria degli Uffizi", "lat": 43.7678, "lon": 11.2553 },
+      { "nombre": "Palazzo Vecchio", "lat": 43.7695, "lon": 11.2559 },
+      { "nombre": "Duomo di Firenze", "lat": 43.7731, "lon": 11.2560 }
+    ]
+  }
+]

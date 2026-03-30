@@ -1,0 +1,199 @@
+[
+  {
+    "nombre": "Galleria dell'Accademia",
+    "archivo": "mapa_galleria_accademia.png",
+    "lat": 43.7767,
+    "lon": 11.2588,
+    "referencias": [
+      { "nombre": "Basilica di San Marco", "lat": 43.7776, "lon": 11.2589 },
+      { "nombre": "Duomo di Firenze", "lat": 43.7731, "lon": 11.2560 },
+      { "nombre": "Palazzo Vecchio", "lat": 43.7695, "lon": 11.2559 }
+    ]
+  },
+  {
+    "nombre": "Basilica e Museo di San Marco",
+    "archivo": "mapa_basilica_museo_san_marco.png",
+    "lat": 43.7776,
+    "lon": 11.2589,
+    "referencias": [
+      { "nombre": "Galleria dell'Accademia", "lat": 43.7767, "lon": 11.2588 },
+      { "nombre": "Duomo di Firenze", "lat": 43.7731, "lon": 11.2560 },
+      { "nombre": "Basilica di San Lorenzo", "lat": 43.7746, "lon": 11.2537 }
+    ]
+  },
+  {
+    "nombre": "Basilica di Santa Croce",
+    "archivo": "mapa_basilica_santa_croce.png",
+    "lat": 43.7686,
+    "lon": 11.2622,
+    "referencias": [
+      { "nombre": "Palazzo Vecchio", "lat": 43.7695, "lon": 11.2559 },
+      { "nombre": "Bargello", "lat": 43.7697, "lon": 11.2573 },
+      { "nombre": "Biblioteca Nazionale Centrale", "lat": 43.7680, "lon": 11.2617 }
+    ]
+  },
+  {
+    "nombre": "Basilica di Santa Maria Novella",
+    "archivo": "mapa_basilica_santa_maria_novella.png",
+    "lat": 43.7746,
+    "lon": 11.2494,
+    "referencias": [
+      { "nombre": "Duomo di Firenze", "lat": 43.7731, "lon": 11.2560 },
+      { "nombre": "Basilica di San Lorenzo", "lat": 43.7746, "lon": 11.2537 },
+      { "nombre": "Palazzo Vecchio", "lat": 43.7695, "lon": 11.2559 }
+    ]
+  },
+  {
+    "nombre": "Palazzo Pitti",
+    "archivo": "mapa_palazzo_pitti_boboli.png",
+    "lat": 43.7650,
+    "lon": 11.2499,
+    "referencias": [
+      { "nombre": "Ponte Vecchio", "lat": 43.7681, "lon": 11.2531 },
+      { "nombre": "Piazzale Michelangelo", "lat": 43.7629, "lon": 11.2654 },
+      { "nombre": "Palazzo Vecchio", "lat": 43.7695, "lon": 11.2559 }
+    ]
+  },
+  {
+    "nombre": "Piazzale Michelangelo",
+    "archivo": "mapa_piazzale_michelangelo.png",
+    "lat": 43.7629,
+    "lon": 11.2654,
+    "referencias": [
+      { "nombre": "Palazzo Pitti", "lat": 43.7650, "lon": 11.2499 },
+      { "nombre": "Abbazia di San Miniato al Monte", "lat": 43.7596, "lon": 11.2652 },
+      { "nombre": "Ponte Vecchio", "lat": 43.7681, "lon": 11.2531 }
+    ]
+  },
+  {
+    "nombre": "Abbazia di San Miniato al Monte",
+    "archivo": "mapa_abbazia_san_miniato_al_monte.png",
+    "lat": 43.7596,
+    "lon": 11.2652,
+    "referencias": [
+      { "nombre": "Piazzale Michelangelo", "lat": 43.7629, "lon": 11.2654 },
+      { "nombre": "Palazzo Pitti", "lat": 43.7650, "lon": 11.2499 },
+      { "nombre": "Ponte Vecchio", "lat": 43.7681, "lon": 11.2531 }
+    ]
+  },
+  {
+    "nombre": "Museo Galileo",
+    "archivo": "mapa_museo_galileo.png",
+    "lat": 43.7681,
+    "lon": 11.2558,
+    "referencias": [
+      { "nombre": "Galleria degli Uffizi", "lat": 43.7678, "lon": 11.2553 },
+      { "nombre": "Ponte Vecchio", "lat": 43.7681, "lon": 11.2531 },
+      { "nombre": "Palazzo Vecchio", "lat": 43.7695, "lon": 11.2559 }
+    ]
+  },
+  {
+    "nombre": "Loggia dei Lanzi",
+    "archivo": "mapa_loggia_dei_lanzi.png",
+    "lat": 43.7695,
+    "lon": 11.2558,
+    "referencias": [
+      { "nombre": "Palazzo Vecchio", "lat": 43.7695, "lon": 11.2559 },
+      { "nombre": "Galleria degli Uffizi", "lat": 43.7678, "lon": 11.2553 },
+      { "nombre": "Ponte Vecchio", "lat": 43.7681, "lon": 11.2531 }
+    ]
+  },
+  {
+    "nombre": "Basilica di San Lorenzo e Cappelle Medicee",
+    "archivo": "mapa_san_lorenzo_cappelle_medicee.png",
+    "lat": 43.7746,
+    "lon": 11.2537,
+    "referencias": [
+      { "nombre": "Duomo di Firenze", "lat": 43.7731, "lon": 11.2560 },
+      { "nombre": "Basilica di San Marco", "lat": 43.7776, "lon": 11.2589 },
+      { "nombre": "Mercato Centrale", "lat": 43.7754, "lon": 11.2539 }
+    ]
+  },
+  {
+    "nombre": "Museo Nazionale del Bargello",
+    "archivo": "mapa_bargello.png",
+    "lat": 43.7697,
+    "lon": 11.2573,
+    "referencias": [
+      { "nombre": "Palazzo Vecchio", "lat": 43.7695, "lon": 11.2559 },
+      { "nombre": "Basilica di Santa Croce", "lat": 43.7686, "lon": 11.2622 },
+      { "nombre": "Galleria degli Uffizi", "lat": 43.7678, "lon": 11.2553 }
+    ]
+  },
+  {
+    "nombre": "Mercato Centrale di San Lorenzo",
+    "archivo": "mapa_mercato_centrale_san_lorenzo.png",
+    "lat": 43.7754,
+    "lon": 11.2539,
+    "referencias": [
+      { "nombre": "Basilica di San Lorenzo", "lat": 43.7746, "lon": 11.2537 },
+      { "nombre": "Duomo di Firenze", "lat": 43.7731, "lon": 11.2560 },
+      { "nombre": "Basilica di San Marco", "lat": 43.7776, "lon": 11.2589 }
+    ]
+  },
+  {
+    "nombre": "Sinagoga e Museo Ebraico di Firenze",
+    "archivo": "mapa_sinagoga_museo_ebraico.png",
+    "lat": 43.7734,
+    "lon": 11.2616,
+    "referencias": [
+      { "nombre": "Basilica di Santa Croce", "lat": 43.7686, "lon": 11.2622 },
+      { "nombre": "Bargello", "lat": 43.7697, "lon": 11.2573 },
+      { "nombre": "Palazzo Vecchio", "lat": 43.7695, "lon": 11.2559 }
+    ]
+  },
+  {
+    "nombre": "Biblioteca Nazionale Centrale di Firenze",
+    "archivo": "mapa_biblioteca_nazionale_centrale.png",
+    "lat": 43.7680,
+    "lon": 11.2617,
+    "referencias": [
+      { "nombre": "Basilica di Santa Croce", "lat": 43.7686, "lon": 11.2622 },
+      { "nombre": "Bargello", "lat": 43.7697, "lon": 11.2573 },
+      { "nombre": "Palazzo Vecchio", "lat": 43.7695, "lon": 11.2559 }
+    ]
+  },
+  {
+    "nombre": "Museo di Leonardo da Vinci",
+    "archivo": "mapa_museo_da_vinci.png",
+    "lat": 43.7738,
+    "lon": 11.2574,
+    "referencias": [
+      { "nombre": "Duomo di Firenze", "lat": 43.7731, "lon": 11.2560 },
+      { "nombre": "Galleria dell'Accademia", "lat": 43.7767, "lon": 11.2588 },
+      { "nombre": "Basilica di San Marco", "lat": 43.7776, "lon": 11.2589 }
+    ]
+  },
+  {
+    "nombre": "Fiesole",
+    "archivo": "mapa_fiesole.png",
+    "lat": 43.8055,
+    "lon": 11.2930,
+    "referencias": [
+      { "nombre": "Duomo di Firenze", "lat": 43.7731, "lon": 11.2560 },
+      { "nombre": "Basilica di San Marco", "lat": 43.7776, "lon": 11.2589 }
+    ]
+  },
+  {
+    "nombre": "Mercato di San Lorenzo (callejero)",
+    "archivo": "mapa_mercato_san_lorenzo.png",
+    "lat": 43.7756,
+    "lon": 11.2537,
+    "referencias": [
+      { "nombre": "Basilica di San Lorenzo", "lat": 43.7746, "lon": 11.2537 },
+      { "nombre": "Mercato Centrale", "lat": 43.7754, "lon": 11.2539 },
+      { "nombre": "Duomo di Firenze", "lat": 43.7731, "lon": 11.2560 }
+    ]
+  },
+  {
+    "nombre": "Mercato delle Pulci — Piazza dei Ciompi",
+    "archivo": "mapa_mercato_pulci_ciompi.png",
+    "lat": 43.7693,
+    "lon": 11.2634,
+    "referencias": [
+      { "nombre": "Basilica di Santa Croce", "lat": 43.7686, "lon": 11.2622 },
+      { "nombre": "Sinagoga", "lat": 43.7734, "lon": 11.2616 },
+      { "nombre": "Bargello", "lat": 43.7697, "lon": 11.2573 }
+    ]
+  }
+]

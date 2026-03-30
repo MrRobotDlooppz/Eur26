@@ -52,7 +52,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--detail-zoom",
         type=int,
-        default=17,
+        default=19,
         help="Zoom level for the additional detailed map",
     )
     parser.add_argument(

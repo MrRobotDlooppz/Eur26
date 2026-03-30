@@ -25,7 +25,7 @@
     "nombre": "Basilica di Massenzio",
     "archivo": "mapa_basilica_massenzio.png",
     "lat": 41.8918,
-    "lon": 12.4876,
+    "lon": 12.4882,
     "referencias": [
       { "nombre": "Tempio di Romolo", "lat": 41.8919, "lon": 12.4867 },
       { "nombre": "Arco di Tito", "lat": 41.8907, "lon": 12.4885 },
@@ -46,8 +46,8 @@
   {
     "nombre": "Tempio di Antonino e Faustina",
     "archivo": "mapa_tempio_antonino_faustina.png",
-    "lat": 41.8924,
-    "lon": 12.4865,
+    "lat": 41.8921,
+    "lon": 12.4869,
     "referencias": [
       { "nombre": "Tempio di Romolo", "lat": 41.8919, "lon": 12.4867 },
       { "nombre": "Basilica Aemilia", "lat": 41.8930, "lon": 12.4860 },
@@ -58,7 +58,7 @@
     "nombre": "Tempio del Divo Giulio",
     "archivo": "mapa_tempio_divo_giulio.png",
     "lat": 41.8921,
-    "lon": 12.4853,
+    "lon": 12.4857,
     "referencias": [
       { "nombre": "Tempio di Antonino e Faustina", "lat": 41.8924, "lon": 12.4865 },
       { "nombre": "Arco di Augusto", "lat": 41.8920, "lon": 12.4848 },
@@ -79,8 +79,8 @@
   {
     "nombre": "Tempio di Vesta",
     "archivo": "mapa_tempio_vesta.png",
-    "lat": 41.8914,
-    "lon": 12.4856,
+    "lat": 41.8913,
+    "lon": 12.4862,
     "referencias": [
       { "nombre": "Casa delle Vestali", "lat": 41.8912, "lon": 12.4860 },
       { "nombre": "Regia", "lat": 41.8919, "lon": 12.4856 },
@@ -90,8 +90,8 @@
   {
     "nombre": "Casa delle Vestali (Atrium Vestae)",
     "archivo": "mapa_casa_vestali.png",
-    "lat": 41.8912,
-    "lon": 12.4860,
+    "lat": 41.8910,
+    "lon": 12.4868,
     "referencias": [
       { "nombre": "Tempio di Vesta", "lat": 41.8914, "lon": 12.4856 },
       { "nombre": "Tempio di Romolo", "lat": 41.8919, "lon": 12.4867 },
@@ -167,8 +167,8 @@
   {
     "nombre": "Tempio di Saturno",
     "archivo": "mapa_tempio_saturno.png",
-    "lat": 41.8926,
-    "lon": 12.4836,
+    "lat": 41.8927,
+    "lon": 12.4840,
     "referencias": [
       { "nombre": "Rostra", "lat": 41.8930, "lon": 12.4840 },
       { "nombre": "Tempio della Concordia", "lat": 41.8931, "lon": 12.4835 },
@@ -211,8 +211,8 @@
   {
     "nombre": "Tempio dei Dioscuri",
     "archivo": "mapa_tempio_dioscuri.png",
-    "lat": 41.8916,
-    "lon": 12.4847,
+    "lat": 41.8912,
+    "lon": 12.4860,
     "referencias": [
       { "nombre": "Basilica Iulia", "lat": 41.8920, "lon": 12.4840 },
       { "nombre": "Tempio di Vesta", "lat": 41.8914, "lon": 12.4856 },

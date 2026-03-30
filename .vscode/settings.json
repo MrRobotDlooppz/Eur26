@@ -1,0 +1,8 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^source \\.venv/bin/activate && python tools/fetch_wiki_images\\.py 2>&1$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}

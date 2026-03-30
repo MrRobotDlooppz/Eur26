@@ -10,6 +10,8 @@ lugar:
 ```
 
 ## Mapa
+![Vista de Ponte Vecchio](../fotos/foto_ponte_vecchio.jpg)
+
 
 ![Mapa con pin del Ponte Vecchio](../fotos/mapa_ponte_vecchio.png)
 

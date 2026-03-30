@@ -10,6 +10,8 @@ lugar:
 ```
 
 ## Mapa
+![Vista de Galleria degli Uffizi](../fotos/foto_galleria_degli_uffizi.jpg)
+
 
 ![Mapa con pin de la Galleria degli Uffizi](../fotos/mapa_galleria_degli_uffizi.png)
 

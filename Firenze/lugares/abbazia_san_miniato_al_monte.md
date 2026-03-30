@@ -11,6 +11,8 @@ lugar:
 ```
 
 ## Mapa
+![Vista de Basilica di San Miniato al Monte](../fotos/foto_abbazia_san_miniato_al_monte.jpg)
+
 
 [DATO PENDIENTE — generar mapa con pin]
 

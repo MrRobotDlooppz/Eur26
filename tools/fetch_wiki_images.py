@@ -29,9 +29,9 @@ PLACES = [
     ("Mercato Centrale (Firenze)", "Mercato Centrale, Florence", "foto_mercato_centrale_san_lorenzo.jpg", "Firenze/lugares/mercato_centrale_san_lorenzo.md"),
     ("Basilica di San Marco (Firenze)", "San Marco, Florence", "foto_basilica_museo_san_marco.jpg", "Firenze/lugares/basilica_museo_san_marco.md"),
     ("Fiesole", "Fiesole", "foto_fiesole.jpg", "Firenze/lugares/fiesole.md"),
-    ("Museo di Leonardo da Vinci", "Museo di Leonardo da Vinci", "foto_museo_da_vinci.jpg", "Firenze/lugares/museo_da_vinci.md"),
-    ("Tempio Maggiore di Firenze", "Florence Synagogue", "foto_sinagoga_museo_ebraico.jpg", "Firenze/lugares/sinagoga_museo_ebraico.md"),
-    ("Biblioteca nazionale centrale di Firenze", "National Central Library, Florence", "foto_biblioteca_nazionale_centrale.jpg", "Firenze/lugares/biblioteca_nazionale_centrale.md"),
+    ("Museo di Leonardo", "Leonardo da Vinci", "foto_museo_da_vinci.jpg", "Firenze/lugares/museo_da_vinci.md"),
+    # Sinagoga di Firenze — sin imagen disponible en Wikipedia
+    # Biblioteca nazionale centrale di Firenze — sin imagen disponible en Wikipedia
     ("Basilica di San Miniato al Monte", "San Miniato al Monte", "foto_abbazia_san_miniato_al_monte.jpg", "Firenze/lugares/abbazia_san_miniato_al_monte.md"),
     ("Galleria degli Uffizi", "Uffizi", "foto_galleria_degli_uffizi.jpg", "Firenze/lugares/galleria_degli_uffizi.md"),
     ("Palazzo Vecchio", "Palazzo Vecchio", "foto_palazzo_vecchio.jpg", "Firenze/lugares/palazzo_vecchio.md"),

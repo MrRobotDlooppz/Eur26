@@ -17,6 +17,8 @@ lugar:
 
 ## Mapa del complesso
 
+![Vista de Cattedrale di Santa Maria del Fiore](../fotos/foto_duomo_firenze.jpg)
+
 ![Mapa con pin del Duomo di Firenze](../fotos/mapa_duomo.png)
 
 ![Mapa detalle del Duomo di Firenze](../fotos/mapa_duomo_detalle.png)

@@ -13,7 +13,9 @@ lugar:
 ![Vista de Basilica di Santa Croce](../fotos/foto_basilica_santa_croce.jpg)
 
 
-[DATO PENDIENTE — generar mapa con pin]
+![Mapa con pin de Basilica di Santa Croce](../fotos/mapa_basilica_santa_croce.png)
+
+![Mapa detalle de Basilica di Santa Croce](../fotos/mapa_basilica_santa_croce_detalle.png)
 
 ---
 

@@ -13,7 +13,9 @@ lugar:
 ![Vista de Mercato Centrale (Firenze)](../fotos/foto_mercato_centrale_san_lorenzo.jpg)
 
 
-[DATO PENDIENTE — generar mapa con pin]
+![Mapa con pin de Mercato Centrale di San Lorenzo](../fotos/mapa_mercato_centrale_san_lorenzo.png)
+
+![Mapa detalle de Mercato Centrale di San Lorenzo](../fotos/mapa_mercato_centrale_san_lorenzo_detalle.png)
 
 ---
 

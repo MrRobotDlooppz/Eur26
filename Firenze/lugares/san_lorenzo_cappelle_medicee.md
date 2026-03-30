@@ -13,7 +13,9 @@ lugar:
 ![Vista de Basilica di San Lorenzo (Firenze)](../fotos/foto_san_lorenzo_cappelle_medicee.jpg)
 
 
-[DATO PENDIENTE — generar mapa con pin]
+![Mapa con pin de San Lorenzo y Cappelle Medicee](../fotos/mapa_san_lorenzo_cappelle_medicee.png)
+
+![Mapa detalle de San Lorenzo y Cappelle Medicee](../fotos/mapa_san_lorenzo_cappelle_medicee_detalle.png)
 
 ---
 

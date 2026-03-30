@@ -14,7 +14,9 @@ lugar:
 ![Vista de Fiesole](../fotos/foto_fiesole.jpg)
 
 
-[DATO PENDIENTE — generar mapa con pin]
+![Mapa con pin de Fiesole](../fotos/mapa_fiesole.png)
+
+![Mapa detalle de Fiesole](../fotos/mapa_fiesole_detalle.png)
 
 ---
 

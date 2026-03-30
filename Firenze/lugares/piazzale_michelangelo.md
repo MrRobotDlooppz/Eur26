@@ -14,7 +14,9 @@ lugar:
 ![Vista de Piazzale Michelangelo](../fotos/foto_piazzale_michelangelo.jpg)
 
 
-[DATO PENDIENTE — generar mapa con pin]
+![Mapa con pin de Piazzale Michelangelo](../fotos/mapa_piazzale_michelangelo.png)
+
+![Mapa detalle de Piazzale Michelangelo](../fotos/mapa_piazzale_michelangelo_detalle.png)
 
 ---
 

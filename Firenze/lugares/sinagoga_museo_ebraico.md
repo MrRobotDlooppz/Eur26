@@ -11,7 +11,9 @@ lugar:
 
 ## Mapa
 
-[DATO PENDIENTE — generar mapa con pin]
+![Mapa con pin de Sinagoga di Firenze](../fotos/mapa_sinagoga_museo_ebraico.png)
+
+![Mapa detalle de Sinagoga di Firenze](../fotos/mapa_sinagoga_museo_ebraico_detalle.png)
 
 ---
 

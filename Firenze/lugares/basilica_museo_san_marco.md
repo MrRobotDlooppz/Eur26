@@ -13,7 +13,9 @@ lugar:
 ![Vista de Basilica di San Marco (Firenze)](../fotos/foto_basilica_museo_san_marco.jpg)
 
 
-[DATO PENDIENTE — generar mapa con pin]
+![Mapa con pin de Basilica e Museo di San Marco](../fotos/mapa_basilica_museo_san_marco.png)
+
+![Mapa detalle de Basilica e Museo di San Marco](../fotos/mapa_basilica_museo_san_marco_detalle.png)
 
 ---
 

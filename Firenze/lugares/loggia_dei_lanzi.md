@@ -14,7 +14,9 @@ lugar:
 ![Vista de Loggia dei Lanzi](../fotos/foto_loggia_dei_lanzi.jpg)
 
 
-[DATO PENDIENTE — generar mapa con pin]
+![Mapa con pin de Loggia dei Lanzi](../fotos/mapa_loggia_dei_lanzi.png)
+
+![Mapa detalle de Loggia dei Lanzi](../fotos/mapa_loggia_dei_lanzi_detalle.png)
 
 ---
 

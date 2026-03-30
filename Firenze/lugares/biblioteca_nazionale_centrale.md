@@ -12,7 +12,9 @@ lugar:
 
 ## Mapa
 
-[DATO PENDIENTE — generar mapa con pin]
+![Mapa con pin de Biblioteca Nazionale Centrale di Firenze](../fotos/mapa_biblioteca_nazionale_centrale.png)
+
+![Mapa detalle de Biblioteca Nazionale Centrale di Firenze](../fotos/mapa_biblioteca_nazionale_centrale_detalle.png)
 
 ---
 

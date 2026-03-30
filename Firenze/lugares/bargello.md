@@ -13,7 +13,9 @@ lugar:
 ![Vista de Museo nazionale del Bargello](../fotos/foto_bargello.jpg)
 
 
-[DATO PENDIENTE — generar mapa con pin]
+![Mapa con pin de Museo Nazionale del Bargello](../fotos/mapa_bargello.png)
+
+![Mapa detalle de Museo Nazionale del Bargello](../fotos/mapa_bargello_detalle.png)
 
 ---
 

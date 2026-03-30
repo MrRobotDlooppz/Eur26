@@ -15,7 +15,9 @@ lugar:
 
 ## Mapa
 
-[DATO PENDIENTE — generar mapa con pin]
+![Mapa con pin de Museo Leonardiano](../fotos/mapa_museo_da_vinci.png)
+
+![Mapa detalle de Museo Leonardiano](../fotos/mapa_museo_da_vinci_detalle.png)
 
 ---
 

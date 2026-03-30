@@ -13,7 +13,9 @@ lugar:
 ![Vista de Basilica di Santa Maria Novella](../fotos/foto_basilica_santa_maria_novella.jpg)
 
 
-[DATO PENDIENTE — generar mapa con pin]
+![Mapa con pin de Basilica di Santa Maria Novella](../fotos/mapa_basilica_santa_maria_novella.png)
+
+![Mapa detalle de Basilica di Santa Maria Novella](../fotos/mapa_basilica_santa_maria_novella_detalle.png)
 
 ---
 

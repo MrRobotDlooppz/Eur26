@@ -13,7 +13,9 @@ lugar:
 ![Vista de Palazzo Pitti](../fotos/foto_palazzo_pitti_boboli.jpg)
 
 
-[DATO PENDIENTE — generar mapa con pin]
+![Mapa con pin de Palazzo Pitti y Giardino di Boboli](../fotos/mapa_palazzo_pitti_boboli.png)
+
+![Mapa detalle de Palazzo Pitti y Giardino di Boboli](../fotos/mapa_palazzo_pitti_boboli_detalle.png)
 
 ---
 

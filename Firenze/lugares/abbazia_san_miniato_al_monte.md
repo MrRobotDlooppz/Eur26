@@ -14,7 +14,9 @@ lugar:
 ![Vista de Basilica di San Miniato al Monte](../fotos/foto_abbazia_san_miniato_al_monte.jpg)
 
 
-[DATO PENDIENTE — generar mapa con pin]
+![Mapa con pin de Abbazia di San Miniato al Monte](../fotos/mapa_abbazia_san_miniato_al_monte.png)
+
+![Mapa detalle de Abbazia di San Miniato al Monte](../fotos/mapa_abbazia_san_miniato_al_monte_detalle.png)
 
 ---
 

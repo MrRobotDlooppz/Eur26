@@ -12,8 +12,9 @@ lugar:
 ## Mapa
 ![Vista de Galleria dell'Accademia (Firenze)](../fotos/foto_galleria_accademia.jpg)
 
+![Mapa con pin de Galleria dell'Accademia](../fotos/mapa_galleria_accademia.png)
 
-[DATO PENDIENTE — generar mapa con pin]
+![Mapa detalle de Galleria dell'Accademia](../fotos/mapa_galleria_accademia_detalle.png)
 
 ---
 

@@ -14,7 +14,9 @@ lugar:
 ![Vista de Museo Galileo](../fotos/foto_museo_galileo.jpg)
 
 
-[DATO PENDIENTE — generar mapa con pin]
+![Mapa con pin de Museo Galileo](../fotos/mapa_museo_galileo.png)
+
+![Mapa detalle de Museo Galileo](../fotos/mapa_museo_galileo_detalle.png)
 
 ---
 

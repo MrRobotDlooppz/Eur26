@@ -120,3 +120,96 @@ Claude debe insertar `[⚠ VERIFICAR]` cuando:
 ---
 
 *Estas instrucciones aplican a todas las interacciones de Claude en este repositorio. La riqueza narrativa y la precisión factual van de la mano.*
+
+---
+
+## Workflow — Agregar una nueva ciudad o lugar
+
+Seguir este flujo exacto y completo. No saltear pasos ni cambiar el orden.
+
+### Paso 1 — Estructura de carpetas
+
+Crear antes de crear ningún archivo:
+```
+NombreCiudad/fotos/
+NombreCiudad/lugares/
+```
+
+### Paso 2 — Archivo principal de ciudad (`NombreCiudad/nombreciudad.md`)
+
+- Frontmatter YAML: `nombre_original`, `pais`, `region_admin`, `coordenadas`, `altitud_m`, `fecha_visita`
+- Historia completa y rica (no superficial): origen, apogeo, personajes clave, datos sorprendentes
+- Geografía urbana, legado artístico/científico, logística/itinerario si aplica
+- Lista final de lugares documentados con links relativos a `lugares/`
+- Fuentes al pie
+
+### Paso 3 — Archivos de lugares (`NombreCiudad/lugares/nombre_lugar.md`)
+
+Frontmatter YAML igual que ciudad. Inmediatamente después del frontmatter, el bloque:
+
+```markdown
+![Mapa con pin de X](../fotos/mapa_x.png)
+
+> [DATO PENDIENTE — generar mapa con pin]
+```
+
+Secciones de contenido (incluir las relevantes): Historia (con timeline en tabla), Mitología y leyendas (identificadas como tal), Arquitectura, Qué se puede ver, Conexiones, Datos interesantes, Fuentes.
+
+Normas: `[⚠ VERIFICAR]` para datos cuantitativos no confirmados; `[DATO PENDIENTE — verificar fuente]` para datos que faltan; nombres propios en grafía original.
+
+### Paso 4 — JSON de mapas (`tools/maps/nombreciudad_places.json`)
+
+```json
+[{
+  "nombre": "Nombre del lugar",
+  "archivo": "mapa_nombre_lugar.png",
+  "lat": 00.0000,
+  "lon": 00.0000,
+  "referencias": [{ "nombre": "Lugar cercano", "lat": 00.0, "lon": 00.0 }]
+}]
+```
+
+El campo `"archivo"` debe coincidir exactamente con el placeholder en el `.md`. Convención: `mapa_<nombre_lugar>.png` en minúsculas con `_`.
+
+### Paso 5 — Generar los mapas
+
+```bash
+source .venv/bin/activate
+python tools/maps/generate_static_maps.py \
+  --input tools/maps/nombreciudad_places.json \
+  --output NombreCiudad/fotos \
+  --no-city-context
+```
+
+Genera `mapa_x.png` + `mapa_x_detalle.png` por cada lugar.
+Si la terminal no funciona, dar el comando exacto al usuario.
+
+### Paso 6 — Actualizar los .md con los mapas reales
+
+Reemplazar en cada `.md` (usar `multi_replace_string_in_file` para hacerlo todo en una llamada):
+
+```
+# Antes:
+![Mapa con pin de X](../fotos/mapa_x.png)
+> [DATO PENDIENTE — generar mapa con pin]
+
+# Después:
+![Mapa con pin de X](../fotos/mapa_x.png)
+![Mapa detalle de X](../fotos/mapa_x_detalle.png)
+```
+
+### Paso 7 — Verificar coherencia
+
+- Todos los lugares del `.md` principal tienen su archivo en `lugares/`
+- Todos los `../fotos/mapa_x.png` existen físicamente
+- No quedan `> [DATO PENDIENTE — generar mapa con pin]` en ningún `.md`
+- Links del archivo principal apuntan correctamente a los lugares
+
+### Ciudades existentes (referencia)
+
+| Ciudad | Carpeta | JSON de mapas |
+|---|---|---|
+| Roma | `Rome/` | `tools/maps/rome_places.example.json` |
+| Firenze | `Firenze/` | `tools/maps/firenze_places.json` |
+| Lucca | `Lucca/` | `tools/maps/lucca_places.json` |
+| Pisa | `Pisa/` | `tools/maps/pisa_places.json` |

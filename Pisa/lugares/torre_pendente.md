@@ -13,7 +13,7 @@ lugar:
 
 ![Mapa con pin de la Torre Pendente](../fotos/mapa_torre_pendente.png)
 
-> [DATO PENDIENTE — generar mapa con pin]
+![Mapa detalle de la Torre Pendente](../fotos/mapa_torre_pendente_detalle.png)
 
 ---
 

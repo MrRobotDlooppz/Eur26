@@ -1,0 +1,70 @@
+[
+  {
+    "nombre": "Campo dei Miracoli",
+    "archivo": "mapa_campo_dei_miracoli.png",
+    "lat": 43.7231,
+    "lon": 10.3966,
+    "referencias": [
+      { "nombre": "Torre Pendente", "lat": 43.7230, "lon": 10.3966 },
+      { "nombre": "Battistero", "lat": 43.7232, "lon": 10.3959 },
+      { "nombre": "Camposanto", "lat": 43.7234, "lon": 10.3952 },
+      { "nombre": "Piazza dei Cavalieri", "lat": 43.7199, "lon": 10.4008 }
+    ]
+  },
+  {
+    "nombre": "Torre Pendente di Pisa",
+    "archivo": "mapa_torre_pendente.png",
+    "lat": 43.7230,
+    "lon": 10.3966,
+    "referencias": [
+      { "nombre": "Duomo di Pisa", "lat": 43.7231, "lon": 10.3965 },
+      { "nombre": "Battistero", "lat": 43.7232, "lon": 10.3959 },
+      { "nombre": "Camposanto", "lat": 43.7234, "lon": 10.3952 }
+    ]
+  },
+  {
+    "nombre": "Duomo di Pisa",
+    "archivo": "mapa_duomo_di_pisa.png",
+    "lat": 43.7231,
+    "lon": 10.3965,
+    "referencias": [
+      { "nombre": "Torre Pendente", "lat": 43.7230, "lon": 10.3966 },
+      { "nombre": "Battistero", "lat": 43.7232, "lon": 10.3959 },
+      { "nombre": "Camposanto", "lat": 43.7234, "lon": 10.3952 },
+      { "nombre": "Piazza dei Cavalieri", "lat": 43.7199, "lon": 10.4008 }
+    ]
+  },
+  {
+    "nombre": "Battistero di San Giovanni",
+    "archivo": "mapa_battistero_pisa.png",
+    "lat": 43.7232,
+    "lon": 10.3959,
+    "referencias": [
+      { "nombre": "Duomo di Pisa", "lat": 43.7231, "lon": 10.3965 },
+      { "nombre": "Torre Pendente", "lat": 43.7230, "lon": 10.3966 },
+      { "nombre": "Camposanto", "lat": 43.7234, "lon": 10.3952 }
+    ]
+  },
+  {
+    "nombre": "Camposanto Monumentale",
+    "archivo": "mapa_camposanto_monumentale.png",
+    "lat": 43.7234,
+    "lon": 10.3952,
+    "referencias": [
+      { "nombre": "Battistero", "lat": 43.7232, "lon": 10.3959 },
+      { "nombre": "Duomo di Pisa", "lat": 43.7231, "lon": 10.3965 },
+      { "nombre": "Torre Pendente", "lat": 43.7230, "lon": 10.3966 }
+    ]
+  },
+  {
+    "nombre": "Piazza dei Cavalieri",
+    "archivo": "mapa_piazza_dei_cavalieri.png",
+    "lat": 43.7199,
+    "lon": 10.4008,
+    "referencias": [
+      { "nombre": "Campo dei Miracoli", "lat": 43.7231, "lon": 10.3966 },
+      { "nombre": "Duomo di Pisa", "lat": 43.7231, "lon": 10.3965 },
+      { "nombre": "Battistero", "lat": 43.7232, "lon": 10.3959 }
+    ]
+  }
+]

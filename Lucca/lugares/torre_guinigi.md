@@ -12,7 +12,7 @@ lugar:
 
 ![Mapa con pin de la Torre Guinigi](../fotos/mapa_torre_guinigi.png)
 
-> [DATO PENDIENTE — generar mapa con pin]
+![Mapa detalle de la Torre Guinigi](../fotos/mapa_torre_guinigi_detalle.png)
 
 ---
 

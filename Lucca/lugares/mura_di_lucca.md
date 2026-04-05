@@ -12,7 +12,7 @@ lugar:
 
 ![Mapa con pin de las Mura di Lucca](../fotos/mapa_mura_di_lucca.png)
 
-> [DATO PENDIENTE — generar mapa con pin]
+![Mapa detalle de las Mura di Lucca](../fotos/mapa_mura_di_lucca_detalle.png)
 
 ---
 

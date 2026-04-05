@@ -12,7 +12,7 @@ lugar:
 
 ![Mapa con pin del Battistero di San Giovanni di Pisa](../fotos/mapa_battistero_pisa.png)
 
-> [DATO PENDIENTE — generar mapa con pin]
+![Mapa detalle del Battistero di San Giovanni di Pisa](../fotos/mapa_battistero_pisa_detalle.png)
 
 ---
 

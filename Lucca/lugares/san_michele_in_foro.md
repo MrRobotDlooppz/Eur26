@@ -12,7 +12,7 @@ lugar:
 
 ![Mapa con pin de San Michele in Foro](../fotos/mapa_san_michele_in_foro.png)
 
-> [DATO PENDIENTE — generar mapa con pin]
+![Mapa detalle de San Michele in Foro](../fotos/mapa_san_michele_in_foro_detalle.png)
 
 ---
 

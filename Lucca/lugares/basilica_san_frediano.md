@@ -12,7 +12,7 @@ lugar:
 
 ![Mapa con pin de la Basilica di San Frediano](../fotos/mapa_basilica_san_frediano.png)
 
-> [DATO PENDIENTE — generar mapa con pin]
+![Mapa detalle de la Basilica di San Frediano](../fotos/mapa_basilica_san_frediano_detalle.png)
 
 ---
 

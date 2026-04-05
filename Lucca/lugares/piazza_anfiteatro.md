@@ -12,7 +12,7 @@ lugar:
 
 ![Mapa con pin de Piazza dell'Anfiteatro](../fotos/mapa_piazza_anfiteatro.png)
 
-> [DATO PENDIENTE — generar mapa con pin]
+![Mapa detalle de Piazza dell'Anfiteatro](../fotos/mapa_piazza_anfiteatro_detalle.png)
 
 ---
 

@@ -13,7 +13,7 @@ lugar:
 
 ![Mapa con pin del Duomo di Pisa](../fotos/mapa_duomo_di_pisa.png)
 
-> [DATO PENDIENTE — generar mapa con pin]
+![Mapa detalle del Duomo di Pisa](../fotos/mapa_duomo_di_pisa_detalle.png)
 
 ---
 

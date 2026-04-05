@@ -1,0 +1,71 @@
+[
+  {
+    "nombre": "Mura di Lucca",
+    "archivo": "mapa_mura_di_lucca.png",
+    "lat": 43.8430,
+    "lon": 10.5050,
+    "referencias": [
+      { "nombre": "Cattedrale di San Martino", "lat": 43.8426, "lon": 10.5061 },
+      { "nombre": "Basilica di San Frediano", "lat": 43.8462, "lon": 10.5046 },
+      { "nombre": "San Michele in Foro", "lat": 43.8441, "lon": 10.5052 },
+      { "nombre": "Torre Guinigi", "lat": 43.8435, "lon": 10.5079 }
+    ]
+  },
+  {
+    "nombre": "Piazza dell'Anfiteatro",
+    "archivo": "mapa_piazza_anfiteatro.png",
+    "lat": 43.8445,
+    "lon": 10.5077,
+    "referencias": [
+      { "nombre": "Torre Guinigi", "lat": 43.8435, "lon": 10.5079 },
+      { "nombre": "San Michele in Foro", "lat": 43.8441, "lon": 10.5052 },
+      { "nombre": "Cattedrale di San Martino", "lat": 43.8426, "lon": 10.5061 }
+    ]
+  },
+  {
+    "nombre": "Cattedrale di San Martino",
+    "archivo": "mapa_cattedrale_san_martino.png",
+    "lat": 43.8426,
+    "lon": 10.5061,
+    "referencias": [
+      { "nombre": "Basilica di San Frediano", "lat": 43.8462, "lon": 10.5046 },
+      { "nombre": "San Michele in Foro", "lat": 43.8441, "lon": 10.5052 },
+      { "nombre": "Torre Guinigi", "lat": 43.8435, "lon": 10.5079 },
+      { "nombre": "Piazza dell'Anfiteatro", "lat": 43.8445, "lon": 10.5077 }
+    ]
+  },
+  {
+    "nombre": "Basilica di San Frediano",
+    "archivo": "mapa_basilica_san_frediano.png",
+    "lat": 43.8462,
+    "lon": 10.5046,
+    "referencias": [
+      { "nombre": "Cattedrale di San Martino", "lat": 43.8426, "lon": 10.5061 },
+      { "nombre": "San Michele in Foro", "lat": 43.8441, "lon": 10.5052 },
+      { "nombre": "Piazza dell'Anfiteatro", "lat": 43.8445, "lon": 10.5077 }
+    ]
+  },
+  {
+    "nombre": "San Michele in Foro",
+    "archivo": "mapa_san_michele_in_foro.png",
+    "lat": 43.8441,
+    "lon": 10.5052,
+    "referencias": [
+      { "nombre": "Cattedrale di San Martino", "lat": 43.8426, "lon": 10.5061 },
+      { "nombre": "Basilica di San Frediano", "lat": 43.8462, "lon": 10.5046 },
+      { "nombre": "Torre Guinigi", "lat": 43.8435, "lon": 10.5079 },
+      { "nombre": "Piazza dell'Anfiteatro", "lat": 43.8445, "lon": 10.5077 }
+    ]
+  },
+  {
+    "nombre": "Torre Guinigi",
+    "archivo": "mapa_torre_guinigi.png",
+    "lat": 43.8435,
+    "lon": 10.5079,
+    "referencias": [
+      { "nombre": "Piazza dell'Anfiteatro", "lat": 43.8445, "lon": 10.5077 },
+      { "nombre": "Cattedrale di San Martino", "lat": 43.8426, "lon": 10.5061 },
+      { "nombre": "San Michele in Foro", "lat": 43.8441, "lon": 10.5052 }
+    ]
+  }
+]

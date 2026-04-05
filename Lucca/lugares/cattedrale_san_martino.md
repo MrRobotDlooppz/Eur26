@@ -13,7 +13,7 @@ lugar:
 
 ![Mapa con pin de la Cattedrale di San Martino](../fotos/mapa_cattedrale_san_martino.png)
 
-> [DATO PENDIENTE — generar mapa con pin]
+![Mapa detalle de la Cattedrale di San Martino](../fotos/mapa_cattedrale_san_martino_detalle.png)
 
 ---
 

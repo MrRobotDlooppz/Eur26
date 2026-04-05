@@ -13,7 +13,7 @@ lugar:
 
 ![Mapa con pin del Campo dei Miracoli](../fotos/mapa_campo_dei_miracoli.png)
 
-> [DATO PENDIENTE — generar mapa con pin]
+![Mapa detalle del Campo dei Miracoli](../fotos/mapa_campo_dei_miracoli_detalle.png)
 
 ---
 

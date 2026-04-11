@@ -182,7 +182,8 @@ python tools/maps/generate_static_maps.py \
 ```
 
 Genera `mapa_x.png` + `mapa_x_detalle.png` por cada lugar.
-Si la terminal no funciona, dar el comando exacto al usuario.
+
+**⚠ Bug conocido: ENOPRO en dev containers.** En Codespaces / dev containers, `run_in_terminal` falla frecuentemente con `ENOPRO: No se ha encontrado ningún proveedor de sistema de archivos`. Es un problema de Copilot, no del comando. **Protocolo**: intentar `run_in_terminal` **una sola vez**. Si falla con ENOPRO, dar inmediatamente el comando exacto al usuario. No reintentar.
 
 ### Paso 6 — Actualizar los .md con los mapas reales
 

@@ -1,0 +1,73 @@
+[
+  {
+    "nombre": "Alhambra",
+    "archivo": "mapa_alhambra.png",
+    "lat": 37.1761,
+    "lon": -3.5881,
+    "referencias": [
+      { "nombre": "Catedral de Granada", "lat": 37.1765, "lon": -3.5993 },
+      { "nombre": "Mirador de San Nicolás", "lat": 37.1810, "lon": -3.5927 },
+      { "nombre": "Sacromonte", "lat": 37.1819, "lon": -3.5850 },
+      { "nombre": "Albaicín", "lat": 37.1816, "lon": -3.5947 }
+    ]
+  },
+  {
+    "nombre": "Catedral de Granada y Capilla Real",
+    "archivo": "mapa_catedral_capilla_real.png",
+    "lat": 37.1765,
+    "lon": -3.5993,
+    "referencias": [
+      { "nombre": "Alhambra", "lat": 37.1761, "lon": -3.5881 },
+      { "nombre": "Albaicín", "lat": 37.1816, "lon": -3.5947 },
+      { "nombre": "Monasterio de San Jerónimo", "lat": 37.1792, "lon": -3.6046 },
+      { "nombre": "Mirador de San Nicolás", "lat": 37.1810, "lon": -3.5927 }
+    ]
+  },
+  {
+    "nombre": "Albaicín",
+    "archivo": "mapa_albaicin.png",
+    "lat": 37.1816,
+    "lon": -3.5947,
+    "referencias": [
+      { "nombre": "Alhambra", "lat": 37.1761, "lon": -3.5881 },
+      { "nombre": "Mirador de San Nicolás", "lat": 37.1810, "lon": -3.5927 },
+      { "nombre": "Sacromonte", "lat": 37.1819, "lon": -3.5850 },
+      { "nombre": "Catedral de Granada", "lat": 37.1765, "lon": -3.5993 }
+    ]
+  },
+  {
+    "nombre": "Mirador de San Nicolás",
+    "archivo": "mapa_mirador_san_nicolas.png",
+    "lat": 37.1810,
+    "lon": -3.5927,
+    "referencias": [
+      { "nombre": "Alhambra", "lat": 37.1761, "lon": -3.5881 },
+      { "nombre": "Albaicín", "lat": 37.1816, "lon": -3.5947 },
+      { "nombre": "Sacromonte", "lat": 37.1819, "lon": -3.5850 },
+      { "nombre": "Catedral de Granada", "lat": 37.1765, "lon": -3.5993 }
+    ]
+  },
+  {
+    "nombre": "Monasterio de San Jerónimo",
+    "archivo": "mapa_monasterio_san_jeronimo.png",
+    "lat": 37.1792,
+    "lon": -3.6046,
+    "referencias": [
+      { "nombre": "Catedral de Granada", "lat": 37.1765, "lon": -3.5993 },
+      { "nombre": "Alhambra", "lat": 37.1761, "lon": -3.5881 },
+      { "nombre": "Albaicín", "lat": 37.1816, "lon": -3.5947 }
+    ]
+  },
+  {
+    "nombre": "Sacromonte",
+    "archivo": "mapa_sacromonte.png",
+    "lat": 37.1819,
+    "lon": -3.5850,
+    "referencias": [
+      { "nombre": "Alhambra", "lat": 37.1761, "lon": -3.5881 },
+      { "nombre": "Albaicín", "lat": 37.1816, "lon": -3.5947 },
+      { "nombre": "Mirador de San Nicolás", "lat": 37.1810, "lon": -3.5927 },
+      { "nombre": "Catedral de Granada", "lat": 37.1765, "lon": -3.5993 }
+    ]
+  }
+]

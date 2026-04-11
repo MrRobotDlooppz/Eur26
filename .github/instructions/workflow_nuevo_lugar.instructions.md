@@ -179,7 +179,35 @@ Usar `multi_replace_string_in_file` para actualizar todos los archivos de la ciu
 
 ---
 
-## Paso 7 — Verificar coherencia
+## Paso 7 — Generar audios y player web
+
+Usar el script genérico `tools/audio/build_audio_site.sh` que convierte los `.md` en MP3 y reconstruye el player HTML:
+
+```bash
+# Solo una ciudad (reemplazar NombreCiudad con el nombre real)
+./tools/audio/build_audio_site.sh NombreCiudad/
+
+# Todo el repositorio
+./tools/audio/build_audio_site.sh
+
+# Forzar regeneración (ignorar cache)
+./tools/audio/build_audio_site.sh NombreCiudad/ --force
+```
+
+El script hace todo automáticamente:
+1. Activa `.venv` (o lo crea si no existe)
+2. Instala `edge-tts` y `mutagen` si faltan
+3. Genera MP3 en `docs/audio/NombreCiudad/` (un archivo por `.md` con contenido narrativo)
+4. Regenera `docs/index.html` con el player web actualizado
+5. Crea `docs/.nojekyll` para GitHub Pages
+
+### ⚠ Bug conocido: ENOPRO en dev containers
+
+Aplica el mismo protocolo del Paso 5. Intentar `run_in_terminal` **una sola vez**. Si falla con ENOPRO, proporcionar el comando exacto al usuario.
+
+---
+
+## Paso 8 — Verificar coherencia
 
 Antes de dar por terminado:
 
@@ -188,6 +216,8 @@ Antes de dar por terminado:
 - [ ] No quedan `> [DATO PENDIENTE — generar mapa con pin]` en ningún `.md`.
 - [ ] El archivo principal de la ciudad tiene la lista completa de lugares con links.
 - [ ] Los nombres de archivo siguen la convención `mapa_<nombre_lugar>.png` (minúsculas, guiones bajos).
+- [ ] Los MP3 existen en `docs/audio/NombreCiudad/`.
+- [ ] `docs/index.html` incluye la nueva ciudad en el player.
 
 ---
 
@@ -211,3 +241,5 @@ Antes de dar por terminado:
 | Firenze | `Firenze/` | `tools/maps/firenze_places.json` |
 | Lucca | `Lucca/` | `tools/maps/lucca_places.json` |
 | Pisa | `Pisa/` | `tools/maps/pisa_places.json` |
+| Granada | `Granada/` | — |
+| Madrid | `Madrid/` | `tools/maps/madrid_places.json` |

@@ -199,12 +199,38 @@ Reemplazar en cada `.md` (usar `multi_replace_string_in_file` para hacerlo todo 
 ![Mapa detalle de X](../fotos/mapa_x_detalle.png)
 ```
 
-### Paso 7 — Verificar coherencia
+### Paso 7 — Generar audios y player web
+
+Usar el script genérico `tools/audio/build_audio_site.sh` que genera MP3 a partir de los `.md` y reconstruye el player HTML:
+
+```bash
+# Solo una ciudad
+./tools/audio/build_audio_site.sh NombreCiudad/
+
+# Todo el repositorio
+./tools/audio/build_audio_site.sh
+
+# Forzar regeneración (ignorar cache)
+./tools/audio/build_audio_site.sh NombreCiudad/ --force
+```
+
+El script:
+1. Activa `.venv` (o lo crea si no existe)
+2. Instala `edge-tts` y `mutagen` si faltan
+3. Genera MP3 en `docs/audio/NombreCiudad/` (un archivo por `.md` con contenido narrativo)
+4. Regenera `docs/index.html` con el player web actualizado
+5. Crea `docs/.nojekyll` para GitHub Pages
+
+**⚠ Bug ENOPRO**: aplica el mismo protocolo del Paso 5. Intentar una vez; si falla, dar el comando al usuario.
+
+### Paso 8 — Verificar coherencia
 
 - Todos los lugares del `.md` principal tienen su archivo en `lugares/`
 - Todos los `../fotos/mapa_x.png` existen físicamente
 - No quedan `> [DATO PENDIENTE — generar mapa con pin]` en ningún `.md`
 - Links del archivo principal apuntan correctamente a los lugares
+- Los MP3 existen en `docs/audio/NombreCiudad/`
+- `docs/index.html` incluye la nueva ciudad en el player
 
 ### Ciudades existentes (referencia)
 
@@ -214,3 +240,5 @@ Reemplazar en cada `.md` (usar `multi_replace_string_in_file` para hacerlo todo 
 | Firenze | `Firenze/` | `tools/maps/firenze_places.json` |
 | Lucca | `Lucca/` | `tools/maps/lucca_places.json` |
 | Pisa | `Pisa/` | `tools/maps/pisa_places.json` |
+| Granada | `Granada/` | — |
+| Madrid | `Madrid/` | `tools/maps/madrid_places.json` |

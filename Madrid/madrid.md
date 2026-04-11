@@ -1,0 +1,82 @@
+```yaml
+ciudad:
+  nombre_original: "Madrid"
+  pais: "España"
+  region_admin: "Comunidad de Madrid"
+  coordenadas: "40.4168, -3.7038"
+  altitud_m: 657
+  fecha_visita: "[DATO PENDIENTE — confirmar fecha]"
+```
+
+# Madrid
+
+## Contexto histórico
+
+Madrid es una anomalía entre las grandes capitales europeas. No es una ciudad romana como Roma o una fundación griega como Marsella; su origen es **islámico**. Fue fundada como una fortaleza militar —**Mayrit** o **Magerit**— por el emir omeya Muhammad I de Córdoba hacia el año 865 d.C., como parte de una línea defensiva contra los reinos cristianos del norte. El nombre probablemente deriva del árabe *mağrà* (canal de agua) por los abundantes arroyos subterráneos de la zona, o del mozárabe *matrice* (fuente).
+
+Durante siglos fue un enclave menor. La conquista cristiana llegó en 1083 con Alfonso VI de Castilla, pero Madrid siguió siendo una villa modesta eclipsada por Toledo, Segovia y Valladolid. Todo cambió en **1561**, cuando Felipe II trasladó la corte a Madrid de manera aparentemente provisional —sin decreto formal que la declarase capital—. Las razones exactas siguen debatiéndose: su posición geográfica central, la abundancia de agua, la ausencia de un obispado poderoso que rivalizara con la corona, o simplemente el gusto del rey por los bosques de caza cercanos (El Pardo, Aranjuez).
+
+## La transformación bajo los Austrias
+
+Con Felipe II, Madrid pasó de unos 20.000 habitantes a más de 100.000 en pocas décadas. La Plaza Mayor se construyó bajo Felipe III (1619) como escenario de autos de fe, corridas de toros, proclamaciones reales y ejecuciones. El Madrid de los Austrias —el casco antiguo actual— conserva su trazado irregular de calles estrechas, conventos y palacios señoriales.
+
+El Siglo de Oro español (siglos XVI-XVII) convirtió Madrid en un hervidero cultural. Lope de Vega vivía en la calle Cervantes (entonces calle Francos); Cervantes murió en la misma calle en 1616, a pocas puertas de Quevedo. Velázquez pintaba en el Alcázar Real, y Calderón de la Barca estrenaba sus obras en los corrales de comedias. Esta concentración de genios literarios y artísticos no tiene equivalente en la Europa de la época.
+
+## Los Borbones y la modernización
+
+La llegada de los Borbones con Felipe V en 1700 transformó Madrid a imagen de París y Versailles. El antiguo Alcázar, destruido por un incendio en 1734 (posiblemente provocado intencionalmente para justificar un palacio nuevo al gusto francés), fue reemplazado por el actual **Palacio Real**, diseñado por Filippo Juvara y completado por Giovanni Battista Sacchetti.
+
+Carlos III (1759-1788), llamado "el mejor alcalde de Madrid", modernizó la ciudad radicalmente: empedrado de calles, alumbrado público, alcantarillado, la Puerta de Alcalá, el Paseo del Prado, el Jardín Botánico y el edificio que hoy alberga el Museo del Prado (originalmente concebido como Gabinete de Historia Natural). También creó la fuente de Cibeles y la de Neptuno —hoy símbolos deportivos rivales de Real Madrid y Atlético de Madrid, respectivamente—.
+
+## Siglo XIX — Invasión, revolución y desamortización
+
+El **2 de mayo de 1808**, Madrid se levantó espontáneamente contra las tropas napoleónicas. La represión fue brutal —los fusilamientos del 3 de mayo que Goya inmortalizó—, pero el levantamiento encendió la Guerra de la Independencia en toda España. La Puerta del Sol fue escenario central de estos hechos.
+
+Las desamortizaciones del siglo XIX (especialmente la de Mendizábal en 1836) transformaron el tejido urbano: decenas de conventos fueron demolidos y sus terrenos convertidos en plazas y mercados. El Mercado de San Miguel ocupa precisamente el solar de la antigua iglesia de San Miguel de los Octoes, demolida en 1809.
+
+## Siglo XX — Guerra Civil y expansión
+
+Durante la Guerra Civil (1936-1939), Madrid resistió el asedio franquista durante casi tres años con el lema "¡No pasarán!" La Ciudad Universitaria fue frente de batalla, y los bombardeos dañaron numerosos edificios del centro. El Museo del Prado evacuó sus obras maestras a Valencia y luego a Ginebra en una operación logística extraordinaria.
+
+La posguerra trajo el desarrollismo de los años 60, las oleadas migratorias del campo a la ciudad, y la expansión caótica de barrios como Vallecas, Carabanchel y Getafe. Tras la muerte de Franco (1975), Madrid vivió la **Movida Madrileña** de los años 80: una explosión cultural de libertad, excesos y creatividad que dio figuras como Pedro Almodóvar, Alaska, y los diseñadores Agatha Ruiz de la Prada y Jesús del Pozo.
+
+## Geografía urbana
+
+Madrid se organiza en anillos concéntricos desde la Puerta del Sol:
+
+- **Madrid de los Austrias**: Plaza Mayor, Palacio Real, La Latina, calles medievales estrechas.
+- **Madrid de los Borbones**: el eje Prado-Recoletos-Castellana, Retiro, los grandes museos.
+- **Ensanche del XIX**: barrios de Salamanca (burguesía), Chamberí, Argüelles.
+- **Gran Vía**: abierta entre 1910 y 1929, arrasó manzanas enteras del casco antiguo para crear el "Broadway madrileño".
+- **Periferia del XX**: Ciudad Lineal de Arturo Soria (urbanismo utópico), barrios obreros del sur.
+
+El río Manzanares, históricamente ridiculizado por su escaso caudal ("aprendiz de río" lo llamó Quevedo), fue transformado en el siglo XXI con el proyecto Madrid Río, que soterraba la M-30 y creaba un parque lineal de 10 km.
+
+## Legado artístico — El Triángulo del Arte
+
+Madrid alberga el llamado **Triángulo del Arte**, una concentración de tres grandes museos en menos de un kilómetro:
+
+- **Museo del Prado**: Velázquez, Goya, El Bosco, Tiziano, Rubens. Más de 8.000 pinturas.
+- **Museo Reina Sofía**: Arte contemporáneo español, con el *Guernica* de Picasso como pieza central.
+- **Museo Thyssen-Bornemisza**: Colección privada que cubre desde el gótico hasta el pop art.
+
+Juntos forman una de las mayores concentraciones de arte del mundo, comparable solo al eje Louvre-Orsay-Pompidou de París.
+
+---
+
+## Lugares documentados
+
+1. [Palacio Real](lugares/palacio_real.md)
+2. [Museo Nacional del Prado](lugares/museo_del_prado.md)
+3. [Museo Nacional Centro de Arte Reina Sofía](lugares/museo_reina_sofia.md)
+4. [Parque del Retiro](lugares/parque_del_retiro.md)
+5. [Puerta del Sol](lugares/puerta_del_sol.md)
+6. [Plaza Mayor](lugares/plaza_mayor.md)
+7. [Templo de Debod](lugares/templo_de_debod.md)
+8. [Catedral de la Almudena](lugares/catedral_almudena.md)
+9. [Gran Vía](lugares/gran_via.md)
+10. [Mercado de San Miguel](lugares/mercado_san_miguel.md)
+
+---
+
+*fuente: John H. Elliott, "Imperial Spain 1469-1716"; Santos Juliá et al., "Madrid, Historia de una capital"; Museo del Prado, catálogo institucional; Ayuntamiento de Madrid, archivo histórico; Wikipedia (artículos verificados sobre historia de Madrid)*

@@ -1,0 +1,115 @@
+[
+  {
+    "nombre": "Palacio Real de Madrid",
+    "archivo": "mapa_palacio_real.png",
+    "lat": 40.4180,
+    "lon": -3.7143,
+    "referencias": [
+      { "nombre": "Catedral de la Almudena", "lat": 40.4156, "lon": -3.7146 },
+      { "nombre": "Plaza Mayor", "lat": 40.4155, "lon": -3.7074 },
+      { "nombre": "Templo de Debod", "lat": 40.4238, "lon": -3.7177 },
+      { "nombre": "Puerta del Sol", "lat": 40.4169, "lon": -3.7035 }
+    ]
+  },
+  {
+    "nombre": "Museo Nacional del Prado",
+    "archivo": "mapa_museo_del_prado.png",
+    "lat": 40.4138,
+    "lon": -3.6921,
+    "referencias": [
+      { "nombre": "Museo Reina Sofía", "lat": 40.4086, "lon": -3.6943 },
+      { "nombre": "Parque del Retiro", "lat": 40.4153, "lon": -3.6845 },
+      { "nombre": "Puerta del Sol", "lat": 40.4169, "lon": -3.7035 },
+      { "nombre": "Plaza Mayor", "lat": 40.4155, "lon": -3.7074 }
+    ]
+  },
+  {
+    "nombre": "Museo Reina Sofía",
+    "archivo": "mapa_museo_reina_sofia.png",
+    "lat": 40.4086,
+    "lon": -3.6943,
+    "referencias": [
+      { "nombre": "Museo del Prado", "lat": 40.4138, "lon": -3.6921 },
+      { "nombre": "Parque del Retiro", "lat": 40.4153, "lon": -3.6845 },
+      { "nombre": "Puerta del Sol", "lat": 40.4169, "lon": -3.7035 }
+    ]
+  },
+  {
+    "nombre": "Parque del Retiro",
+    "archivo": "mapa_parque_del_retiro.png",
+    "lat": 40.4153,
+    "lon": -3.6845,
+    "referencias": [
+      { "nombre": "Museo del Prado", "lat": 40.4138, "lon": -3.6921 },
+      { "nombre": "Museo Reina Sofía", "lat": 40.4086, "lon": -3.6943 },
+      { "nombre": "Puerta del Sol", "lat": 40.4169, "lon": -3.7035 }
+    ]
+  },
+  {
+    "nombre": "Puerta del Sol",
+    "archivo": "mapa_puerta_del_sol.png",
+    "lat": 40.4169,
+    "lon": -3.7035,
+    "referencias": [
+      { "nombre": "Plaza Mayor", "lat": 40.4155, "lon": -3.7074 },
+      { "nombre": "Gran Vía", "lat": 40.4200, "lon": -3.7057 },
+      { "nombre": "Palacio Real", "lat": 40.4180, "lon": -3.7143 },
+      { "nombre": "Museo del Prado", "lat": 40.4138, "lon": -3.6921 }
+    ]
+  },
+  {
+    "nombre": "Plaza Mayor",
+    "archivo": "mapa_plaza_mayor.png",
+    "lat": 40.4155,
+    "lon": -3.7074,
+    "referencias": [
+      { "nombre": "Puerta del Sol", "lat": 40.4169, "lon": -3.7035 },
+      { "nombre": "Mercado de San Miguel", "lat": 40.4153, "lon": -3.7090 },
+      { "nombre": "Palacio Real", "lat": 40.4180, "lon": -3.7143 }
+    ]
+  },
+  {
+    "nombre": "Templo de Debod",
+    "archivo": "mapa_templo_de_debod.png",
+    "lat": 40.4238,
+    "lon": -3.7177,
+    "referencias": [
+      { "nombre": "Palacio Real", "lat": 40.4180, "lon": -3.7143 },
+      { "nombre": "Catedral de la Almudena", "lat": 40.4156, "lon": -3.7146 },
+      { "nombre": "Plaza de España", "lat": 40.4233, "lon": -3.7122 }
+    ]
+  },
+  {
+    "nombre": "Catedral de la Almudena",
+    "archivo": "mapa_catedral_almudena.png",
+    "lat": 40.4156,
+    "lon": -3.7146,
+    "referencias": [
+      { "nombre": "Palacio Real", "lat": 40.4180, "lon": -3.7143 },
+      { "nombre": "Plaza Mayor", "lat": 40.4155, "lon": -3.7074 },
+      { "nombre": "Templo de Debod", "lat": 40.4238, "lon": -3.7177 }
+    ]
+  },
+  {
+    "nombre": "Gran Vía",
+    "archivo": "mapa_gran_via.png",
+    "lat": 40.4200,
+    "lon": -3.7057,
+    "referencias": [
+      { "nombre": "Puerta del Sol", "lat": 40.4169, "lon": -3.7035 },
+      { "nombre": "Plaza de España", "lat": 40.4233, "lon": -3.7122 },
+      { "nombre": "Plaza Mayor", "lat": 40.4155, "lon": -3.7074 }
+    ]
+  },
+  {
+    "nombre": "Mercado de San Miguel",
+    "archivo": "mapa_mercado_san_miguel.png",
+    "lat": 40.4153,
+    "lon": -3.7090,
+    "referencias": [
+      { "nombre": "Plaza Mayor", "lat": 40.4155, "lon": -3.7074 },
+      { "nombre": "Puerta del Sol", "lat": 40.4169, "lon": -3.7035 },
+      { "nombre": "Palacio Real", "lat": 40.4180, "lon": -3.7143 }
+    ]
+  }
+]

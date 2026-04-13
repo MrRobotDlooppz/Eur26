@@ -1,0 +1,136 @@
+# Setup Firebase para Vitácora
+
+Guía paso a paso para configurar Firebase. Solo se necesita hacer una vez.
+
+---
+
+## 1. Crear proyecto Firebase
+
+1. Ir a [console.firebase.google.com](https://console.firebase.google.com)
+2. Click **"Agregar proyecto"**
+3. Nombre: `eur26-vitacora` (o el que quieras)
+4. **Desactivar** Google Analytics (no lo necesitamos)
+5. Click **"Crear proyecto"**
+
+## 2. Crear app web
+
+1. En la pantalla del proyecto, click en el ícono **Web** (`</>`)
+2. Nombre: `vitacora-web`
+3. **No** marcar Firebase Hosting
+4. Click **"Registrar app"**
+5. Aparece el bloque `firebaseConfig` — **copiá esos valores**
+6. Pegá los valores en `docs/js/firebase-config.js` reemplazando los placeholders:
+
+```javascript
+const firebaseConfig = {
+  apiKey: "AIza...",          // ← tu valor real
+  authDomain: "eur26-vitacora.firebaseapp.com",
+  projectId: "eur26-vitacora",
+  storageBucket: "eur26-vitacora.appspot.com",
+  messagingSenderId: "123456789",
+  appId: "1:123456789:web:abc..."
+};
+```
+
+> **Nota**: estas keys son públicas por diseño de Firebase. La seguridad está en las Security Rules, no en ocultar credenciales.
+
+## 3. Activar Authentication
+
+1. En la barra lateral: **Build → Authentication**
+2. Click **"Comenzar"**
+3. Pestaña **"Sign-in method"** → habilitar **Email/Password**
+4. Pestaña **"Users"** → click **"Agregar usuario"** para cada uno:
+
+| Email | Nombre display |
+|---|---|
+| `lucca@eur26.app` | Lucca |
+| `marti@eur26.app` | Marti |
+| `ale@eur26.app` | Ale |
+| `pablo@eur26.app` | Pablo |
+| `carlita@eur26.app` | Carlita |
+
+Elegí una contraseña para cada uno (mínimo 6 caracteres).
+
+> **Tip**: los emails no necesitan ser reales. Firebase los usa solo como identificador.
+
+## 4. Activar Firestore
+
+1. En la barra lateral: **Build → Firestore Database**
+2. Click **"Crear base de datos"**
+3. Elegir **"Modo de producción"** (empieza bloqueado, lo abrimos con rules)
+4. Elegir ubicación del servidor (ej: `us-central1` o `europe-west1`)
+5. Click **"Crear"**
+
+## 5. Configurar Security Rules
+
+1. En Firestore, ir a la pestaña **"Rules"**
+2. Reemplazar TODO el contenido con:
+
+```
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /vitacora/{entryId} {
+      // Todos pueden leer las entradas
+      allow read: if true;
+      
+      // Solo usuarios autenticados pueden crear
+      allow create: if request.auth != null;
+      
+      // Solo usuarios autenticados pueden editar
+      allow update: if request.auth != null;
+      
+      // Solo el autor puede eliminar su entrada
+      allow delete: if request.auth != null 
+                    && request.auth.uid == resource.data.autorUid;
+    }
+  }
+}
+```
+
+3. Click **"Publicar"**
+
+## 6. Verificar
+
+1. Abrir `docs/vitacora.html` en el navegador (o via GitHub Pages)
+2. Login con uno de los 5 usuarios
+3. Crear una entrada de prueba
+4. Verificar que aparece en la lista
+5. Logout → las entradas siguen visibles pero no se pueden crear/editar
+
+---
+
+## Administración posterior
+
+### Agregar un usuario nuevo
+1. Firebase Console → Authentication → Users → Add user
+
+### Quitar un usuario
+1. Firebase Console → Authentication → Users → buscar → Delete
+   > Las entradas del usuario eliminado siguen existiendo en Firestore.
+
+### Cambiar contraseña
+1. Firebase Console → Authentication → Users → buscar → Reset password
+
+### Ver/editar entradas directamente
+1. Firebase Console → Firestore → colección `vitacora`
+
+---
+
+## Arquitectura
+
+```
+Navegador (vitacora.html)
+    │
+    ├── Firebase Auth (login/logout)
+    │   └── 5 usuarios email/password
+    │
+    └── Firestore (base de datos)
+        └── colección "vitacora"
+            └── documentos (entradas)
+                ├── titulo, contenido, autor
+                ├── ciudad, lugar (opcionales)
+                └── creadoEn, editadoEn, editadoPor
+```
+
+No hay backend propio. Firebase maneja auth + base de datos. GitHub Pages sirve los archivos estáticos.

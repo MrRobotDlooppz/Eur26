@@ -1,13 +1,15 @@
 Features
 F1 - Cambiar dark mode por normal mode toggle
-F2 - User + pwd
-F3 - Vitácora - Editor 
-    - Posibilidad de escribir sobre una Vitácora
-    - Para editar, pide user + contraseña (algo simplon hagamos)
-    - Ordenada por docs, carpetas, subcarpetas
-    - Agregar imágenes de la galeria 
-    - Solo user loggeado puede editar (el archivo muestra por quien fue creado y editado la última vez. Solo eso, no histórico)
-F3.1 - Enhancer Vitácora
+F2 - ✅ DONE — Vitácora - Editor 
+    - Página vitacora.html con auth Firebase (email/password) + Firestore
+    - 5 usuarios: Lucca, Marti, Ale, Pablo, Carlita
+    - CRUD entradas: crear, editar (propio), eliminar (propio)
+    - Entradas asociables a ciudad/lugar o libres
+    - Filtro por ciudad
+    - Tiempo real (Firestore onSnapshot)
+    - Setup: ver user_notes/setup_firebase.txt
+    - PENDIENTE: agregar imágenes de galería (requiere Firebase Storage)
+F2.1 - Enhancer Vitácora
     - Posibilidad de enriquecer la nota/doc subido a la vitácora con AI 
     - Te mejora la redaccion en base a algun criterio solicitado
 

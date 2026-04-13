@@ -1,0 +1,260 @@
+/* ============================================
+   Vitácora — Lógica principal
+   Auth (Firebase) + CRUD (Firestore)
+   ============================================ */
+
+(() => {
+  "use strict";
+
+  // Ciudades disponibles (hardcodeadas para evitar fetch extra)
+  const CIUDADES = ["Firenze", "Granada", "Lucca", "Madrid", "Pisa", "Roma"];
+
+  // ── Referencias DOM ──
+  const $loginSection  = document.getElementById("login-section");
+  const $loginForm     = document.getElementById("login-form");
+  const $loginEmail    = document.getElementById("login-email");
+  const $loginPassword = document.getElementById("login-password");
+  const $loginError    = document.getElementById("login-error");
+  const $userBar       = document.getElementById("user-bar");
+  const $userName      = document.getElementById("user-display-name");
+  const $btnLogout     = document.getElementById("btn-logout");
+  const $btnNewEntry   = document.getElementById("btn-new-entry");
+  const $editorSection = document.getElementById("editor-section");
+  const $editorTitle   = document.getElementById("editor-title");
+  const $entryTitulo   = document.getElementById("entry-titulo");
+  const $entryCiudad   = document.getElementById("entry-ciudad");
+  const $entryLugar    = document.getElementById("entry-lugar");
+  const $entryContenido = document.getElementById("entry-contenido");
+  const $btnCancel     = document.getElementById("btn-cancel-entry");
+  const $btnSave       = document.getElementById("btn-save-entry");
+  const $filterCity    = document.getElementById("filter-city");
+  const $entriesList   = document.getElementById("entries-list");
+
+  let currentUser = null;
+  let editingId = null; // null = nueva entrada, string = editando existente
+
+  // ── Poblar selects de ciudades ──
+  function populateCitySelects() {
+    CIUDADES.forEach(c => {
+      const opt1 = new Option(c, c);
+      const opt2 = new Option(c, c);
+      $entryCiudad.appendChild(opt1);
+      $filterCity.appendChild(opt2);
+    });
+  }
+
+  // ── Auth: estado ──
+  auth.onAuthStateChanged(user => {
+    currentUser = user;
+    if (user) {
+      const name = getDisplayName(user);
+      $loginSection.style.display = "none";
+      $userBar.style.display = "flex";
+      $userName.textContent = name;
+      $btnNewEntry.style.display = "block";
+    } else {
+      $loginSection.style.display = "block";
+      $userBar.style.display = "none";
+      $btnNewEntry.style.display = "none";
+      closeEditor();
+    }
+  });
+
+  // ── Auth: login ──
+  $loginForm.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    $loginError.textContent = "";
+    const email = $loginEmail.value.trim();
+    const pass = $loginPassword.value;
+    try {
+      await auth.signInWithEmailAndPassword(email, pass);
+    } catch (err) {
+      const msgs = {
+        "auth/user-not-found": "Usuario no encontrado",
+        "auth/wrong-password": "Contraseña incorrecta",
+        "auth/invalid-email": "Email inválido",
+        "auth/too-many-requests": "Demasiados intentos. Esperá un momento.",
+        "auth/invalid-credential": "Credenciales inválidas",
+      };
+      $loginError.textContent = msgs[err.code] || "Error al iniciar sesión";
+    }
+  });
+
+  // ── Auth: logout ──
+  $btnLogout.addEventListener("click", () => auth.signOut());
+
+  // ── Editor: abrir/cerrar ──
+  function openEditor(entry = null) {
+    editingId = entry ? entry.id : null;
+    $editorTitle.textContent = entry ? "Editar entrada" : "Nueva entrada";
+    $entryTitulo.value = entry ? entry.titulo : "";
+    $entryCiudad.value = entry ? (entry.ciudad || "") : "";
+    $entryLugar.value = entry ? (entry.lugar || "") : "";
+    $entryContenido.value = entry ? entry.contenido : "";
+    $editorSection.classList.add("visible");
+    $entryTitulo.focus();
+  }
+
+  function closeEditor() {
+    editingId = null;
+    $editorSection.classList.remove("visible");
+    $entryTitulo.value = "";
+    $entryCiudad.value = "";
+    $entryLugar.value = "";
+    $entryContenido.value = "";
+  }
+
+  $btnNewEntry.addEventListener("click", () => openEditor());
+  $btnCancel.addEventListener("click", closeEditor);
+
+  // ── Editor: guardar ──
+  $btnSave.addEventListener("click", async () => {
+    const titulo = $entryTitulo.value.trim();
+    const contenido = $entryContenido.value.trim();
+    if (!titulo || !contenido) {
+      alert("Título y contenido son obligatorios");
+      return;
+    }
+
+    const name = getDisplayName(currentUser);
+    const data = {
+      titulo,
+      contenido,
+      ciudad: $entryCiudad.value || null,
+      lugar: $entryLugar.value.trim() || null,
+      editadoEn: firebase.firestore.FieldValue.serverTimestamp(),
+      editadoPor: name,
+    };
+
+    $btnSave.disabled = true;
+    $btnSave.textContent = "Guardando…";
+
+    try {
+      if (editingId) {
+        await db.collection("vitacora").doc(editingId).update(data);
+      } else {
+        data.autor = name;
+        data.autorUid = currentUser.uid;
+        data.creadoEn = firebase.firestore.FieldValue.serverTimestamp();
+        await db.collection("vitacora").add(data);
+      }
+      closeEditor();
+    } catch (err) {
+      console.error("Error al guardar:", err);
+      alert("Error al guardar la entrada. Revisá la consola.");
+    } finally {
+      $btnSave.disabled = false;
+      $btnSave.textContent = "Guardar";
+    }
+  });
+
+  // ── Entradas: listener en tiempo real ──
+  function listenEntries() {
+    db.collection("vitacora")
+      .orderBy("creadoEn", "desc")
+      .onSnapshot(snapshot => {
+        renderEntries(snapshot.docs.map(doc => ({ id: doc.id, ...doc.data() })));
+      }, err => {
+        console.error("Error cargando entradas:", err);
+        $entriesList.innerHTML = `<div class="empty-state">Error al cargar entradas. ¿Configuraste Firebase?</div>`;
+      });
+  }
+
+  // ── Entradas: renderizar ──
+  function renderEntries(entries) {
+    const filterCity = $filterCity.value;
+    const filtered = filterCity
+      ? entries.filter(e => e.ciudad === filterCity)
+      : entries;
+
+    if (filtered.length === 0) {
+      $entriesList.innerHTML = `<div class="empty-state">No hay entradas${filterCity ? " para " + filterCity : ""}.</div>`;
+      return;
+    }
+
+    $entriesList.innerHTML = filtered.map(e => {
+      const fecha = e.creadoEn ? formatTimestamp(e.creadoEn) : "";
+      const editado = e.editadoEn && e.editadoPor && e.editadoPor !== e.autor
+        ? `<span class="entry-edited">editado por ${escapeHtml(e.editadoPor)}</span>`
+        : "";
+      const badge = e.ciudad
+        ? `<span class="entry-badge">${escapeHtml(e.ciudad)}${e.lugar ? " · " + escapeHtml(e.lugar) : ""}</span>`
+        : "";
+      const canEdit = currentUser && (currentUser.uid === e.autorUid);
+      const actions = canEdit
+        ? `<div class="entry-actions">
+             <button class="btn-edit" data-id="${e.id}">✏️ Editar</button>
+             <button class="btn-delete" data-id="${e.id}">🗑️ Eliminar</button>
+           </div>`
+        : "";
+
+      return `
+        <div class="entry-card">
+          <div class="entry-meta">
+            <span class="entry-author">${escapeHtml(e.autor || "Anónimo")}</span>
+            <span class="entry-date">${fecha}</span>
+            ${badge}
+            ${editado}
+          </div>
+          <div class="entry-title">${escapeHtml(e.titulo)}</div>
+          <div class="entry-content">${escapeHtml(e.contenido)}</div>
+          ${actions}
+        </div>`;
+    }).join("");
+
+    // Event delegation para edit/delete
+    $entriesList.querySelectorAll(".btn-edit").forEach(btn => {
+      btn.addEventListener("click", () => {
+        const entry = entries.find(e => e.id === btn.dataset.id);
+        if (entry) openEditor(entry);
+      });
+    });
+
+    $entriesList.querySelectorAll(".btn-delete").forEach(btn => {
+      btn.addEventListener("click", async () => {
+        if (!confirm("¿Eliminar esta entrada?")) return;
+        try {
+          await db.collection("vitacora").doc(btn.dataset.id).delete();
+        } catch (err) {
+          console.error("Error al eliminar:", err);
+          alert("Error al eliminar.");
+        }
+      });
+    });
+  }
+
+  // ── Filtro por ciudad ──
+  $filterCity.addEventListener("change", () => {
+    // El listener de onSnapshot ya tiene los datos; forzar re-render
+    // pidiendo al snapshot actual que se re-dispare
+    db.collection("vitacora")
+      .orderBy("creadoEn", "desc")
+      .get()
+      .then(snapshot => {
+        renderEntries(snapshot.docs.map(doc => ({ id: doc.id, ...doc.data() })));
+      });
+  });
+
+  // ── Helpers ──
+  function formatTimestamp(ts) {
+    if (!ts || !ts.toDate) return "";
+    const d = ts.toDate();
+    const day = String(d.getDate()).padStart(2, "0");
+    const mon = String(d.getMonth() + 1).padStart(2, "0");
+    const year = d.getFullYear();
+    const h = String(d.getHours()).padStart(2, "0");
+    const m = String(d.getMinutes()).padStart(2, "0");
+    return `${day}/${mon}/${year} ${h}:${m}`;
+  }
+
+  function escapeHtml(str) {
+    const el = document.createElement("span");
+    el.textContent = str;
+    return el.innerHTML;
+  }
+
+  // ── Init ──
+  populateCitySelects();
+  listenEntries();
+
+})();

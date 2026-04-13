@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Archivo de Viajes — Vitácora</title>
+<link rel="stylesheet" href="css/theme.css">
+<link rel="stylesheet" href="css/vitacora.css">
+</head>
+<body>
+<nav>
+  <h1>📝 Vitácora</h1>
+  <div class="links">
+    <a href="index.html">🎧 Audio</a>
+    <a href="mapa.html">🗺️ Mapa</a>
+    <a href="timeline.html">⏳ Timeline</a>
+    <a href="vitacora.html" class="active">📝 Vitácora</a>
+  </div>
+</nav>
+
+<div class="vitacora-container">
+
+  <!-- Login (visible solo si no autenticado) -->
+  <div id="login-section" class="login-section">
+    <h2>Iniciar sesión para escribir</h2>
+    <form class="login-form" id="login-form">
+      <input type="email" id="login-email" placeholder="Email" autocomplete="email" required>
+      <input type="password" id="login-password" placeholder="Contraseña" autocomplete="current-password" required>
+      <button type="submit" class="btn-primary">Entrar</button>
+      <div class="login-error" id="login-error"></div>
+    </form>
+  </div>
+
+  <!-- Barra de usuario (visible si autenticado) -->
+  <div id="user-bar" class="user-bar" style="display:none;">
+    <div class="user-name">
+      <span>Conectado como</span> <strong id="user-display-name"></strong>
+    </div>
+    <button class="btn-secondary" id="btn-logout">Salir</button>
+  </div>
+
+  <!-- Botón nueva entrada (visible si autenticado) -->
+  <button class="btn-primary new-entry-btn" id="btn-new-entry" style="display:none;">
+    ✏️ Nueva entrada
+  </button>
+
+  <!-- Editor -->
+  <div id="editor-section" class="editor-section">
+    <h3 id="editor-title">Nueva entrada</h3>
+    <div class="editor-field">
+      <label for="entry-titulo">Título</label>
+      <input type="text" id="entry-titulo" placeholder="Título de la entrada" maxlength="200">
+    </div>
+    <div class="editor-field">
+      <label for="entry-ciudad">Ciudad (opcional)</label>
+      <select id="entry-ciudad">
+        <option value="">— Sin ciudad —</option>
+      </select>
+    </div>
+    <div class="editor-field">
+      <label for="entry-lugar">Lugar (opcional)</label>
+      <input type="text" id="entry-lugar" placeholder="Nombre del lugar">
+    </div>
+    <div class="editor-field">
+      <label for="entry-contenido">Contenido</label>
+      <textarea id="entry-contenido" placeholder="Escribí tu entrada..."></textarea>
+    </div>
+    <div class="editor-actions">
+      <button class="btn-secondary" id="btn-cancel-entry">Cancelar</button>
+      <button class="btn-primary" id="btn-save-entry">Guardar</button>
+    </div>
+  </div>
+
+  <!-- Filtro y lista -->
+  <div class="entries-header">
+    <h2>Entradas</h2>
+    <select class="filter-city" id="filter-city">
+      <option value="">Todas las ciudades</option>
+    </select>
+  </div>
+
+  <div id="entries-list">
+    <div class="loading">Cargando entradas</div>
+  </div>
+
+</div>
+
+<!-- Firebase SDK (compat mode for vanilla JS) -->
+<script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore-compat.js"></script>
+
+<script src="js/shared.js"></script>
+<script src="js/firebase-config.js"></script>
+<script src="js/vitacora.js"></script>
+</body>
+</html>

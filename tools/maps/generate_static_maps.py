@@ -3,8 +3,8 @@
 
 Usage:
   python tools/maps/generate_static_maps.py \
-    --input tools/maps/rome_places.example.json \
-    --output Rome/fotos
+    --input tools/maps/roma_places.json \
+    --output Roma/fotos
 """
 
 import argparse

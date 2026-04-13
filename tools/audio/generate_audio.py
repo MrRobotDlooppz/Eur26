@@ -30,7 +30,7 @@ DEFAULT_RATE = "+0%"
 EXCLUDED_FILES = {"README.md", "CLAUDE.md"}
 
 # Carpetas de ciudad conocidas (se detectan automáticamente, pero esto ayuda)
-CITY_FOLDERS = {"Rome", "Firenze", "Lucca", "Pisa", "Granada", "Madrid"}
+CITY_FOLDERS = {"Roma", "Firenze", "Lucca", "Pisa", "Granada", "Madrid"}
 
 # Carpeta base donde viven las ciudades
 CITIES_DIR = "ciudades"
@@ -204,11 +204,11 @@ def discover_md_files(input_path: Path, repo_root: Path) -> list[tuple[Path, str
         # Solo incluir archivos dentro de ciudades/ (estructura: ciudades/Ciudad/...)
         # o directamente en una carpeta de ciudad conocida (compatibilidad)
         if first_part == CITIES_DIR:
-            # ciudades/Rome/archivo.md → needs at least 3 parts
+            # ciudades/Roma/archivo.md → needs at least 3 parts
             if len(rel.parts) < 3:
                 continue
         elif first_part in CITY_FOLDERS:
-            # Legacy: Rome/archivo.md
+            # Legacy: Roma/archivo.md
             if len(rel.parts) < 2:
                 continue
         else:
@@ -229,10 +229,10 @@ def _get_city_name(md_file: Path, repo_root: Path) -> str:
     """Obtiene el nombre de la ciudad a partir de la ruta del archivo."""
     try:
         rel = md_file.relative_to(repo_root)
-        # Si está en ciudades/Rome/... → parts[1] es la ciudad
+        # Si está en ciudades/Roma/... → parts[1] es la ciudad
         if rel.parts[0] == CITIES_DIR and len(rel.parts) > 2:
             return rel.parts[1]
-        # Legacy: Rome/... → parts[0] es la ciudad
+        # Legacy: Roma/... → parts[0] es la ciudad
         return rel.parts[0] if len(rel.parts) > 1 else "General"
     except ValueError:
         return "General"

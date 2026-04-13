@@ -1,15 +1,9 @@
-Technical debt
-T1- Unificar audios y .md en una sola ruta, estan desperdigados en ciudades/ y docs/ 
-    - Vale la pena reestructurar otros archivos tb en esa unica ruta asociados a las ciudades? Evaluar
-
-T2- Revisar si los nombres de los archivos o carpetas son los mejores.
-    - Modificar para q sigan patrones/ buenas prácticas. Ej: el html ppal esta dentro de docs/ eso esta bueno? o tipicamente estaría en otro lado?
-
 Features
 F1 - Cambiar dark mode por normal mode toggle
 F2 - User + pwd
 F3 - Vitácora - Editor 
     - Posibilidad de escribir sobre una Vitácora
+    - Para editar, pide user + contraseña (algo simplon hagamos)
     - Ordenada por docs, carpetas, subcarpetas
     - Agregar imágenes de la galeria 
     - Solo user loggeado puede editar (el archivo muestra por quien fue creado y editado la última vez. Solo eso, no histórico)

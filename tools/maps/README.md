@@ -34,7 +34,7 @@ pip install staticmap
 
 ## Input
 
-Archivo JSON (ver `tools/maps/rome_places.example.json`) con objetos:
+Archivo JSON (ver `tools/maps/roma_places.json`) con objetos:
 
 - `nombre`
 - `archivo`
@@ -53,8 +53,8 @@ Notas:
 
 ```bash
 python tools/maps/generate_static_maps.py \
-  --input tools/maps/rome_places.example.json \
-  --output ciudades/Rome/fotos
+  --input tools/maps/roma_places.json \
+  --output ciudades/Roma/fotos
 ```
 
 Parametros opcionales:
@@ -71,7 +71,7 @@ Parametros opcionales:
 
 ## Integracion en notas
 
-Despues de generar una imagen, agregar en `ciudades/Rome/Lugares.md` dentro del lugar:
+Despues de generar una imagen, agregar en `ciudades/Roma/roma.md` dentro del lugar:
 
 ```md
 **Mapa del lugar**

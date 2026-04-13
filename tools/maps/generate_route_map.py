@@ -4,8 +4,8 @@
 Usage:
   python tools/maps/generate_route_map.py \
     --input tools/maps/foro_palatino_route.json \
-    --output Rome/fotos/mapa_recorrido_foro_palatino.png \
-    --detail-output Rome/fotos/mapa_recorrido_foro_palatino_detalle.png
+    --output Roma/fotos/mapa_recorrido_foro_palatino.png \
+    --detail-output Roma/fotos/mapa_recorrido_foro_palatino_detalle.png
 """
 
 import argparse

@@ -87,7 +87,7 @@ Cada lugar puede incluir las secciones que sean relevantes. No es obligatorio co
 ### 10. Fotos y metadata
 
 - No inferir información a partir del nombre de archivo de una foto. Si se necesita metadata EXIF, extraerla explícitamente o marcar como `pendiente`.
-- Para cada lugar nuevo referenciado, agregar una imagen de mapa con pin de ubicación en la carpeta `fotos/` de la ciudad (ej.: `ciudades/Rome/fotos/mapa_colosseo.png`).
+- Para cada lugar nuevo referenciado, agregar una imagen de mapa con pin de ubicación en la carpeta `fotos/` de la ciudad (ej.: `ciudades/Roma/fotos/mapa_colosseo.png`).
 - La imagen de mapa debe insertarse en el markdown del lugar con sintaxis de imagen y texto alternativo descriptivo.
 - Si no se pudo generar la imagen de mapa, marcar explícitamente `[DATO PENDIENTE — generar mapa con pin]`.
 

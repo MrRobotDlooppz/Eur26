@@ -237,7 +237,7 @@ Antes de dar por terminado:
 
 | Ciudad | Carpeta | JSON de mapas |
 |---|---|---|
-| Roma | `ciudades/Rome/` | `tools/maps/rome_places.example.json` |
+| Roma | `ciudades/Roma/` | `tools/maps/roma_places.json` |
 | Firenze | `ciudades/Firenze/` | `tools/maps/firenze_places.json` |
 | Lucca | `ciudades/Lucca/` | `tools/maps/lucca_places.json` |
 | Pisa | `ciudades/Pisa/` | `tools/maps/pisa_places.json` |

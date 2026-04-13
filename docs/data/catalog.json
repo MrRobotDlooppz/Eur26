@@ -394,153 +394,153 @@
       "text": "text/Pisa/torre_pendente.html"
     }
   ],
-  "Rome": [
-    {
-      "name": "Lugares",
-      "file": "audio/Rome/Lugares.mp3",
-      "duration": 101.592,
-      "duration_fmt": "1:41",
-      "text": "text/Rome/Lugares.html"
-    },
+  "Roma": [
     {
       "name": "Archibasilica San Giovanni Laterano",
-      "file": "audio/Rome/archibasilica_san_giovanni_laterano.mp3",
+      "file": "audio/Roma/archibasilica_san_giovanni_laterano.mp3",
       "duration": 547.128,
       "duration_fmt": "9:07",
-      "text": "text/Rome/archibasilica_san_giovanni_laterano.html"
+      "text": "text/Roma/archibasilica_san_giovanni_laterano.html"
     },
     {
       "name": "Basilica Santa Maria Maggiore",
-      "file": "audio/Rome/basilica_santa_maria_maggiore.mp3",
+      "file": "audio/Roma/basilica_santa_maria_maggiore.mp3",
       "duration": 506.88,
       "duration_fmt": "8:26",
-      "text": "text/Rome/basilica_santa_maria_maggiore.html"
+      "text": "text/Roma/basilica_santa_maria_maggiore.html"
     },
     {
       "name": "Colosseo",
-      "file": "audio/Rome/colosseo.mp3",
+      "file": "audio/Roma/colosseo.mp3",
       "duration": 494.616,
       "duration_fmt": "8:14",
-      "text": "text/Rome/colosseo.html"
+      "text": "text/Roma/colosseo.html"
     },
     {
       "name": "Fontana Di Trevi",
-      "file": "audio/Rome/fontana_di_trevi.mp3",
+      "file": "audio/Roma/fontana_di_trevi.mp3",
       "duration": 450.936,
       "duration_fmt": "7:30",
-      "text": "text/Rome/fontana_di_trevi.html"
+      "text": "text/Roma/fontana_di_trevi.html"
     },
     {
       "name": "Fontanas",
-      "file": "audio/Rome/fontanas.mp3",
+      "file": "audio/Roma/fontanas.mp3",
       "duration": 258.792,
       "duration_fmt": "4:18",
-      "text": "text/Rome/fontanas.html"
+      "text": "text/Roma/fontanas.html"
     },
     {
       "name": "Foro Di Traiano",
-      "file": "audio/Rome/foro_di_traiano.mp3",
+      "file": "audio/Roma/foro_di_traiano.mp3",
       "duration": 312.024,
       "duration_fmt": "5:12",
-      "text": "text/Rome/foro_di_traiano.html"
+      "text": "text/Roma/foro_di_traiano.html"
     },
     {
       "name": "Foro Romano Palatino",
-      "file": "audio/Rome/foro_romano_palatino.mp3",
+      "file": "audio/Roma/foro_romano_palatino.mp3",
       "duration": 560.544,
       "duration_fmt": "9:20",
-      "text": "text/Rome/foro_romano_palatino.html"
+      "text": "text/Roma/foro_romano_palatino.html"
     },
     {
       "name": "Guia Foro Palatino",
-      "file": "audio/Rome/guia_foro_palatino.mp3",
-      "duration": 3318.888,
+      "file": "audio/Roma/guia_foro_palatino.mp3",
+      "duration": 3318.96,
       "duration_fmt": "55:18",
-      "text": "text/Rome/guia_foro_palatino.html"
+      "text": "text/Roma/guia_foro_palatino.html"
     },
     {
       "name": "Iglesias",
-      "file": "audio/Rome/iglesias.mp3",
+      "file": "audio/Roma/iglesias.mp3",
       "duration": 179.736,
       "duration_fmt": "2:59",
-      "text": "text/Rome/iglesias.html"
+      "text": "text/Roma/iglesias.html"
     },
     {
       "name": "Largo Di Torre Argentina",
-      "file": "audio/Rome/largo_di_torre_argentina.mp3",
+      "file": "audio/Roma/largo_di_torre_argentina.mp3",
       "duration": 449.208,
       "duration_fmt": "7:29",
-      "text": "text/Rome/largo_di_torre_argentina.html"
+      "text": "text/Roma/largo_di_torre_argentina.html"
     },
     {
       "name": "Monumento Vittorio Emanuele Ii",
-      "file": "audio/Rome/monumento_vittorio_emanuele_ii.mp3",
+      "file": "audio/Roma/monumento_vittorio_emanuele_ii.mp3",
       "duration": 515.472,
       "duration_fmt": "8:35",
-      "text": "text/Rome/monumento_vittorio_emanuele_ii.html"
+      "text": "text/Roma/monumento_vittorio_emanuele_ii.html"
     },
     {
       "name": "Musei Vaticani",
-      "file": "audio/Rome/musei_vaticani.mp3",
+      "file": "audio/Roma/musei_vaticani.mp3",
       "duration": 536.112,
       "duration_fmt": "8:56",
-      "text": "text/Rome/musei_vaticani.html"
+      "text": "text/Roma/musei_vaticani.html"
     },
     {
       "name": "Palacios",
-      "file": "audio/Rome/palacios.mp3",
+      "file": "audio/Roma/palacios.mp3",
       "duration": 582.456,
       "duration_fmt": "9:42",
-      "text": "text/Rome/palacios.html"
+      "text": "text/Roma/palacios.html"
     },
     {
       "name": "Pantheon",
-      "file": "audio/Rome/pantheon.mp3",
+      "file": "audio/Roma/pantheon.mp3",
       "duration": 532.104,
       "duration_fmt": "8:52",
-      "text": "text/Rome/pantheon.html"
+      "text": "text/Roma/pantheon.html"
     },
     {
       "name": "Piazza Del Popolo",
-      "file": "audio/Rome/piazza_del_popolo.mp3",
+      "file": "audio/Roma/piazza_del_popolo.mp3",
       "duration": 505.248,
       "duration_fmt": "8:25",
-      "text": "text/Rome/piazza_del_popolo.html"
+      "text": "text/Roma/piazza_del_popolo.html"
     },
     {
       "name": "Piazza Di Spagna",
-      "file": "audio/Rome/piazza_di_spagna.mp3",
+      "file": "audio/Roma/piazza_di_spagna.mp3",
       "duration": 488.784,
       "duration_fmt": "8:08",
-      "text": "text/Rome/piazza_di_spagna.html"
+      "text": "text/Roma/piazza_di_spagna.html"
     },
     {
       "name": "Piazza Navona",
-      "file": "audio/Rome/piazza_navona.mp3",
+      "file": "audio/Roma/piazza_navona.mp3",
       "duration": 478.56,
       "duration_fmt": "7:58",
-      "text": "text/Rome/piazza_navona.html"
+      "text": "text/Roma/piazza_navona.html"
     },
     {
       "name": "Quartiere Coppede",
-      "file": "audio/Rome/quartiere_coppede.mp3",
+      "file": "audio/Roma/quartiere_coppede.mp3",
       "duration": 336.624,
       "duration_fmt": "5:36",
-      "text": "text/Rome/quartiere_coppede.html"
+      "text": "text/Roma/quartiere_coppede.html"
+    },
+    {
+      "name": "Roma",
+      "file": "audio/Roma/roma.mp3",
+      "duration": 101.544,
+      "duration_fmt": "1:41",
+      "text": "text/Roma/roma.html"
     },
     {
       "name": "Termas",
-      "file": "audio/Rome/termas.mp3",
+      "file": "audio/Roma/termas.mp3",
       "duration": 614.88,
       "duration_fmt": "10:14",
-      "text": "text/Rome/termas.html"
+      "text": "text/Roma/termas.html"
     },
     {
       "name": "Villa Borghese",
-      "file": "audio/Rome/villa_borghese.mp3",
+      "file": "audio/Roma/villa_borghese.mp3",
       "duration": 69.312,
       "duration_fmt": "1:09",
-      "text": "text/Rome/villa_borghese.html"
+      "text": "text/Roma/villa_borghese.html"
     }
   ]
 }

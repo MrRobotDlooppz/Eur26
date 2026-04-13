@@ -14,7 +14,7 @@
     {
       "name": "Foro Romano e Palatino",
       "city": "Roma",
-      "folder": "Rome",
+      "folder": "Roma",
       "color": "#e94560",
       "year": -600,
       "era": "Roma Monárquica",
@@ -23,7 +23,7 @@
     {
       "name": "Largo di Torre Argentina",
       "city": "Roma",
-      "folder": "Rome",
+      "folder": "Roma",
       "color": "#e94560",
       "year": -300,
       "era": "Roma Republicana",
@@ -45,7 +45,7 @@
     {
       "name": "Colosseo",
       "city": "Roma",
-      "folder": "Rome",
+      "folder": "Roma",
       "color": "#e94560",
       "year": 72,
       "era": "Roma Imperial",
@@ -56,7 +56,7 @@
     {
       "name": "Piazza Navona",
       "city": "Roma",
-      "folder": "Rome",
+      "folder": "Roma",
       "color": "#e94560",
       "year": 86,
       "era": "Roma Imperial",
@@ -67,7 +67,7 @@
     {
       "name": "Foro di Traiano",
       "city": "Roma",
-      "folder": "Rome",
+      "folder": "Roma",
       "color": "#e94560",
       "year": 107,
       "era": "Roma Imperial",
@@ -78,7 +78,7 @@
     {
       "name": "Terme di Traiano",
       "city": "Roma",
-      "folder": "Rome",
+      "folder": "Roma",
       "color": "#e94560",
       "year": 109,
       "era": "Roma Imperial",
@@ -87,7 +87,7 @@
     {
       "name": "Pantheon",
       "city": "Roma",
-      "folder": "Rome",
+      "folder": "Roma",
       "color": "#e94560",
       "year": 125,
       "era": "Roma Imperial",
@@ -107,7 +107,7 @@
     {
       "name": "Terme di Caracalla",
       "city": "Roma",
-      "folder": "Rome",
+      "folder": "Roma",
       "color": "#e94560",
       "year": 212,
       "era": "Roma Imperial",
@@ -116,7 +116,7 @@
     {
       "name": "Archibasilica di San Giovanni in Laterano",
       "city": "Roma",
-      "folder": "Rome",
+      "folder": "Roma",
       "color": "#e94560",
       "year": 324,
       "era": "Roma paleocristiana",
@@ -134,7 +134,7 @@
     {
       "name": "Basilica di Santa Maria Maggiore",
       "city": "Roma",
-      "folder": "Rome",
+      "folder": "Roma",
       "color": "#e94560",
       "year": 435,
       "era": "Roma paleocristiana",
@@ -381,7 +381,7 @@
     {
       "name": "Musei Vaticani",
       "city": "Roma",
-      "folder": "Rome",
+      "folder": "Roma",
       "color": "#e94560",
       "year": 1506,
       "era": "Renacimiento",
@@ -443,7 +443,7 @@
     {
       "name": "Piazza del Popolo",
       "city": "Roma",
-      "folder": "Rome",
+      "folder": "Roma",
       "color": "#e94560",
       "year": 1589,
       "era": "Roma renacentista",
@@ -463,7 +463,7 @@
     {
       "name": "Villa Borghese",
       "city": "Roma",
-      "folder": "Rome",
+      "folder": "Roma",
       "color": "#e94560",
       "year": 1620,
       "era": "Roma barroca",
@@ -485,7 +485,7 @@
     {
       "name": "Piazza di Spagna",
       "city": "Roma",
-      "folder": "Rome",
+      "folder": "Roma",
       "color": "#e94560",
       "year": 1725,
       "era": "Roma barroca",
@@ -505,7 +505,7 @@
     {
       "name": "Fontana di Trevi",
       "city": "Roma",
-      "folder": "Rome",
+      "folder": "Roma",
       "color": "#e94560",
       "year": 1762,
       "era": "Roma barroca",
@@ -583,7 +583,7 @@
     {
       "name": "Monumento a Vittorio Emanuele II",
       "city": "Roma",
-      "folder": "Rome",
+      "folder": "Roma",
       "color": "#e94560",
       "year": 1885,
       "era": "Italia moderna",
@@ -612,7 +612,7 @@
     {
       "name": "Quartiere Coppedè",
       "city": "Roma",
-      "folder": "Rome",
+      "folder": "Roma",
       "color": "#e94560",
       "year": 1919,
       "era": "Italia moderna",

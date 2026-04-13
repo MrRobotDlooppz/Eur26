@@ -4,7 +4,7 @@
 Usage:
   python tools/maps/export_route_gpx.py \
     --input tools/maps/foro_palatino_route.json \
-    --output Rome/fotos/foro_romano_palatino/recorrido_foro_palatino.gpx \
+    --output Roma/fotos/foro_romano_palatino/recorrido_foro_palatino.gpx \
     --name "Recorrido Foro Romano y Palatino"
 """
 

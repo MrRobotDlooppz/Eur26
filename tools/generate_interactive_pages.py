@@ -24,9 +24,9 @@ MAPS_DIR = os.path.join(ROOT, "tools", "maps")
 # ── Datos de ciudades (coordenadas centrales, país, color) ──────────────────
 
 CITIES = {
-    "Rome": {
+    "Roma": {
         "display": "Roma",
-        "folder": "Rome",
+        "folder": "Roma",
         "lat": 41.9028, "lon": 12.4964,
         "country": "Italia",
         "color": "#e94560",
@@ -157,7 +157,7 @@ HISTORICAL_DATA = {
 
 # Asignación de lugares a ciudades
 CITY_PLACES = {
-    "Rome": ["Colosseo", "Foro Romano e Palatino", "Foro di Traiano",
+    "Roma": ["Colosseo", "Foro Romano e Palatino", "Foro di Traiano",
              "Monumento a Vittorio Emanuele II", "Terme di Caracalla",
              "Terme di Traiano", "Largo di Torre Argentina", "Fontana di Trevi",
              "Pantheon", "Piazza di Spagna", "Piazza del Popolo", "Musei Vaticani",

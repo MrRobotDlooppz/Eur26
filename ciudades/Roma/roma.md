@@ -35,4 +35,4 @@ Este archivo funciona como indice general. Cada lugar tiene su ficha individual 
 ## Nota de uso
 - Cada ficha incluye: contexto historico, cultura, conexiones y datos interesantes.
 - Cada ficha incluye dos mapas: general y detalle.
-- Si se agrega un lugar nuevo, crear su ficha en `Rome/lugares/` y enlazarla aqui.
+- Si se agrega un lugar nuevo, crear su ficha en `Roma/lugares/` y enlazarla aqui.

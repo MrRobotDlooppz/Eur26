@@ -10,7 +10,7 @@
 set -e
 cd "$(dirname "$0")/.."
 
-FOTOS="Rome/fotos"
+FOTOS="ciudades/Rome/fotos"
 
 # ─── Lista canónica de carpetas de fotos (una por lugar o grupo) ───
 # Actualizar esta lista cada vez que se agregue un lugar nuevo.

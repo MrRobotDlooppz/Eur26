@@ -14,7 +14,7 @@ Este es el flujo exacto y completo que toda AI debe seguir cada vez que se agreg
 Crear las carpetas necesarias antes de crear ningún archivo:
 
 ```
-NombreCiudad/
+ciudades/NombreCiudad/
   fotos/          ← mapas PNG generados por el script
   lugares/        ← un .md por lugar
 ```
@@ -25,7 +25,7 @@ No usar `mkdir` si las herramientas del editor permiten crear archivos directame
 
 ## Paso 2 — Archivo principal de ciudad
 
-Crear `NombreCiudad/nombreciudad.md` con:
+Crear `ciudades/NombreCiudad/nombreciudad.md` con:
 
 ```yaml
 ciudad:
@@ -50,7 +50,7 @@ Contenido obligatorio del archivo principal:
 
 ## Paso 3 — Archivos de lugares individuales (top N lugares)
 
-Crear un `.md` por lugar en `NombreCiudad/lugares/nombre_lugar.md`.
+Crear un `.md` por lugar en `ciudades/NombreCiudad/lugares/nombre_lugar.md`.
 
 ### Frontmatter obligatorio
 
@@ -139,7 +139,7 @@ source .venv/bin/activate
 # Generar mapas (reemplazar nombreciudad con el nombre real)
 python tools/maps/generate_static_maps.py \
   --input tools/maps/nombreciudad_places.json \
-  --output NombreCiudad/fotos \
+  --output ciudades/NombreCiudad/fotos \
   --no-city-context
 ```
 
@@ -159,7 +159,7 @@ Esto es un problema de Copilot, no del comando. La terminal manual funciona sin 
 
 ## Paso 6 — Actualizar los .md con los mapas reales
 
-Una vez confirmado que los PNG existen en `NombreCiudad/fotos/`, reemplazar el bloque placeholder en cada `.md`:
+Una vez confirmado que los PNG existen en `ciudades/NombreCiudad/fotos/`, reemplazar el bloque placeholder en cada `.md`:
 
 **Antes:**
 ```markdown
@@ -185,13 +185,13 @@ Usar el script genérico `tools/audio/build_audio_site.sh` que convierte los `.m
 
 ```bash
 # Solo una ciudad (reemplazar NombreCiudad con el nombre real)
-./tools/audio/build_audio_site.sh NombreCiudad/
+./tools/audio/build_audio_site.sh ciudades/NombreCiudad/
 
 # Todo el repositorio
 ./tools/audio/build_audio_site.sh
 
 # Forzar regeneración (ignorar cache)
-./tools/audio/build_audio_site.sh NombreCiudad/ --force
+./tools/audio/build_audio_site.sh ciudades/NombreCiudad/ --force
 ```
 
 El script hace todo automáticamente:
@@ -212,7 +212,7 @@ Aplica el mismo protocolo del Paso 5. Intentar `run_in_terminal` **una sola vez*
 Antes de dar por terminado:
 
 - [ ] Todos los lugares mencionados en el `.md` principal tienen su propio archivo en `lugares/`.
-- [ ] Todos los `../fotos/mapa_x.png` referenciados en los `.md` existen físicamente en `NombreCiudad/fotos/`.
+- [ ] Todos los `../fotos/mapa_x.png` referenciados en los `.md` existen físicamente en `ciudades/NombreCiudad/fotos/`.
 - [ ] No quedan `> [DATO PENDIENTE — generar mapa con pin]` en ningún `.md`.
 - [ ] El archivo principal de la ciudad tiene la lista completa de lugares con links.
 - [ ] Los nombres de archivo siguen la convención `mapa_<nombre_lugar>.png` (minúsculas, guiones bajos).
@@ -237,9 +237,9 @@ Antes de dar por terminado:
 
 | Ciudad | Carpeta | JSON de mapas |
 |---|---|---|
-| Roma | `Rome/` | `tools/maps/rome_places.example.json` |
-| Firenze | `Firenze/` | `tools/maps/firenze_places.json` |
-| Lucca | `Lucca/` | `tools/maps/lucca_places.json` |
-| Pisa | `Pisa/` | `tools/maps/pisa_places.json` |
-| Granada | `Granada/` | — |
-| Madrid | `Madrid/` | `tools/maps/madrid_places.json` |
+| Roma | `ciudades/Rome/` | `tools/maps/rome_places.example.json` |
+| Firenze | `ciudades/Firenze/` | `tools/maps/firenze_places.json` |
+| Lucca | `ciudades/Lucca/` | `tools/maps/lucca_places.json` |
+| Pisa | `ciudades/Pisa/` | `tools/maps/pisa_places.json` |
+| Granada | `ciudades/Granada/` | — |
+| Madrid | `ciudades/Madrid/` | `tools/maps/madrid_places.json` |

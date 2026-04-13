@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 """
 Genera las páginas interactivas del Archivo de Viajes:
-  - docs/mapa.html  — Mapa interactivo con Leaflet.js (todas las ciudades y lugares)
-  - docs/timeline.html — Línea de tiempo visual por época histórica
+  - docs/data/places.json  — Datos de ciudades y lugares para el mapa
+  - docs/data/events.json  — Datos de eventos para la línea de tiempo
+  - docs/mapa.html         — HTML ligero que importa CSS/JS
+  - docs/timeline.html     — HTML ligero que importa CSS/JS
 
 Uso:
   python tools/generate_interactive_pages.py
@@ -13,7 +15,6 @@ Lee los JSON de tools/maps/*_places.json y los datos de ciudades para construir 
 import json
 import glob
 import os
-import re
 import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -25,6 +26,7 @@ MAPS_DIR = os.path.join(ROOT, "tools", "maps")
 CITIES = {
     "Rome": {
         "display": "Roma",
+        "folder": "Rome",
         "lat": 41.9028, "lon": 12.4964,
         "country": "Italia",
         "color": "#e94560",
@@ -32,6 +34,7 @@ CITIES = {
     },
     "Firenze": {
         "display": "Firenze",
+        "folder": "Firenze",
         "lat": 43.7696, "lon": 11.2558,
         "country": "Italia",
         "color": "#f5a623",
@@ -39,6 +42,7 @@ CITIES = {
     },
     "Lucca": {
         "display": "Lucca",
+        "folder": "Lucca",
         "lat": 43.8430, "lon": 10.5050,
         "country": "Italia",
         "color": "#4ecca3",
@@ -46,6 +50,7 @@ CITIES = {
     },
     "Pisa": {
         "display": "Pisa",
+        "folder": "Pisa",
         "lat": 43.7228, "lon": 10.4017,
         "country": "Italia",
         "color": "#3dc1d3",
@@ -53,6 +58,7 @@ CITIES = {
     },
     "Granada": {
         "display": "Granada",
+        "folder": "Granada",
         "lat": 37.1773, "lon": -3.5986,
         "country": "España",
         "color": "#e55039",
@@ -60,6 +66,7 @@ CITIES = {
     },
     "Madrid": {
         "display": "Madrid",
+        "folder": "Madrid",
         "lat": 40.4168, "lon": -3.7038,
         "country": "España",
         "color": "#f8c291",
@@ -148,6 +155,55 @@ HISTORICAL_DATA = {
     "Mercado de San Miguel": {"year": 1916, "era": "España moderna", "desc": "Mercado de hierro de Alfonso Palacios"},
 }
 
+# Asignación de lugares a ciudades
+CITY_PLACES = {
+    "Rome": ["Colosseo", "Foro Romano e Palatino", "Foro di Traiano",
+             "Monumento a Vittorio Emanuele II", "Terme di Caracalla",
+             "Terme di Traiano", "Largo di Torre Argentina", "Fontana di Trevi",
+             "Pantheon", "Piazza di Spagna", "Piazza del Popolo", "Musei Vaticani",
+             "Basilica di Santa Maria Maggiore", "Villa Borghese",
+             "Archibasilica di San Giovanni in Laterano", "Piazza Navona",
+             "Quartiere Coppedè"],
+    "Firenze": ["Duomo di Firenze", "Battistero di San Giovanni", "Palazzo Vecchio",
+                "Galleria degli Uffizi", "Ponte Vecchio",
+                "Palazzo Pitti e Giardino di Boboli", "Basilica di Santa Croce",
+                "Basilica di Santa Maria Novella", "Galleria dell'Accademia",
+                "Basilica e Museo di San Marco", "Museo Nazionale del Bargello",
+                "Fiesole", "San Lorenzo e Cappelle Medicee", "Museo Galileo",
+                "Piazzale Michelangelo", "Loggia dei Lanzi",
+                "Mercato Centrale di San Lorenzo", "Sinagoga e Museo Ebraico",
+                "Abbazia di San Miniato al Monte"],
+    "Lucca": ["Mura di Lucca", "Cattedrale di San Martino", "Basilica di San Frediano",
+              "San Michele in Foro", "Piazza dell'Anfiteatro", "Torre Guinigi"],
+    "Pisa": ["Campo dei Miracoli", "Duomo di Pisa", "Torre Pendente di Pisa",
+             "Battistero di San Giovanni (Pisa)", "Camposanto Monumentale",
+             "Piazza dei Cavalieri"],
+    "Granada": ["Alhambra", "Albaicín", "Catedral de Granada y Capilla Real",
+                "Mirador de San Nicolás", "Sacromonte", "Monasterio de San Jerónimo"],
+    "Madrid": ["Palacio Real de Madrid", "Museo Nacional del Prado",
+               "Catedral de la Almudena", "Templo de Debod",
+               "Plaza Mayor de Madrid", "Puerta del Sol",
+               "Museo Reina Sofía", "Parque del Retiro", "Gran Vía",
+               "Mercado de San Miguel"],
+}
+
+
+def slugify(name):
+    """Genera un slug: 'Torre Guinigi' → 'torre_guinigi'"""
+    import unicodedata
+    s = unicodedata.normalize("NFD", name.lower())
+    s = "".join(c for c in s if unicodedata.category(c) != "Mn")
+    s = "".join(c if c.isalnum() else "_" for c in s)
+    s = "_".join(p for p in s.split("_") if p)
+    return s
+
+
+def _has_guide(city_folder, slug):
+    """Comprueba si existe un archivo de texto guía o audio para este slug."""
+    text_path = os.path.join(DOCS, "text", city_folder, f"{slug}.html")
+    audio_path = os.path.join(DOCS, "audio", city_folder, f"{slug}.mp3")
+    return os.path.exists(text_path) or os.path.exists(audio_path)
+
 
 def load_places_from_jsons():
     """Lee todos los JSON de mapas y devuelve un dict city -> lista de places con coords."""
@@ -155,7 +211,6 @@ def load_places_from_jsons():
     json_files = glob.glob(os.path.join(MAPS_DIR, "*_places*.json"))
     for jf in json_files:
         basename = os.path.basename(jf)
-        # Inferir ciudad del nombre del archivo
         city_key = None
         for ck in CITIES:
             if ck.lower() in basename.lower():
@@ -174,21 +229,28 @@ def load_places_from_jsons():
             if name in seen:
                 continue
             seen.add(name)
-            city_places[city_key].append({
+            slug = slugify(name)
+            folder = CITIES[city_key]["folder"]
+            place_entry = {
                 "name": name,
                 "lat": p["lat"],
                 "lon": p["lon"],
-            })
+            }
+            if _has_guide(folder, slug):
+                place_entry["guide"] = True
+                place_entry["guide_slug"] = slug
+            city_places[city_key].append(place_entry)
     return city_places
 
 
-def build_map_data(city_places):
-    """Construye el JSON embebido para Leaflet."""
+def build_places_json(city_places):
+    """Construye el JSON para el mapa (data/places.json)."""
     data = []
     for city_key, info in CITIES.items():
         places = city_places.get(city_key, [])
         data.append({
             "city": info["display"],
+            "folder": info["folder"],
             "country": info["country"],
             "lat": info["lat"],
             "lon": info["lon"],
@@ -199,61 +261,33 @@ def build_map_data(city_places):
     return data
 
 
-def build_timeline_data():
-    """Construye la lista de eventos para el timeline, ordenados cronológicamente."""
+def build_events_json():
+    """Construye el JSON para el timeline (data/events.json)."""
     events = []
-    # Mapear lugares a ciudades
-    place_to_city = {}
-    for city_key, info in CITIES.items():
-        for place_name, hist in HISTORICAL_DATA.items():
-            # Buscar en qué ciudad está (heurística por sección en el código)
-            pass
-    # Asignar ciudades por bloques del diccionario (ya están ordenados por ciudad en HISTORICAL_DATA)
-    city_ranges = {
-        "Rome": ["Colosseo", "Foro Romano e Palatino", "Foro di Traiano",
-                  "Monumento a Vittorio Emanuele II", "Terme di Caracalla",
-                  "Terme di Traiano", "Largo di Torre Argentina", "Fontana di Trevi",
-                  "Pantheon", "Piazza di Spagna", "Piazza del Popolo", "Musei Vaticani",
-                  "Basilica di Santa Maria Maggiore", "Villa Borghese",
-                  "Archibasilica di San Giovanni in Laterano", "Piazza Navona",
-                  "Quartiere Coppedè"],
-        "Firenze": ["Duomo di Firenze", "Battistero di San Giovanni", "Palazzo Vecchio",
-                     "Galleria degli Uffizi", "Ponte Vecchio",
-                     "Palazzo Pitti e Giardino di Boboli", "Basilica di Santa Croce",
-                     "Basilica di Santa Maria Novella", "Galleria dell'Accademia",
-                     "Basilica e Museo di San Marco", "Museo Nazionale del Bargello",
-                     "Fiesole", "San Lorenzo e Cappelle Medicee", "Museo Galileo",
-                     "Piazzale Michelangelo", "Loggia dei Lanzi",
-                     "Mercato Centrale di San Lorenzo", "Sinagoga e Museo Ebraico",
-                     "Abbazia di San Miniato al Monte"],
-        "Lucca": ["Mura di Lucca", "Cattedrale di San Martino", "Basilica di San Frediano",
-                   "San Michele in Foro", "Piazza dell'Anfiteatro", "Torre Guinigi"],
-        "Pisa": ["Campo dei Miracoli", "Duomo di Pisa", "Torre Pendente di Pisa",
-                  "Battistero di San Giovanni (Pisa)", "Camposanto Monumentale",
-                  "Piazza dei Cavalieri"],
-        "Granada": ["Alhambra", "Albaicín", "Catedral de Granada y Capilla Real",
-                     "Mirador de San Nicolás", "Sacromonte", "Monasterio de San Jerónimo"],
-        "Madrid": ["Palacio Real de Madrid", "Museo Nacional del Prado",
-                    "Catedral de la Almudena", "Templo de Debod",
-                    "Plaza Mayor de Madrid", "Puerta del Sol",
-                    "Museo Reina Sofía", "Parque del Retiro", "Gran Vía",
-                    "Mercado de San Miguel"],
-    }
-
-    for city_key, place_names in city_ranges.items():
+    for city_key, place_names in CITY_PLACES.items():
+        folder = CITIES[city_key]["folder"]
         for pn in place_names:
-            if pn in HISTORICAL_DATA:
-                h = HISTORICAL_DATA[pn]
-                events.append({
-                    "name": pn,
-                    "city": CITIES[city_key]["display"],
-                    "color": CITIES[city_key]["color"],
-                    "year": h["year"],
-                    "era": h["era"],
-                    "desc": h["desc"],
-                })
+            if pn not in HISTORICAL_DATA:
+                continue
+            h = HISTORICAL_DATA[pn]
+            slug = slugify(pn)
+            ev = {
+                "name": pn,
+                "city": CITIES[city_key]["display"],
+                "folder": folder,
+                "color": CITIES[city_key]["color"],
+                "year": h["year"],
+                "era": h["era"],
+                "desc": h["desc"],
+            }
+            if _has_guide(folder, slug):
+                ev["guide"] = True
+                ev["guide_slug"] = slug
+            events.append(ev)
     events.sort(key=lambda e: e["year"])
-    return events
+
+    city_colors = {info["display"]: info["color"] for info in CITIES.values()}
+    return {"events": events, "city_colors": city_colors}
 
 
 def format_year(y):
@@ -263,82 +297,19 @@ def format_year(y):
 
 
 # ═══════════════════════════════════════════════════════════════════════════════
-#  MAPA INTERACTIVO
+#  HTML TEMPLATES — lightweight shells that import external CSS/JS
 # ═══════════════════════════════════════════════════════════════════════════════
 
-MAP_HTML_TEMPLATE = r"""<!DOCTYPE html>
+def generate_mapa_html():
+    return """<!DOCTYPE html>
 <html lang="es">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Archivo de Viajes — Mapa</title>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-<style>
-* { margin: 0; padding: 0; box-sizing: border-box; }
-:root {
-  --bg: #1a1a2e;
-  --bg-card: #16213e;
-  --accent: #e94560;
-  --text: #eaeaea;
-  --text-muted: #8b8fa3;
-  --border: #2a2d45;
-}
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  background: var(--bg);
-  color: var(--text);
-  min-height: 100vh;
-}
-nav {
-  background: linear-gradient(135deg, #0f3460 0%, var(--bg-card) 100%);
-  padding: 14px 20px;
-  display: flex;
-  align-items: center;
-  gap: 16px;
-  border-bottom: 1px solid var(--border);
-  flex-wrap: wrap;
-}
-nav h1 { font-size: 1.15rem; font-weight: 600; white-space: nowrap; }
-nav .links { display: flex; gap: 12px; margin-left: auto; }
-nav a {
-  color: var(--text-muted);
-  text-decoration: none;
-  font-size: 0.85rem;
-  padding: 4px 10px;
-  border-radius: 6px;
-  transition: background 0.2s, color 0.2s;
-}
-nav a:hover, nav a.active { background: var(--accent); color: #fff; }
-#map { height: calc(100vh - 52px); width: 100%; }
-.city-legend {
-  position: absolute;
-  bottom: 20px;
-  left: 10px;
-  z-index: 1000;
-  background: rgba(26,26,46,0.92);
-  border-radius: 10px;
-  padding: 12px 16px;
-  border: 1px solid var(--border);
-  max-width: 200px;
-}
-.city-legend h3 { font-size: 0.8rem; color: var(--text-muted); margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.5px; }
-.legend-item { display: flex; align-items: center; gap: 8px; margin-bottom: 4px; cursor: pointer; padding: 2px 4px; border-radius: 4px; }
-.legend-item:hover { background: rgba(255,255,255,0.05); }
-.legend-dot { width: 12px; height: 12px; border-radius: 50%; flex-shrink: 0; }
-.legend-label { font-size: 0.82rem; }
-.legend-count { font-size: 0.72rem; color: var(--text-muted); margin-left: auto; }
-.leaflet-popup-content-wrapper {
-  background: var(--bg-card) !important;
-  color: var(--text) !important;
-  border-radius: 10px !important;
-  border: 1px solid var(--border) !important;
-}
-.leaflet-popup-tip { background: var(--bg-card) !important; }
-.leaflet-popup-content { font-family: inherit !important; font-size: 0.88rem !important; line-height: 1.5 !important; }
-.leaflet-popup-content h3 { color: var(--accent); margin-bottom: 4px; font-size: 1rem; }
-.leaflet-popup-content .city-tag { color: var(--text-muted); font-size: 0.78rem; }
-.leaflet-control-zoom a { background: var(--bg-card) !important; color: var(--text) !important; border-color: var(--border) !important; }
-</style>
+<link rel="stylesheet" href="css/theme.css">
+<link rel="stylesheet" href="css/mapa.css">
 </head>
 <body>
 <nav>
@@ -352,266 +323,21 @@ nav a:hover, nav a.active { background: var(--accent); color: #fff; }
 <div id="map"></div>
 <div class="city-legend" id="legend"></div>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-<script>
-const DATA = %%MAP_DATA%%;
-
-const map = L.map("map", {
-  center: [42.5, 5.0],
-  zoom: 5,
-  zoomControl: true,
-});
-
-L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png", {
-  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> &copy; <a href="https://carto.com/">CARTO</a>',
-  maxZoom: 19,
-}).addTo(map);
-
-const cityGroups = {};
-const allMarkers = [];
-
-function makeIcon(color, size) {
-  return L.divIcon({
-    className: "",
-    html: `<div style="width:${size}px;height:${size}px;background:${color};border-radius:50%;border:2px solid #fff;box-shadow:0 2px 6px rgba(0,0,0,0.5);"></div>`,
-    iconSize: [size, size],
-    iconAnchor: [size/2, size/2],
-    popupAnchor: [0, -size/2],
-  });
-}
-
-DATA.forEach(city => {
-  const group = L.layerGroup();
-
-  // City marker (larger)
-  const cityMarker = L.marker([city.lat, city.lon], { icon: makeIcon(city.color, 20) })
-    .bindPopup(`<h3>${city.city}</h3><span class="city-tag">${city.country}</span>${city.visit ? "<br><small>" + city.visit + "</small>" : ""}<br><small>${city.places.length} lugares documentados</small>`);
-  group.addLayer(cityMarker);
-  allMarkers.push(cityMarker);
-
-  // Place markers
-  city.places.forEach(p => {
-    const m = L.marker([p.lat, p.lon], { icon: makeIcon(city.color, 12) })
-      .bindPopup(`<h3>${p.name}</h3><span class="city-tag">${city.city}, ${city.country}</span>`);
-    group.addLayer(m);
-    allMarkers.push(m);
-  });
-
-  group.addTo(map);
-  cityGroups[city.city] = { group, color: city.color, count: city.places.length, lat: city.lat, lon: city.lon };
-});
-
-// Legend
-const legend = document.getElementById("legend");
-legend.innerHTML = "<h3>Ciudades</h3>" + DATA.map(c =>
-  `<div class="legend-item" data-city="${c.city}">
-    <div class="legend-dot" style="background:${c.color}"></div>
-    <span class="legend-label">${c.city}</span>
-    <span class="legend-count">${c.places.length}</span>
-  </div>`
-).join("");
-
-legend.querySelectorAll(".legend-item").forEach(el => {
-  el.addEventListener("click", () => {
-    const city = el.dataset.city;
-    const info = cityGroups[city];
-    map.flyTo([info.lat, info.lon], 13, { duration: 1 });
-  });
-});
-
-// Fit bounds to all markers
-if (allMarkers.length) {
-  const bounds = L.latLngBounds(allMarkers.map(m => m.getLatLng()));
-  map.fitBounds(bounds, { padding: [40, 40] });
-}
-</script>
+<script src="js/shared.js"></script>
+<script src="js/mapa.js"></script>
 </body>
 </html>"""
 
 
-# ═══════════════════════════════════════════════════════════════════════════════
-#  LÍNEA DE TIEMPO
-# ═══════════════════════════════════════════════════════════════════════════════
-
-TIMELINE_HTML_TEMPLATE = r"""<!DOCTYPE html>
+def generate_timeline_html():
+    return """<!DOCTYPE html>
 <html lang="es">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Archivo de Viajes — Línea de Tiempo</title>
-<style>
-* { margin: 0; padding: 0; box-sizing: border-box; }
-:root {
-  --bg: #1a1a2e;
-  --bg-card: #16213e;
-  --bg-player: #0f3460;
-  --accent: #e94560;
-  --text: #eaeaea;
-  --text-muted: #8b8fa3;
-  --border: #2a2d45;
-}
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  background: var(--bg);
-  color: var(--text);
-  min-height: 100vh;
-}
-nav {
-  background: linear-gradient(135deg, #0f3460 0%, var(--bg-card) 100%);
-  padding: 14px 20px;
-  display: flex;
-  align-items: center;
-  gap: 16px;
-  border-bottom: 1px solid var(--border);
-  position: sticky;
-  top: 0;
-  z-index: 10;
-  flex-wrap: wrap;
-}
-nav h1 { font-size: 1.15rem; font-weight: 600; white-space: nowrap; }
-nav .links { display: flex; gap: 12px; margin-left: auto; }
-nav a {
-  color: var(--text-muted);
-  text-decoration: none;
-  font-size: 0.85rem;
-  padding: 4px 10px;
-  border-radius: 6px;
-  transition: background 0.2s, color 0.2s;
-}
-nav a:hover, nav a.active { background: var(--accent); color: #fff; }
-
-.filters {
-  display: flex;
-  gap: 8px;
-  flex-wrap: wrap;
-  padding: 16px 20px 8px;
-  max-width: 900px;
-  margin: 0 auto;
-}
-.filter-btn {
-  background: var(--bg-card);
-  color: var(--text-muted);
-  border: 1px solid var(--border);
-  padding: 6px 14px;
-  border-radius: 20px;
-  cursor: pointer;
-  font-size: 0.8rem;
-  transition: all 0.2s;
-}
-.filter-btn:hover { border-color: var(--accent); color: var(--text); }
-.filter-btn.active { background: var(--accent); color: #fff; border-color: var(--accent); }
-
-.timeline-container {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 20px 20px 60px;
-  position: relative;
-}
-.timeline-container::before {
-  content: "";
-  position: absolute;
-  left: 28px;
-  top: 0;
-  bottom: 0;
-  width: 2px;
-  background: var(--border);
-}
-@media (min-width: 700px) {
-  .timeline-container::before { left: 50%; transform: translateX(-1px); }
-}
-
-.era-label {
-  position: relative;
-  padding: 12px 0 8px 60px;
-  font-size: 0.75rem;
-  color: var(--text-muted);
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-weight: 700;
-}
-.era-label::before {
-  content: "";
-  position: absolute;
-  left: 22px;
-  top: 50%;
-  width: 14px;
-  height: 14px;
-  background: var(--bg);
-  border: 2px solid var(--text-muted);
-  border-radius: 50%;
-  transform: translateY(-50%);
-}
-@media (min-width: 700px) {
-  .era-label { text-align: center; padding-left: 0; }
-  .era-label::before { left: 50%; transform: translate(-50%, -50%); }
-}
-
-.event {
-  position: relative;
-  padding: 0 0 24px 60px;
-  transition: opacity 0.3s;
-}
-.event.hidden { display: none; }
-
-.event::before {
-  content: "";
-  position: absolute;
-  left: 23px;
-  top: 8px;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  border: 2px solid #fff;
-}
-
-@media (min-width: 700px) {
-  .event { width: 50%; padding: 0 30px 24px 0; }
-  .event::before { right: -6px; left: auto; }
-  .event:nth-child(even) { margin-left: 50%; padding: 0 0 24px 30px; }
-  .event:nth-child(even)::before { left: -6px; right: auto; }
-}
-
-.event-card {
-  background: var(--bg-card);
-  border-radius: 10px;
-  padding: 14px 16px;
-  border: 1px solid var(--border);
-  transition: border-color 0.2s, transform 0.2s;
-}
-.event-card:hover { border-color: var(--accent); transform: translateY(-1px); }
-
-.event-year {
-  font-size: 0.78rem;
-  font-weight: 700;
-  margin-bottom: 4px;
-}
-.event-name {
-  font-size: 1rem;
-  font-weight: 600;
-  margin-bottom: 4px;
-  color: var(--text);
-}
-.event-desc {
-  font-size: 0.85rem;
-  color: var(--text-muted);
-  line-height: 1.45;
-}
-.event-city {
-  font-size: 0.72rem;
-  margin-top: 6px;
-  display: inline-block;
-  padding: 2px 8px;
-  border-radius: 10px;
-  background: rgba(255,255,255,0.06);
-}
-
-.stats {
-  text-align: center;
-  padding: 20px;
-  color: var(--text-muted);
-  font-size: 0.85rem;
-}
-.stats strong { color: var(--accent); }
-</style>
+<link rel="stylesheet" href="css/theme.css">
+<link rel="stylesheet" href="css/timeline.css">
 </head>
 <body>
 <nav>
@@ -623,142 +349,53 @@ nav a:hover, nav a.active { background: var(--accent); color: #fff; }
   </div>
 </nav>
 
-<div class="stats">
-  <strong>%%EVENT_COUNT%%</strong> lugares · <strong>%%YEAR_SPAN%%</strong> de historia · <strong>%%CITY_COUNT%%</strong> ciudades
-</div>
+<div class="stats" id="stats"></div>
 
 <div class="filters" id="filters"></div>
 
 <div class="timeline-container" id="timeline"></div>
 
-<script>
-const EVENTS = %%TIMELINE_DATA%%;
-const CITIES = %%CITY_COLORS%%;
-
-let activeFilter = null;
-
-function formatYear(y) {
-  return y < 0 ? Math.abs(y) + " a.C." : y + " d.C.";
-}
-
-function render(filter) {
-  const container = document.getElementById("timeline");
-  const events = filter ? EVENTS.filter(e => e.city === filter) : EVENTS;
-  let html = "";
-  let lastEra = "";
-  events.forEach(ev => {
-    if (ev.era !== lastEra) {
-      html += `<div class="era-label">${ev.era}</div>`;
-      lastEra = ev.era;
-    }
-    html += `<div class="event" data-city="${ev.city}">
-      <div class="event-card">
-        <div class="event-year" style="color:${ev.color}">${formatYear(ev.year)}</div>
-        <div class="event-name">${ev.name}</div>
-        <div class="event-desc">${ev.desc}</div>
-        <div class="event-city" style="color:${ev.color}">${ev.city}</div>
-      </div>
-    </div>`;
-    // Set dot color via style injection
-  });
-  container.innerHTML = html;
-
-  // Color the dots
-  container.querySelectorAll(".event").forEach(el => {
-    const city = el.dataset.city;
-    const color = CITIES[city] || "#e94560";
-    el.style.setProperty("--dot-color", color);
-    el.querySelector(".event")?.style;
-    // Use ::before color
-    el.style.cssText += `; --dot: ${color}`;
-  });
-
-  // Apply dot colors via CSS
-  document.querySelectorAll(".event").forEach(el => {
-    const city = el.dataset.city;
-    const color = CITIES[city] || "#e94560";
-    el.querySelector(":scope")?.style.setProperty("color", "inherit");
-    // Direct style on pseudo - use outline trick
-    const before = el;
-    before.style.setProperty("--c", color);
-  });
-}
-
-// Inject dynamic dot color CSS
-const styleEl = document.createElement("style");
-styleEl.textContent = Object.entries(CITIES).map(([city, color]) =>
-  `.event[data-city="${city}"]::before { background: ${color}; }`
-).join("\n");
-document.head.appendChild(styleEl);
-
-// Filters
-const filtersDiv = document.getElementById("filters");
-const allBtn = document.createElement("button");
-allBtn.className = "filter-btn active";
-allBtn.textContent = "Todas";
-allBtn.addEventListener("click", () => {
-  activeFilter = null;
-  render(null);
-  filtersDiv.querySelectorAll(".filter-btn").forEach(b => b.classList.remove("active"));
-  allBtn.classList.add("active");
-});
-filtersDiv.appendChild(allBtn);
-
-Object.entries(CITIES).forEach(([city, color]) => {
-  const btn = document.createElement("button");
-  btn.className = "filter-btn";
-  btn.innerHTML = `<span style="color:${color}">●</span> ${city}`;
-  btn.addEventListener("click", () => {
-    activeFilter = city;
-    render(city);
-    filtersDiv.querySelectorAll(".filter-btn").forEach(b => b.classList.remove("active"));
-    btn.classList.add("active");
-  });
-  filtersDiv.appendChild(btn);
-});
-
-render(null);
-</script>
+<script src="js/shared.js"></script>
+<script src="js/timeline.js"></script>
 </body>
 </html>"""
 
 
-def generate_map_html(city_places):
-    map_data = build_map_data(city_places)
-    html = MAP_HTML_TEMPLATE.replace("%%MAP_DATA%%", json.dumps(map_data, ensure_ascii=False, indent=2))
-    out = os.path.join(DOCS, "mapa.html")
-    with open(out, "w", encoding="utf-8") as f:
-        f.write(html)
-    print(f"  ✓ {out}")
-
-
-def generate_timeline_html():
-    events = build_timeline_data()
-    city_colors = {info["display"]: info["color"] for info in CITIES.values()}
-
-    years = [e["year"] for e in events]
-    min_y, max_y = min(years), max(years)
-    year_span = f"{format_year(min_y)} — {format_year(max_y)}"
-
-    html = TIMELINE_HTML_TEMPLATE
-    html = html.replace("%%TIMELINE_DATA%%", json.dumps(events, ensure_ascii=False, indent=2))
-    html = html.replace("%%CITY_COLORS%%", json.dumps(city_colors, ensure_ascii=False))
-    html = html.replace("%%EVENT_COUNT%%", str(len(events)))
-    html = html.replace("%%YEAR_SPAN%%", year_span)
-    html = html.replace("%%CITY_COUNT%%", str(len(CITIES)))
-
-    out = os.path.join(DOCS, "timeline.html")
-    with open(out, "w", encoding="utf-8") as f:
-        f.write(html)
-    print(f"  ✓ {out}")
-
-
 def main():
     os.makedirs(DOCS, exist_ok=True)
+    data_dir = os.path.join(DOCS, "data")
+    os.makedirs(data_dir, exist_ok=True)
+
     print("Generando páginas interactivas...")
+
+    # 1. Places JSON
     city_places = load_places_from_jsons()
-    generate_map_html(city_places)
-    generate_timeline_html()
+    places_data = build_places_json(city_places)
+    places_path = os.path.join(data_dir, "places.json")
+    with open(places_path, "w", encoding="utf-8") as f:
+        json.dump(places_data, f, ensure_ascii=False, indent=2)
+    total_places = sum(len(c.get("places", [])) for c in places_data)
+    print(f"  ✓ {places_path} ({len(places_data)} ciudades, {total_places} lugares)")
+
+    # 2. Events JSON
+    events_data = build_events_json()
+    events_path = os.path.join(data_dir, "events.json")
+    with open(events_path, "w", encoding="utf-8") as f:
+        json.dump(events_data, f, ensure_ascii=False, indent=2)
+    print(f"  ✓ {events_path} ({len(events_data['events'])} eventos)")
+
+    # 3. Mapa HTML
+    mapa_path = os.path.join(DOCS, "mapa.html")
+    with open(mapa_path, "w", encoding="utf-8") as f:
+        f.write(generate_mapa_html())
+    print(f"  ✓ {mapa_path}")
+
+    # 4. Timeline HTML
+    timeline_path = os.path.join(DOCS, "timeline.html")
+    with open(timeline_path, "w", encoding="utf-8") as f:
+        f.write(generate_timeline_html())
+    print(f"  ✓ {timeline_path}")
+
     print("¡Listo!")
 
 

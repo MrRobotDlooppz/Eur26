@@ -1,0 +1,400 @@
+[
+  {
+    "city": "Roma",
+    "folder": "Rome",
+    "country": "Italia",
+    "lat": 41.9028,
+    "lon": 12.4964,
+    "color": "#e94560",
+    "visit": "2026-03-23 → 2026-03-30",
+    "places": [
+      {
+        "name": "Colosseo (Anfiteatro Flavio)",
+        "lat": 41.8902,
+        "lon": 12.4922
+      },
+      {
+        "name": "Foro Romano e Palatino",
+        "lat": 41.8925,
+        "lon": 12.4853
+      },
+      {
+        "name": "Fontana di Trevi",
+        "lat": 41.9009,
+        "lon": 12.4833,
+        "guide": true,
+        "guide_slug": "fontana_di_trevi"
+      },
+      {
+        "name": "Pantheon",
+        "lat": 41.8986,
+        "lon": 12.4769,
+        "guide": true,
+        "guide_slug": "pantheon"
+      },
+      {
+        "name": "Piazza di Spagna",
+        "lat": 41.9058,
+        "lon": 12.4823,
+        "guide": true,
+        "guide_slug": "piazza_di_spagna"
+      },
+      {
+        "name": "Piazza del Popolo",
+        "lat": 41.9106,
+        "lon": 12.4764,
+        "guide": true,
+        "guide_slug": "piazza_del_popolo"
+      },
+      {
+        "name": "Musei Vaticani",
+        "lat": 41.9065,
+        "lon": 12.4536,
+        "guide": true,
+        "guide_slug": "musei_vaticani"
+      },
+      {
+        "name": "Basilica di Santa Maria Maggiore",
+        "lat": 41.8976,
+        "lon": 12.4984
+      },
+      {
+        "name": "Villa Borghese",
+        "lat": 41.9122,
+        "lon": 12.4854,
+        "guide": true,
+        "guide_slug": "villa_borghese"
+      },
+      {
+        "name": "Monumento a Vittorio Emanuele II",
+        "lat": 41.8946,
+        "lon": 12.4833
+      }
+    ]
+  },
+  {
+    "city": "Firenze",
+    "folder": "Firenze",
+    "country": "Italia",
+    "lat": 43.7696,
+    "lon": 11.2558,
+    "color": "#f5a623",
+    "visit": "",
+    "places": [
+      {
+        "name": "Galleria dell'Accademia",
+        "lat": 43.7767,
+        "lon": 11.2588
+      },
+      {
+        "name": "Basilica e Museo di San Marco",
+        "lat": 43.7776,
+        "lon": 11.2589
+      },
+      {
+        "name": "Basilica di Santa Croce",
+        "lat": 43.7686,
+        "lon": 11.2622
+      },
+      {
+        "name": "Basilica di Santa Maria Novella",
+        "lat": 43.7746,
+        "lon": 11.2494
+      },
+      {
+        "name": "Palazzo Pitti",
+        "lat": 43.765,
+        "lon": 11.2499
+      },
+      {
+        "name": "Piazzale Michelangelo",
+        "lat": 43.7629,
+        "lon": 11.2654,
+        "guide": true,
+        "guide_slug": "piazzale_michelangelo"
+      },
+      {
+        "name": "Abbazia di San Miniato al Monte",
+        "lat": 43.7596,
+        "lon": 11.2652
+      },
+      {
+        "name": "Museo Galileo",
+        "lat": 43.7681,
+        "lon": 11.2558,
+        "guide": true,
+        "guide_slug": "museo_galileo"
+      },
+      {
+        "name": "Loggia dei Lanzi",
+        "lat": 43.7695,
+        "lon": 11.2558,
+        "guide": true,
+        "guide_slug": "loggia_dei_lanzi"
+      },
+      {
+        "name": "Basilica di San Lorenzo e Cappelle Medicee",
+        "lat": 43.7746,
+        "lon": 11.2537
+      },
+      {
+        "name": "Museo Nazionale del Bargello",
+        "lat": 43.7697,
+        "lon": 11.2573
+      },
+      {
+        "name": "Mercato Centrale di San Lorenzo",
+        "lat": 43.7754,
+        "lon": 11.2539
+      },
+      {
+        "name": "Sinagoga e Museo Ebraico di Firenze",
+        "lat": 43.7734,
+        "lon": 11.2616
+      },
+      {
+        "name": "Biblioteca Nazionale Centrale di Firenze",
+        "lat": 43.768,
+        "lon": 11.2617
+      },
+      {
+        "name": "Museo di Leonardo da Vinci",
+        "lat": 43.7738,
+        "lon": 11.2574
+      },
+      {
+        "name": "Fiesole",
+        "lat": 43.8055,
+        "lon": 11.293,
+        "guide": true,
+        "guide_slug": "fiesole"
+      },
+      {
+        "name": "Mercato di San Lorenzo (callejero)",
+        "lat": 43.7756,
+        "lon": 11.2537
+      },
+      {
+        "name": "Mercato delle Pulci — Piazza dei Ciompi",
+        "lat": 43.7693,
+        "lon": 11.2634
+      }
+    ]
+  },
+  {
+    "city": "Lucca",
+    "folder": "Lucca",
+    "country": "Italia",
+    "lat": 43.843,
+    "lon": 10.505,
+    "color": "#4ecca3",
+    "visit": "",
+    "places": [
+      {
+        "name": "Mura di Lucca",
+        "lat": 43.843,
+        "lon": 10.505,
+        "guide": true,
+        "guide_slug": "mura_di_lucca"
+      },
+      {
+        "name": "Piazza dell'Anfiteatro",
+        "lat": 43.8445,
+        "lon": 10.5077
+      },
+      {
+        "name": "Cattedrale di San Martino",
+        "lat": 43.8426,
+        "lon": 10.5061
+      },
+      {
+        "name": "Basilica di San Frediano",
+        "lat": 43.8462,
+        "lon": 10.5046
+      },
+      {
+        "name": "San Michele in Foro",
+        "lat": 43.8441,
+        "lon": 10.5052,
+        "guide": true,
+        "guide_slug": "san_michele_in_foro"
+      },
+      {
+        "name": "Torre Guinigi",
+        "lat": 43.8435,
+        "lon": 10.5079,
+        "guide": true,
+        "guide_slug": "torre_guinigi"
+      }
+    ]
+  },
+  {
+    "city": "Pisa",
+    "folder": "Pisa",
+    "country": "Italia",
+    "lat": 43.7228,
+    "lon": 10.4017,
+    "color": "#3dc1d3",
+    "visit": "",
+    "places": [
+      {
+        "name": "Campo dei Miracoli",
+        "lat": 43.7231,
+        "lon": 10.3966,
+        "guide": true,
+        "guide_slug": "campo_dei_miracoli"
+      },
+      {
+        "name": "Torre Pendente di Pisa",
+        "lat": 43.723,
+        "lon": 10.3966
+      },
+      {
+        "name": "Duomo di Pisa",
+        "lat": 43.7231,
+        "lon": 10.3965,
+        "guide": true,
+        "guide_slug": "duomo_di_pisa"
+      },
+      {
+        "name": "Battistero di San Giovanni",
+        "lat": 43.7232,
+        "lon": 10.3959
+      },
+      {
+        "name": "Camposanto Monumentale",
+        "lat": 43.7234,
+        "lon": 10.3952,
+        "guide": true,
+        "guide_slug": "camposanto_monumentale"
+      },
+      {
+        "name": "Piazza dei Cavalieri",
+        "lat": 43.7199,
+        "lon": 10.4008,
+        "guide": true,
+        "guide_slug": "piazza_dei_cavalieri"
+      }
+    ]
+  },
+  {
+    "city": "Granada",
+    "folder": "Granada",
+    "country": "España",
+    "lat": 37.1773,
+    "lon": -3.5986,
+    "color": "#e55039",
+    "visit": "",
+    "places": [
+      {
+        "name": "Alhambra",
+        "lat": 37.1761,
+        "lon": -3.5881,
+        "guide": true,
+        "guide_slug": "alhambra"
+      },
+      {
+        "name": "Catedral de Granada y Capilla Real",
+        "lat": 37.1765,
+        "lon": -3.5993
+      },
+      {
+        "name": "Albaicín",
+        "lat": 37.1816,
+        "lon": -3.5947,
+        "guide": true,
+        "guide_slug": "albaicin"
+      },
+      {
+        "name": "Mirador de San Nicolás",
+        "lat": 37.181,
+        "lon": -3.5927
+      },
+      {
+        "name": "Monasterio de San Jerónimo",
+        "lat": 37.1792,
+        "lon": -3.6046
+      },
+      {
+        "name": "Sacromonte",
+        "lat": 37.1819,
+        "lon": -3.585,
+        "guide": true,
+        "guide_slug": "sacromonte"
+      }
+    ]
+  },
+  {
+    "city": "Madrid",
+    "folder": "Madrid",
+    "country": "España",
+    "lat": 40.4168,
+    "lon": -3.7038,
+    "color": "#f8c291",
+    "visit": "",
+    "places": [
+      {
+        "name": "Palacio Real de Madrid",
+        "lat": 40.418,
+        "lon": -3.7143
+      },
+      {
+        "name": "Museo Nacional del Prado",
+        "lat": 40.4138,
+        "lon": -3.6921
+      },
+      {
+        "name": "Museo Reina Sofía",
+        "lat": 40.4086,
+        "lon": -3.6943,
+        "guide": true,
+        "guide_slug": "museo_reina_sofia"
+      },
+      {
+        "name": "Parque del Retiro",
+        "lat": 40.4153,
+        "lon": -3.6845,
+        "guide": true,
+        "guide_slug": "parque_del_retiro"
+      },
+      {
+        "name": "Puerta del Sol",
+        "lat": 40.4169,
+        "lon": -3.7035,
+        "guide": true,
+        "guide_slug": "puerta_del_sol"
+      },
+      {
+        "name": "Plaza Mayor",
+        "lat": 40.4155,
+        "lon": -3.7074,
+        "guide": true,
+        "guide_slug": "plaza_mayor"
+      },
+      {
+        "name": "Templo de Debod",
+        "lat": 40.4238,
+        "lon": -3.7177,
+        "guide": true,
+        "guide_slug": "templo_de_debod"
+      },
+      {
+        "name": "Catedral de la Almudena",
+        "lat": 40.4156,
+        "lon": -3.7146
+      },
+      {
+        "name": "Gran Vía",
+        "lat": 40.42,
+        "lon": -3.7057,
+        "guide": true,
+        "guide_slug": "gran_via"
+      },
+      {
+        "name": "Mercado de San Miguel",
+        "lat": 40.4153,
+        "lon": -3.709
+      }
+    ]
+  }
+]

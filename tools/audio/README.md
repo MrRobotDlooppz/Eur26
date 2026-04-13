@@ -25,13 +25,13 @@ Esto:
 ### Generar audio de un solo archivo
 
 ```bash
-python tools/audio/generate_audio.py --input Lucca/lugares/torre_guinigi.md
+python tools/audio/generate_audio.py --input ciudades/Lucca/lugares/torre_guinigi.md
 ```
 
 ### Generar audio de una ciudad
 
 ```bash
-python tools/audio/generate_audio.py --input Firenze/
+python tools/audio/generate_audio.py --input ciudades/Firenze/
 ```
 
 ### Regenerar todo (ignorar cache)

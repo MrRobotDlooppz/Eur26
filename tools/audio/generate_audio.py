@@ -3,8 +3,8 @@
 Convierte archivos Markdown del repositorio en archivos MP3 usando edge-tts.
 
 Uso:
-    python tools/audio/generate_audio.py --input Lucca/lugares/torre_guinigi.md --output docs/audio/Lucca/
-    python tools/audio/generate_audio.py --input Firenze/ --output docs/audio/
+    python tools/audio/generate_audio.py --input ciudades/Lucca/lugares/torre_guinigi.md --output docs/audio/Lucca/
+    python tools/audio/generate_audio.py --input ciudades/Firenze/ --output docs/audio/
     python tools/audio/generate_audio.py --input . --output docs/audio/
     python tools/audio/generate_audio.py --list-voices
 """
@@ -30,7 +30,10 @@ DEFAULT_RATE = "+0%"
 EXCLUDED_FILES = {"README.md", "CLAUDE.md"}
 
 # Carpetas de ciudad conocidas (se detectan automáticamente, pero esto ayuda)
-CITY_FOLDERS = {"Rome", "Firenze", "Lucca", "Pisa", "Granada"}
+CITY_FOLDERS = {"Rome", "Firenze", "Lucca", "Pisa", "Granada", "Madrid"}
+
+# Carpeta base donde viven las ciudades
+CITIES_DIR = "ciudades"
 
 
 # ---------------------------------------------------------------------------
@@ -198,9 +201,17 @@ def discover_md_files(input_path: Path, repo_root: Path) -> list[tuple[Path, str
         if first_part in ("tools", ".github", "docs", ".venv"):
             continue
 
-        # Solo incluir archivos que estén dentro de una carpeta de ciudad
-        # (tienen al menos 2 niveles: Ciudad/archivo.md o Ciudad/lugares/archivo.md)
-        if len(rel.parts) < 2 and first_part not in CITY_FOLDERS:
+        # Solo incluir archivos dentro de ciudades/ (estructura: ciudades/Ciudad/...)
+        # o directamente en una carpeta de ciudad conocida (compatibilidad)
+        if first_part == CITIES_DIR:
+            # ciudades/Rome/archivo.md → needs at least 3 parts
+            if len(rel.parts) < 3:
+                continue
+        elif first_part in CITY_FOLDERS:
+            # Legacy: Rome/archivo.md
+            if len(rel.parts) < 2:
+                continue
+        else:
             continue
 
         # Verificar que tiene contenido narrativo (mínimo 10 líneas de texto)
@@ -218,6 +229,10 @@ def _get_city_name(md_file: Path, repo_root: Path) -> str:
     """Obtiene el nombre de la ciudad a partir de la ruta del archivo."""
     try:
         rel = md_file.relative_to(repo_root)
+        # Si está en ciudades/Rome/... → parts[1] es la ciudad
+        if rel.parts[0] == CITIES_DIR and len(rel.parts) > 2:
+            return rel.parts[1]
+        # Legacy: Rome/... → parts[0] es la ciudad
         return rel.parts[0] if len(rel.parts) > 1 else "General"
     except ValueError:
         return "General"

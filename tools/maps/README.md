@@ -54,7 +54,7 @@ Notas:
 ```bash
 python tools/maps/generate_static_maps.py \
   --input tools/maps/rome_places.example.json \
-  --output Rome/fotos
+  --output ciudades/Rome/fotos
 ```
 
 Parametros opcionales:
@@ -71,7 +71,7 @@ Parametros opcionales:
 
 ## Integracion en notas
 
-Despues de generar una imagen, agregar en `Rome/Lugares.md` dentro del lugar:
+Despues de generar una imagen, agregar en `ciudades/Rome/Lugares.md` dentro del lugar:
 
 ```md
 **Mapa del lugar**

@@ -82,7 +82,7 @@ Cada lugar puede incluir las secciones que sean relevantes. No es obligatorio co
 ### 10. Fotos y metadata
 
 - No inferir información a partir del nombre de archivo de una foto. Si se necesita metadata EXIF, extraerla explícitamente o marcar como `pendiente`.
-- Para cada lugar nuevo referenciado, agregar una imagen de mapa con pin de ubicación en la carpeta `fotos/` de la ciudad (ej.: `Rome/fotos/mapa_colosseo.png`).
+- Para cada lugar nuevo referenciado, agregar una imagen de mapa con pin de ubicación en la carpeta `fotos/` de la ciudad (ej.: `ciudades/Rome/fotos/mapa_colosseo.png`).
 - La imagen de mapa debe insertarse en el markdown del lugar con sintaxis de imagen y texto alternativo descriptivo.
 - Si no se pudo generar la imagen de mapa, marcar explícitamente `[DATO PENDIENTE — generar mapa con pin]`.
 
@@ -131,11 +131,11 @@ Seguir este flujo exacto y completo. No saltear pasos ni cambiar el orden.
 
 Crear antes de crear ningún archivo:
 ```
-NombreCiudad/fotos/
-NombreCiudad/lugares/
+ciudades/NombreCiudad/fotos/
+ciudades/NombreCiudad/lugares/
 ```
 
-### Paso 2 — Archivo principal de ciudad (`NombreCiudad/nombreciudad.md`)
+### Paso 2 — Archivo principal de ciudad (`ciudades/NombreCiudad/nombreciudad.md`)
 
 - Frontmatter YAML: `nombre_original`, `pais`, `region_admin`, `coordenadas`, `altitud_m`, `fecha_visita`
 - Historia completa y rica (no superficial): origen, apogeo, personajes clave, datos sorprendentes
@@ -143,7 +143,7 @@ NombreCiudad/lugares/
 - Lista final de lugares documentados con links relativos a `lugares/`
 - Fuentes al pie
 
-### Paso 3 — Archivos de lugares (`NombreCiudad/lugares/nombre_lugar.md`)
+### Paso 3 — Archivos de lugares (`ciudades/NombreCiudad/lugares/nombre_lugar.md`)
 
 Frontmatter YAML igual que ciudad. Inmediatamente después del frontmatter, el bloque:
 
@@ -177,7 +177,7 @@ El campo `"archivo"` debe coincidir exactamente con el placeholder en el `.md`. 
 source .venv/bin/activate
 python tools/maps/generate_static_maps.py \
   --input tools/maps/nombreciudad_places.json \
-  --output NombreCiudad/fotos \
+  --output ciudades/NombreCiudad/fotos \
   --no-city-context
 ```
 
@@ -205,13 +205,13 @@ Usar el script genérico `tools/audio/build_audio_site.sh` que genera MP3 a part
 
 ```bash
 # Solo una ciudad
-./tools/audio/build_audio_site.sh NombreCiudad/
+./tools/audio/build_audio_site.sh ciudades/NombreCiudad/
 
 # Todo el repositorio
 ./tools/audio/build_audio_site.sh
 
 # Forzar regeneración (ignorar cache)
-./tools/audio/build_audio_site.sh NombreCiudad/ --force
+./tools/audio/build_audio_site.sh ciudades/NombreCiudad/ --force
 ```
 
 El script:
@@ -236,9 +236,9 @@ El script:
 
 | Ciudad | Carpeta | JSON de mapas |
 |---|---|---|
-| Roma | `Rome/` | `tools/maps/rome_places.example.json` |
-| Firenze | `Firenze/` | `tools/maps/firenze_places.json` |
-| Lucca | `Lucca/` | `tools/maps/lucca_places.json` |
-| Pisa | `Pisa/` | `tools/maps/pisa_places.json` |
-| Granada | `Granada/` | — |
-| Madrid | `Madrid/` | `tools/maps/madrid_places.json` |
+| Roma | `ciudades/Rome/` | `tools/maps/rome_places.example.json` |
+| Firenze | `ciudades/Firenze/` | `tools/maps/firenze_places.json` |
+| Lucca | `ciudades/Lucca/` | `tools/maps/lucca_places.json` |
+| Pisa | `ciudades/Pisa/` | `tools/maps/pisa_places.json` |
+| Granada | `ciudades/Granada/` | — |
+| Madrid | `ciudades/Madrid/` | `tools/maps/madrid_places.json` |

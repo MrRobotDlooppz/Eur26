@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 # =============================================================================
-# build_audio_site.sh — Pipeline completo: .md → MP3 → Player web
+# build_audio_site.sh — Pipeline completo: .md → MP3 + HTML text → Player web
 #
 # Uso:
-#   ./tools/audio/build_audio_site.sh                  # todo el repo
-#   ./tools/audio/build_audio_site.sh Firenze/         # solo una ciudad
-#   ./tools/audio/build_audio_site.sh --force           # regenerar todo
+#   ./tools/audio/build_audio_site.sh                          # todo el repo
+#   ./tools/audio/build_audio_site.sh ciudades/Firenze/        # solo una ciudad
+#   ./tools/audio/build_audio_site.sh --force                   # regenerar todo
 #   ./tools/audio/build_audio_site.sh --voice es-AR-ElenaNeural
 # =============================================================================
 set -euo pipefail
@@ -36,12 +36,12 @@ fi
 
 # --- 2. Instalar dependencias ---
 echo -e "${YELLOW}Verificando dependencias...${NC}"
-pip install -q edge-tts mutagen 2>/dev/null || {
+pip install -q edge-tts mutagen markdown 2>/dev/null || {
     echo -e "${RED}Error instalando dependencias. Ejecutá manualmente:${NC}"
-    echo "  pip install edge-tts mutagen"
+    echo "  pip install edge-tts mutagen markdown"
     exit 1
 }
-echo "  ✓ edge-tts y mutagen instalados"
+echo "  ✓ edge-tts, mutagen y markdown instalados"
 
 # --- 3. Parsear argumentos ---
 INPUT_ARGS=""
@@ -81,15 +81,31 @@ fi
 
 # --- 4. Generar MP3 ---
 echo ""
-echo -e "${GREEN}=== Paso 1/2: Generando audio (MD → MP3) ===${NC}"
+echo -e "${GREEN}=== Paso 1/4: Generando audio (MD → MP3) ===${NC}"
 echo ""
 python tools/audio/generate_audio.py $INPUT_ARGS --output docs/audio $EXTRA_ARGS
 
-# --- 5. Generar player HTML ---
+# --- 5. Generar texto HTML ---
 echo ""
-echo -e "${GREEN}=== Paso 2/2: Generando player web ===${NC}"
+echo -e "${GREEN}=== Paso 2/4: Generando texto guía (MD → HTML) ===${NC}"
+echo ""
+TEXT_ARGS="--output docs/text"
+if [[ "$EXTRA_ARGS" == *"--force"* ]]; then
+    TEXT_ARGS="$TEXT_ARGS --force"
+fi
+python tools/audio/generate_text.py $INPUT_ARGS $TEXT_ARGS
+
+# --- 6. Generar player HTML ---
+echo ""
+echo -e "${GREEN}=== Paso 3/4: Generando player web ===${NC}"
 echo ""
 python tools/audio/generate_player.py --audio-dir docs/audio --output docs/index.html
+
+# --- 7. Generar páginas interactivas (mapa + timeline) ---
+echo ""
+echo -e "${GREEN}=== Paso 4/4: Generando mapa y timeline ===${NC}"
+echo ""
+python tools/generate_interactive_pages.py
 
 # --- 6. Asegurar .nojekyll ---
 touch docs/.nojekyll
@@ -101,11 +117,15 @@ echo ""
 
 # Contar archivos generados
 MP3_COUNT=$(find docs/audio -name "*.mp3" 2>/dev/null | wc -l)
+HTML_COUNT=$(find docs/text -name "*.html" 2>/dev/null | wc -l)
 TOTAL_SIZE=$(du -sh docs/audio 2>/dev/null | cut -f1 || echo "0")
 
 echo "  📁 MP3 generados: $MP3_COUNT"
-echo "  💾 Tamaño total: $TOTAL_SIZE"
+echo "  📄 Guías HTML: $HTML_COUNT"
+echo "  💾 Tamaño audio: $TOTAL_SIZE"
 echo "  🌐 Player: docs/index.html"
+echo "  🗺️  Mapa: docs/mapa.html"
+echo "  ⏳ Timeline: docs/timeline.html"
 echo ""
 echo -e "${YELLOW}Para probar localmente:${NC}"
 echo "  cd docs && python3 -m http.server 8080"

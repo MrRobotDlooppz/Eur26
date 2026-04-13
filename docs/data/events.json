@@ -1,0 +1,654 @@
+{
+  "events": [
+    {
+      "name": "Fiesole",
+      "city": "Firenze",
+      "folder": "Firenze",
+      "color": "#f5a623",
+      "year": -700,
+      "era": "Etrusco",
+      "desc": "Asentamiento etrusco anterior a Florencia",
+      "guide": true,
+      "guide_slug": "fiesole"
+    },
+    {
+      "name": "Foro Romano e Palatino",
+      "city": "Roma",
+      "folder": "Rome",
+      "color": "#e94560",
+      "year": -600,
+      "era": "Roma Monárquica",
+      "desc": "Centro político de la Roma antigua"
+    },
+    {
+      "name": "Largo di Torre Argentina",
+      "city": "Roma",
+      "folder": "Rome",
+      "color": "#e94560",
+      "year": -300,
+      "era": "Roma Republicana",
+      "desc": "Templos republicanos; sitio del asesinato de César (44 a.C.)",
+      "guide": true,
+      "guide_slug": "largo_di_torre_argentina"
+    },
+    {
+      "name": "Templo de Debod",
+      "city": "Madrid",
+      "folder": "Madrid",
+      "color": "#f8c291",
+      "year": -200,
+      "era": "Egipto ptolemaico",
+      "desc": "Templo del s. II a.C. donado por Egipto a España (1968)",
+      "guide": true,
+      "guide_slug": "templo_de_debod"
+    },
+    {
+      "name": "Colosseo",
+      "city": "Roma",
+      "folder": "Rome",
+      "color": "#e94560",
+      "year": 72,
+      "era": "Roma Imperial",
+      "desc": "Anfiteatro Flavio, iniciado por Vespasiano",
+      "guide": true,
+      "guide_slug": "colosseo"
+    },
+    {
+      "name": "Piazza Navona",
+      "city": "Roma",
+      "folder": "Rome",
+      "color": "#e94560",
+      "year": 86,
+      "era": "Roma Imperial",
+      "desc": "Sobre el Stadio di Domiziano; fuentes de Bernini (1651)",
+      "guide": true,
+      "guide_slug": "piazza_navona"
+    },
+    {
+      "name": "Foro di Traiano",
+      "city": "Roma",
+      "folder": "Rome",
+      "color": "#e94560",
+      "year": 107,
+      "era": "Roma Imperial",
+      "desc": "Último y más grande de los foros imperiales",
+      "guide": true,
+      "guide_slug": "foro_di_traiano"
+    },
+    {
+      "name": "Terme di Traiano",
+      "city": "Roma",
+      "folder": "Rome",
+      "color": "#e94560",
+      "year": 109,
+      "era": "Roma Imperial",
+      "desc": "Termas sobre la Domus Aurea de Nerón"
+    },
+    {
+      "name": "Pantheon",
+      "city": "Roma",
+      "folder": "Rome",
+      "color": "#e94560",
+      "year": 125,
+      "era": "Roma Imperial",
+      "desc": "Templo de todos los dioses, reconstruido por Adriano",
+      "guide": true,
+      "guide_slug": "pantheon"
+    },
+    {
+      "name": "Piazza dell'Anfiteatro",
+      "city": "Lucca",
+      "folder": "Lucca",
+      "color": "#4ecca3",
+      "year": 180,
+      "era": "Roma Imperial",
+      "desc": "Plaza elíptica sobre el anfiteatro romano del s. II"
+    },
+    {
+      "name": "Terme di Caracalla",
+      "city": "Roma",
+      "folder": "Rome",
+      "color": "#e94560",
+      "year": 212,
+      "era": "Roma Imperial",
+      "desc": "Termas monumentales del emperador Caracalla"
+    },
+    {
+      "name": "Archibasilica di San Giovanni in Laterano",
+      "city": "Roma",
+      "folder": "Rome",
+      "color": "#e94560",
+      "year": 324,
+      "era": "Roma paleocristiana",
+      "desc": "Primera basílica cristiana, catedral de Roma"
+    },
+    {
+      "name": "San Lorenzo e Cappelle Medicee",
+      "city": "Firenze",
+      "folder": "Firenze",
+      "color": "#f5a623",
+      "year": 393,
+      "era": "Roma paleocristiana",
+      "desc": "Iglesia más antigua de Firenze; Sacristía Nueva de Miguel Ángel"
+    },
+    {
+      "name": "Basilica di Santa Maria Maggiore",
+      "city": "Roma",
+      "folder": "Rome",
+      "color": "#e94560",
+      "year": 435,
+      "era": "Roma paleocristiana",
+      "desc": "Una de las cuatro basílicas mayores, mosaicos del s. V"
+    },
+    {
+      "name": "Basilica di San Frediano",
+      "city": "Lucca",
+      "folder": "Lucca",
+      "color": "#4ecca3",
+      "year": 550,
+      "era": "Alta Edad Media",
+      "desc": "Fundada por el obispo irlandés San Frediano"
+    },
+    {
+      "name": "Abbazia di San Miniato al Monte",
+      "city": "Firenze",
+      "folder": "Firenze",
+      "color": "#f5a623",
+      "year": 1013,
+      "era": "Románico",
+      "desc": "Joya del románico florentino sobre la colina"
+    },
+    {
+      "name": "Albaicín",
+      "city": "Granada",
+      "folder": "Granada",
+      "color": "#e55039",
+      "year": 1013,
+      "era": "Zirí / Nazarí",
+      "desc": "Barrio medieval árabe, Patrimonio UNESCO",
+      "guide": true,
+      "guide_slug": "albaicin"
+    },
+    {
+      "name": "Battistero di San Giovanni",
+      "city": "Firenze",
+      "folder": "Firenze",
+      "color": "#f5a623",
+      "year": 1059,
+      "era": "Románico",
+      "desc": "Baptisterio octogonal, Puertas del Paraíso de Ghiberti"
+    },
+    {
+      "name": "Cattedrale di San Martino",
+      "city": "Lucca",
+      "folder": "Lucca",
+      "color": "#4ecca3",
+      "year": 1060,
+      "era": "Románico",
+      "desc": "Catedral con el Volto Santo, crucifijo legendario"
+    },
+    {
+      "name": "Campo dei Miracoli",
+      "city": "Pisa",
+      "folder": "Pisa",
+      "color": "#3dc1d3",
+      "year": 1064,
+      "era": "Románico",
+      "desc": "Conjunto monumental tras la victoria sobre Palermo",
+      "guide": true,
+      "guide_slug": "campo_dei_miracoli"
+    },
+    {
+      "name": "Duomo di Pisa",
+      "city": "Pisa",
+      "folder": "Pisa",
+      "color": "#3dc1d3",
+      "year": 1064,
+      "era": "Románico",
+      "desc": "Catedral de Buscheto, estilo románico pisano",
+      "guide": true,
+      "guide_slug": "duomo_di_pisa"
+    },
+    {
+      "name": "San Michele in Foro",
+      "city": "Lucca",
+      "folder": "Lucca",
+      "color": "#4ecca3",
+      "year": 1070,
+      "era": "Románico",
+      "desc": "Iglesia sobre el antiguo foro romano",
+      "guide": true,
+      "guide_slug": "san_michele_in_foro"
+    },
+    {
+      "name": "Battistero di San Giovanni (Pisa)",
+      "city": "Pisa",
+      "folder": "Pisa",
+      "color": "#3dc1d3",
+      "year": 1152,
+      "era": "Románico / Gótico",
+      "desc": "El baptisterio más grande de Italia"
+    },
+    {
+      "name": "Torre Pendente di Pisa",
+      "city": "Pisa",
+      "folder": "Pisa",
+      "color": "#3dc1d3",
+      "year": 1173,
+      "era": "Románico",
+      "desc": "La torre inclinada, 199 años de construcción"
+    },
+    {
+      "name": "Alhambra",
+      "city": "Granada",
+      "folder": "Granada",
+      "color": "#e55039",
+      "year": 1238,
+      "era": "Nazarí",
+      "desc": "Palacio-fortaleza de Muhammad I, joya del arte islámico",
+      "guide": true,
+      "guide_slug": "alhambra"
+    },
+    {
+      "name": "Basilica di Santa Maria Novella",
+      "city": "Firenze",
+      "folder": "Firenze",
+      "color": "#f5a623",
+      "year": 1246,
+      "era": "Gótico",
+      "desc": "Iglesia dominica, fachada de Leon Battista Alberti"
+    },
+    {
+      "name": "Museo Nazionale del Bargello",
+      "city": "Firenze",
+      "folder": "Firenze",
+      "color": "#f5a623",
+      "year": 1255,
+      "era": "Medieval",
+      "desc": "Palazzo del Podestà, primer museo nacional de Italia (1865)"
+    },
+    {
+      "name": "Camposanto Monumentale",
+      "city": "Pisa",
+      "folder": "Pisa",
+      "color": "#3dc1d3",
+      "year": 1278,
+      "era": "Gótico",
+      "desc": "Cementerio monumental con tierra santa de Jerusalén",
+      "guide": true,
+      "guide_slug": "camposanto_monumentale"
+    },
+    {
+      "name": "Basilica di Santa Croce",
+      "city": "Firenze",
+      "folder": "Firenze",
+      "color": "#f5a623",
+      "year": 1294,
+      "era": "Gótico",
+      "desc": "Panteón de glorias italianas: Galileo, Miguel Ángel, Maquiavelo"
+    },
+    {
+      "name": "Duomo di Firenze",
+      "city": "Firenze",
+      "folder": "Firenze",
+      "color": "#f5a623",
+      "year": 1296,
+      "era": "Gótico / Renacimiento",
+      "desc": "Catedral con la cúpula de Brunelleschi (1436)"
+    },
+    {
+      "name": "Palazzo Vecchio",
+      "city": "Firenze",
+      "folder": "Firenze",
+      "color": "#f5a623",
+      "year": 1299,
+      "era": "Gótico",
+      "desc": "Sede del gobierno florentino, Arnolfo di Cambio",
+      "guide": true,
+      "guide_slug": "palazzo_vecchio"
+    },
+    {
+      "name": "Ponte Vecchio",
+      "city": "Firenze",
+      "folder": "Firenze",
+      "color": "#f5a623",
+      "year": 1345,
+      "era": "Medieval",
+      "desc": "El puente más antiguo de Firenze, joyerías desde 1593",
+      "guide": true,
+      "guide_slug": "ponte_vecchio"
+    },
+    {
+      "name": "Loggia dei Lanzi",
+      "city": "Firenze",
+      "folder": "Firenze",
+      "color": "#f5a623",
+      "year": 1382,
+      "era": "Gótico",
+      "desc": "Galería de esculturas al aire libre en Piazza della Signoria",
+      "guide": true,
+      "guide_slug": "loggia_dei_lanzi"
+    },
+    {
+      "name": "Torre Guinigi",
+      "city": "Lucca",
+      "folder": "Lucca",
+      "color": "#4ecca3",
+      "year": 1390,
+      "era": "Medieval",
+      "desc": "Torre con encinas en la cima, familia Guinigi",
+      "guide": true,
+      "guide_slug": "torre_guinigi"
+    },
+    {
+      "name": "Basilica e Museo di San Marco",
+      "city": "Firenze",
+      "folder": "Firenze",
+      "color": "#f5a623",
+      "year": 1436,
+      "era": "Renacimiento",
+      "desc": "Frescos de Fra Angelico, convento de Savonarola"
+    },
+    {
+      "name": "Palazzo Pitti e Giardino di Boboli",
+      "city": "Firenze",
+      "folder": "Firenze",
+      "color": "#f5a623",
+      "year": 1458,
+      "era": "Renacimiento",
+      "desc": "Palacio de los Medici, jardines manieristas"
+    },
+    {
+      "name": "Sacromonte",
+      "city": "Granada",
+      "folder": "Granada",
+      "color": "#e55039",
+      "year": 1500,
+      "era": "Edad Moderna",
+      "desc": "Barrio gitano de cuevas, zambras flamencas",
+      "guide": true,
+      "guide_slug": "sacromonte"
+    },
+    {
+      "name": "Monasterio de San Jerónimo",
+      "city": "Granada",
+      "folder": "Granada",
+      "color": "#e55039",
+      "year": 1504,
+      "era": "Renacimiento",
+      "desc": "Primer monasterio fundado tras la Reconquista"
+    },
+    {
+      "name": "Musei Vaticani",
+      "city": "Roma",
+      "folder": "Rome",
+      "color": "#e94560",
+      "year": 1506,
+      "era": "Renacimiento",
+      "desc": "Colección papal desde Julio II; Capilla Sistina (1473)",
+      "guide": true,
+      "guide_slug": "musei_vaticani"
+    },
+    {
+      "name": "Catedral de Granada y Capilla Real",
+      "city": "Granada",
+      "folder": "Granada",
+      "color": "#e55039",
+      "year": 1523,
+      "era": "Renacimiento",
+      "desc": "Primera iglesia renacentista de España; tumba de los Reyes Católicos"
+    },
+    {
+      "name": "Mirador de San Nicolás",
+      "city": "Granada",
+      "folder": "Granada",
+      "color": "#e55039",
+      "year": 1525,
+      "era": "Renacimiento",
+      "desc": "La mejor vista de la Alhambra con Sierra Nevada"
+    },
+    {
+      "name": "Mura di Lucca",
+      "city": "Lucca",
+      "folder": "Lucca",
+      "color": "#4ecca3",
+      "year": 1544,
+      "era": "Renacimiento",
+      "desc": "Murallas renacentistas intactas, hoy paseo arbolado",
+      "guide": true,
+      "guide_slug": "mura_di_lucca"
+    },
+    {
+      "name": "Galleria degli Uffizi",
+      "city": "Firenze",
+      "folder": "Firenze",
+      "color": "#f5a623",
+      "year": 1560,
+      "era": "Renacimiento",
+      "desc": "Oficinas de Cosimo I, hoy el museo más importante de Italia",
+      "guide": true,
+      "guide_slug": "galleria_degli_uffizi"
+    },
+    {
+      "name": "Piazza dei Cavalieri",
+      "city": "Pisa",
+      "folder": "Pisa",
+      "color": "#3dc1d3",
+      "year": 1562,
+      "era": "Renacimiento",
+      "desc": "Rediseño de Vasari; Torre della Fame del Conde Ugolino",
+      "guide": true,
+      "guide_slug": "piazza_dei_cavalieri"
+    },
+    {
+      "name": "Piazza del Popolo",
+      "city": "Roma",
+      "folder": "Rome",
+      "color": "#e94560",
+      "year": 1589,
+      "era": "Roma renacentista",
+      "desc": "Puerta norte de Roma, obelisco de Ramsés II",
+      "guide": true,
+      "guide_slug": "piazza_del_popolo"
+    },
+    {
+      "name": "Plaza Mayor de Madrid",
+      "city": "Madrid",
+      "folder": "Madrid",
+      "color": "#f8c291",
+      "year": 1619,
+      "era": "Siglo de Oro",
+      "desc": "Plaza mayor de Juan Gómez de Mora"
+    },
+    {
+      "name": "Villa Borghese",
+      "city": "Roma",
+      "folder": "Rome",
+      "color": "#e94560",
+      "year": 1620,
+      "era": "Roma barroca",
+      "desc": "Villa y jardines del cardenal Scipione Borghese",
+      "guide": true,
+      "guide_slug": "villa_borghese"
+    },
+    {
+      "name": "Parque del Retiro",
+      "city": "Madrid",
+      "folder": "Madrid",
+      "color": "#f8c291",
+      "year": 1630,
+      "era": "Siglo de Oro",
+      "desc": "Jardines del Palacio del Buen Retiro de Felipe IV",
+      "guide": true,
+      "guide_slug": "parque_del_retiro"
+    },
+    {
+      "name": "Piazza di Spagna",
+      "city": "Roma",
+      "folder": "Rome",
+      "color": "#e94560",
+      "year": 1725,
+      "era": "Roma barroca",
+      "desc": "Escalinata de Trinità dei Monti",
+      "guide": true,
+      "guide_slug": "piazza_di_spagna"
+    },
+    {
+      "name": "Palacio Real de Madrid",
+      "city": "Madrid",
+      "folder": "Madrid",
+      "color": "#f8c291",
+      "year": 1738,
+      "era": "Borbón",
+      "desc": "Sobre el antiguo Alcázar, el mayor palacio real de Europa occidental"
+    },
+    {
+      "name": "Fontana di Trevi",
+      "city": "Roma",
+      "folder": "Rome",
+      "color": "#e94560",
+      "year": 1762,
+      "era": "Roma barroca",
+      "desc": "La fuente más famosa del mundo, sobre el Aqua Virgo (19 a.C.)",
+      "guide": true,
+      "guide_slug": "fontana_di_trevi"
+    },
+    {
+      "name": "Galleria dell'Accademia",
+      "city": "Firenze",
+      "folder": "Firenze",
+      "color": "#f5a623",
+      "year": 1784,
+      "era": "Ilustración",
+      "desc": "Hogar del David de Miguel Ángel desde 1873"
+    },
+    {
+      "name": "Museo Nacional del Prado",
+      "city": "Madrid",
+      "folder": "Madrid",
+      "color": "#f8c291",
+      "year": 1819,
+      "era": "Ilustración",
+      "desc": "Una de las mejores pinacotecas del mundo; edificio de Villanueva (1785)"
+    },
+    {
+      "name": "Puerta del Sol",
+      "city": "Madrid",
+      "folder": "Madrid",
+      "color": "#f8c291",
+      "year": 1857,
+      "era": "España moderna",
+      "desc": "Km 0 de España; escenario del levantamiento del 2 de mayo (1808)",
+      "guide": true,
+      "guide_slug": "puerta_del_sol"
+    },
+    {
+      "name": "Piazzale Michelangelo",
+      "city": "Firenze",
+      "folder": "Firenze",
+      "color": "#f5a623",
+      "year": 1869,
+      "era": "Italia moderna",
+      "desc": "Mirador panorámico de Giuseppe Poggi",
+      "guide": true,
+      "guide_slug": "piazzale_michelangelo"
+    },
+    {
+      "name": "Mercato Centrale di San Lorenzo",
+      "city": "Firenze",
+      "folder": "Firenze",
+      "color": "#f5a623",
+      "year": 1874,
+      "era": "Italia moderna",
+      "desc": "Mercado de hierro y vidrio de Giuseppe Mengoni"
+    },
+    {
+      "name": "Sinagoga e Museo Ebraico",
+      "city": "Firenze",
+      "folder": "Firenze",
+      "color": "#f5a623",
+      "year": 1882,
+      "era": "Italia moderna",
+      "desc": "Sinagoga morisca, testimonio del ghetto florentino (1571)"
+    },
+    {
+      "name": "Catedral de la Almudena",
+      "city": "Madrid",
+      "folder": "Madrid",
+      "color": "#f8c291",
+      "year": 1883,
+      "era": "España moderna",
+      "desc": "Catedral de Madrid, consagrada en 1993"
+    },
+    {
+      "name": "Monumento a Vittorio Emanuele II",
+      "city": "Roma",
+      "folder": "Rome",
+      "color": "#e94560",
+      "year": 1885,
+      "era": "Italia moderna",
+      "desc": "Altar de la Patria, unificación italiana"
+    },
+    {
+      "name": "Gran Vía",
+      "city": "Madrid",
+      "folder": "Madrid",
+      "color": "#f8c291",
+      "year": 1910,
+      "era": "España moderna",
+      "desc": "La gran avenida de Madrid, construida en tres fases",
+      "guide": true,
+      "guide_slug": "gran_via"
+    },
+    {
+      "name": "Mercado de San Miguel",
+      "city": "Madrid",
+      "folder": "Madrid",
+      "color": "#f8c291",
+      "year": 1916,
+      "era": "España moderna",
+      "desc": "Mercado de hierro de Alfonso Palacios"
+    },
+    {
+      "name": "Quartiere Coppedè",
+      "city": "Roma",
+      "folder": "Rome",
+      "color": "#e94560",
+      "year": 1919,
+      "era": "Italia moderna",
+      "desc": "Barrio art nouveau de Gino Coppedè",
+      "guide": true,
+      "guide_slug": "quartiere_coppede"
+    },
+    {
+      "name": "Museo Galileo",
+      "city": "Firenze",
+      "folder": "Firenze",
+      "color": "#f5a623",
+      "year": 1930,
+      "era": "Italia moderna",
+      "desc": "Instrumentos científicos desde la Accademia del Cimento (1657)",
+      "guide": true,
+      "guide_slug": "museo_galileo"
+    },
+    {
+      "name": "Museo Reina Sofía",
+      "city": "Madrid",
+      "folder": "Madrid",
+      "color": "#f8c291",
+      "year": 1992,
+      "era": "España contemporánea",
+      "desc": "Arte contemporáneo; hogar del Guernica de Picasso",
+      "guide": true,
+      "guide_slug": "museo_reina_sofia"
+    }
+  ],
+  "city_colors": {
+    "Roma": "#e94560",
+    "Firenze": "#f5a623",
+    "Lucca": "#4ecca3",
+    "Pisa": "#3dc1d3",
+    "Granada": "#e55039",
+    "Madrid": "#f8c291"
+  }
+}

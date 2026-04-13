@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Archivo de Viajes — Mapa</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+:root {
+  --bg: #1a1a2e;
+  --bg-card: #16213e;
+  --accent: #e94560;
+  --text: #eaeaea;
+  --text-muted: #8b8fa3;
+  --border: #2a2d45;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+}
+nav {
+  background: linear-gradient(135deg, #0f3460 0%, var(--bg-card) 100%);
+  padding: 14px 20px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  border-bottom: 1px solid var(--border);
+  flex-wrap: wrap;
+}
+nav h1 { font-size: 1.15rem; font-weight: 600; white-space: nowrap; }
+nav .links { display: flex; gap: 12px; margin-left: auto; }
+nav a {
+  color: var(--text-muted);
+  text-decoration: none;
+  font-size: 0.85rem;
+  padding: 4px 10px;
+  border-radius: 6px;
+  transition: background 0.2s, color 0.2s;
+}
+nav a:hover, nav a.active { background: var(--accent); color: #fff; }
+#map { height: calc(100vh - 52px); width: 100%; }
+.city-legend {
+  position: absolute;
+  bottom: 20px;
+  left: 10px;
+  z-index: 1000;
+  background: rgba(26,26,46,0.92);
+  border-radius: 10px;
+  padding: 12px 16px;
+  border: 1px solid var(--border);
+  max-width: 200px;
+}
+.city-legend h3 { font-size: 0.8rem; color: var(--text-muted); margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.5px; }
+.legend-item { display: flex; align-items: center; gap: 8px; margin-bottom: 4px; cursor: pointer; padding: 2px 4px; border-radius: 4px; }
+.legend-item:hover { background: rgba(255,255,255,0.05); }
+.legend-dot { width: 12px; height: 12px; border-radius: 50%; flex-shrink: 0; }
+.legend-label { font-size: 0.82rem; }
+.legend-count { font-size: 0.72rem; color: var(--text-muted); margin-left: auto; }
+.leaflet-popup-content-wrapper {
+  background: var(--bg-card) !important;
+  color: var(--text) !important;
+  border-radius: 10px !important;
+  border: 1px solid var(--border) !important;
+}
+.leaflet-popup-tip { background: var(--bg-card) !important; }
+.leaflet-popup-content { font-family: inherit !important; font-size: 0.88rem !important; line-height: 1.5 !important; }
+.leaflet-popup-content h3 { color: var(--accent); margin-bottom: 4px; font-size: 1rem; }
+.leaflet-popup-content .city-tag { color: var(--text-muted); font-size: 0.78rem; }
+.leaflet-control-zoom a { background: var(--bg-card) !important; color: var(--text) !important; border-color: var(--border) !important; }
+</style>
+</head>
+<body>
+<nav>
+  <h1>🗺️ Mapa de Viajes</h1>
+  <div class="links">
+    <a href="index.html">🎧 Audio</a>
+    <a href="mapa.html" class="active">🗺️ Mapa</a>
+    <a href="timeline.html">⏳ Timeline</a>
+  </div>
+</nav>
+<div id="map"></div>
+<div class="city-legend" id="legend"></div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+const DATA = [
+  {
+    "city": "Roma",
+    "country": "Italia",
+    "lat": 41.9028,
+    "lon": 12.4964,
+    "color": "#e94560",
+    "visit": "2026-03-23 → 2026-03-30",
+    "places": [
+      {
+        "name": "Colosseo (Anfiteatro Flavio)",
+        "lat": 41.8902,
+        "lon": 12.4922
+      },
+      {
+        "name": "Foro Romano e Palatino",
+        "lat": 41.8925,
+        "lon": 12.4853
+      },
+      {
+        "name": "Fontana di Trevi",
+        "lat": 41.9009,
+        "lon": 12.4833
+      },
+      {
+        "name": "Pantheon",
+        "lat": 41.8986,
+        "lon": 12.4769
+      },
+      {
+        "name": "Piazza di Spagna",
+        "lat": 41.9058,
+        "lon": 12.4823
+      },
+      {
+        "name": "Piazza del Popolo",
+        "lat": 41.9106,
+        "lon": 12.4764
+      },
+      {
+        "name": "Musei Vaticani",
+        "lat": 41.9065,
+        "lon": 12.4536
+      },
+      {
+        "name": "Basilica di Santa Maria Maggiore",
+        "lat": 41.8976,
+        "lon": 12.4984
+      },
+      {
+        "name": "Villa Borghese",
+        "lat": 41.9122,
+        "lon": 12.4854
+      },
+      {
+        "name": "Monumento a Vittorio Emanuele II",
+        "lat": 41.8946,
+        "lon": 12.4833
+      }
+    ]
+  },
+  {
+    "city": "Firenze",
+    "country": "Italia",
+    "lat": 43.7696,
+    "lon": 11.2558,
+    "color": "#f5a623",
+    "visit": "",
+    "places": [
+      {
+        "name": "Galleria dell'Accademia",
+        "lat": 43.7767,
+        "lon": 11.2588
+      },
+      {
+        "name": "Basilica e Museo di San Marco",
+        "lat": 43.7776,
+        "lon": 11.2589
+      },
+      {
+        "name": "Basilica di Santa Croce",
+        "lat": 43.7686,
+        "lon": 11.2622
+      },
+      {
+        "name": "Basilica di Santa Maria Novella",
+        "lat": 43.7746,
+        "lon": 11.2494
+      },
+      {
+        "name": "Palazzo Pitti",
+        "lat": 43.765,
+        "lon": 11.2499
+      },
+      {
+        "name": "Piazzale Michelangelo",
+        "lat": 43.7629,
+        "lon": 11.2654
+      },
+      {
+        "name": "Abbazia di San Miniato al Monte",
+        "lat": 43.7596,
+        "lon": 11.2652
+      },
+      {
+        "name": "Museo Galileo",
+        "lat": 43.7681,
+        "lon": 11.2558
+      },
+      {
+        "name": "Loggia dei Lanzi",
+        "lat": 43.7695,
+        "lon": 11.2558
+      },
+      {
+        "name": "Basilica di San Lorenzo e Cappelle Medicee",
+        "lat": 43.7746,
+        "lon": 11.2537
+      },
+      {
+        "name": "Museo Nazionale del Bargello",
+        "lat": 43.7697,
+        "lon": 11.2573
+      },
+      {
+        "name": "Mercato Centrale di San Lorenzo",
+        "lat": 43.7754,
+        "lon": 11.2539
+      },
+      {
+        "name": "Sinagoga e Museo Ebraico di Firenze",
+        "lat": 43.7734,
+        "lon": 11.2616
+      },
+      {
+        "name": "Biblioteca Nazionale Centrale di Firenze",
+        "lat": 43.768,
+        "lon": 11.2617
+      },
+      {
+        "name": "Museo di Leonardo da Vinci",
+        "lat": 43.7738,
+        "lon": 11.2574
+      },
+      {
+        "name": "Fiesole",
+        "lat": 43.8055,
+        "lon": 11.293
+      },
+      {
+        "name": "Mercato di San Lorenzo (callejero)",
+        "lat": 43.7756,
+        "lon": 11.2537
+      },
+      {
+        "name": "Mercato delle Pulci — Piazza dei Ciompi",
+        "lat": 43.7693,
+        "lon": 11.2634
+      }
+    ]
+  },
+  {
+    "city": "Lucca",
+    "country": "Italia",
+    "lat": 43.843,
+    "lon": 10.505,
+    "color": "#4ecca3",
+    "visit": "",
+    "places": [
+      {
+        "name": "Mura di Lucca",
+        "lat": 43.843,
+        "lon": 10.505
+      },
+      {
+        "name": "Piazza dell'Anfiteatro",
+        "lat": 43.8445,
+        "lon": 10.5077
+      },
+      {
+        "name": "Cattedrale di San Martino",
+        "lat": 43.8426,
+        "lon": 10.5061
+      },
+      {
+        "name": "Basilica di San Frediano",
+        "lat": 43.8462,
+        "lon": 10.5046
+      },
+      {
+        "name": "San Michele in Foro",
+        "lat": 43.8441,
+        "lon": 10.5052
+      },
+      {
+        "name": "Torre Guinigi",
+        "lat": 43.8435,
+        "lon": 10.5079
+      }
+    ]
+  },
+  {
+    "city": "Pisa",
+    "country": "Italia",
+    "lat": 43.7228,
+    "lon": 10.4017,
+    "color": "#3dc1d3",
+    "visit": "",
+    "places": [
+      {
+        "name": "Campo dei Miracoli",
+        "lat": 43.7231,
+        "lon": 10.3966
+      },
+      {
+        "name": "Torre Pendente di Pisa",
+        "lat": 43.723,
+        "lon": 10.3966
+      },
+      {
+        "name": "Duomo di Pisa",
+        "lat": 43.7231,
+        "lon": 10.3965
+      },
+      {
+        "name": "Battistero di San Giovanni",
+        "lat": 43.7232,
+        "lon": 10.3959
+      },
+      {
+        "name": "Camposanto Monumentale",
+        "lat": 43.7234,
+        "lon": 10.3952
+      },
+      {
+        "name": "Piazza dei Cavalieri",
+        "lat": 43.7199,
+        "lon": 10.4008
+      }
+    ]
+  },
+  {
+    "city": "Granada",
+    "country": "España",
+    "lat": 37.1773,
+    "lon": -3.5986,
+    "color": "#e55039",
+    "visit": "",
+    "places": [
+      {
+        "name": "Alhambra",
+        "lat": 37.1761,
+        "lon": -3.5881
+      },
+      {
+        "name": "Catedral de Granada y Capilla Real",
+        "lat": 37.1765,
+        "lon": -3.5993
+      },
+      {
+        "name": "Albaicín",
+        "lat": 37.1816,
+        "lon": -3.5947
+      },
+      {
+        "name": "Mirador de San Nicolás",
+        "lat": 37.181,
+        "lon": -3.5927
+      },
+      {
+        "name": "Monasterio de San Jerónimo",
+        "lat": 37.1792,
+        "lon": -3.6046
+      },
+      {
+        "name": "Sacromonte",
+        "lat": 37.1819,
+        "lon": -3.585
+      }
+    ]
+  },
+  {
+    "city": "Madrid",
+    "country": "España",
+    "lat": 40.4168,
+    "lon": -3.7038,
+    "color": "#f8c291",
+    "visit": "",
+    "places": [
+      {
+        "name": "Palacio Real de Madrid",
+        "lat": 40.418,
+        "lon": -3.7143
+      },
+      {
+        "name": "Museo Nacional del Prado",
+        "lat": 40.4138,
+        "lon": -3.6921
+      },
+      {
+        "name": "Museo Reina Sofía",
+        "lat": 40.4086,
+        "lon": -3.6943
+      },
+      {
+        "name": "Parque del Retiro",
+        "lat": 40.4153,
+        "lon": -3.6845
+      },
+      {
+        "name": "Puerta del Sol",
+        "lat": 40.4169,
+        "lon": -3.7035
+      },
+      {
+        "name": "Plaza Mayor",
+        "lat": 40.4155,
+        "lon": -3.7074
+      },
+      {
+        "name": "Templo de Debod",
+        "lat": 40.4238,
+        "lon": -3.7177
+      },
+      {
+        "name": "Catedral de la Almudena",
+        "lat": 40.4156,
+        "lon": -3.7146
+      },
+      {
+        "name": "Gran Vía",
+        "lat": 40.42,
+        "lon": -3.7057
+      },
+      {
+        "name": "Mercado de San Miguel",
+        "lat": 40.4153,
+        "lon": -3.709
+      }
+    ]
+  }
+];
+
+const map = L.map("map", {
+  center: [42.5, 5.0],
+  zoom: 5,
+  zoomControl: true,
+});
+
+L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png", {
+  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> &copy; <a href="https://carto.com/">CARTO</a>',
+  maxZoom: 19,
+}).addTo(map);
+
+const cityGroups = {};
+const allMarkers = [];
+
+function makeIcon(color, size) {
+  return L.divIcon({
+    className: "",
+    html: `<div style="width:${size}px;height:${size}px;background:${color};border-radius:50%;border:2px solid #fff;box-shadow:0 2px 6px rgba(0,0,0,0.5);"></div>`,
+    iconSize: [size, size],
+    iconAnchor: [size/2, size/2],
+    popupAnchor: [0, -size/2],
+  });
+}
+
+DATA.forEach(city => {
+  const group = L.layerGroup();
+
+  // City marker (larger)
+  const cityMarker = L.marker([city.lat, city.lon], { icon: makeIcon(city.color, 20) })
+    .bindPopup(`<h3>${city.city}</h3><span class="city-tag">${city.country}</span>${city.visit ? "<br><small>" + city.visit + "</small>" : ""}<br><small>${city.places.length} lugares documentados</small>`);
+  group.addLayer(cityMarker);
+  allMarkers.push(cityMarker);
+
+  // Place markers
+  city.places.forEach(p => {
+    const m = L.marker([p.lat, p.lon], { icon: makeIcon(city.color, 12) })
+      .bindPopup(`<h3>${p.name}</h3><span class="city-tag">${city.city}, ${city.country}</span>`);
+    group.addLayer(m);
+    allMarkers.push(m);
+  });
+
+  group.addTo(map);
+  cityGroups[city.city] = { group, color: city.color, count: city.places.length, lat: city.lat, lon: city.lon };
+});
+
+// Legend
+const legend = document.getElementById("legend");
+legend.innerHTML = "<h3>Ciudades</h3>" + DATA.map(c =>
+  `<div class="legend-item" data-city="${c.city}">
+    <div class="legend-dot" style="background:${c.color}"></div>
+    <span class="legend-label">${c.city}</span>
+    <span class="legend-count">${c.places.length}</span>
+  </div>`
+).join("");
+
+legend.querySelectorAll(".legend-item").forEach(el => {
+  el.addEventListener("click", () => {
+    const city = el.dataset.city;
+    const info = cityGroups[city];
+    map.flyTo([info.lat, info.lon], 13, { duration: 1 });
+  });
+});
+
+// Fit bounds to all markers
+if (allMarkers.length) {
+  const bounds = L.latLngBounds(allMarkers.map(m => m.getLatLng()));
+  map.fitBounds(bounds, { padding: [40, 40] });
+}
+</script>
+</body>
+</html>

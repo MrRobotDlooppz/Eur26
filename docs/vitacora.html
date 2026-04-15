@@ -63,7 +63,13 @@
     </div>
     <div class="editor-field">
       <label for="entry-contenido">Contenido</label>
+      <div class="editor-toolbar">
+        <button type="button" class="btn-toolbar" id="btn-insert-image" title="Insertar imagen">📷 Imagen</button>
+        <span class="toolbar-hint" id="img-count-hint"></span>
+      </div>
       <textarea id="entry-contenido" placeholder="Escribí tu entrada..."></textarea>
+      <input type="file" id="image-input" accept="image/*" style="display:none;">
+      <div class="image-previews" id="image-previews"></div>
     </div>
     <div class="editor-actions">
       <button class="btn-secondary" id="btn-cancel-entry">Cancelar</button>

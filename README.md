@@ -14,7 +14,8 @@ Un repositorio que combina investigación histórica con herramientas interactiv
 - **📖 Panel de texto** — Al escuchar un audio, podés ver la guía original con el botón 📖
 - **🗺️ Mapa interactivo** — Todos los lugares en un mapa Leaflet con pins por ciudad. Click en un lugar te lleva a su guía
 - **⏳ Línea de tiempo** — 64 eventos desde el 700 a.C. hasta hoy, filtrable por ciudad. Click en un evento te lleva a su guía
-- **🔗 Todo conectado** — Deep links entre mapa, timeline y player permiten navegar entre las tres vistas
+- **� Vitácora colaborativa** — Diario de viaje con autenticación, entradas por ciudad, imágenes inline (desde galería/cámara) y lightbox
+- **�🔗 Todo conectado** — Deep links entre mapa, timeline y player permiten navegar entre las tres vistas
 
 ## Ciudades
 

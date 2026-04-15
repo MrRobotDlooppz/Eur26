@@ -33,6 +33,18 @@
   let currentUser = null;
   let editingId = null; // null = nueva entrada, string = editando existente
 
+  // ── Imágenes ──
+  const MAX_IMAGES = 5;
+  const MAX_FILE_SIZE = 5 * 1024 * 1024; // 5MB original
+  const COMPRESS_MAX_WIDTH = 800;
+  const COMPRESS_QUALITY = 0.6;
+  let pendingImages = []; // [{id: 0, data: "data:image/jpeg;base64,..."}]
+
+  const $btnInsertImage = document.getElementById("btn-insert-image");
+  const $imageInput     = document.getElementById("image-input");
+  const $imagePreviews  = document.getElementById("image-previews");
+  const $imgCountHint   = document.getElementById("img-count-hint");
+
   // ── Poblar selects de ciudades ──
   function populateCitySelects() {
     CIUDADES.forEach(c => {
@@ -83,6 +95,124 @@
   // ── Auth: logout ──
   $btnLogout.addEventListener("click", () => auth.signOut());
 
+  // ── Imágenes: compresión ──
+  function compressImage(file) {
+    return new Promise((resolve, reject) => {
+      const img = new Image();
+      const url = URL.createObjectURL(file);
+      img.onload = () => {
+        URL.revokeObjectURL(url);
+        let w = img.width, h = img.height;
+        if (w > COMPRESS_MAX_WIDTH) {
+          h = Math.round(h * COMPRESS_MAX_WIDTH / w);
+          w = COMPRESS_MAX_WIDTH;
+        }
+        const canvas = document.createElement("canvas");
+        canvas.width = w;
+        canvas.height = h;
+        const ctx = canvas.getContext("2d");
+        ctx.drawImage(img, 0, 0, w, h);
+        resolve(canvas.toDataURL("image/jpeg", COMPRESS_QUALITY));
+      };
+      img.onerror = () => {
+        URL.revokeObjectURL(url);
+        reject(new Error("No se pudo leer la imagen"));
+      };
+      img.src = url;
+    });
+  }
+
+  // ── Imágenes: insertar ──
+  function updateImgCountHint() {
+    $imgCountHint.textContent = pendingImages.length > 0
+      ? `${pendingImages.length}/${MAX_IMAGES}`
+      : "";
+  }
+
+  function renderImagePreviews() {
+    $imagePreviews.innerHTML = pendingImages.map((img, i) =>
+      `<div class="img-preview-item" data-idx="${i}">
+        <img src="${img.data}" alt="Preview ${i}">
+        <button class="img-preview-remove" data-idx="${i}" title="Quitar imagen">✕</button>
+        <span class="img-preview-tag">[img:${img.id}]</span>
+      </div>`
+    ).join("");
+
+    $imagePreviews.querySelectorAll(".img-preview-remove").forEach(btn => {
+      btn.addEventListener("click", () => {
+        const idx = parseInt(btn.dataset.idx, 10);
+        removeImage(idx);
+      });
+    });
+
+    updateImgCountHint();
+  }
+
+  function removeImage(idx) {
+    const removed = pendingImages[idx];
+    if (!removed) return;
+    // Remove marker from textarea
+    const marker = `[img:${removed.id}]`;
+    $entryContenido.value = $entryContenido.value.split(marker).join("");
+    pendingImages.splice(idx, 1);
+    renderImagePreviews();
+  }
+
+  function getNextImageId() {
+    if (pendingImages.length === 0) return 0;
+    return Math.max(...pendingImages.map(i => i.id)) + 1;
+  }
+
+  $btnInsertImage.addEventListener("click", () => {
+    if (pendingImages.length >= MAX_IMAGES) {
+      alert(`Máximo ${MAX_IMAGES} imágenes por entrada`);
+      return;
+    }
+    $imageInput.value = "";
+    $imageInput.click();
+  });
+
+  $imageInput.addEventListener("change", async () => {
+    const file = $imageInput.files[0];
+    if (!file) return;
+    if (!file.type.startsWith("image/")) {
+      alert("Solo se permiten archivos de imagen");
+      return;
+    }
+    if (file.size > MAX_FILE_SIZE) {
+      alert("La imagen es demasiado grande (máx 5MB)");
+      return;
+    }
+    if (pendingImages.length >= MAX_IMAGES) {
+      alert(`Máximo ${MAX_IMAGES} imágenes por entrada`);
+      return;
+    }
+
+    $btnInsertImage.disabled = true;
+    $btnInsertImage.textContent = "⏳ Procesando…";
+    try {
+      const dataUrl = await compressImage(file);
+      const id = getNextImageId();
+      pendingImages.push({ id, data: dataUrl });
+
+      // Insert marker at cursor position in textarea
+      const pos = $entryContenido.selectionStart || $entryContenido.value.length;
+      const text = $entryContenido.value;
+      const marker = `[img:${id}]`;
+      $entryContenido.value = text.slice(0, pos) + marker + text.slice(pos);
+      $entryContenido.focus();
+      $entryContenido.selectionStart = $entryContenido.selectionEnd = pos + marker.length;
+
+      renderImagePreviews();
+    } catch (err) {
+      console.error("Error al procesar imagen:", err);
+      alert("Error al procesar la imagen");
+    } finally {
+      $btnInsertImage.disabled = false;
+      $btnInsertImage.textContent = "📷 Imagen";
+    }
+  });
+
   // ── Editor: abrir/cerrar ──
   function openEditor(entry = null) {
     editingId = entry ? entry.id : null;
@@ -91,6 +221,9 @@
     $entryCiudad.value = entry ? (entry.ciudad || "") : "";
     $entryLugar.value = entry ? (entry.lugar || "") : "";
     $entryContenido.value = entry ? entry.contenido : "";
+    // Load existing images if editing
+    pendingImages = entry && entry.imagenes ? entry.imagenes.map(img => ({ ...img })) : [];
+    renderImagePreviews();
     $editorSection.classList.add("visible");
     $entryTitulo.focus();
   }
@@ -102,6 +235,8 @@
     $entryCiudad.value = "";
     $entryLugar.value = "";
     $entryContenido.value = "";
+    pendingImages = [];
+    renderImagePreviews();
   }
 
   $btnNewEntry.addEventListener("click", () => openEditor());
@@ -122,6 +257,7 @@
       contenido,
       ciudad: $entryCiudad.value || null,
       lugar: $entryLugar.value.trim() || null,
+      imagenes: pendingImages.length > 0 ? pendingImages : null,
       editadoEn: firebase.firestore.FieldValue.serverTimestamp(),
       editadoPor: name,
     };
@@ -197,7 +333,7 @@
             ${editado}
           </div>
           <div class="entry-title">${escapeHtml(e.titulo)}</div>
-          <div class="entry-content">${escapeHtml(e.contenido)}</div>
+          <div class="entry-content">${renderContentWithImages(e.contenido, e.imagenes)}</div>
           ${actions}
         </div>`;
     }).join("");
@@ -236,6 +372,35 @@
   });
 
   // ── Helpers ──
+
+  /** Render entry content replacing [img:N] markers with actual images */
+  function renderContentWithImages(contenido, imagenes) {
+    let html = escapeHtml(contenido);
+    if (imagenes && imagenes.length > 0) {
+      const imgMap = {};
+      imagenes.forEach(img => { imgMap[img.id] = img.data; });
+      html = html.replace(/\[img:(\d+)\]/g, (match, idStr) => {
+        const src = imgMap[parseInt(idStr, 10)];
+        if (src) {
+          return `<img class="entry-image" src="${src}" alt="Imagen adjunta" loading="lazy">`;
+        }
+        return match;
+      });
+    }
+    return html;
+  }
+
+  /** Lightbox — click on entry images to view fullscreen */
+  document.addEventListener("click", (e) => {
+    if (e.target.classList.contains("entry-image")) {
+      const overlay = document.createElement("div");
+      overlay.className = "lightbox-overlay";
+      overlay.innerHTML = `<img src="${e.target.src}" alt="Imagen ampliada">`;
+      overlay.addEventListener("click", () => overlay.remove());
+      document.body.appendChild(overlay);
+    }
+  });
+
   function formatTimestamp(ts) {
     if (!ts || !ts.toDate) return "";
     const d = ts.toDate();

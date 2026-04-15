@@ -1,4 +1,4 @@
-# Setup Firebase para Vitácora
+# Setup Firebase para Bitácora
 
 Guía paso a paso para configurar Firebase. Solo se necesita hacer una vez.
 

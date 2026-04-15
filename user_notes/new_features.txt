@@ -1,6 +1,6 @@
 Features
 F1 - Cambiar dark mode por normal mode toggle
-F2 - Agregar la posibilidad de agreegar imágenes en la vitácora ✅
+F2 - Agregar la posibilidad de agregar imágenes en la bitácora ✅
     - Que se pueda importar de la galería ✅
     - Que se pueda colocar en donde se quiera en el texto ✅
     - Se debe usar solo tools gratis ✅

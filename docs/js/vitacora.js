@@ -1,5 +1,5 @@
 /* ============================================
-   Vitácora — Lógica principal
+   Bitácora — Lógica principal
    Auth (Firebase) + CRUD (Firestore)
    ============================================ */
 

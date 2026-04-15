@@ -9,9 +9,7 @@ lugar:
   fecha_visita: "[DATO PENDIENTE — verificar fuente]"
 ```
 
-> **Nota de archivo**: Este documento es la guía integrada de todos los monumentos de la Piazza del Duomo. Los sitios se documentan también de forma individual:
-> - [Cattedrale di Santa Maria del Fiore (Duomo)](duomo.md)
-> - [Battistero di San Giovanni](battistero_san_giovanni.md)
+> **Nota de archivo**: Este documento es la guía integrada de todos los monumentos de la Piazza del Duomo: Cattedrale di Santa Maria del Fiore (Duomo), Battistero di San Giovanni, Campanile di Giotto y Museo dell'Opera.
 
 ---
 

@@ -641,6 +641,171 @@
       "desc": "Arte contemporáneo; hogar del Guernica de Picasso",
       "guide": true,
       "guide_slug": "museo_reina_sofia"
+    },
+    {
+      "name": "Teatro Romano",
+      "city": "Málaga",
+      "folder": "Malaga",
+      "color": "#e67e22",
+      "year": -30,
+      "era": "Roma Imperial",
+      "desc": "Teatro del siglo I a.C. bajo Augusto; redescubierto en 1951",
+      "guide": true,
+      "guide_slug": "teatro_romano"
+    },
+    {
+      "name": "Alcazaba de Málaga",
+      "city": "Málaga",
+      "folder": "Malaga",
+      "color": "#e67e22",
+      "year": 1011,
+      "era": "Islámica",
+      "desc": "Alcazaba zirí del siglo XI; ampliada por los nazaríes",
+      "guide": true,
+      "guide_slug": "alcazaba"
+    },
+    {
+      "name": "Iglesia de Santo Tomé",
+      "city": "Toledo",
+      "folder": "Toledo",
+      "color": "#8e44ad",
+      "year": 1200,
+      "era": "Románico mudéjar",
+      "desc": "Iglesia medieval que alberga El Entierro del Conde de Orgaz de El Greco",
+      "guide": true,
+      "guide_slug": "santo_tome"
+    },
+    {
+      "name": "Catedral Primada de Toledo",
+      "city": "Toledo",
+      "folder": "Toledo",
+      "color": "#8e44ad",
+      "year": 1226,
+      "era": "Gótico",
+      "desc": "Catedral Primada de España, iniciada por Fernando III el Santo",
+      "guide": true,
+      "guide_slug": "catedral_primada"
+    },
+    {
+      "name": "Castillo de Gibralfaro",
+      "city": "Málaga",
+      "folder": "Malaga",
+      "color": "#e67e22",
+      "year": 1300,
+      "era": "Nazarí",
+      "desc": "Castillo de Yusuf I; resistencia legendaria en la conquista de 1487",
+      "guide": true,
+      "guide_slug": "castillo_de_gibralfaro"
+    },
+    {
+      "name": "Sinagoga del Tránsito",
+      "city": "Toledo",
+      "folder": "Toledo",
+      "color": "#8e44ad",
+      "year": 1355,
+      "era": "Medieval mudéjar",
+      "desc": "Sinagoga de Samuel ha-Leví; hoy Museo Sefardí",
+      "guide": true,
+      "guide_slug": "sinagoga_del_transito"
+    },
+    {
+      "name": "Monasterio de San Juan de los Reyes",
+      "city": "Toledo",
+      "folder": "Toledo",
+      "color": "#8e44ad",
+      "year": 1477,
+      "era": "Gótico isabelino",
+      "desc": "Monasterio de los Reyes Católicos, conmemoración de la Batalla de Toro",
+      "guide": true,
+      "guide_slug": "san_juan_de_los_reyes"
+    },
+    {
+      "name": "Benalmádena Pueblo",
+      "city": "Benalmádena",
+      "folder": "Benalmadena",
+      "color": "#f5cd79",
+      "year": 1485,
+      "era": "Edad Moderna",
+      "desc": "Pueblo blanco andaluz conquistado tras la caída de Ronda",
+      "guide": true,
+      "guide_slug": "benalmadena_pueblo"
+    },
+    {
+      "name": "Alcázar de Toledo",
+      "city": "Toledo",
+      "folder": "Toledo",
+      "color": "#8e44ad",
+      "year": 1520,
+      "era": "Renacimiento",
+      "desc": "Fortaleza de Carlos V sobre el punto más alto de Toledo",
+      "guide": true,
+      "guide_slug": "alcazar"
+    },
+    {
+      "name": "Catedral de la Encarnación (La Manquita)",
+      "city": "Málaga",
+      "folder": "Malaga",
+      "color": "#e67e22",
+      "year": 1528,
+      "era": "Renacimiento",
+      "desc": "Catedral sobre mezquita mayor; construcción 1528–1782 (incompleta)",
+      "guide": true,
+      "guide_slug": "catedral"
+    },
+    {
+      "name": "Castillo de Colomares",
+      "city": "Benalmádena",
+      "folder": "Benalmadena",
+      "color": "#f5cd79",
+      "year": 1987,
+      "era": "Contemporáneo",
+      "desc": "Monumento al descubrimiento de América, obra de Dr. Esteban Martín (1987–1994)",
+      "guide": true,
+      "guide_slug": "castillo_de_colomares"
+    },
+    {
+      "name": "Puerto Marina",
+      "city": "Benalmádena",
+      "folder": "Benalmadena",
+      "color": "#f5cd79",
+      "year": 1987,
+      "era": "Contemporáneo",
+      "desc": "Puerto deportivo premiado como 'Best Marina' por TYHA",
+      "guide": true,
+      "guide_slug": "puerto_marina"
+    },
+    {
+      "name": "Teleférico Monte Calamorro",
+      "city": "Benalmádena",
+      "folder": "Benalmadena",
+      "color": "#f5cd79",
+      "year": 2000,
+      "era": "Contemporáneo",
+      "desc": "Teleférico hasta la cima a 769 m con vistas al Estrecho de Gibraltar",
+      "guide": true,
+      "guide_slug": "teleferico_monte_calamorro"
+    },
+    {
+      "name": "Stupa de la Iluminación",
+      "city": "Benalmádena",
+      "folder": "Benalmadena",
+      "color": "#f5cd79",
+      "year": 2003,
+      "era": "Contemporáneo",
+      "desc": "Stupa budista tibetana más grande de Europa occidental (33 m)",
+      "guide": true,
+      "guide_slug": "stupa_de_la_iluminacion"
+    },
+    {
+      "name": "Museo Picasso Málaga",
+      "city": "Málaga",
+      "folder": "Malaga",
+      "color": "#e67e22",
+      "year": 2003,
+      "era": "Contemporáneo",
+      "desc": "Museo en Palacio de Buenavista; eje de la transformación cultural de Málaga",
+      "guide": true,
+      "guide_slug": "museo_picasso"
     }
   ],
   "city_colors": {
@@ -649,6 +814,9 @@
     "Lucca": "#4ecca3",
     "Pisa": "#3dc1d3",
     "Granada": "#e55039",
-    "Madrid": "#f8c291"
+    "Madrid": "#f8c291",
+    "Toledo": "#8e44ad",
+    "Benalmádena": "#f5cd79",
+    "Málaga": "#e67e22"
   }
 }

@@ -9,6 +9,7 @@ async function initTimeline() {
     const resp = await fetch("data/events.json");
     const data = await resp.json();
     EVENTS = data.events;
+    EVENTS.sort((a, b) => a.year - b.year);
     CITIES = data.city_colors;
   } catch (e) {
     console.error("Error cargando events.json:", e);

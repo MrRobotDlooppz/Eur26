@@ -29,9 +29,12 @@
   const $btnSave       = document.getElementById("btn-save-entry");
   const $filterCity    = document.getElementById("filter-city");
   const $entriesList   = document.getElementById("entries-list");
+  const $btnToggleIndex = document.getElementById("btn-toggle-index");
+  const $entryIndex    = document.getElementById("entry-index");
 
   let currentUser = null;
   let editingId = null; // null = nueva entrada, string = editando existente
+  let cachedEntries = []; // last snapshot for re-render on auth change
 
   // ── Imágenes ──
   const MAX_IMAGES = 5;
@@ -70,6 +73,8 @@
       $btnNewEntry.style.display = "none";
       closeEditor();
     }
+    // Re-render entries to update edit/delete buttons for new auth state
+    if (cachedEntries.length > 0) renderEntries(cachedEntries);
   });
 
   // ── Auth: login ──
@@ -298,6 +303,7 @@
 
   // ── Entradas: renderizar ──
   function renderEntries(entries) {
+    cachedEntries = entries;
     const filterCity = $filterCity.value;
     const filtered = filterCity
       ? entries.filter(e => e.ciudad === filterCity)
@@ -325,7 +331,7 @@
         : "";
 
       return `
-        <div class="entry-card">
+        <div class="entry-card" data-entry-id="${e.id}">
           <div class="entry-meta">
             <span class="entry-author">${escapeHtml(e.autor || "Anónimo")}</span>
             <span class="entry-date">${fecha}</span>
@@ -361,15 +367,59 @@
 
   // ── Filtro por ciudad ──
   $filterCity.addEventListener("change", () => {
-    // El listener de onSnapshot ya tiene los datos; forzar re-render
-    // pidiendo al snapshot actual que se re-dispare
-    db.collection("vitacora")
-      .orderBy("creadoEn", "desc")
-      .get()
-      .then(snapshot => {
-        renderEntries(snapshot.docs.map(doc => ({ id: doc.id, ...doc.data() })));
-      });
+    // Re-render with cached data (no extra Firestore read)
+    if (cachedEntries.length > 0) renderEntries(cachedEntries);
   });
+
+  // ── Índice de entradas ──
+  $btnToggleIndex.addEventListener("click", () => {
+    const visible = $entryIndex.classList.toggle("visible");
+    $btnToggleIndex.textContent = visible ? "📑 Ocultar" : "📑 Índice";
+    if (visible && cachedEntries.length > 0) renderIndex(cachedEntries);
+  });
+
+  function renderIndex(entries) {
+    // Group by city (null → "Sin ciudad")
+    const groups = {};
+    entries.forEach(e => {
+      const city = e.ciudad || "Sin ciudad";
+      if (!groups[city]) groups[city] = [];
+      groups[city].push(e);
+    });
+
+    const cities = Object.keys(groups).sort((a, b) => {
+      if (a === "Sin ciudad") return 1;
+      if (b === "Sin ciudad") return -1;
+      return a.localeCompare(b);
+    });
+
+    $entryIndex.innerHTML = cities.map(city => {
+      const items = groups[city].map(e => {
+        const fecha = e.creadoEn ? formatTimestamp(e.creadoEn).split(" ")[0] : "";
+        return `<li class="index-item" data-id="${e.id}">
+          <span class="index-title">${escapeHtml(e.titulo)}</span>
+          <span class="index-meta">${escapeHtml(e.autor || "")} · ${fecha}</span>
+        </li>`;
+      }).join("");
+      return `<div class="index-group">
+        <h4 class="index-city">${escapeHtml(city)}</h4>
+        <ul class="index-list">${items}</ul>
+      </div>`;
+    }).join("");
+
+    // Click to scroll to entry card
+    $entryIndex.querySelectorAll(".index-item").forEach(li => {
+      li.addEventListener("click", () => {
+        const id = li.dataset.id;
+        const entryCard = $entriesList.querySelector(`.entry-card[data-entry-id="${id}"]`);
+        if (entryCard) {
+          entryCard.scrollIntoView({ behavior: "smooth", block: "center" });
+          entryCard.classList.add("highlight");
+          setTimeout(() => entryCard.classList.remove("highlight"), 1500);
+        }
+      });
+    });
+  }
 
   // ── Helpers ──
 

@@ -14,6 +14,7 @@ Uso:
 import argparse
 import os
 import re
+import shutil
 import sys
 from pathlib import Path
 
@@ -22,7 +23,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from generate_audio import discover_md_files, EXCLUDED_FILES
 
 
-def md_to_html(md_content: str) -> str:
+def md_to_html(md_content: str, city: str = "", md_file: Path = None, repo_root: Path = None, output_root: Path = None) -> str:
     """Convierte Markdown a HTML fragmentario (sin wrapper html/body)."""
     text = md_content
 
@@ -33,8 +34,24 @@ def md_to_html(md_content: str) -> str:
     # 2. Eliminar comentarios HTML
     text = re.sub(r"<!--.*?-->", "", text, flags=re.DOTALL)
 
-    # 3. Eliminar imágenes markdown
-    text = re.sub(r"!\[.*?\]\(.*?\)\s*\n?", "", text)
+    # 3. Convertir imágenes markdown a <img> y copiar archivos a docs/fotos/
+    def _convert_image(m):
+        alt = m.group(1)
+        src = m.group(2)
+        if md_file and repo_root and output_root and city:
+            # Resolver ruta absoluta de la imagen desde el .md
+            img_abs = (md_file.parent / src).resolve()
+            if img_abs.exists():
+                # Copiar a docs/fotos/{Ciudad}/
+                fotos_dir = output_root.parent / "fotos" / city
+                fotos_dir.mkdir(parents=True, exist_ok=True)
+                dest = fotos_dir / img_abs.name
+                if not dest.exists() or img_abs.stat().st_mtime > dest.stat().st_mtime:
+                    shutil.copy2(img_abs, dest)
+                # Ruta relativa desde docs/ (donde se sirve index.html)
+                return f'<img src="fotos/{city}/{img_abs.name}" alt="{alt}" style="max-width:100%;border-radius:8px;margin:8px 0">\n'
+        return ""  # Si no se puede resolver, omitir
+    text = re.sub(r"!\[([^\]]*)\]\(([^)]+)\)\s*\n?", _convert_image, text)
 
     # 4. Eliminar marcadores de verificación y datos pendientes
     text = re.sub(r"\[⚠\s*VERIFICAR[^\]]*\]", "", text)
@@ -197,7 +214,7 @@ def main():
 
         try:
             md_content = md_file.read_text(encoding="utf-8")
-            html_content = md_to_html(md_content)
+            html_content = md_to_html(md_content, city=city, md_file=md_file, repo_root=repo_root, output_root=output_dir)
 
             if not html_content.strip():
                 skipped += 1

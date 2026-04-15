@@ -7,7 +7,7 @@
   "use strict";
 
   // Ciudades disponibles (hardcodeadas para evitar fetch extra)
-  const CIUDADES = ["Firenze", "Granada", "Lucca", "Madrid", "Pisa", "Roma"];
+  const CIUDADES = ["Benalmádena", "Firenze", "Granada", "Lucca", "Madrid", "Málaga", "Pisa", "Roma", "Toledo"];
 
   // ── Referencias DOM ──
   const $loginSection  = document.getElementById("login-section");

@@ -1,4 +1,48 @@
 {
+  "Benalmadena": [
+    {
+      "name": "Benalmadena",
+      "file": "audio/Benalmadena/benalmadena.mp3",
+      "duration": 300.912,
+      "duration_fmt": "5:00",
+      "text": "text/Benalmadena/benalmadena.html"
+    },
+    {
+      "name": "Benalmadena Pueblo",
+      "file": "audio/Benalmadena/benalmadena_pueblo.mp3",
+      "duration": 196.008,
+      "duration_fmt": "3:16",
+      "text": "text/Benalmadena/benalmadena_pueblo.html"
+    },
+    {
+      "name": "Castillo De Colomares",
+      "file": "audio/Benalmadena/castillo_de_colomares.mp3",
+      "duration": 203.184,
+      "duration_fmt": "3:23",
+      "text": "text/Benalmadena/castillo_de_colomares.html"
+    },
+    {
+      "name": "Puerto Marina",
+      "file": "audio/Benalmadena/puerto_marina.mp3",
+      "duration": 146.64,
+      "duration_fmt": "2:26",
+      "text": "text/Benalmadena/puerto_marina.html"
+    },
+    {
+      "name": "Stupa De La Iluminacion",
+      "file": "audio/Benalmadena/stupa_de_la_iluminacion.mp3",
+      "duration": 244.176,
+      "duration_fmt": "4:04",
+      "text": "text/Benalmadena/stupa_de_la_iluminacion.html"
+    },
+    {
+      "name": "Teleferico Monte Calamorro",
+      "file": "audio/Benalmadena/teleferico_monte_calamorro.mp3",
+      "duration": 208.008,
+      "duration_fmt": "3:28",
+      "text": "text/Benalmadena/teleferico_monte_calamorro.html"
+    }
+  ],
   "Firenze": [
     {
       "name": "Abbazia San Miniato Al Monte",
@@ -343,6 +387,50 @@
       "text": "text/Madrid/templo_de_debod.html"
     }
   ],
+  "Malaga": [
+    {
+      "name": "Alcazaba",
+      "file": "audio/Malaga/alcazaba.mp3",
+      "duration": 234.072,
+      "duration_fmt": "3:54",
+      "text": "text/Malaga/alcazaba.html"
+    },
+    {
+      "name": "Castillo De Gibralfaro",
+      "file": "audio/Malaga/castillo_de_gibralfaro.mp3",
+      "duration": 229.704,
+      "duration_fmt": "3:49",
+      "text": "text/Malaga/castillo_de_gibralfaro.html"
+    },
+    {
+      "name": "Catedral",
+      "file": "audio/Malaga/catedral.mp3",
+      "duration": 221.736,
+      "duration_fmt": "3:41",
+      "text": "text/Malaga/catedral.html"
+    },
+    {
+      "name": "Malaga",
+      "file": "audio/Malaga/malaga.mp3",
+      "duration": 405.456,
+      "duration_fmt": "6:45",
+      "text": "text/Malaga/malaga.html"
+    },
+    {
+      "name": "Museo Picasso",
+      "file": "audio/Malaga/museo_picasso.mp3",
+      "duration": 276.768,
+      "duration_fmt": "4:36",
+      "text": "text/Malaga/museo_picasso.html"
+    },
+    {
+      "name": "Teatro Romano",
+      "file": "audio/Malaga/teatro_romano.mp3",
+      "duration": 250.992,
+      "duration_fmt": "4:10",
+      "text": "text/Malaga/teatro_romano.html"
+    }
+  ],
   "Pisa": [
     {
       "name": "Battistero San Giovanni Pisa",
@@ -541,6 +629,50 @@
       "duration": 69.312,
       "duration_fmt": "1:09",
       "text": "text/Roma/villa_borghese.html"
+    }
+  ],
+  "Toledo": [
+    {
+      "name": "Alcazar",
+      "file": "audio/Toledo/alcazar.mp3",
+      "duration": 257.76,
+      "duration_fmt": "4:17",
+      "text": "text/Toledo/alcazar.html"
+    },
+    {
+      "name": "Catedral Primada",
+      "file": "audio/Toledo/catedral_primada.mp3",
+      "duration": 248.112,
+      "duration_fmt": "4:08",
+      "text": "text/Toledo/catedral_primada.html"
+    },
+    {
+      "name": "San Juan De Los Reyes",
+      "file": "audio/Toledo/san_juan_de_los_reyes.mp3",
+      "duration": 231.192,
+      "duration_fmt": "3:51",
+      "text": "text/Toledo/san_juan_de_los_reyes.html"
+    },
+    {
+      "name": "Santo Tome",
+      "file": "audio/Toledo/santo_tome.mp3",
+      "duration": 299.232,
+      "duration_fmt": "4:59",
+      "text": "text/Toledo/santo_tome.html"
+    },
+    {
+      "name": "Sinagoga Del Transito",
+      "file": "audio/Toledo/sinagoga_del_transito.mp3",
+      "duration": 317.16,
+      "duration_fmt": "5:17",
+      "text": "text/Toledo/sinagoga_del_transito.html"
+    },
+    {
+      "name": "Toledo",
+      "file": "audio/Toledo/toledo.mp3",
+      "duration": 421.608,
+      "duration_fmt": "7:01",
+      "text": "text/Toledo/toledo.html"
     }
   ]
 }

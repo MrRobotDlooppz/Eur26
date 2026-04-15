@@ -1,0 +1,57 @@
+[
+  {
+    "nombre": "Castillo de Colomares",
+    "archivo": "mapa_castillo_de_colomares.png",
+    "lat": 36.6030,
+    "lon": -4.5330,
+    "referencias": [
+      { "nombre": "Stūpa de la Iluminación", "lat": 36.5988, "lon": -4.5162 },
+      { "nombre": "Puerto Marina", "lat": 36.5958, "lon": -4.5172 },
+      { "nombre": "Benalmádena Pueblo", "lat": 36.5945, "lon": -4.5688 }
+    ]
+  },
+  {
+    "nombre": "Stūpa de la Iluminación",
+    "archivo": "mapa_stupa_de_la_iluminacion.png",
+    "lat": 36.5988,
+    "lon": -4.5162,
+    "referencias": [
+      { "nombre": "Castillo de Colomares", "lat": 36.6030, "lon": -4.5330 },
+      { "nombre": "Puerto Marina", "lat": 36.5958, "lon": -4.5172 },
+      { "nombre": "Teleférico Monte Calamorro", "lat": 36.5838, "lon": -4.5335 }
+    ]
+  },
+  {
+    "nombre": "Puerto Marina",
+    "archivo": "mapa_puerto_marina.png",
+    "lat": 36.5958,
+    "lon": -4.5172,
+    "referencias": [
+      { "nombre": "Stūpa de la Iluminación", "lat": 36.5988, "lon": -4.5162 },
+      { "nombre": "Castillo de Colomares", "lat": 36.6030, "lon": -4.5330 },
+      { "nombre": "Teleférico Monte Calamorro", "lat": 36.5838, "lon": -4.5335 }
+    ]
+  },
+  {
+    "nombre": "Teleférico de Benalmádena (Monte Calamorro)",
+    "archivo": "mapa_teleferico_monte_calamorro.png",
+    "lat": 36.5838,
+    "lon": -4.5335,
+    "referencias": [
+      { "nombre": "Puerto Marina", "lat": 36.5958, "lon": -4.5172 },
+      { "nombre": "Stūpa de la Iluminación", "lat": 36.5988, "lon": -4.5162 },
+      { "nombre": "Benalmádena Pueblo", "lat": 36.5945, "lon": -4.5688 }
+    ]
+  },
+  {
+    "nombre": "Benalmádena Pueblo",
+    "archivo": "mapa_benalmadena_pueblo.png",
+    "lat": 36.5945,
+    "lon": -4.5688,
+    "referencias": [
+      { "nombre": "Castillo de Colomares", "lat": 36.6030, "lon": -4.5330 },
+      { "nombre": "Puerto Marina", "lat": 36.5958, "lon": -4.5172 },
+      { "nombre": "Teleférico Monte Calamorro", "lat": 36.5838, "lon": -4.5335 }
+    ]
+  }
+]

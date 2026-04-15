@@ -1,0 +1,57 @@
+[
+  {
+    "nombre": "Alcazaba de Málaga",
+    "archivo": "mapa_alcazaba.png",
+    "lat": 36.7210,
+    "lon": -4.4165,
+    "referencias": [
+      { "nombre": "Castillo de Gibralfaro", "lat": 36.7225, "lon": -4.4140 },
+      { "nombre": "Teatro Romano", "lat": 36.7208, "lon": -4.4170 },
+      { "nombre": "Catedral de la Encarnación", "lat": 36.7200, "lon": -4.4196 }
+    ]
+  },
+  {
+    "nombre": "Castillo de Gibralfaro",
+    "archivo": "mapa_castillo_de_gibralfaro.png",
+    "lat": 36.7225,
+    "lon": -4.4140,
+    "referencias": [
+      { "nombre": "Alcazaba", "lat": 36.7210, "lon": -4.4165 },
+      { "nombre": "Teatro Romano", "lat": 36.7208, "lon": -4.4170 },
+      { "nombre": "Catedral de la Encarnación", "lat": 36.7200, "lon": -4.4196 }
+    ]
+  },
+  {
+    "nombre": "Catedral de la Encarnación (La Manquita)",
+    "archivo": "mapa_catedral.png",
+    "lat": 36.7200,
+    "lon": -4.4196,
+    "referencias": [
+      { "nombre": "Alcazaba", "lat": 36.7210, "lon": -4.4165 },
+      { "nombre": "Teatro Romano", "lat": 36.7208, "lon": -4.4170 },
+      { "nombre": "Museo Picasso", "lat": 36.7215, "lon": -4.4187 }
+    ]
+  },
+  {
+    "nombre": "Teatro Romano de Málaga",
+    "archivo": "mapa_teatro_romano.png",
+    "lat": 36.7208,
+    "lon": -4.4170,
+    "referencias": [
+      { "nombre": "Alcazaba", "lat": 36.7210, "lon": -4.4165 },
+      { "nombre": "Castillo de Gibralfaro", "lat": 36.7225, "lon": -4.4140 },
+      { "nombre": "Catedral de la Encarnación", "lat": 36.7200, "lon": -4.4196 }
+    ]
+  },
+  {
+    "nombre": "Museo Picasso Málaga",
+    "archivo": "mapa_museo_picasso.png",
+    "lat": 36.7215,
+    "lon": -4.4187,
+    "referencias": [
+      { "nombre": "Alcazaba", "lat": 36.7210, "lon": -4.4165 },
+      { "nombre": "Catedral de la Encarnación", "lat": 36.7200, "lon": -4.4196 },
+      { "nombre": "Teatro Romano", "lat": 36.7208, "lon": -4.4170 }
+    ]
+  }
+]

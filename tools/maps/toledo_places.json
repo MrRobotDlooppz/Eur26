@@ -1,0 +1,57 @@
+[
+  {
+    "nombre": "Catedral Primada de Toledo",
+    "archivo": "mapa_catedral_primada.png",
+    "lat": 39.8567,
+    "lon": -4.0236,
+    "referencias": [
+      { "nombre": "Alcázar", "lat": 39.8581, "lon": -4.0192 },
+      { "nombre": "Iglesia de Santo Tomé", "lat": 39.8572, "lon": -4.0269 },
+      { "nombre": "Sinagoga del Tránsito", "lat": 39.8564, "lon": -4.0283 }
+    ]
+  },
+  {
+    "nombre": "Alcázar de Toledo",
+    "archivo": "mapa_alcazar.png",
+    "lat": 39.8581,
+    "lon": -4.0192,
+    "referencias": [
+      { "nombre": "Catedral Primada", "lat": 39.8567, "lon": -4.0236 },
+      { "nombre": "Iglesia de Santo Tomé", "lat": 39.8572, "lon": -4.0269 },
+      { "nombre": "San Juan de los Reyes", "lat": 39.8570, "lon": -4.0305 }
+    ]
+  },
+  {
+    "nombre": "Sinagoga del Tránsito y Museo Sefardí",
+    "archivo": "mapa_sinagoga_del_transito.png",
+    "lat": 39.8564,
+    "lon": -4.0283,
+    "referencias": [
+      { "nombre": "San Juan de los Reyes", "lat": 39.8570, "lon": -4.0305 },
+      { "nombre": "Iglesia de Santo Tomé", "lat": 39.8572, "lon": -4.0269 },
+      { "nombre": "Catedral Primada", "lat": 39.8567, "lon": -4.0236 }
+    ]
+  },
+  {
+    "nombre": "Monasterio de San Juan de los Reyes",
+    "archivo": "mapa_san_juan_de_los_reyes.png",
+    "lat": 39.8570,
+    "lon": -4.0305,
+    "referencias": [
+      { "nombre": "Sinagoga del Tránsito", "lat": 39.8564, "lon": -4.0283 },
+      { "nombre": "Iglesia de Santo Tomé", "lat": 39.8572, "lon": -4.0269 },
+      { "nombre": "Catedral Primada", "lat": 39.8567, "lon": -4.0236 }
+    ]
+  },
+  {
+    "nombre": "Iglesia de Santo Tomé",
+    "archivo": "mapa_santo_tome.png",
+    "lat": 39.8572,
+    "lon": -4.0269,
+    "referencias": [
+      { "nombre": "Sinagoga del Tránsito", "lat": 39.8564, "lon": -4.0283 },
+      { "nombre": "Catedral Primada", "lat": 39.8567, "lon": -4.0236 },
+      { "nombre": "Alcázar", "lat": 39.8581, "lon": -4.0192 }
+    ]
+  }
+]

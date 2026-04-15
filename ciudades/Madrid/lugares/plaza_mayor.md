@@ -11,6 +11,8 @@ lugar:
 
 ![Mapa detalle de la Plaza Mayor](../fotos/mapa_plaza_mayor_detalle.png)
 
+![Vista de Plaza Mayor de Madrid](../fotos/foto_plaza_mayor.jpg)
+
 # Plaza Mayor de Madrid
 
 ## Qué había antes

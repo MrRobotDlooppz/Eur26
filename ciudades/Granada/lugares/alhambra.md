@@ -15,6 +15,8 @@ lugar:
 
 ![Mapa detalle de la Alhambra](../fotos/mapa_alhambra_detalle.png)
 
+![Vista de Alhambra](../fotos/foto_alhambra.jpg)
+
 ---
 
 ## Qué había antes

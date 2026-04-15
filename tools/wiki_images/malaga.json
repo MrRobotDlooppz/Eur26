@@ -1,0 +1,37 @@
+{
+  "city": "Málaga",
+  "city_dir": "ciudades/Malaga",
+  "lang": "es",
+  "places": [
+    {
+      "wiki_local": "Alcazaba de Málaga",
+      "wiki_en": "Alcazaba of Málaga",
+      "filename": "foto_alcazaba.jpg",
+      "md_path": "lugares/alcazaba.md"
+    },
+    {
+      "wiki_local": "Castillo de Gibralfaro",
+      "wiki_en": "Gibralfaro castle",
+      "filename": "foto_castillo_de_gibralfaro.jpg",
+      "md_path": "lugares/castillo_de_gibralfaro.md"
+    },
+    {
+      "wiki_local": "Catedral de la Encarnación de Málaga",
+      "wiki_en": "Málaga Cathedral",
+      "filename": "foto_catedral.jpg",
+      "md_path": "lugares/catedral.md"
+    },
+    {
+      "wiki_local": "Museo Picasso Málaga",
+      "wiki_en": "Museo Picasso Málaga",
+      "filename": "foto_museo_picasso.jpg",
+      "md_path": "lugares/museo_picasso.md"
+    },
+    {
+      "wiki_local": "Teatro romano de Málaga",
+      "wiki_en": "Roman Theatre (Málaga)",
+      "filename": "foto_teatro_romano.jpg",
+      "md_path": "lugares/teatro_romano.md"
+    }
+  ]
+}

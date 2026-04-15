@@ -13,6 +13,8 @@ lugar:
 
 ![Mapa detalle de Alcazaba de Málaga](../fotos/mapa_alcazaba_detalle.png)
 
+![Vista de Alcazaba de Málaga](../fotos/foto_alcazaba.jpg)
+
 ---
 
 ## Qué había antes

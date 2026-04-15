@@ -1,0 +1,37 @@
+{
+  "city": "Benalmádena",
+  "city_dir": "ciudades/Benalmadena",
+  "lang": "es",
+  "places": [
+    {
+      "wiki_local": "Benalmádena",
+      "wiki_en": "Benalmádena",
+      "filename": "foto_benalmadena_pueblo.jpg",
+      "md_path": "lugares/benalmadena_pueblo.md"
+    },
+    {
+      "wiki_local": "Castillo de Colomares",
+      "wiki_en": "Castillo de Colomares",
+      "filename": "foto_castillo_de_colomares.jpg",
+      "md_path": "lugares/castillo_de_colomares.md"
+    },
+    {
+      "wiki_local": "Puerto Marina",
+      "wiki_en": "Puerto Marina Benalmádena",
+      "filename": "foto_puerto_marina.jpg",
+      "md_path": "lugares/puerto_marina.md"
+    },
+    {
+      "wiki_local": "Estupa de la Iluminación de Benalmádena",
+      "wiki_en": "Benalmádena Stupa",
+      "filename": "foto_stupa_de_la_iluminacion.jpg",
+      "md_path": "lugares/stupa_de_la_iluminacion.md"
+    },
+    {
+      "wiki_local": "Teleférico de Benalmádena",
+      "wiki_en": "Benalmádena Cable Car",
+      "filename": "foto_teleferico_monte_calamorro.jpg",
+      "md_path": "lugares/teleferico_monte_calamorro.md"
+    }
+  ]
+}

@@ -13,6 +13,8 @@ lugar:
 ## Mapa en detalle
 ![Mapa detallado de Pantheon](../fotos/mapa_pantheon_detalle.png)
 
+![Vista de Pantheon (Roma)](../fotos/foto_pantheon.jpg)
+
 ## Qué había antes
 
 En este lugar Agripa construyó un primer templo en 27-25 a.C., orientado al norte y probablemente de planta rectangular convencional. Ese edificio se incendió en el 80 d.C. y fue reconstruido por Domiciano, para volver a arder tras un rayo en el 110 d.C. Lo que vemos hoy es la tercera construcción, obra de Adriano (circa 113-125 d.C.), que sin embargo mantuvo la inscripción original de Agripa en el frontón: *M·AGRIPPA·L·F·COS·TERTIVM·FECIT* ("Marco Agripa, hijo de Lucio, cónsul por tercera vez, lo hizo"). Durante siglos se creyó que el edificio era el original de Agripa; solo la investigación moderna de los sellos de los ladrillos demostró que pertenece a la época de Adriano.

@@ -11,6 +11,8 @@ lugar:
 
 ![Mapa detalle del Mercado de San Miguel](../fotos/mapa_mercado_san_miguel_detalle.png)
 
+![Vista de Mercado de San Miguel](../fotos/foto_mercado_san_miguel.jpg)
+
 # Mercado de San Miguel
 
 ## Qué había antes

@@ -15,6 +15,8 @@ lugar:
 
 ![Mapa detalle del Duomo di Pisa](../fotos/mapa_duomo_di_pisa_detalle.png)
 
+![Vista de Duomo di Pisa](../fotos/foto_duomo_di_pisa.jpg)
+
 ---
 
 <!-- 📷 FOTO: fachada del Duomo desde el Campo / detalle de los arcos y columnas de la fachada / interior de cinco naves -->

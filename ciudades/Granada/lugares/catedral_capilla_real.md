@@ -13,6 +13,8 @@ lugar:
 
 ![Mapa detalle de la Catedral y Capilla Real](../fotos/mapa_catedral_capilla_real_detalle.png)
 
+![Vista de Catedral de Granada](../fotos/foto_catedral_capilla_real.jpg)
+
 ---
 
 ## Qué había antes

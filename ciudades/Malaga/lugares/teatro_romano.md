@@ -13,6 +13,8 @@ lugar:
 
 ![Mapa detalle de Teatro Romano](../fotos/mapa_teatro_romano_detalle.png)
 
+![Vista de Teatro romano de Málaga](../fotos/foto_teatro_romano.jpg)
+
 ---
 
 ## Qué había antes

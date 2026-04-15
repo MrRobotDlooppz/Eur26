@@ -13,6 +13,8 @@ lugar:
 
 ![Mapa detalle de Castillo de Gibralfaro](../fotos/mapa_castillo_de_gibralfaro_detalle.png)
 
+![Vista de Castillo de Gibralfaro](../fotos/foto_castillo_de_gibralfaro.jpg)
+
 ---
 
 ## Qué había antes

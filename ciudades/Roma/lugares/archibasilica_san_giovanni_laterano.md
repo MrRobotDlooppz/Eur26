@@ -14,6 +14,8 @@ lugar:
 ## Mapa en detalle
 ![Mapa detallado de Archibasilica di San Giovanni in Laterano](../fotos/mapa_san_giovanni_laterano_detalle.png)
 
+![Vista de Arcibasilica di San Giovanni in Laterano](../fotos/foto_san_giovanni_laterano.jpg)
+
 ## Qué había antes
 
 El terreno perteneció a la familia de los Laterani, una gens aristocrática romana. El último Laterano propietario, Plauzio Laterano, fue ejecutado en 65 d.C. por conspirar contra Nerón (la conjura de Pisón). La propiedad pasó al fisco imperial y fue usada como cuartel de la guardia a caballo (*Castra Nova equitum singularium*). Constantino demolió el cuartel tras derrotar a Majencio en la batalla del Puente Milvio (312 d.C.) y donó el terreno al obispo de Roma para construir la primera basílica cristiana de la ciudad.

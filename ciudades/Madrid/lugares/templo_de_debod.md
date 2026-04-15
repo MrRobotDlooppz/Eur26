@@ -11,6 +11,8 @@ lugar:
 
 ![Mapa detalle del Templo de Debod](../fotos/mapa_templo_de_debod_detalle.png)
 
+![Vista de Templo de Debod](../fotos/foto_templo_de_debod.jpg)
+
 # Templo de Debod
 
 ## Qué había antes — en Egipto

@@ -14,6 +14,8 @@ lugar:
 
 ![Mapa detalle del Battistero di San Giovanni di Pisa](../fotos/mapa_battistero_pisa_detalle.png)
 
+![Vista de Battistero di San Giovanni (Pisa)](../fotos/foto_battistero_pisa.jpg)
+
 ---
 
 <!-- 📷 FOTO: exterior del Battistero desde la fachada / detalle del contraste entre el románico bajo y el gótico superior / cúpula -->

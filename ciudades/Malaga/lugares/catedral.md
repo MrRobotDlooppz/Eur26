@@ -14,6 +14,8 @@ lugar:
 
 ![Mapa detalle de Catedral de la Encarnación](../fotos/mapa_catedral_detalle.png)
 
+![Vista de Catedral de la Encarnación de Málaga](../fotos/foto_catedral.jpg)
+
 ---
 
 ## Qué había antes

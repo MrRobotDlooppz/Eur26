@@ -1,10 +1,15 @@
 #!/usr/bin/env python3
 """
-Descarga la imagen principal de Wikipedia para cada lugar de Firenze
-y la guarda en Firenze/fotos/.
-Intenta el título en italiano, luego en inglés. Máx 2 intentos por lugar.
+Descarga la imagen principal de Wikipedia para cada lugar y la guarda
+en la carpeta fotos/ de la ciudad correspondiente.
+
+Uso:
+  python tools/fetch_wiki_images.py --config tools/wiki_images/roma.json
+  python tools/fetch_wiki_images.py --config tools/wiki_images/toledo.json --only-failed
+  python tools/fetch_wiki_images.py --all          # procesa todos los JSON en tools/wiki_images/
 """
 
+import argparse
 import json
 import sys
 import time
@@ -12,34 +17,6 @@ import urllib.request
 import urllib.parse
 from pathlib import Path
 
-WIKI_API = "https://en.wikipedia.org/w/api.php"
-WIKI_API_IT = "https://it.wikipedia.org/w/api.php"
-
-PLACES = [
-    # (wiki_title_it, wiki_title_en, output_filename, md_path)
-    ("Galleria dell'Accademia (Firenze)", "Galleria dell'Accademia", "foto_galleria_accademia.jpg", "Firenze/lugares/galleria_accademia.md"),
-    ("Basilica di Santa Croce", "Basilica of Santa Croce, Florence", "foto_basilica_santa_croce.jpg", "Firenze/lugares/basilica_santa_croce.md"),
-    ("Palazzo Pitti", "Palazzo Pitti", "foto_palazzo_pitti_boboli.jpg", "Firenze/lugares/palazzo_pitti_boboli.md"),
-    ("Piazzale Michelangelo", "Piazzale Michelangelo", "foto_piazzale_michelangelo.jpg", "Firenze/lugares/piazzale_michelangelo.md"),
-    ("Museo Galileo", "Museo Galileo", "foto_museo_galileo.jpg", "Firenze/lugares/museo_galileo.md"),
-    ("Loggia dei Lanzi", "Loggia dei Lanzi", "foto_loggia_dei_lanzi.jpg", "Firenze/lugares/loggia_dei_lanzi.md"),
-    ("Basilica di San Lorenzo (Firenze)", "Basilica of San Lorenzo, Florence", "foto_san_lorenzo_cappelle_medicee.jpg", "Firenze/lugares/san_lorenzo_cappelle_medicee.md"),
-    ("Museo nazionale del Bargello", "Bargello", "foto_bargello.jpg", "Firenze/lugares/bargello.md"),
-    ("Basilica di Santa Maria Novella", "Santa Maria Novella", "foto_basilica_santa_maria_novella.jpg", "Firenze/lugares/basilica_santa_maria_novella.md"),
-    ("Mercato Centrale (Firenze)", "Mercato Centrale, Florence", "foto_mercato_centrale_san_lorenzo.jpg", "Firenze/lugares/mercato_centrale_san_lorenzo.md"),
-    ("Basilica di San Marco (Firenze)", "San Marco, Florence", "foto_basilica_museo_san_marco.jpg", "Firenze/lugares/basilica_museo_san_marco.md"),
-    ("Fiesole", "Fiesole", "foto_fiesole.jpg", "Firenze/lugares/fiesole.md"),
-    ("Museo di Leonardo", "Leonardo da Vinci", "foto_museo_da_vinci.jpg", "Firenze/lugares/museo_da_vinci.md"),
-    # Sinagoga di Firenze — sin imagen disponible en Wikipedia
-    # Biblioteca nazionale centrale di Firenze — sin imagen disponible en Wikipedia
-    ("Basilica di San Miniato al Monte", "San Miniato al Monte", "foto_abbazia_san_miniato_al_monte.jpg", "Firenze/lugares/abbazia_san_miniato_al_monte.md"),
-    ("Galleria degli Uffizi", "Uffizi", "foto_galleria_degli_uffizi.jpg", "Firenze/lugares/galleria_degli_uffizi.md"),
-    ("Palazzo Vecchio", "Palazzo Vecchio", "foto_palazzo_vecchio.jpg", "Firenze/lugares/palazzo_vecchio.md"),
-    ("Ponte Vecchio", "Ponte Vecchio", "foto_ponte_vecchio.jpg", "Firenze/lugares/ponte_vecchio.md"),
-    ("Cattedrale di Santa Maria del Fiore", "Florence Cathedral", "foto_duomo_firenze.jpg", "Firenze/lugares/piazza_del_duomo_complesso.md"),
-]
-
-OUTPUT_DIR = Path("Firenze/fotos")
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
 
@@ -87,15 +64,17 @@ def download_image(url: str, dest: Path) -> bool:
 def add_image_to_md(md_path: Path, foto_rel: str, alt_text: str) -> None:
     content = md_path.read_text(encoding="utf-8")
     img_line = f"\n![{alt_text}](../fotos/{foto_rel})\n"
-    # Insertar después del bloque yaml (primer ```)
-    # Buscamos la línea "## Mapa" y añadimos debajo si no existe ya la foto
     if foto_rel in content:
         print(f"  [skip] imagen ya referenciada en {md_path.name}")
         return
-    # Insertar al final de la sección de Mapa o al principio del contenido
-    marker = "## Mapa"
-    if marker in content:
-        insert_at = content.index(marker) + len(marker)
+    # Insertar después del bloque de mapa (buscar última línea de mapa_*)
+    import re
+    # Buscar la última referencia a mapa_*
+    last_map = None
+    for m in re.finditer(r"!\[.*?\]\(\.\./fotos/mapa_.*?\)", content):
+        last_map = m
+    if last_map:
+        insert_at = content.index("\n", last_map.end()) + 1
         content = content[:insert_at] + img_line + content[insert_at:]
     else:
         # Insertar después del bloque yaml de cierre
@@ -108,54 +87,109 @@ def add_image_to_md(md_path: Path, foto_rel: str, alt_text: str) -> None:
     md_path.write_text(content, encoding="utf-8")
 
 
-def main():
-    only_failed = "--only-failed" in sys.argv
-    out_dir = REPO_ROOT / OUTPUT_DIR
+def load_config(config_path: Path) -> dict:
+    """Carga un JSON de configuración de ciudad."""
+    with open(config_path, encoding="utf-8") as f:
+        return json.load(f)
+
+
+def process_city(config: dict, only_failed: bool = False) -> dict:
+    """Procesa una ciudad: descarga fotos y actualiza markdowns."""
+    city_name = config["city"]
+    city_dir = config["city_dir"]  # e.g. "ciudades/Roma"
+    lang = config.get("lang", "en")  # idioma local de Wikipedia
+    places = config["places"]
+
+    out_dir = REPO_ROOT / city_dir / "fotos"
     out_dir.mkdir(parents=True, exist_ok=True)
 
-    results = {"ok": [], "fail": []}
+    results = {"ok": [], "fail": [], "skip": []}
 
-    for title_it, title_en, filename, md_rel in PLACES:
+    for place in places:
+        wiki_local = place["wiki_local"]
+        wiki_en = place["wiki_en"]
+        filename = place["filename"]
+        md_rel = place["md_path"]
+
         dest = out_dir / filename
+        md_path = REPO_ROOT / city_dir / md_rel
 
-        # Si --only-failed, saltar los que ya tienen imagen descargada
         if only_failed and dest.exists():
-            print(f"→ [skip already exists] {title_it}")
+            print(f"  [skip exists] {wiki_local}")
+            results["skip"].append(wiki_local)
             continue
 
-        print(f"\n→ {title_it}")
-        md_path = REPO_ROOT / md_rel
+        if dest.exists():
+            print(f"  [skip exists] {wiki_local}")
+            results["skip"].append(wiki_local)
+            continue
+
+        print(f"\n→ [{city_name}] {wiki_local}")
 
         if not md_path.exists():
             print(f"  [skip] {md_rel} no existe")
+            results["fail"].append(wiki_local)
             continue
 
-        # Intento 1: Wikipedia italiano
-        url = wiki_image_url(title_it, lang="it")
+        # Intento 1: Wikipedia en idioma local
+        url = wiki_image_url(wiki_local, lang=lang)
         if not url:
             # Intento 2: Wikipedia inglés
-            url = wiki_image_url(title_en, lang="en")
+            url = wiki_image_url(wiki_en, lang="en")
 
         if not url:
             print(f"  [FAIL] no se encontró imagen")
-            results["fail"].append(title_it)
+            results["fail"].append(wiki_local)
             continue
 
         print(f"  URL: {url[:80]}...")
         ok = download_image(url, dest)
         if ok:
-            print(f"  [OK] guardado en {OUTPUT_DIR / filename}")
-            add_image_to_md(md_path, filename, f"Vista de {title_it}")
-            results["ok"].append(title_it)
+            print(f"  [OK] guardado en {city_dir}/fotos/{filename}")
+            add_image_to_md(md_path, filename, f"Vista de {wiki_local}")
+            results["ok"].append(wiki_local)
         else:
             print(f"  [FAIL] descarga fallida")
-            results["fail"].append(title_it)
+            results["fail"].append(wiki_local)
 
-        time.sleep(3)  # rate limiting
+        time.sleep(3)
 
-    print("\n" + "="*50)
-    print(f"OK ({len(results['ok'])}): {', '.join(results['ok'])}")
-    print(f"FAIL ({len(results['fail'])}): {', '.join(results['fail'])}")
+    return results
+
+
+def main():
+    parser = argparse.ArgumentParser(description="Descarga imágenes de Wikipedia para lugares")
+    parser.add_argument("--config", type=Path, help="Archivo JSON de configuración de ciudad")
+    parser.add_argument("--all", action="store_true", help="Procesar todos los JSON en tools/wiki_images/")
+    parser.add_argument("--only-failed", action="store_true", help="Solo reintentar los que fallaron")
+    args = parser.parse_args()
+
+    configs_dir = REPO_ROOT / "tools" / "wiki_images"
+
+    if args.all:
+        config_files = sorted(configs_dir.glob("*.json"))
+    elif args.config:
+        config_files = [args.config]
+    else:
+        print("Uso: --config <archivo.json> o --all")
+        sys.exit(1)
+
+    all_results = {"ok": [], "fail": [], "skip": []}
+
+    for cf in config_files:
+        print(f"\n{'='*50}")
+        print(f"Procesando: {cf.name}")
+        print(f"{'='*50}")
+        config = load_config(cf)
+        results = process_city(config, only_failed=args.only_failed)
+        for k in all_results:
+            all_results[k].extend(results[k])
+
+    print(f"\n{'='*50}")
+    print(f"RESUMEN TOTAL")
+    print(f"OK ({len(all_results['ok'])}): {', '.join(all_results['ok'])}")
+    print(f"FAIL ({len(all_results['fail'])}): {', '.join(all_results['fail'])}")
+    print(f"SKIP ({len(all_results['skip'])}): {len(all_results['skip'])} ya existían")
 
 
 if __name__ == "__main__":

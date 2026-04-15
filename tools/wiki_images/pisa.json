@@ -1,0 +1,43 @@
+{
+  "city": "Pisa",
+  "city_dir": "ciudades/Pisa",
+  "lang": "it",
+  "places": [
+    {
+      "wiki_local": "Battistero di San Giovanni (Pisa)",
+      "wiki_en": "Pisa Baptistry",
+      "filename": "foto_battistero_pisa.jpg",
+      "md_path": "lugares/battistero_san_giovanni_pisa.md"
+    },
+    {
+      "wiki_local": "Piazza dei Miracoli",
+      "wiki_en": "Piazza dei Miracoli",
+      "filename": "foto_campo_dei_miracoli.jpg",
+      "md_path": "lugares/campo_dei_miracoli.md"
+    },
+    {
+      "wiki_local": "Camposanto monumentale",
+      "wiki_en": "Camposanto Monumentale",
+      "filename": "foto_camposanto_monumentale.jpg",
+      "md_path": "lugares/camposanto_monumentale.md"
+    },
+    {
+      "wiki_local": "Duomo di Pisa",
+      "wiki_en": "Pisa Cathedral",
+      "filename": "foto_duomo_di_pisa.jpg",
+      "md_path": "lugares/duomo_di_pisa.md"
+    },
+    {
+      "wiki_local": "Piazza dei Cavalieri",
+      "wiki_en": "Piazza dei Cavalieri",
+      "filename": "foto_piazza_dei_cavalieri.jpg",
+      "md_path": "lugares/piazza_dei_cavalieri.md"
+    },
+    {
+      "wiki_local": "Torre di Pisa",
+      "wiki_en": "Leaning Tower of Pisa",
+      "filename": "foto_torre_pendente.jpg",
+      "md_path": "lugares/torre_pendente.md"
+    }
+  ]
+}

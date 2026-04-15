@@ -14,6 +14,8 @@ lugar:
 
 ![Mapa detalle de las Mura di Lucca](../fotos/mapa_mura_di_lucca_detalle.png)
 
+![Vista de Mura di Lucca](../fotos/foto_mura_di_lucca.jpg)
+
 ---
 
 <!-- 📷 FOTO: vista aérea de las murallas / paseo arbolado sobre el baluarte / bicicletas en el camino de ronda -->

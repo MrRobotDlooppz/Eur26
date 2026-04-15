@@ -13,6 +13,8 @@ lugar:
 ## Mapa en detalle
 ![Mapa detallado de Musei Vaticani](../fotos/mapa_musei_vaticani_detalle.png)
 
+![Vista de Musei Vaticani](../fotos/foto_musei_vaticani.jpg)
+
 ## Qué había antes
 
 El terreno de los Musei Vaticani ocupa la Colina Vaticana (*Mons Vaticanus*), que en la Antigüedad era una zona periférica fuera del *pomerium* (límite sagrado) de Roma. Estaba ocupada por jardines, villas y una necrópolis. Calígula construyó aquí un circo privado que Nerón amplió — el Circo de Nerón —, donde según la tradición cristiana fue martirizado san Pedro alrededor del 64 d.C. Constantino construyó la primera basílica de San Pedro sobre la tumba del apóstol hacia el 320 d.C. Los palacios papales se fueron extendiendo a partir del regreso de los papas de Aviñón (1377), y las colecciones de arte fueron acumulándose en estos palacios a lo largo de los siglos siguientes.

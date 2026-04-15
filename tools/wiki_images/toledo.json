@@ -1,0 +1,37 @@
+{
+  "city": "Toledo",
+  "city_dir": "ciudades/Toledo",
+  "lang": "es",
+  "places": [
+    {
+      "wiki_local": "Alcázar de Toledo",
+      "wiki_en": "Alcázar of Toledo",
+      "filename": "foto_alcazar.jpg",
+      "md_path": "lugares/alcazar.md"
+    },
+    {
+      "wiki_local": "Catedral de Santa María de Toledo",
+      "wiki_en": "Toledo Cathedral",
+      "filename": "foto_catedral_primada.jpg",
+      "md_path": "lugares/catedral_primada.md"
+    },
+    {
+      "wiki_local": "Monasterio de San Juan de los Reyes",
+      "wiki_en": "Monastery of San Juan de los Reyes",
+      "filename": "foto_san_juan_de_los_reyes.jpg",
+      "md_path": "lugares/san_juan_de_los_reyes.md"
+    },
+    {
+      "wiki_local": "Iglesia de Santo Tomé (Toledo)",
+      "wiki_en": "Church of Santo Tomé",
+      "filename": "foto_santo_tome.jpg",
+      "md_path": "lugares/santo_tome.md"
+    },
+    {
+      "wiki_local": "Sinagoga del Tránsito",
+      "wiki_en": "Synagogue of El Tránsito",
+      "filename": "foto_sinagoga_del_transito.jpg",
+      "md_path": "lugares/sinagoga_del_transito.md"
+    }
+  ]
+}

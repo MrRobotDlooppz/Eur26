@@ -1,0 +1,43 @@
+{
+  "city": "Granada",
+  "city_dir": "ciudades/Granada",
+  "lang": "es",
+  "places": [
+    {
+      "wiki_local": "Albaicín",
+      "wiki_en": "Albaicín",
+      "filename": "foto_albaicin.jpg",
+      "md_path": "lugares/albaicin.md"
+    },
+    {
+      "wiki_local": "Alhambra",
+      "wiki_en": "Alhambra",
+      "filename": "foto_alhambra.jpg",
+      "md_path": "lugares/alhambra.md"
+    },
+    {
+      "wiki_local": "Catedral de Granada",
+      "wiki_en": "Granada Cathedral",
+      "filename": "foto_catedral_capilla_real.jpg",
+      "md_path": "lugares/catedral_capilla_real.md"
+    },
+    {
+      "wiki_local": "Mirador de San Nicolás (Granada)",
+      "wiki_en": "Mirador de San Nicolás",
+      "filename": "foto_mirador_san_nicolas.jpg",
+      "md_path": "lugares/mirador_san_nicolas.md"
+    },
+    {
+      "wiki_local": "Monasterio de San Jerónimo (Granada)",
+      "wiki_en": "Monastery of San Jerónimo (Granada)",
+      "filename": "foto_monasterio_san_jeronimo.jpg",
+      "md_path": "lugares/monasterio_san_jeronimo.md"
+    },
+    {
+      "wiki_local": "Sacromonte",
+      "wiki_en": "Sacromonte",
+      "filename": "foto_sacromonte.jpg",
+      "md_path": "lugares/sacromonte.md"
+    }
+  ]
+}

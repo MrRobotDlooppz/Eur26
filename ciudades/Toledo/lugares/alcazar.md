@@ -13,6 +13,8 @@ lugar:
 
 ![Mapa detalle de Alcázar de Toledo](../fotos/mapa_alcazar_detalle.png)
 
+![Vista de Alcázar de Toledo](../fotos/foto_alcazar.jpg)
+
 ---
 
 ## Qué había antes

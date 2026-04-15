@@ -13,6 +13,8 @@ lugar:
 
 ![Mapa detalle de Sinagoga del Tránsito](../fotos/mapa_sinagoga_del_transito_detalle.png)
 
+![Vista de Sinagoga del Tránsito](../fotos/foto_sinagoga_del_transito.jpg)
+
 ---
 
 ## Qué había antes

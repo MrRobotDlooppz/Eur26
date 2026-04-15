@@ -14,6 +14,8 @@ lugar:
 
 ![Mapa detalle de Benalmádena Pueblo](../fotos/mapa_benalmadena_pueblo_detalle.png)
 
+![Vista de Benalmádena](../fotos/foto_benalmadena_pueblo.jpg)
+
 ---
 
 ## Qué es

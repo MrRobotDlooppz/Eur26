@@ -14,6 +14,8 @@ lugar:
 ## Mapa en detalle
 ![Mapa detallado de Largo di Torre Argentina](../fotos/mapa_largo_argentina_detalle.png)
 
+![Vista de Largo di Torre Argentina](../fotos/foto_largo_torre_argentina.jpg)
+
 ## Qué había antes
 
 El Largo di Torre Argentina ocupa parte del antiguo Campus Martius (Campo de Marte), la planicie al norte del centro monumental de Roma que en la República servía como espacio para asambleas militares, elecciones y actividad pública. En este punto específico se concentraron cuatro templos republicanos entre los siglos IV y II a.C. — un complejo sagrado que funcionó durante más de medio milenio antes de ser sepultado bajo la ciudad medieval.

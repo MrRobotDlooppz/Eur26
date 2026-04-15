@@ -14,6 +14,8 @@ lugar:
 
 ![Mapa detalle del Camposanto Monumentale](../fotos/mapa_camposanto_monumentale_detalle.png)
 
+![Vista de Camposanto monumentale](../fotos/foto_camposanto_monumentale.jpg)
+
 ---
 
 <!-- 📷 FOTO: fachada del Camposanto / claustro interior / sarcófagos romanos alineados / fragmentos de frescos -->

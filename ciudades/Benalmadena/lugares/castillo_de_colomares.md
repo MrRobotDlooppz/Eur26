@@ -13,6 +13,8 @@ lugar:
 
 ![Mapa detalle de Castillo de Colomares](../fotos/mapa_castillo_de_colomares_detalle.png)
 
+![Vista de Castillo de Colomares](../fotos/foto_castillo_de_colomares.jpg)
+
 ---
 
 ## Qué es

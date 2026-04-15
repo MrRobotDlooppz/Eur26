@@ -1,0 +1,67 @@
+{
+  "city": "Madrid",
+  "city_dir": "ciudades/Madrid",
+  "lang": "es",
+  "places": [
+    {
+      "wiki_local": "Catedral de la Almudena",
+      "wiki_en": "Almudena Cathedral",
+      "filename": "foto_catedral_almudena.jpg",
+      "md_path": "lugares/catedral_almudena.md"
+    },
+    {
+      "wiki_local": "Gran Vía (Madrid)",
+      "wiki_en": "Gran Vía (Madrid)",
+      "filename": "foto_gran_via.jpg",
+      "md_path": "lugares/gran_via.md"
+    },
+    {
+      "wiki_local": "Mercado de San Miguel",
+      "wiki_en": "Mercado de San Miguel",
+      "filename": "foto_mercado_san_miguel.jpg",
+      "md_path": "lugares/mercado_san_miguel.md"
+    },
+    {
+      "wiki_local": "Museo del Prado",
+      "wiki_en": "Museo del Prado",
+      "filename": "foto_museo_del_prado.jpg",
+      "md_path": "lugares/museo_del_prado.md"
+    },
+    {
+      "wiki_local": "Museo Nacional Centro de Arte Reina Sofía",
+      "wiki_en": "Museo Nacional Centro de Arte Reina Sofía",
+      "filename": "foto_museo_reina_sofia.jpg",
+      "md_path": "lugares/museo_reina_sofia.md"
+    },
+    {
+      "wiki_local": "Palacio Real de Madrid",
+      "wiki_en": "Royal Palace of Madrid",
+      "filename": "foto_palacio_real.jpg",
+      "md_path": "lugares/palacio_real.md"
+    },
+    {
+      "wiki_local": "Parque del Retiro de Madrid",
+      "wiki_en": "Buen Retiro Park",
+      "filename": "foto_parque_del_retiro.jpg",
+      "md_path": "lugares/parque_del_retiro.md"
+    },
+    {
+      "wiki_local": "Plaza Mayor de Madrid",
+      "wiki_en": "Plaza Mayor, Madrid",
+      "filename": "foto_plaza_mayor.jpg",
+      "md_path": "lugares/plaza_mayor.md"
+    },
+    {
+      "wiki_local": "Puerta del Sol",
+      "wiki_en": "Puerta del Sol",
+      "filename": "foto_puerta_del_sol.jpg",
+      "md_path": "lugares/puerta_del_sol.md"
+    },
+    {
+      "wiki_local": "Templo de Debod",
+      "wiki_en": "Temple of Debod",
+      "filename": "foto_templo_de_debod.jpg",
+      "md_path": "lugares/templo_de_debod.md"
+    }
+  ]
+}

@@ -15,6 +15,8 @@ lugar:
 
 ![Mapa detalle de la Cattedrale di San Martino](../fotos/mapa_cattedrale_san_martino_detalle.png)
 
+![Vista de Duomo di Lucca](../fotos/foto_cattedrale_san_martino.jpg)
+
 ---
 
 <!-- 📷 FOTO: fachada del Duomo con logias de columnas / asimetría del pórtico y campanile -->

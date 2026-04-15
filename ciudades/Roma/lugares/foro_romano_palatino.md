@@ -13,6 +13,8 @@ lugar:
 ## Mapa en detalle
 ![Mapa detallado de Foro Romano e Palatino](../fotos/mapa_foro_romano_detalle.png)
 
+![Vista de Foro Romano](../fotos/foto_foro_romano_palatino.jpg)
+
 ## Qué había antes
 
 El valle del Foro fue originalmente una zona pantanosa e inundable entre las colinas del Palatino, Capitolino y Esquilino. Antes de convertirse en centro cívico, sirvió como necrópolis para las aldeas de las colinas circundantes (restos de tumbas del siglo X-IX a.C. han sido excavados bajo el pavimento del Foro). La tradición atribuye a los reyes etruscos de Roma — especialmente a Tarquinio Prisco — la construcción de la Cloaca Maxima, el gran colector que drenó el pantano y convirtió el valle en espacio utilizable. El Palatino, por su parte, fue una de las primeras colinas habitadas, con restos de cabañas de la Edad del Hierro (siglos IX-VIII a.C.) que la tradición asocia a la cabaña de Rómulo.

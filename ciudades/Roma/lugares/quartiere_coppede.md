@@ -14,6 +14,8 @@ lugar:
 ## Mapa en detalle
 ![Mapa detallado de Quartiere Coppedè](../fotos/mapa_quartiere_coppede_detalle.png)
 
+![Vista de Quartiere Coppedè](../fotos/foto_quartiere_coppede.jpg)
+
 ## Qué había antes
 
 La zona donde se levanta el Quartiere Coppedè era, a principios del siglo XX, terreno en las afueras del centro histórico, parte de la expansión urbana que Roma experimentó tras convertirse en capital de Italia (1871). El barrio Trieste-Salario estaba en pleno desarrollo como zona residencial de clase media-alta, y promotores inmobiliarios buscaban arquitectos que dieran identidad a sus construcciones.

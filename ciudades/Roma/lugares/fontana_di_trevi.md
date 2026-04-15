@@ -13,6 +13,8 @@ lugar:
 ## Mapa en detalle
 ![Mapa detallado de Fontana di Trevi](../fotos/mapa_fontana_trevi_detalle.png)
 
+![Vista de Fontana di Trevi](../fotos/foto_fontana_di_trevi.jpg)
+
 ## Qué había antes
 
 El lugar de Trevi fue durante siglos el punto terminal del Acqua Vergine (Aqua Virgo), un acueducto inaugurado por Agripa en el 19 a.C. para alimentar sus termas en el Campo de Marte. El nombre "Vergine" proviene, según la leyenda transmitida por Frontino, de una joven virgen que indicó el manantial a unos soldados sedientos en las afueras de Roma. Antes de la fuente monumental barroca, hubo una modesta salida de agua adosada a un muro que funcionó durante siglos. En 1453, el papa Nicolás V encargó a Leon Battista Alberti una primera fuente decorativa, pequeña y sencilla. Esa fuente estuvo en uso durante casi 300 años antes de ser reemplazada por el proyecto monumental actual.

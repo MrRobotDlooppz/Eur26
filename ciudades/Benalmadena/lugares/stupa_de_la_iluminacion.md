@@ -13,6 +13,8 @@ lugar:
 
 ![Mapa detalle de Stūpa de la Iluminación](../fotos/mapa_stupa_de_la_iluminacion_detalle.png)
 
+![Vista de Estupa de la Iluminación de Benalmádena](../fotos/foto_stupa_de_la_iluminacion.jpg)
+
 ---
 
 ## Qué es

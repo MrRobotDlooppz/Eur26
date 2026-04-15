@@ -14,6 +14,8 @@ lugar:
 
 ![Mapa detalle de San Michele in Foro](../fotos/mapa_san_michele_in_foro_detalle.png)
 
+![Vista de Chiesa di San Michele in Foro](../fotos/foto_san_michele_in_foro.jpg)
+
 ---
 
 <!-- 📷 FOTO: fachada completa de San Michele in Foro / detalle de las columnas con incrustaciones -->

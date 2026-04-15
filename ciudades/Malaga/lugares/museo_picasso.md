@@ -13,6 +13,8 @@ lugar:
 
 ![Mapa detalle de Museo Picasso Málaga](../fotos/mapa_museo_picasso_detalle.png)
 
+![Vista de Museo Picasso Málaga](../fotos/foto_museo_picasso.jpg)
+
 ---
 
 ## Qué había antes

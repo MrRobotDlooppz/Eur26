@@ -13,6 +13,8 @@ lugar:
 
 ![Mapa detalle de San Juan de los Reyes](../fotos/mapa_san_juan_de_los_reyes_detalle.png)
 
+![Vista de Monasterio de San Juan de los Reyes](../fotos/foto_san_juan_de_los_reyes.jpg)
+
 ---
 
 ## Historia

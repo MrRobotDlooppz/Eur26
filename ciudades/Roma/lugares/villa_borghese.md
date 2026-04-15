@@ -13,6 +13,8 @@ lugar:
 ## Mapa en detalle
 ![Mapa detallado de Villa Borghese](../fotos/mapa_villa_borghese_detalle.png)
 
+![Vista de Villa Borghese](../fotos/foto_villa_borghese.jpg)
+
 ## Historia
 Nacida en el siglo XVII como villa aristocratica de la familia Borghese, paso a convertirse en parque publico en el siglo XX. Ese cambio resume una transformacion urbana europea: de espacio de prestigio privado a infraestructura civica de uso colectivo.
 

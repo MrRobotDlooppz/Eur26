@@ -1,0 +1,109 @@
+{
+  "city": "Firenze",
+  "city_dir": "ciudades/Firenze",
+  "lang": "it",
+  "places": [
+    {
+      "wiki_local": "Galleria dell'Accademia (Firenze)",
+      "wiki_en": "Galleria dell'Accademia",
+      "filename": "foto_galleria_accademia.jpg",
+      "md_path": "lugares/galleria_accademia.md"
+    },
+    {
+      "wiki_local": "Basilica di Santa Croce",
+      "wiki_en": "Basilica of Santa Croce, Florence",
+      "filename": "foto_basilica_santa_croce.jpg",
+      "md_path": "lugares/basilica_santa_croce.md"
+    },
+    {
+      "wiki_local": "Palazzo Pitti",
+      "wiki_en": "Palazzo Pitti",
+      "filename": "foto_palazzo_pitti_boboli.jpg",
+      "md_path": "lugares/palazzo_pitti_boboli.md"
+    },
+    {
+      "wiki_local": "Piazzale Michelangelo",
+      "wiki_en": "Piazzale Michelangelo",
+      "filename": "foto_piazzale_michelangelo.jpg",
+      "md_path": "lugares/piazzale_michelangelo.md"
+    },
+    {
+      "wiki_local": "Museo Galileo",
+      "wiki_en": "Museo Galileo",
+      "filename": "foto_museo_galileo.jpg",
+      "md_path": "lugares/museo_galileo.md"
+    },
+    {
+      "wiki_local": "Loggia dei Lanzi",
+      "wiki_en": "Loggia dei Lanzi",
+      "filename": "foto_loggia_dei_lanzi.jpg",
+      "md_path": "lugares/loggia_dei_lanzi.md"
+    },
+    {
+      "wiki_local": "Basilica di San Lorenzo (Firenze)",
+      "wiki_en": "Basilica of San Lorenzo, Florence",
+      "filename": "foto_san_lorenzo_cappelle_medicee.jpg",
+      "md_path": "lugares/san_lorenzo_cappelle_medicee.md"
+    },
+    {
+      "wiki_local": "Museo nazionale del Bargello",
+      "wiki_en": "Bargello",
+      "filename": "foto_bargello.jpg",
+      "md_path": "lugares/bargello.md"
+    },
+    {
+      "wiki_local": "Basilica di Santa Maria Novella",
+      "wiki_en": "Santa Maria Novella",
+      "filename": "foto_basilica_santa_maria_novella.jpg",
+      "md_path": "lugares/basilica_santa_maria_novella.md"
+    },
+    {
+      "wiki_local": "Mercato Centrale (Firenze)",
+      "wiki_en": "Mercato Centrale, Florence",
+      "filename": "foto_mercato_centrale_san_lorenzo.jpg",
+      "md_path": "lugares/mercato_centrale_san_lorenzo.md"
+    },
+    {
+      "wiki_local": "Basilica di San Marco (Firenze)",
+      "wiki_en": "San Marco, Florence",
+      "filename": "foto_basilica_museo_san_marco.jpg",
+      "md_path": "lugares/basilica_museo_san_marco.md"
+    },
+    {
+      "wiki_local": "Fiesole",
+      "wiki_en": "Fiesole",
+      "filename": "foto_fiesole.jpg",
+      "md_path": "lugares/fiesole.md"
+    },
+    {
+      "wiki_local": "Basilica di San Miniato al Monte",
+      "wiki_en": "San Miniato al Monte",
+      "filename": "foto_abbazia_san_miniato_al_monte.jpg",
+      "md_path": "lugares/abbazia_san_miniato_al_monte.md"
+    },
+    {
+      "wiki_local": "Galleria degli Uffizi",
+      "wiki_en": "Uffizi",
+      "filename": "foto_galleria_degli_uffizi.jpg",
+      "md_path": "lugares/galleria_degli_uffizi.md"
+    },
+    {
+      "wiki_local": "Palazzo Vecchio",
+      "wiki_en": "Palazzo Vecchio",
+      "filename": "foto_palazzo_vecchio.jpg",
+      "md_path": "lugares/palazzo_vecchio.md"
+    },
+    {
+      "wiki_local": "Ponte Vecchio",
+      "wiki_en": "Ponte Vecchio",
+      "filename": "foto_ponte_vecchio.jpg",
+      "md_path": "lugares/ponte_vecchio.md"
+    },
+    {
+      "wiki_local": "Cattedrale di Santa Maria del Fiore",
+      "wiki_en": "Florence Cathedral",
+      "filename": "foto_duomo_firenze.jpg",
+      "md_path": "lugares/piazza_del_duomo_complesso.md"
+    }
+  ]
+}

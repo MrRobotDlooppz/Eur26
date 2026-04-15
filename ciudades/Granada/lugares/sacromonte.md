@@ -14,6 +14,8 @@ lugar:
 
 ![Mapa detalle del Sacromonte](../fotos/mapa_sacromonte_detalle.png)
 
+![Vista de Sacromonte](../fotos/foto_sacromonte.jpg)
+
 ---
 
 ## Qué había antes

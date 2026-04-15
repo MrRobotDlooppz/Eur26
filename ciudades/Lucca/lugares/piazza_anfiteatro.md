@@ -14,6 +14,8 @@ lugar:
 
 ![Mapa detalle de Piazza dell'Anfiteatro](../fotos/mapa_piazza_anfiteatro_detalle.png)
 
+![Vista de Piazza dell'Anfiteatro](../fotos/foto_piazza_anfiteatro.jpg)
+
 ---
 
 <!-- 📷 FOTO: vista aérea de la piazza elíptica / pasillos de acceso / fachadas irregulares con arcos tapiados -->

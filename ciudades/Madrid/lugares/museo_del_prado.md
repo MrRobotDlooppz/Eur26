@@ -11,6 +11,8 @@ lugar:
 
 ![Mapa detalle del Museo del Prado](../fotos/mapa_museo_del_prado_detalle.png)
 
+![Vista de Museo del Prado](../fotos/foto_museo_del_prado.jpg)
+
 # Museo Nacional del Prado
 
 ## Qué había antes

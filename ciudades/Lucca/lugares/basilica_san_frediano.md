@@ -14,6 +14,8 @@ lugar:
 
 ![Mapa detalle de la Basilica di San Frediano](../fotos/mapa_basilica_san_frediano_detalle.png)
 
+![Vista de Basilica di San Frediano](../fotos/foto_basilica_san_frediano.jpg)
+
 ---
 
 <!-- 📷 FOTO: fachada con el gran mosaico dorado / detalle del Cristo en Majestad con apóstoles -->

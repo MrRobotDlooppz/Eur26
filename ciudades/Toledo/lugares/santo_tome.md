@@ -13,6 +13,8 @@ lugar:
 
 ![Mapa detalle de Santo Tomé](../fotos/mapa_santo_tome_detalle.png)
 
+![Vista de Iglesia de Santo Tomé (Toledo)](../fotos/foto_santo_tome.jpg)
+
 ---
 
 ## Qué es

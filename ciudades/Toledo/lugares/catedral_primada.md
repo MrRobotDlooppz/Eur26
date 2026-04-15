@@ -13,6 +13,8 @@ lugar:
 
 ![Mapa detalle de Catedral Primada de Toledo](../fotos/mapa_catedral_primada_detalle.png)
 
+![Vista de Catedral de Santa María de Toledo](../fotos/foto_catedral_primada.jpg)
+
 ---
 
 ## Qué había antes

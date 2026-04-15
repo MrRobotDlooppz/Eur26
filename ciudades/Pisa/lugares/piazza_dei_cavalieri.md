@@ -14,6 +14,8 @@ lugar:
 
 ![Mapa detalle de Piazza dei Cavalieri](../fotos/mapa_piazza_dei_cavalieri_detalle.png)
 
+![Vista de Piazza dei Cavalieri](../fotos/foto_piazza_dei_cavalieri.jpg)
+
 ---
 
 <!-- 📷 FOTO: fachada del Palazzo della Carovana / vista general de la piazza / Torre della Gherardesca (Torre della Fame) -->

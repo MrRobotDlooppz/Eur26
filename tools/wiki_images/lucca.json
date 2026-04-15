@@ -1,0 +1,43 @@
+{
+  "city": "Lucca",
+  "city_dir": "ciudades/Lucca",
+  "lang": "it",
+  "places": [
+    {
+      "wiki_local": "Basilica di San Frediano",
+      "wiki_en": "Basilica of San Frediano",
+      "filename": "foto_basilica_san_frediano.jpg",
+      "md_path": "lugares/basilica_san_frediano.md"
+    },
+    {
+      "wiki_local": "Duomo di Lucca",
+      "wiki_en": "Lucca Cathedral",
+      "filename": "foto_cattedrale_san_martino.jpg",
+      "md_path": "lugares/cattedrale_san_martino.md"
+    },
+    {
+      "wiki_local": "Mura di Lucca",
+      "wiki_en": "Walls of Lucca",
+      "filename": "foto_mura_di_lucca.jpg",
+      "md_path": "lugares/mura_di_lucca.md"
+    },
+    {
+      "wiki_local": "Piazza dell'Anfiteatro",
+      "wiki_en": "Piazza dell'Anfiteatro",
+      "filename": "foto_piazza_anfiteatro.jpg",
+      "md_path": "lugares/piazza_anfiteatro.md"
+    },
+    {
+      "wiki_local": "Chiesa di San Michele in Foro",
+      "wiki_en": "San Michele in Foro",
+      "filename": "foto_san_michele_in_foro.jpg",
+      "md_path": "lugares/san_michele_in_foro.md"
+    },
+    {
+      "wiki_local": "Torre Guinigi",
+      "wiki_en": "Torre Guinigi",
+      "filename": "foto_torre_guinigi.jpg",
+      "md_path": "lugares/torre_guinigi.md"
+    }
+  ]
+}

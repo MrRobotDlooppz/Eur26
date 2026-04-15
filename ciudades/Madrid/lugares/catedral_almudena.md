@@ -11,6 +11,8 @@ lugar:
 
 ![Mapa detalle de la Catedral de la Almudena](../fotos/mapa_catedral_almudena_detalle.png)
 
+![Vista de Catedral de la Almudena](../fotos/foto_catedral_almudena.jpg)
+
 # Catedral de la Almudena
 
 ## Qué había antes

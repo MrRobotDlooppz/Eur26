@@ -13,6 +13,8 @@ lugar:
 ## Mapa en detalle
 ![Mapa detallado de Colosseo](../fotos/mapa_colosseo_detalle.png)
 
+![Vista de Colosseo](../fotos/foto_colosseo.jpg)
+
 ## Qué había antes
 
 Antes del anfiteatro, este terreno formaba parte de los jardines y el lago artificial de la Domus Aurea de Nerón, el enorme palacio que se extendía desde el Palatino hasta el Esquilino. Tras el suicidio de Nerón en 68 d.C. y el caótico Año de los Cuatro Emperadores (68-69 d.C.), Vespasiano decidió drenar el lago y devolver al pueblo lo que Nerón se había apropiado. El gesto fue deliberado: donde antes había lujo privado de un tirano, habría entretenimiento público.

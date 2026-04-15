@@ -13,6 +13,8 @@ lugar:
 ## Mapa en detalle
 ![Mapa detallado de Piazza di Spagna](../fotos/mapa_piazza_spagna_detalle.png)
 
+![Vista de Piazza di Spagna](../fotos/foto_piazza_di_spagna.jpg)
+
 ## Qué había antes
 
 La zona de Piazza di Spagna fue durante la Antigüedad parte del Campo de Marte norte, con jardines y villas. En la Edad Media era un área poco desarrollada en la ladera del Pincio. La presencia de la Embajada de España ante la Santa Sede (instalada aquí desde el siglo XVII) dio nombre a la plaza. Durante un tiempo, el territorio alrededor de la embajada se consideraba "jurisdicción española", y los soldados españoles podían reclutar forzosamente a transeúntes (*leva*), por lo que los romanos evitaban la zona. Antes de la escalinata, el desnivel entre la plaza baja y la iglesia francesa de Trinità dei Monti en lo alto era un barranco desordenado, terroso e intransitable cuando llovía.

@@ -14,6 +14,8 @@ lugar:
 
 ![Mapa detalle del Albaicín](../fotos/mapa_albaicin_detalle.png)
 
+![Vista de Albaicín](../fotos/foto_albaicin.jpg)
+
 ---
 
 ## Qué había antes

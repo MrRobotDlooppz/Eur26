@@ -11,6 +11,8 @@ lugar:
 
 ![Mapa detalle del Museo Reina Sofía](../fotos/mapa_museo_reina_sofia_detalle.png)
 
+![Vista de Museo Nacional Centro de Arte Reina Sofía](../fotos/foto_museo_reina_sofia.jpg)
+
 # Museo Nacional Centro de Arte Reina Sofía
 
 ## Qué había antes

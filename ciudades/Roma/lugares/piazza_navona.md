@@ -13,6 +13,8 @@ lugar:
 ## Mapa en detalle
 ![Mapa detallado de Piazza Navona](../fotos/mapa_piazza_navona_detalle.png)
 
+![Vista de Piazza Navona](../fotos/foto_piazza_navona.jpg)
+
 ## Qué había antes
 
 La forma alargada de Piazza Navona no es casualidad: la plaza ocupa exactamente el trazado del Stadio di Domiziano, inaugurado en 86 d.C. para competiciones atléticas al estilo griego (*agones*). El estadio medía unos 275 por 106 metros y podía albergar unos 30.000 espectadores. Era el único estadio permanente de Roma dedicado al atletismo (a diferencia de los circos, que eran para carreras de carros, y los anfiteatros, para gladiadores). Los restos del estadio son visibles bajo el nivel actual de la plaza — se puede acceder a ellos en el Area Archeologica dello Stadio di Domiziano, bajo la plaza.

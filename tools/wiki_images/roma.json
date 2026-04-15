@@ -1,0 +1,97 @@
+{
+  "city": "Roma",
+  "city_dir": "ciudades/Roma",
+  "lang": "it",
+  "places": [
+    {
+      "wiki_local": "Colosseo",
+      "wiki_en": "Colosseum",
+      "filename": "foto_colosseo.jpg",
+      "md_path": "lugares/colosseo.md"
+    },
+    {
+      "wiki_local": "Fontana di Trevi",
+      "wiki_en": "Trevi Fountain",
+      "filename": "foto_fontana_di_trevi.jpg",
+      "md_path": "lugares/fontana_di_trevi.md"
+    },
+    {
+      "wiki_local": "Foro Romano",
+      "wiki_en": "Roman Forum",
+      "filename": "foto_foro_romano_palatino.jpg",
+      "md_path": "lugares/foro_romano_palatino.md"
+    },
+    {
+      "wiki_local": "Foro di Traiano",
+      "wiki_en": "Forum of Trajan",
+      "filename": "foto_foro_di_traiano.jpg",
+      "md_path": "lugares/foro_di_traiano.md"
+    },
+    {
+      "wiki_local": "Pantheon (Roma)",
+      "wiki_en": "Pantheon, Rome",
+      "filename": "foto_pantheon.jpg",
+      "md_path": "lugares/pantheon.md"
+    },
+    {
+      "wiki_local": "Piazza Navona",
+      "wiki_en": "Piazza Navona",
+      "filename": "foto_piazza_navona.jpg",
+      "md_path": "lugares/piazza_navona.md"
+    },
+    {
+      "wiki_local": "Piazza del Popolo (Roma)",
+      "wiki_en": "Piazza del Popolo",
+      "filename": "foto_piazza_del_popolo.jpg",
+      "md_path": "lugares/piazza_del_popolo.md"
+    },
+    {
+      "wiki_local": "Piazza di Spagna",
+      "wiki_en": "Piazza di Spagna",
+      "filename": "foto_piazza_di_spagna.jpg",
+      "md_path": "lugares/piazza_di_spagna.md"
+    },
+    {
+      "wiki_local": "Musei Vaticani",
+      "wiki_en": "Vatican Museums",
+      "filename": "foto_musei_vaticani.jpg",
+      "md_path": "lugares/musei_vaticani.md"
+    },
+    {
+      "wiki_local": "Altare della Patria",
+      "wiki_en": "Altare della Patria",
+      "filename": "foto_monumento_vittorio_emanuele_ii.jpg",
+      "md_path": "lugares/monumento_vittorio_emanuele_ii.md"
+    },
+    {
+      "wiki_local": "Arcibasilica di San Giovanni in Laterano",
+      "wiki_en": "Archbasilica of Saint John Lateran",
+      "filename": "foto_san_giovanni_laterano.jpg",
+      "md_path": "lugares/archibasilica_san_giovanni_laterano.md"
+    },
+    {
+      "wiki_local": "Basilica di Santa Maria Maggiore",
+      "wiki_en": "Basilica of Saint Mary Major",
+      "filename": "foto_santa_maria_maggiore.jpg",
+      "md_path": "lugares/basilica_santa_maria_maggiore.md"
+    },
+    {
+      "wiki_local": "Largo di Torre Argentina",
+      "wiki_en": "Largo di Torre Argentina",
+      "filename": "foto_largo_torre_argentina.jpg",
+      "md_path": "lugares/largo_di_torre_argentina.md"
+    },
+    {
+      "wiki_local": "Quartiere Coppedè",
+      "wiki_en": "Quartiere Coppedè",
+      "filename": "foto_quartiere_coppede.jpg",
+      "md_path": "lugares/quartiere_coppede.md"
+    },
+    {
+      "wiki_local": "Villa Borghese",
+      "wiki_en": "Villa Borghese gardens",
+      "filename": "foto_villa_borghese.jpg",
+      "md_path": "lugares/villa_borghese.md"
+    }
+  ]
+}

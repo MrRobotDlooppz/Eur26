@@ -13,6 +13,8 @@ lugar:
 ## Mapa en detalle
 ![Mapa detallado de Foro di Traiano](../fotos/mapa_foro_traiano_detalle.png)
 
+![Vista de Foro di Traiano](../fotos/foto_foro_di_traiano.jpg)
+
 ## Qué había antes
 
 El Foro di Traiano se construyó eliminando la silla de terreno que unía las colinas del Quirinale y el Campidoglio. Fue una obra de ingeniería colosal: se excavaron decenas de metros de roca para crear el espacio necesario. La Columna de Trajano, con sus 38 metros de altura, indica exactamente cuánta tierra se removió. Antes de la intervención, esta zona era una ladera densamente construida que conectaba las dos colinas.

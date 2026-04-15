@@ -12,6 +12,8 @@ lugar:
 
 ![Mapa detalle del Parque del Retiro](../fotos/mapa_parque_del_retiro_detalle.png)
 
+![Vista de Parque del Retiro de Madrid](../fotos/foto_parque_del_retiro.jpg)
+
 # Parque del Retiro
 
 ## Qué había antes

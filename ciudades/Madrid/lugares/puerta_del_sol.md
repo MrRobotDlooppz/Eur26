@@ -11,6 +11,8 @@ lugar:
 
 ![Mapa detalle de la Puerta del Sol](../fotos/mapa_puerta_del_sol_detalle.png)
 
+![Vista de Puerta del Sol](../fotos/foto_puerta_del_sol.jpg)
+
 # Puerta del Sol
 
 ## Qué había antes

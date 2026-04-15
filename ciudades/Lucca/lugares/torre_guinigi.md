@@ -14,6 +14,8 @@ lugar:
 
 ![Mapa detalle de la Torre Guinigi](../fotos/mapa_torre_guinigi_detalle.png)
 
+![Vista de Torre Guinigi](../fotos/foto_torre_guinigi.jpg)
+
 ---
 
 <!-- 📷 FOTO: vista de la torre desde la calle con los árboles en la cima / vista desde la cima sobre Lucca -->

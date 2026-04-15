@@ -13,6 +13,8 @@ lugar:
 ## Mapa en detalle
 ![Mapa detallado de Piazza del Popolo](../fotos/mapa_piazza_popolo_detalle.png)
 
+![Vista de Piazza del Popolo (Roma)](../fotos/foto_piazza_del_popolo.jpg)
+
 ## Qué había antes
 
 El sitio de Piazza del Popolo fue durante siglos la puerta norte de Roma — el punto por donde entraban viajeros, peregrinos, ejércitos y mercancías llegados por la Via Flaminia desde el norte de Italia. La Porta del Popolo (antigua Porta Flaminia) era la primera impresión de Roma para quien venía de fuera. Antes de la remodelación neoclásica, la plaza era un espacio irregular y funcional, más estación de paso que escenario monumental. La iglesia de Santa Maria del Popolo, que da nombre a la plaza, fue fundada en 1099 por el papa Pasquale II supuestamente sobre el lugar donde estaba la tumba de Nerón, para exorcizar su espíritu maligno — según la tradición medieval, cuervos y demonios atormentaban el lugar.

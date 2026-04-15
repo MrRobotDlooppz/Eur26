@@ -11,6 +11,8 @@ lugar:
 
 ![Mapa detalle del Palacio Real](../fotos/mapa_palacio_real_detalle.png)
 
+![Vista de Palacio Real de Madrid](../fotos/foto_palacio_real.jpg)
+
 # Palacio Real de Madrid
 
 ## Qué había antes

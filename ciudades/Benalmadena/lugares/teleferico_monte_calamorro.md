@@ -13,6 +13,8 @@ lugar:
 
 ![Mapa detalle de Teleférico Monte Calamorro](../fotos/mapa_teleferico_monte_calamorro_detalle.png)
 
+![Vista de Teleférico de Benalmádena](../fotos/foto_teleferico_monte_calamorro.jpg)
+
 ---
 
 ## Qué es

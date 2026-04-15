@@ -15,6 +15,8 @@ lugar:
 
 ![Mapa detalle de la Torre Pendente](../fotos/mapa_torre_pendente_detalle.png)
 
+![Vista de Torre di Pisa](../fotos/foto_torre_pendente.jpg)
+
 ---
 
 <!-- 📷 FOTO: vista de la torre desde el prado / detalle de la inclinación medida con plomada / vista desde la plataforma de la cima -->

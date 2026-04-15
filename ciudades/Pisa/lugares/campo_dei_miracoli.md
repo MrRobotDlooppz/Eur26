@@ -15,6 +15,8 @@ lugar:
 
 ![Mapa detalle del Campo dei Miracoli](../fotos/mapa_campo_dei_miracoli_detalle.png)
 
+![Vista de Piazza dei Miracoli](../fotos/foto_campo_dei_miracoli.jpg)
+
 ---
 
 <!-- 📷 FOTO: vista panorámica del conjunto desde la entrada principal / los cuatro monumentos sobre el prado verde -->

@@ -13,6 +13,8 @@ lugar:
 ## Mapa en detalle
 ![Mapa detallado de Basilica di Santa Maria Maggiore](../fotos/mapa_santa_maria_maggiore_detalle.png)
 
+![Vista de Basilica di Santa Maria Maggiore](../fotos/foto_santa_maria_maggiore.jpg)
+
 ## Qué había antes
 
 El Esquilino, donde se alza la basílica, fue en la Roma antigua una colina de villas aristocráticas y jardines. Bajo el suelo de la iglesia hay restos de un edificio romano del siglo I d.C. (probablemente un macellum o mercado). La tradición cristiana sitúa la decisión de construir aquí a un evento milagroso: la nevicata de agosto del 358 d.C. (ver sección de leyendas). Antes de la basílica actual, se cree que existió una iglesia anterior, la *Basilica Liberiana*, atribuida al papa Liberio (352-366), aunque no hay restos arqueológicos firmes que la confirmen.

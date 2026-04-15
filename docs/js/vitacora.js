@@ -35,6 +35,7 @@
   let currentUser = null;
   let editingId = null; // null = nueva entrada, string = editando existente
   let cachedEntries = []; // last snapshot for re-render on auth change
+  let unsubEntries = null; // onSnapshot unsubscribe function
 
   // ── Imágenes ──
   const MAX_IMAGES = 5;
@@ -67,15 +68,32 @@
       $userBar.style.display = "flex";
       $userName.textContent = name;
       $btnNewEntry.style.display = "block";
+      showEntriesSection(true);
+      if (!unsubEntries) listenEntries();
     } else {
       $loginSection.style.display = "block";
       $userBar.style.display = "none";
       $btnNewEntry.style.display = "none";
       closeEditor();
+      showEntriesSection(false);
+      // Stop listener and clear cache
+      if (unsubEntries) { unsubEntries(); unsubEntries = null; }
+      cachedEntries = [];
+      $entriesList.innerHTML = "";
+      $entryIndex.innerHTML = "";
+      if ($entryIndex.classList.contains("visible")) {
+        $entryIndex.classList.remove("visible");
+        $btnToggleIndex.textContent = "📑 Índice";
+      }
     }
-    // Re-render entries to update edit/delete buttons for new auth state
-    if (cachedEntries.length > 0) renderEntries(cachedEntries);
   });
+
+  function showEntriesSection(show) {
+    const d = show ? "" : "none";
+    document.querySelector(".entries-header").style.display = show ? "flex" : "none";
+    $entryIndex.style.display = show && $entryIndex.classList.contains("visible") ? "block" : "none";
+    $entriesList.style.display = show ? "block" : "none";
+  }
 
   // ── Auth: login ──
   $loginForm.addEventListener("submit", async (e) => {
@@ -291,7 +309,7 @@
 
   // ── Entradas: listener en tiempo real ──
   function listenEntries() {
-    db.collection("vitacora")
+    unsubEntries = db.collection("vitacora")
       .orderBy("creadoEn", "desc")
       .onSnapshot(snapshot => {
         renderEntries(snapshot.docs.map(doc => ({ id: doc.id, ...doc.data() })));
@@ -470,6 +488,6 @@
 
   // ── Init ──
   populateCitySelects();
-  listenEntries();
+  // listenEntries() se llama desde onAuthStateChanged al autenticarse
 
 })();

@@ -77,8 +77,8 @@
     </div>
   </div>
 
-  <!-- Filtro y lista -->
-  <div class="entries-header">
+  <!-- Filtro y lista (ocultos hasta autenticarse) -->
+  <div class="entries-header" style="display:none;">
     <h2>Entradas</h2>
     <div class="entries-header-actions">
       <button class="btn-secondary btn-toggle-index" id="btn-toggle-index" title="Mostrar índice">📑 Índice</button>
@@ -91,9 +91,7 @@
   <!-- Índice de entradas -->
   <div class="entry-index" id="entry-index"></div>
 
-  <div id="entries-list">
-    <div class="loading">Cargando entradas</div>
-  </div>
+  <div id="entries-list" style="display:none;"></div>
 
 </div>
 

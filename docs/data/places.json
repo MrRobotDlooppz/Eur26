@@ -396,5 +396,113 @@
         "lon": -3.709
       }
     ]
+  },
+  {
+    "city": "Benalmádena",
+    "folder": "Benalmadena",
+    "country": "España",
+    "lat": 36.5988,
+    "lon": -4.5162,
+    "color": "#f5a623",
+    "visit": "",
+    "places": [
+      {
+        "name": "Castillo de Colomares",
+        "lat": 36.6030,
+        "lon": -4.5330
+      },
+      {
+        "name": "Stūpa de la Iluminación",
+        "lat": 36.5988,
+        "lon": -4.5162
+      },
+      {
+        "name": "Puerto Marina",
+        "lat": 36.5958,
+        "lon": -4.5172
+      },
+      {
+        "name": "Teleférico Monte Calamorro",
+        "lat": 36.5838,
+        "lon": -4.5335
+      },
+      {
+        "name": "Benalmádena Pueblo",
+        "lat": 36.5945,
+        "lon": -4.5688
+      }
+    ]
+  },
+  {
+    "city": "Málaga",
+    "folder": "Malaga",
+    "country": "España",
+    "lat": 36.7213,
+    "lon": -4.4214,
+    "color": "#e67e22",
+    "visit": "",
+    "places": [
+      {
+        "name": "Alcazaba de Málaga",
+        "lat": 36.7210,
+        "lon": -4.4165
+      },
+      {
+        "name": "Castillo de Gibralfaro",
+        "lat": 36.7225,
+        "lon": -4.4140
+      },
+      {
+        "name": "Catedral de la Encarnación (La Manquita)",
+        "lat": 36.7200,
+        "lon": -4.4196
+      },
+      {
+        "name": "Teatro Romano",
+        "lat": 36.7208,
+        "lon": -4.4170
+      },
+      {
+        "name": "Museo Picasso Málaga",
+        "lat": 36.7215,
+        "lon": -4.4187
+      }
+    ]
+  },
+  {
+    "city": "Toledo",
+    "folder": "Toledo",
+    "country": "España",
+    "lat": 39.8568,
+    "lon": -4.0244,
+    "color": "#8e44ad",
+    "visit": "",
+    "places": [
+      {
+        "name": "Catedral Primada de Toledo",
+        "lat": 39.8567,
+        "lon": -4.0236
+      },
+      {
+        "name": "Alcázar de Toledo",
+        "lat": 39.8581,
+        "lon": -4.0192
+      },
+      {
+        "name": "Sinagoga del Tránsito",
+        "lat": 39.8564,
+        "lon": -4.0283
+      },
+      {
+        "name": "Monasterio de San Juan de los Reyes",
+        "lat": 39.8570,
+        "lon": -4.0305
+      },
+      {
+        "name": "Iglesia de Santo Tomé",
+        "lat": 39.8572,
+        "lon": -4.0269
+      }
+    ]
   }
 ]

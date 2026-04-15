@@ -217,7 +217,11 @@ Antes de dar por terminado:
 - [ ] El archivo principal de la ciudad tiene la lista completa de lugares con links.
 - [ ] Los nombres de archivo siguen la convención `mapa_<nombre_lugar>.png` (minúsculas, guiones bajos).
 - [ ] Los MP3 existen en `docs/audio/NombreCiudad/`.
-- [ ] `docs/index.html` incluye la nueva ciudad en el player.
+- [ ] `docs/data/catalog.json` incluye la nueva ciudad (lo genera automáticamente `build_audio_site.sh`).
+- [ ] `docs/data/places.json` incluye la nueva ciudad con sus coordenadas y lugares — **esto es lo que alimenta el mapa interactivo**.
+- [ ] `docs/data/events.json` incluye eventos históricos de la nueva ciudad (opcional, solo si hay eventos relevantes para el timeline).
+- [ ] `docs/js/vitacora.js` → array `CIUDADES` incluye la nueva ciudad (hardcodeado, orden alfabético).
+- [ ] Los 4 archivos de nav (`index.html`, `mapa.html`, `timeline.html`, `vitacora.html`) tienen links consistentes entre sí.
 
 ---
 
@@ -243,3 +247,6 @@ Antes de dar por terminado:
 | Pisa | `ciudades/Pisa/` | `tools/maps/pisa_places.json` |
 | Granada | `ciudades/Granada/` | — |
 | Madrid | `ciudades/Madrid/` | `tools/maps/madrid_places.json` |
+| Benalmádena | `ciudades/Benalmadena/` | `tools/maps/benalmadena_places.json` |
+| Málaga | `ciudades/Malaga/` | `tools/maps/malaga_places.json` |
+| Toledo | `ciudades/Toledo/` | `tools/maps/toledo_places.json` |

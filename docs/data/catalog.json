@@ -166,8 +166,8 @@
     {
       "name": "Piazza Del Duomo Complesso",
       "file": "audio/Firenze/piazza_del_duomo_complesso.mp3",
-      "duration": 1070.232,
-      "duration_fmt": "17:50",
+      "duration": 1067.448,
+      "duration_fmt": "17:47",
       "text": "text/Firenze/piazza_del_duomo_complesso.html"
     },
     {
@@ -268,8 +268,8 @@
     {
       "name": "Cattedrale San Martino",
       "file": "audio/Lucca/cattedrale_san_martino.mp3",
-      "duration": 134.16,
-      "duration_fmt": "2:14",
+      "duration": 720.936,
+      "duration_fmt": "12:00",
       "text": "text/Lucca/cattedrale_san_martino.html"
     },
     {

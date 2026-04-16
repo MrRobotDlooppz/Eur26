@@ -5,24 +5,52 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<title>Archivo de Viajes — Guías</title>
+<title>Archivo de Viajes — Audio</title>
 <link rel="stylesheet" href="css/theme.css">
 <link rel="stylesheet" href="css/player.css">
 </head>
 <body>
 
 <header>
-  <h1>📖 Archivo de Viajes</h1>
-  <p>Guías de ciudades y lugares</p>
+  <h1>🎧 Archivo de Viajes</h1>
+  <p>Audio guías de ciudades y lugares</p>
   <nav style="margin-top:10px;display:flex;justify-content:center;gap:12px;">
-    <a href="index.html" class="active" style="background:rgba(233,69,96,0.15);color:var(--accent);">📖 Guías</a>
+    <a href="index.html" class="active" style="background:rgba(233,69,96,0.15);color:var(--accent);">🎧 Audio</a>
     <a href="mapa.html">🗺️ Mapa</a>
     <a href="timeline.html">⏳ Timeline</a>
-    <a href="vitacora.html">📝 Bitácora</a>
   </nav>
 </header>
 
 <div class="container" id="app"></div>
+
+<div id="guide-panel" class="guide-panel">
+  <div class="container">
+    <div class="guide-header">
+      <h3 id="guide-title">📖 Guía</h3>
+      <button class="guide-close-btn" onclick="closeGuide()" title="Cerrar">✕</button>
+    </div>
+    <div class="guide-content" id="guide-content"></div>
+  </div>
+</div>
+
+<div id="player" class="hidden">
+  <div id="player-track-name">—</div>
+  <div class="progress-container">
+    <span class="time" id="time-current">0:00</span>
+    <div class="progress-bar" id="progress-bar">
+      <div class="progress-fill" id="progress-fill"></div>
+    </div>
+    <span class="time" id="time-total">0:00</span>
+  </div>
+  <div class="controls">
+    <button class="ctrl-btn" id="btn-prev" title="Anterior">⏮</button>
+    <button class="ctrl-btn" id="btn-back" title="Retroceder 15s">↩️</button>
+    <button class="ctrl-btn play" id="btn-play" title="Play">▶</button>
+    <button class="ctrl-btn" id="btn-fwd" title="Adelantar 15s">↪️</button>
+    <button class="ctrl-btn" id="btn-next" title="Siguiente">⏭</button>
+    <button class="ctrl-btn speed-btn" id="btn-speed" title="Velocidad">1x</button>
+  </div>
+</div>
 
 <script src="js/shared.js"></script>
 <script src="js/player.js"></script>

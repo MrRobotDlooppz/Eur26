@@ -20,7 +20,7 @@
   "use strict";
 
   const LINKS = [
-    { href: "index.html",    label: "🎧 Audio" },
+    { href: "index.html",    label: "📖 Guías" },
     { href: "mapa.html",     label: "🗺️ Mapa" },
     { href: "timeline.html", label: "⏳ Timeline" },
     { href: "vitacora.html", label: "📝 Bitácora" },

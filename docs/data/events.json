@@ -18,7 +18,9 @@
       "color": "#e94560",
       "year": -600,
       "era": "Roma Monárquica",
-      "desc": "Centro político de la Roma antigua"
+      "desc": "Centro político de la Roma antigua",
+      "guide": true,
+      "guide_slug": "foro_romano_palatino"
     },
     {
       "name": "Largo di Torre Argentina",
@@ -41,6 +43,17 @@
       "desc": "Templo del s. II a.C. donado por Egipto a España (1968)",
       "guide": true,
       "guide_slug": "templo_de_debod"
+    },
+    {
+      "name": "Teatro Romano de Málaga",
+      "city": "Málaga",
+      "folder": "Malaga",
+      "color": "#8e44ad",
+      "year": -50,
+      "era": "Roma Imperial",
+      "desc": "Teatro romano del s. I a.C., redescubierto en 1951",
+      "guide": true,
+      "guide_slug": "teatro_romano"
     },
     {
       "name": "Colosseo",
@@ -82,7 +95,9 @@
       "color": "#e94560",
       "year": 109,
       "era": "Roma Imperial",
-      "desc": "Termas sobre la Domus Aurea de Nerón"
+      "desc": "Termas sobre la Domus Aurea de Nerón",
+      "guide": true,
+      "guide_slug": "termas"
     },
     {
       "name": "Pantheon",
@@ -102,7 +117,9 @@
       "color": "#4ecca3",
       "year": 180,
       "era": "Roma Imperial",
-      "desc": "Plaza elíptica sobre el anfiteatro romano del s. II"
+      "desc": "Plaza elíptica sobre el anfiteatro romano del s. II",
+      "guide": true,
+      "guide_slug": "piazza_anfiteatro"
     },
     {
       "name": "Terme di Caracalla",
@@ -111,7 +128,9 @@
       "color": "#e94560",
       "year": 212,
       "era": "Roma Imperial",
-      "desc": "Termas monumentales del emperador Caracalla"
+      "desc": "Termas monumentales del emperador Caracalla",
+      "guide": true,
+      "guide_slug": "termas"
     },
     {
       "name": "Archibasilica di San Giovanni in Laterano",
@@ -120,7 +139,9 @@
       "color": "#e94560",
       "year": 324,
       "era": "Roma paleocristiana",
-      "desc": "Primera basílica cristiana, catedral de Roma"
+      "desc": "Primera basílica cristiana, catedral de Roma",
+      "guide": true,
+      "guide_slug": "archibasilica_san_giovanni_laterano"
     },
     {
       "name": "San Lorenzo e Cappelle Medicee",
@@ -129,7 +150,9 @@
       "color": "#f5a623",
       "year": 393,
       "era": "Roma paleocristiana",
-      "desc": "Iglesia más antigua de Firenze; Sacristía Nueva de Miguel Ángel"
+      "desc": "Iglesia más antigua de Firenze; Sacristía Nueva de Miguel Ángel",
+      "guide": true,
+      "guide_slug": "san_lorenzo_cappelle_medicee"
     },
     {
       "name": "Basilica di Santa Maria Maggiore",
@@ -138,7 +161,9 @@
       "color": "#e94560",
       "year": 435,
       "era": "Roma paleocristiana",
-      "desc": "Una de las cuatro basílicas mayores, mosaicos del s. V"
+      "desc": "Una de las cuatro basílicas mayores, mosaicos del s. V",
+      "guide": true,
+      "guide_slug": "basilica_santa_maria_maggiore"
     },
     {
       "name": "Basilica di San Frediano",
@@ -147,7 +172,9 @@
       "color": "#4ecca3",
       "year": 550,
       "era": "Alta Edad Media",
-      "desc": "Fundada por el obispo irlandés San Frediano"
+      "desc": "Fundada por el obispo irlandés San Frediano",
+      "guide": true,
+      "guide_slug": "basilica_san_frediano"
     },
     {
       "name": "Abbazia di San Miniato al Monte",
@@ -156,7 +183,9 @@
       "color": "#f5a623",
       "year": 1013,
       "era": "Románico",
-      "desc": "Joya del románico florentino sobre la colina"
+      "desc": "Joya del románico florentino sobre la colina",
+      "guide": true,
+      "guide_slug": "abbazia_san_miniato_al_monte"
     },
     {
       "name": "Albaicín",
@@ -170,13 +199,26 @@
       "guide_slug": "albaicin"
     },
     {
+      "name": "Alcazaba de Málaga",
+      "city": "Málaga",
+      "folder": "Malaga",
+      "color": "#8e44ad",
+      "year": 1057,
+      "era": "Al-Ándalus",
+      "desc": "Palacio-fortaleza hammudí, una de las mejor conservadas de Al-Ándalus",
+      "guide": true,
+      "guide_slug": "alcazaba"
+    },
+    {
       "name": "Battistero di San Giovanni",
       "city": "Firenze",
       "folder": "Firenze",
       "color": "#f5a623",
       "year": 1059,
       "era": "Románico",
-      "desc": "Baptisterio octogonal, Puertas del Paraíso de Ghiberti"
+      "desc": "Baptisterio octogonal, Puertas del Paraíso de Ghiberti",
+      "guide": true,
+      "guide_slug": "piazza_del_duomo_complesso"
     },
     {
       "name": "Cattedrale di San Martino",
@@ -185,7 +227,9 @@
       "color": "#4ecca3",
       "year": 1060,
       "era": "Románico",
-      "desc": "Catedral con el Volto Santo, crucifijo legendario"
+      "desc": "Catedral con el Volto Santo, crucifijo legendario",
+      "guide": true,
+      "guide_slug": "cattedrale_san_martino"
     },
     {
       "name": "Campo dei Miracoli",
@@ -227,7 +271,9 @@
       "color": "#3dc1d3",
       "year": 1152,
       "era": "Románico / Gótico",
-      "desc": "El baptisterio más grande de Italia"
+      "desc": "El baptisterio más grande de Italia",
+      "guide": true,
+      "guide_slug": "battistero_san_giovanni_pisa"
     },
     {
       "name": "Torre Pendente di Pisa",
@@ -236,7 +282,20 @@
       "color": "#3dc1d3",
       "year": 1173,
       "era": "Románico",
-      "desc": "La torre inclinada, 199 años de construcción"
+      "desc": "La torre inclinada, 199 años de construcción",
+      "guide": true,
+      "guide_slug": "torre_pendente"
+    },
+    {
+      "name": "Catedral Primada de Toledo",
+      "city": "Toledo",
+      "folder": "Toledo",
+      "color": "#c0a050",
+      "year": 1226,
+      "era": "Gótico",
+      "desc": "Catedral hispano-gótica, sede de la iglesia primada de España",
+      "guide": true,
+      "guide_slug": "catedral_primada"
     },
     {
       "name": "Alhambra",
@@ -256,7 +315,9 @@
       "color": "#f5a623",
       "year": 1246,
       "era": "Gótico",
-      "desc": "Iglesia dominica, fachada de Leon Battista Alberti"
+      "desc": "Iglesia dominica, fachada de Leon Battista Alberti",
+      "guide": true,
+      "guide_slug": "basilica_santa_maria_novella"
     },
     {
       "name": "Museo Nazionale del Bargello",
@@ -265,7 +326,9 @@
       "color": "#f5a623",
       "year": 1255,
       "era": "Medieval",
-      "desc": "Palazzo del Podestà, primer museo nacional de Italia (1865)"
+      "desc": "Palazzo del Podestà, primer museo nacional de Italia (1865)",
+      "guide": true,
+      "guide_slug": "bargello"
     },
     {
       "name": "Camposanto Monumentale",
@@ -285,7 +348,9 @@
       "color": "#f5a623",
       "year": 1294,
       "era": "Gótico",
-      "desc": "Panteón de glorias italianas: Galileo, Miguel Ángel, Maquiavelo"
+      "desc": "Panteón de glorias italianas: Galileo, Miguel Ángel, Maquiavelo",
+      "guide": true,
+      "guide_slug": "basilica_santa_croce"
     },
     {
       "name": "Duomo di Firenze",
@@ -294,7 +359,9 @@
       "color": "#f5a623",
       "year": 1296,
       "era": "Gótico / Renacimiento",
-      "desc": "Catedral con la cúpula de Brunelleschi (1436)"
+      "desc": "Catedral con la cúpula de Brunelleschi (1436)",
+      "guide": true,
+      "guide_slug": "piazza_del_duomo_complesso"
     },
     {
       "name": "Palazzo Vecchio",
@@ -308,6 +375,39 @@
       "guide_slug": "palazzo_vecchio"
     },
     {
+      "name": "Iglesia de Santo Tomé",
+      "city": "Toledo",
+      "folder": "Toledo",
+      "color": "#c0a050",
+      "year": 1300,
+      "era": "Mudéjar",
+      "desc": "Alberga El entierro del Conde de Orgaz, obra cumbre de El Greco",
+      "guide": true,
+      "guide_slug": "santo_tome"
+    },
+    {
+      "name": "Benalmádena Pueblo",
+      "city": "Benalmádena",
+      "folder": "Benalmadena",
+      "color": "#27ae60",
+      "year": 1300,
+      "era": "Medieval",
+      "desc": "Pueblo blanco andaluz en ladera; arquitectura tradicional y vistas al mar",
+      "guide": true,
+      "guide_slug": "benalmadena_pueblo"
+    },
+    {
+      "name": "Castillo de Gibralfaro",
+      "city": "Málaga",
+      "folder": "Malaga",
+      "color": "#8e44ad",
+      "year": 1340,
+      "era": "Nazarí",
+      "desc": "Reconstruido por Yusuf I de Granada; dominó el sitio de los Reyes Católicos (1487)",
+      "guide": true,
+      "guide_slug": "castillo_de_gibralfaro"
+    },
+    {
       "name": "Ponte Vecchio",
       "city": "Firenze",
       "folder": "Firenze",
@@ -317,6 +417,17 @@
       "desc": "El puente más antiguo de Firenze, joyerías desde 1593",
       "guide": true,
       "guide_slug": "ponte_vecchio"
+    },
+    {
+      "name": "Sinagoga del Tránsito",
+      "city": "Toledo",
+      "folder": "Toledo",
+      "color": "#c0a050",
+      "year": 1357,
+      "era": "Medieval / Mudéjar",
+      "desc": "Sinagoga mudéjar de Samuel ha-Levi; hoy Museo Sefardí",
+      "guide": true,
+      "guide_slug": "sinagoga_del_transito"
     },
     {
       "name": "Loggia dei Lanzi",
@@ -347,7 +458,9 @@
       "color": "#f5a623",
       "year": 1436,
       "era": "Renacimiento",
-      "desc": "Frescos de Fra Angelico, convento de Savonarola"
+      "desc": "Frescos de Fra Angelico, convento de Savonarola",
+      "guide": true,
+      "guide_slug": "basilica_museo_san_marco"
     },
     {
       "name": "Palazzo Pitti e Giardino di Boboli",
@@ -356,7 +469,20 @@
       "color": "#f5a623",
       "year": 1458,
       "era": "Renacimiento",
-      "desc": "Palacio de los Medici, jardines manieristas"
+      "desc": "Palacio de los Medici, jardines manieristas",
+      "guide": true,
+      "guide_slug": "palazzo_pitti_boboli"
+    },
+    {
+      "name": "Monasterio de San Juan de los Reyes",
+      "city": "Toledo",
+      "folder": "Toledo",
+      "color": "#c0a050",
+      "year": 1477,
+      "era": "Gótico Isabelino",
+      "desc": "Mandado construir por los Reyes Católicos tras la batalla de Toro",
+      "guide": true,
+      "guide_slug": "san_juan_de_los_reyes"
     },
     {
       "name": "Sacromonte",
@@ -376,7 +502,9 @@
       "color": "#e55039",
       "year": 1504,
       "era": "Renacimiento",
-      "desc": "Primer monasterio fundado tras la Reconquista"
+      "desc": "Primer monasterio fundado tras la Reconquista",
+      "guide": true,
+      "guide_slug": "monasterio_san_jeronimo"
     },
     {
       "name": "Musei Vaticani",
@@ -396,7 +524,9 @@
       "color": "#e55039",
       "year": 1523,
       "era": "Renacimiento",
-      "desc": "Primera iglesia renacentista de España; tumba de los Reyes Católicos"
+      "desc": "Primera iglesia renacentista de España; tumba de los Reyes Católicos",
+      "guide": true,
+      "guide_slug": "catedral_capilla_real"
     },
     {
       "name": "Mirador de San Nicolás",
@@ -405,7 +535,31 @@
       "color": "#e55039",
       "year": 1525,
       "era": "Renacimiento",
-      "desc": "La mejor vista de la Alhambra con Sierra Nevada"
+      "desc": "La mejor vista de la Alhambra con Sierra Nevada",
+      "guide": true,
+      "guide_slug": "mirador_san_nicolas"
+    },
+    {
+      "name": "Catedral de la Encarnación (La Manquita)",
+      "city": "Málaga",
+      "folder": "Malaga",
+      "color": "#8e44ad",
+      "year": 1528,
+      "era": "Renacimiento",
+      "desc": "Catedral inacabada; perdió su torre sur financiando la independencia americana",
+      "guide": true,
+      "guide_slug": "catedral"
+    },
+    {
+      "name": "Alcázar de Toledo",
+      "city": "Toledo",
+      "folder": "Toledo",
+      "color": "#c0a050",
+      "year": 1535,
+      "era": "Renacimiento",
+      "desc": "Fortaleza imperial de Carlos V; hoy Museo del Ejército",
+      "guide": true,
+      "guide_slug": "alcazar"
     },
     {
       "name": "Mura di Lucca",
@@ -458,7 +612,9 @@
       "color": "#f8c291",
       "year": 1619,
       "era": "Siglo de Oro",
-      "desc": "Plaza mayor de Juan Gómez de Mora"
+      "desc": "Plaza mayor de Juan Gómez de Mora",
+      "guide": true,
+      "guide_slug": "plaza_mayor"
     },
     {
       "name": "Villa Borghese",
@@ -500,7 +656,9 @@
       "color": "#f8c291",
       "year": 1738,
       "era": "Borbón",
-      "desc": "Sobre el antiguo Alcázar, el mayor palacio real de Europa occidental"
+      "desc": "Sobre el antiguo Alcázar, el mayor palacio real de Europa occidental",
+      "guide": true,
+      "guide_slug": "palacio_real"
     },
     {
       "name": "Fontana di Trevi",
@@ -520,7 +678,9 @@
       "color": "#f5a623",
       "year": 1784,
       "era": "Ilustración",
-      "desc": "Hogar del David de Miguel Ángel desde 1873"
+      "desc": "Hogar del David de Miguel Ángel desde 1873",
+      "guide": true,
+      "guide_slug": "galleria_accademia"
     },
     {
       "name": "Museo Nacional del Prado",
@@ -529,7 +689,9 @@
       "color": "#f8c291",
       "year": 1819,
       "era": "Ilustración",
-      "desc": "Una de las mejores pinacotecas del mundo; edificio de Villanueva (1785)"
+      "desc": "Una de las mejores pinacotecas del mundo; edificio de Villanueva (1785)",
+      "guide": true,
+      "guide_slug": "museo_del_prado"
     },
     {
       "name": "Puerta del Sol",
@@ -560,7 +722,9 @@
       "color": "#f5a623",
       "year": 1874,
       "era": "Italia moderna",
-      "desc": "Mercado de hierro y vidrio de Giuseppe Mengoni"
+      "desc": "Mercado de hierro y vidrio de Giuseppe Mengoni",
+      "guide": true,
+      "guide_slug": "mercato_centrale_san_lorenzo"
     },
     {
       "name": "Sinagoga e Museo Ebraico",
@@ -569,7 +733,9 @@
       "color": "#f5a623",
       "year": 1882,
       "era": "Italia moderna",
-      "desc": "Sinagoga morisca, testimonio del ghetto florentino (1571)"
+      "desc": "Sinagoga morisca, testimonio del ghetto florentino (1571)",
+      "guide": true,
+      "guide_slug": "sinagoga_museo_ebraico"
     },
     {
       "name": "Catedral de la Almudena",
@@ -578,7 +744,9 @@
       "color": "#f8c291",
       "year": 1883,
       "era": "España moderna",
-      "desc": "Catedral de Madrid, consagrada en 1993"
+      "desc": "Catedral de Madrid, consagrada en 1993",
+      "guide": true,
+      "guide_slug": "catedral_almudena"
     },
     {
       "name": "Monumento a Vittorio Emanuele II",
@@ -587,7 +755,9 @@
       "color": "#e94560",
       "year": 1885,
       "era": "Italia moderna",
-      "desc": "Altar de la Patria, unificación italiana"
+      "desc": "Altar de la Patria, unificación italiana",
+      "guide": true,
+      "guide_slug": "monumento_vittorio_emanuele_ii"
     },
     {
       "name": "Gran Vía",
@@ -607,7 +777,9 @@
       "color": "#f8c291",
       "year": 1916,
       "era": "España moderna",
-      "desc": "Mercado de hierro de Alfonso Palacios"
+      "desc": "Mercado de hierro de Alfonso Palacios",
+      "guide": true,
+      "guide_slug": "mercado_san_miguel"
     },
     {
       "name": "Quartiere Coppedè",
@@ -632,6 +804,28 @@
       "guide_slug": "museo_galileo"
     },
     {
+      "name": "Castillo de Colomares",
+      "city": "Benalmádena",
+      "folder": "Benalmadena",
+      "color": "#27ae60",
+      "year": 1987,
+      "era": "Contemporáneo",
+      "desc": "Monumento a Cristóbal Colón construido por Esteban Martín Martín (1987-1994)",
+      "guide": true,
+      "guide_slug": "castillo_de_colomares"
+    },
+    {
+      "name": "Puerto Marina",
+      "city": "Benalmádena",
+      "folder": "Benalmadena",
+      "color": "#27ae60",
+      "year": 1987,
+      "era": "Contemporáneo",
+      "desc": "Puerto deportivo de arquitectura andaluza; uno de los mayores del Mediterráneo",
+      "guide": true,
+      "guide_slug": "puerto_marina"
+    },
+    {
       "name": "Museo Reina Sofía",
       "city": "Madrid",
       "folder": "Madrid",
@@ -641,6 +835,39 @@
       "desc": "Arte contemporáneo; hogar del Guernica de Picasso",
       "guide": true,
       "guide_slug": "museo_reina_sofia"
+    },
+    {
+      "name": "Teleférico Monte Calamorro",
+      "city": "Benalmádena",
+      "folder": "Benalmadena",
+      "color": "#27ae60",
+      "year": 1998,
+      "era": "Contemporáneo",
+      "desc": "Telecabina a 771 m; vistas de la Costa del Sol, Gibraltar y el Rif marroquí",
+      "guide": true,
+      "guide_slug": "teleferico_monte_calamorro"
+    },
+    {
+      "name": "Museo Picasso Málaga",
+      "city": "Málaga",
+      "folder": "Malaga",
+      "color": "#8e44ad",
+      "year": 2003,
+      "era": "Contemporáneo",
+      "desc": "En el Palacio Buenavista; 200 obras del malagueño universal",
+      "guide": true,
+      "guide_slug": "museo_picasso"
+    },
+    {
+      "name": "Stupa de la Iluminación",
+      "city": "Benalmádena",
+      "folder": "Benalmadena",
+      "color": "#27ae60",
+      "year": 2003,
+      "era": "Contemporáneo",
+      "desc": "Stupa budista más grande de Occidente, inaugurada por el XVII Karmapa",
+      "guide": true,
+      "guide_slug": "stupa_de_la_iluminacion"
     }
   ],
   "city_colors": {
@@ -649,6 +876,9 @@
     "Lucca": "#4ecca3",
     "Pisa": "#3dc1d3",
     "Granada": "#e55039",
-    "Madrid": "#f8c291"
+    "Madrid": "#f8c291",
+    "Toledo": "#c0a050",
+    "Málaga": "#8e44ad",
+    "Benalmádena": "#27ae60"
   }
 }

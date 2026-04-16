@@ -11,12 +11,16 @@
       {
         "name": "Colosseo (Anfiteatro Flavio)",
         "lat": 41.8902,
-        "lon": 12.4922
+        "lon": 12.4922,
+        "guide": true,
+        "guide_slug": "colosseo"
       },
       {
         "name": "Foro Romano e Palatino",
         "lat": 41.8925,
-        "lon": 12.4853
+        "lon": 12.4853,
+        "guide": true,
+        "guide_slug": "foro_romano_palatino"
       },
       {
         "name": "Fontana di Trevi",
@@ -56,7 +60,9 @@
       {
         "name": "Basilica di Santa Maria Maggiore",
         "lat": 41.8976,
-        "lon": 12.4984
+        "lon": 12.4984,
+        "guide": true,
+        "guide_slug": "basilica_santa_maria_maggiore"
       },
       {
         "name": "Villa Borghese",
@@ -68,7 +74,44 @@
       {
         "name": "Monumento a Vittorio Emanuele II",
         "lat": 41.8946,
-        "lon": 12.4833
+        "lon": 12.4833,
+        "guide": true,
+        "guide_slug": "monumento_vittorio_emanuele_ii"
+      },
+      {
+        "name": "Piazza Navona",
+        "lat": 41.8992,
+        "lon": 12.4731,
+        "guide": true,
+        "guide_slug": "piazza_navona"
+      },
+      {
+        "name": "Foro di Traiano",
+        "lat": 41.8958,
+        "lon": 12.4848,
+        "guide": true,
+        "guide_slug": "foro_di_traiano"
+      },
+      {
+        "name": "Largo di Torre Argentina",
+        "lat": 41.8955,
+        "lon": 12.4766,
+        "guide": true,
+        "guide_slug": "largo_di_torre_argentina"
+      },
+      {
+        "name": "Archibasilica di San Giovanni in Laterano",
+        "lat": 41.8859,
+        "lon": 12.5058,
+        "guide": true,
+        "guide_slug": "archibasilica_san_giovanni_laterano"
+      },
+      {
+        "name": "Quartiere Coppedè",
+        "lat": 41.9141,
+        "lon": 12.5041,
+        "guide": true,
+        "guide_slug": "quartiere_coppede"
       }
     ]
   },
@@ -82,29 +125,67 @@
     "visit": "",
     "places": [
       {
+        "name": "Duomo di Firenze (Complesso)",
+        "lat": 43.7731,
+        "lon": 11.256,
+        "guide": true,
+        "guide_slug": "piazza_del_duomo_complesso"
+      },
+      {
+        "name": "Galleria degli Uffizi",
+        "lat": 43.7678,
+        "lon": 11.2553,
+        "guide": true,
+        "guide_slug": "galleria_degli_uffizi"
+      },
+      {
+        "name": "Ponte Vecchio",
+        "lat": 43.7681,
+        "lon": 11.2531,
+        "guide": true,
+        "guide_slug": "ponte_vecchio"
+      },
+      {
+        "name": "Palazzo Vecchio",
+        "lat": 43.7695,
+        "lon": 11.2559,
+        "guide": true,
+        "guide_slug": "palazzo_vecchio"
+      },
+      {
         "name": "Galleria dell'Accademia",
         "lat": 43.7767,
-        "lon": 11.2588
+        "lon": 11.2588,
+        "guide": true,
+        "guide_slug": "galleria_accademia"
       },
       {
         "name": "Basilica e Museo di San Marco",
         "lat": 43.7776,
-        "lon": 11.2589
+        "lon": 11.2589,
+        "guide": true,
+        "guide_slug": "basilica_museo_san_marco"
       },
       {
         "name": "Basilica di Santa Croce",
         "lat": 43.7686,
-        "lon": 11.2622
+        "lon": 11.2622,
+        "guide": true,
+        "guide_slug": "basilica_santa_croce"
       },
       {
         "name": "Basilica di Santa Maria Novella",
         "lat": 43.7746,
-        "lon": 11.2494
+        "lon": 11.2494,
+        "guide": true,
+        "guide_slug": "basilica_santa_maria_novella"
       },
       {
-        "name": "Palazzo Pitti",
+        "name": "Palazzo Pitti e Giardino di Boboli",
         "lat": 43.765,
-        "lon": 11.2499
+        "lon": 11.2499,
+        "guide": true,
+        "guide_slug": "palazzo_pitti_boboli"
       },
       {
         "name": "Piazzale Michelangelo",
@@ -116,7 +197,9 @@
       {
         "name": "Abbazia di San Miniato al Monte",
         "lat": 43.7596,
-        "lon": 11.2652
+        "lon": 11.2652,
+        "guide": true,
+        "guide_slug": "abbazia_san_miniato_al_monte"
       },
       {
         "name": "Museo Galileo",
@@ -135,32 +218,44 @@
       {
         "name": "Basilica di San Lorenzo e Cappelle Medicee",
         "lat": 43.7746,
-        "lon": 11.2537
+        "lon": 11.2537,
+        "guide": true,
+        "guide_slug": "san_lorenzo_cappelle_medicee"
       },
       {
         "name": "Museo Nazionale del Bargello",
         "lat": 43.7697,
-        "lon": 11.2573
+        "lon": 11.2573,
+        "guide": true,
+        "guide_slug": "bargello"
       },
       {
         "name": "Mercato Centrale di San Lorenzo",
         "lat": 43.7754,
-        "lon": 11.2539
+        "lon": 11.2539,
+        "guide": true,
+        "guide_slug": "mercato_centrale_san_lorenzo"
       },
       {
         "name": "Sinagoga e Museo Ebraico di Firenze",
         "lat": 43.7734,
-        "lon": 11.2616
+        "lon": 11.2616,
+        "guide": true,
+        "guide_slug": "sinagoga_museo_ebraico"
       },
       {
         "name": "Biblioteca Nazionale Centrale di Firenze",
         "lat": 43.768,
-        "lon": 11.2617
+        "lon": 11.2617,
+        "guide": true,
+        "guide_slug": "biblioteca_nazionale_centrale"
       },
       {
         "name": "Museo di Leonardo da Vinci",
         "lat": 43.7738,
-        "lon": 11.2574
+        "lon": 11.2574,
+        "guide": true,
+        "guide_slug": "museo_da_vinci"
       },
       {
         "name": "Fiesole",
@@ -168,16 +263,6 @@
         "lon": 11.293,
         "guide": true,
         "guide_slug": "fiesole"
-      },
-      {
-        "name": "Mercato di San Lorenzo (callejero)",
-        "lat": 43.7756,
-        "lon": 11.2537
-      },
-      {
-        "name": "Mercato delle Pulci — Piazza dei Ciompi",
-        "lat": 43.7693,
-        "lon": 11.2634
       }
     ]
   },
@@ -200,17 +285,23 @@
       {
         "name": "Piazza dell'Anfiteatro",
         "lat": 43.8445,
-        "lon": 10.5077
+        "lon": 10.5077,
+        "guide": true,
+        "guide_slug": "piazza_anfiteatro"
       },
       {
         "name": "Cattedrale di San Martino",
         "lat": 43.8426,
-        "lon": 10.5061
+        "lon": 10.5061,
+        "guide": true,
+        "guide_slug": "cattedrale_san_martino"
       },
       {
         "name": "Basilica di San Frediano",
         "lat": 43.8462,
-        "lon": 10.5046
+        "lon": 10.5046,
+        "guide": true,
+        "guide_slug": "basilica_san_frediano"
       },
       {
         "name": "San Michele in Foro",
@@ -247,7 +338,9 @@
       {
         "name": "Torre Pendente di Pisa",
         "lat": 43.723,
-        "lon": 10.3966
+        "lon": 10.3966,
+        "guide": true,
+        "guide_slug": "torre_pendente"
       },
       {
         "name": "Duomo di Pisa",
@@ -259,7 +352,9 @@
       {
         "name": "Battistero di San Giovanni",
         "lat": 43.7232,
-        "lon": 10.3959
+        "lon": 10.3959,
+        "guide": true,
+        "guide_slug": "battistero_san_giovanni_pisa"
       },
       {
         "name": "Camposanto Monumentale",
@@ -296,7 +391,9 @@
       {
         "name": "Catedral de Granada y Capilla Real",
         "lat": 37.1765,
-        "lon": -3.5993
+        "lon": -3.5993,
+        "guide": true,
+        "guide_slug": "catedral_capilla_real"
       },
       {
         "name": "Albaicín",
@@ -308,12 +405,16 @@
       {
         "name": "Mirador de San Nicolás",
         "lat": 37.181,
-        "lon": -3.5927
+        "lon": -3.5927,
+        "guide": true,
+        "guide_slug": "mirador_san_nicolas"
       },
       {
         "name": "Monasterio de San Jerónimo",
         "lat": 37.1792,
-        "lon": -3.6046
+        "lon": -3.6046,
+        "guide": true,
+        "guide_slug": "monasterio_san_jeronimo"
       },
       {
         "name": "Sacromonte",
@@ -336,12 +437,16 @@
       {
         "name": "Palacio Real de Madrid",
         "lat": 40.418,
-        "lon": -3.7143
+        "lon": -3.7143,
+        "guide": true,
+        "guide_slug": "palacio_real"
       },
       {
         "name": "Museo Nacional del Prado",
         "lat": 40.4138,
-        "lon": -3.6921
+        "lon": -3.6921,
+        "guide": true,
+        "guide_slug": "museo_del_prado"
       },
       {
         "name": "Museo Reina Sofía",
@@ -381,7 +486,9 @@
       {
         "name": "Catedral de la Almudena",
         "lat": 40.4156,
-        "lon": -3.7146
+        "lon": -3.7146,
+        "guide": true,
+        "guide_slug": "catedral_almudena"
       },
       {
         "name": "Gran Vía",
@@ -393,7 +500,147 @@
       {
         "name": "Mercado de San Miguel",
         "lat": 40.4153,
-        "lon": -3.709
+        "lon": -3.709,
+        "guide": true,
+        "guide_slug": "mercado_san_miguel"
+      }
+    ]
+  },
+  {
+    "city": "Toledo",
+    "folder": "Toledo",
+    "country": "España",
+    "lat": 39.8572,
+    "lon": -4.0242,
+    "color": "#c0a050",
+    "visit": "",
+    "places": [
+      {
+        "name": "Catedral Primada de Toledo",
+        "lat": 39.8567,
+        "lon": -4.0236,
+        "guide": true,
+        "guide_slug": "catedral_primada"
+      },
+      {
+        "name": "Alcázar de Toledo",
+        "lat": 39.8581,
+        "lon": -4.0192,
+        "guide": true,
+        "guide_slug": "alcazar"
+      },
+      {
+        "name": "Iglesia de Santo Tomé",
+        "lat": 39.8572,
+        "lon": -4.0269,
+        "guide": true,
+        "guide_slug": "santo_tome"
+      },
+      {
+        "name": "Sinagoga del Tránsito",
+        "lat": 39.8564,
+        "lon": -4.0283,
+        "guide": true,
+        "guide_slug": "sinagoga_del_transito"
+      },
+      {
+        "name": "Monasterio de San Juan de los Reyes",
+        "lat": 39.857,
+        "lon": -4.0305,
+        "guide": true,
+        "guide_slug": "san_juan_de_los_reyes"
+      }
+    ]
+  },
+  {
+    "city": "Málaga",
+    "folder": "Malaga",
+    "country": "España",
+    "lat": 36.721,
+    "lon": -4.4175,
+    "color": "#8e44ad",
+    "visit": "",
+    "places": [
+      {
+        "name": "Alcazaba de Málaga",
+        "lat": 36.721,
+        "lon": -4.4165,
+        "guide": true,
+        "guide_slug": "alcazaba"
+      },
+      {
+        "name": "Castillo de Gibralfaro",
+        "lat": 36.7225,
+        "lon": -4.414,
+        "guide": true,
+        "guide_slug": "castillo_de_gibralfaro"
+      },
+      {
+        "name": "Catedral de la Encarnación (La Manquita)",
+        "lat": 36.72,
+        "lon": -4.4196,
+        "guide": true,
+        "guide_slug": "catedral"
+      },
+      {
+        "name": "Teatro Romano de Málaga",
+        "lat": 36.7208,
+        "lon": -4.417,
+        "guide": true,
+        "guide_slug": "teatro_romano"
+      },
+      {
+        "name": "Museo Picasso Málaga",
+        "lat": 36.7215,
+        "lon": -4.4187,
+        "guide": true,
+        "guide_slug": "museo_picasso"
+      }
+    ]
+  },
+  {
+    "city": "Benalmádena",
+    "folder": "Benalmadena",
+    "country": "España",
+    "lat": 36.5988,
+    "lon": -4.5162,
+    "color": "#27ae60",
+    "visit": "",
+    "places": [
+      {
+        "name": "Castillo de Colomares",
+        "lat": 36.603,
+        "lon": -4.533,
+        "guide": true,
+        "guide_slug": "castillo_de_colomares"
+      },
+      {
+        "name": "Stupa de la Iluminación",
+        "lat": 36.5988,
+        "lon": -4.5162,
+        "guide": true,
+        "guide_slug": "stupa_de_la_iluminacion"
+      },
+      {
+        "name": "Puerto Marina",
+        "lat": 36.5958,
+        "lon": -4.5172,
+        "guide": true,
+        "guide_slug": "puerto_marina"
+      },
+      {
+        "name": "Teleférico Monte Calamorro",
+        "lat": 36.5838,
+        "lon": -4.5335,
+        "guide": true,
+        "guide_slug": "teleferico_monte_calamorro"
+      },
+      {
+        "name": "Benalmádena Pueblo",
+        "lat": 36.5945,
+        "lon": -4.5688,
+        "guide": true,
+        "guide_slug": "benalmadena_pueblo"
       }
     ]
   }

@@ -350,17 +350,34 @@
 
       return `
         <div class="entry-card" data-entry-id="${e.id}">
-          <div class="entry-meta">
-            <span class="entry-author">${escapeHtml(e.autor || "Anónimo")}</span>
-            <span class="entry-date">${fecha}</span>
-            ${badge}
-            ${editado}
+          <div class="entry-header" data-entry-id="${e.id}">
+            <div class="entry-header-left">
+              <div class="entry-title">${escapeHtml(e.titulo)}</div>
+              <div class="entry-meta">
+                <span class="entry-author">${escapeHtml(e.autor || "Anónimo")}</span>
+                <span class="entry-date">${fecha}</span>
+                ${badge}
+                ${editado}
+              </div>
+            </div>
+            <span class="entry-chevron">▶</span>
           </div>
-          <div class="entry-title">${escapeHtml(e.titulo)}</div>
-          <div class="entry-content">${renderContentWithImages(e.contenido, e.imagenes)}</div>
-          ${actions}
+          <div class="entry-body">
+            <div class="entry-content">${renderContentWithImages(e.contenido, e.imagenes)}</div>
+            ${actions}
+          </div>
         </div>`;
     }).join("");
+
+    // Event delegation para toggle acordeón
+    $entriesList.querySelectorAll(".entry-header").forEach(header => {
+      header.addEventListener("click", (e) => {
+        // No toggle si se clickeó un botón de acción dentro
+        if (e.target.closest(".btn-edit, .btn-delete")) return;
+        const card = header.closest(".entry-card");
+        card.classList.toggle("open");
+      });
+    });
 
     // Event delegation para edit/delete
     $entriesList.querySelectorAll(".btn-edit").forEach(btn => {
@@ -425,12 +442,16 @@
       </div>`;
     }).join("");
 
-    // Click to scroll to entry card
+    // Click to expand and scroll to entry card
     $entryIndex.querySelectorAll(".index-item").forEach(li => {
       li.addEventListener("click", () => {
         const id = li.dataset.id;
         const entryCard = $entriesList.querySelector(`.entry-card[data-entry-id="${id}"]`);
         if (entryCard) {
+          // Abrir la entry si está cerrada
+          if (!entryCard.classList.contains("open")) {
+            entryCard.classList.add("open");
+          }
           entryCard.scrollIntoView({ behavior: "smooth", block: "center" });
           entryCard.classList.add("highlight");
           setTimeout(() => entryCard.classList.remove("highlight"), 1500);

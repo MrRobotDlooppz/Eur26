@@ -422,35 +422,84 @@
 
 /* ── Highlight on scroll-to ── */
 .entry-card.highlight {
-  border-color: var(--accent);
+  border-color: var(--accent) !important;
   box-shadow: 0 0 0 2px rgba(233, 69, 96, 0.25);
-  transition: border-color 0.3s, box-shadow 0.3s;
 }
 
 .entry-card {
   background: var(--bg-card);
   border: 1px solid var(--border);
   border-radius: 12px;
-  padding: 18px;
-  margin-bottom: 14px;
-  transition: border-color 0.2s;
+  margin-bottom: 8px;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  overflow: hidden;
 }
 
 .entry-card:hover {
   border-color: var(--accent);
 }
 
-.entry-meta {
+/* ── Accordion header ── */
+.entry-header {
   display: flex;
   align-items: center;
-  gap: 10px;
-  margin-bottom: 10px;
+  justify-content: space-between;
+  padding: 14px 18px;
+  cursor: pointer;
+  user-select: none;
+  gap: 12px;
+}
+
+.entry-header-left {
+  flex: 1;
+  min-width: 0;
+}
+
+.entry-header .entry-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 4px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.entry-header .entry-meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
   flex-wrap: wrap;
+  margin-bottom: 0;
+}
+
+.entry-chevron {
+  font-size: 0.7rem;
+  color: var(--text-dim);
+  transition: transform 0.25s ease;
+  flex-shrink: 0;
+}
+
+.entry-card.open .entry-chevron {
+  transform: rotate(90deg);
+}
+
+/* ── Accordion body (collapsed by default) ── */
+.entry-body {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.35s ease, padding 0.25s ease;
+  padding: 0 18px;
+}
+
+.entry-card.open .entry-body {
+  max-height: 5000px;
+  padding: 0 18px 18px;
 }
 
 .entry-author {
   font-weight: 600;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   color: var(--success);
 }
 
@@ -471,13 +520,6 @@
   font-size: 0.75rem;
   color: var(--text-dim);
   font-style: italic;
-}
-
-.entry-title {
-  font-size: 1.05rem;
-  font-weight: 600;
-  margin-bottom: 8px;
-  color: var(--text);
 }
 
 .entry-content {
